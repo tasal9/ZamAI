@@ -30,7 +30,6 @@ Proposal evaluation criteria:
 http://intermine.org/gsoc/guidance/grading-criteria-2019/
 
 
-
 ## Tips 
 
 - Anywhere a Vim concept (such as "textlock") is mentioned, you can find what it means by using the ":help" command from within neovim (`:help textlock`).
@@ -44,16 +43,13 @@ helpful, not rigid.
 
 # Projects
 
-  * [New Features](#new-features)
-      * ["Multiprocessing" feature](#multiprocessing-feature)
-      * [TUI client](#tui-terminal-ui-remote-attachment)
-      * [Improve Lua configurability](#support-for-Lua-plugins-and-configuration)
-      * [GUI Features](#gui-features)
-      * [Live preview of commands](#live-preview-of-commands)
-      * [Improve autoread](#improve-autoread)
-
-
-
+* [New Features](#new-features)
+  * [Improve Lua configurability](#support-for-Lua-plugins-and-configuration)
+  * [GUI Features](#gui-features)
+  * [Live preview of commands](#live-preview-of-commands)
+  * [Improve autoread](#improve-autoread)
+  * [IDE "Vim mode"](ide-vim-mode)
+  * Propose an idea!
 
 ___
 ## Support for Lua plugins and configuration
@@ -155,7 +151,7 @@ The candidate can realize some of the difficulties involved with this [propositi
 **Mentor:** Matthieu Coudron ([@teto](http://github.com/teto))
 
 ___
-## Neovim-based "Vim mode"
+## IDE "Vim mode"
 
 **Desirable Skills:** Any  
 
@@ -167,14 +163,14 @@ Full Nvim editing should be available in the editor/IDE, while also allowing the
 
 Examples:
 
-- [VSCode integration](https://github.com/VSCodeVim/Vim)
+- [VSCode integration](https://github.com/asvetliakov/vscode-neovim)
 - [Sublime Text integration](https://github.com/lunixbochs/actualvim)
 
 **Difficulty:** Medium
 
 **Code license:** Apache 2.0
 
-**Mentor:** Horace He ([@chillee](http://github.com/chillee))
+**Mentor:** TBD
 
 
 ___
