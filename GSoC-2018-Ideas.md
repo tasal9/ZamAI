@@ -1,7 +1,7 @@
 This page is for historical reference.
 
 
-#### UI protocol improvements ([DONE](https://github.com/neovim/neovim/pull/8707))
+## UI protocol improvements ([DONE](https://github.com/neovim/neovim/pull/8707))
 
 **Desirable Skills:**
 
@@ -71,7 +71,7 @@ Medium
 **Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
 
 ---
-#### C# client ([DONE](https://github.com/neovim/nvim.net))
+## C# client ([DONE](https://github.com/neovim/nvim.net))
 
 **Desirable Skills:**
 
