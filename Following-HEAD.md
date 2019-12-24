@@ -7,7 +7,7 @@ The following changes may require users to update configuration, plugins, or exp
 
 ### 2019/12/23
 
-`jobstart()` or `system()` fail with error (instead of silently) if the command is not executable. 
+[#11234](https://github.com/neovim/neovim/pull/11234) `jobstart()` or `system()` fail with error (instead of silently) if the command is not executable. 
 
 ### 2019/07/07
 
