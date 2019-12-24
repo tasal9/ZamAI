@@ -48,7 +48,7 @@ helpful, not rigid.
   * [GUI Features](#gui-features)
   * [Live preview of commands](#live-preview-of-commands)
   * [Improve autoread](#improve-autoread)
-  * [IDE "Vim mode"](ide-vim-mode)
+  * [IDE "Vim mode"](#ide-vim-mode)
   * Propose an idea!
 
 ___
