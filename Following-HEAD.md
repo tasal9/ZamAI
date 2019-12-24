@@ -4,6 +4,11 @@ The following changes may require users to update configuration, plugins, or exp
 - Use `:checkhealth` to detect and fix common problems.
 
 ------------
+
+### 2019/12/23
+
+`jobstart()` or `system()` fail with error (instead of silently) if the command is not executable. 
+
 ### 2019/07/07
 
 Floating windows no longer implicitly disables the number column. Instead use `style='minimal'` argument to `nvim_open_win()` to disable UI features like number column, End-of-buffer lines etc.
