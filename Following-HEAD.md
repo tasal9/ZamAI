@@ -135,7 +135,7 @@ Job callbacks also must have at least 3 parameters now. See https://github.com/n
 
 ### 2016/11/05
 
-[`'encoding'`][encoding] cannot be changed to a value other than "utf-8", even during initialization. [#2905](https://github.com/neovim/neovim/pull/2905)
+`'encoding'` cannot be changed to a value other than "utf-8", even during initialization. [#2905](https://github.com/neovim/neovim/pull/2905)
 
 (Background: [#2929][2929] restricted `'encoding'` to be modifiable only during initialization. One year later, we've found no problems with UTF-8 as the internal encoding, and are now making this mandatory. This only affects the internals of Nvim, it doesn't affect file encodings or plugins.)
 
