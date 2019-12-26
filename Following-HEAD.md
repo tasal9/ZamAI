@@ -36,8 +36,8 @@ For the time being, `neovim` acts as a transitional package for the new `pynvim`
 
 #### Steps to update "pynvim" (formerly "neovim") Python package:
 
-    pip uninstall neovim pynvim
-    pip install pynvim
+    python -m pip uninstall neovim pynvim
+    python -m pip install pynvim
 
 - After those steps, it is safe to `pip install neovim` again, if any third-party package has it as a formal dependency. Otherwise it shouldn't be necessary.
 - `import neovim` is still supported, both in plugins and third-party software using it as a library. If `import neovim` fails, then the upgrade wasn't successful. Follow the instructions above. 
