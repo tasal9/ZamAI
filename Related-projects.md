@@ -140,6 +140,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [nvimux](https://github.com/hkupty/nvimux): Neovim as multiplexer with tmux keybindings
 - [orchestra.nvim](https://github.com/timeyyy/orchestra.nvim): Bind sound effects to different actions
 - [proteome](https://github.com/tek/proteome.nvim): Assists in working on multiple projects in a single Neovim instance
+- [pyro](https://github.com/rraks/pyro): A neovim interface to write simple list manipulating python snippets.
 - [semshi](https://github.com/numirias/semshi): Semantic highlighting for Python
 - [termedit.nvim](https://github.com/rliang/termedit.nvim) Sets the Neovim host instance as `$EDITOR`
 - [tree.nvim](https://github.com/zgpio/tree.nvim) Neovim file-explorer powered by C++
