@@ -26,7 +26,7 @@ Packages are listed below. (You can also [build Neovim from source](#install-fro
 
 ### [Chocolatey](https://chocolatey.org)
 
-- **Release (v0.3):** `choco install neovim` (use -y for automatically skipping confirmation messages)
+- **Release (v0.4):** `choco install neovim` (use -y for automatically skipping confirmation messages)
 - **Development (pre-release):** `choco install neovim --pre`
 
 ### [Scoop](http://scoop.sh/)
