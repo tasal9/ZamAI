@@ -14,7 +14,7 @@ will always be new possibilities.
 **A Neovim [*remote plugin*](https://github.com/neovim/neovim/blob/master/runtime/doc/remote_plugin.txt#L7) (`rplugin`) is any program that talks to `nvim` through the remote API** (which can be reached via any arbitrary transport mechanism: TCP address, named pipe, stdin/stdout, ...).
 
 It's possible to test the current API interactively using the python REPL and
-the [client library](https://github.com/neovim/python-client), but that isn't
+the [client library](https://github.com/neovim/pynvim), but that isn't
 very useful for extending the editor. A typical Neovim plugin will have the
 following pseudo code running:
 
