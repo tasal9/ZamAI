@@ -511,6 +511,7 @@ See also:
 - [Redis and scripting](http://oldblog.antirez.com/post/redis-and-scripting.html)
 - [The Design of Lua](https://cacm.acm.org/magazines/2018/11/232214-a-look-at-the-design-of-lua/fulltext)
 - [Discussion of JavaScript vs Lua](https://github.com/vim/vim/pull/5198#issuecomment-554693754)
+- [Discussion Python embedding](https://lobste.rs/s/pnuak4/mercurial_s_journey_reflections_on#c_zshdwy)
 
 ### Why Lua 5.1 instead of Lua 5.3+?
 
