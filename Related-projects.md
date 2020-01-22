@@ -145,7 +145,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [termedit.nvim](https://github.com/rliang/termedit.nvim) Sets the Neovim host instance as `$EDITOR`
 - [tree.nvim](https://github.com/zgpio/tree.nvim) Neovim file-explorer powered by C++
 - [vim-accio](https://github.com/pgdouyon/vim-accio): Asynchronously summons build/compiler/linter output to your screen by wrapping the :compiler and :make commands
-- [vim-airline](https://github.com/vim-airline/vim-airline): See [this commit](https://github.com/vim-airline/vim-airline/commit/ef3746d02266c4630e2658ad2302b266f53a0434)
+- [vim-airline](https://github.com/vim-airline/vim-airline): Lean & mean status/tabline for vim that's light as air (see [this commit](https://github.com/vim-airline/vim-airline/commit/ef3746d02266c4630e2658ad2302b266f53a0434))
 - [vim-chat](https://github.com/vim-chat/vim-chat): Chat client for QQ and Weixin
 - [vim-composer](https://github.com/noahfrederick/vim-composer): Support for Composer PHP projects
 - [vim-esearch](https://github.com/eugen0329/vim-esearch): Perform search in files easily
