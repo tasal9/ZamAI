@@ -37,6 +37,7 @@ _Note: Some of these projects are **experimental/unstable**._
 | Qt 5             | [equalsraf/neovim-qt](https://github.com/equalsraf/neovim-qt)                 | |
 | Qt Creator       | [sassanh/qnvim](https://github.com/sassanh/qnvim)                             | |
 | Rust IDE         | [oakes/SolidOak](https://github.com/oakes/SolidOak)                           | archived |
+| Rust             | [kethku/neovide](https://github.com/Kethku/neovide)                           | |
 | Sublime Text     | [lunixbochs/actualvim](https://github.com/lunixbochs/actualvim)               | |
 | Tk/Python UI     | [timeyyy/pytknvim](https://github.com/timeyyy/pytknvim)                       | inactive |
 | Windows/Linux    | [meatich/Viy](https://github.com/meatich/Viy)                                 | inactive |
