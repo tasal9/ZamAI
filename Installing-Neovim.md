@@ -159,7 +159,14 @@ Exhereses for scm and released versions are currently available in repository `:
 
 Neovim is in [Fedora](https://admin.fedoraproject.org/pkgdb/package/rpms/neovim/) starting with Fedora 25:
 
-    dnf install -y neovim python{2,3}-neovim
+    sudo dnf install -y neovim python{2,3}-neovim
+
+If you get the error: 
+    No match for argument: python2-neovim
+
+Try instead:
+
+    sudo dnf install -y neovim python3-neovim
 
 You can also get nightly builds of git master from the [Copr automated build system](https://copr.fedoraproject.org/coprs/agriffis/neovim-nightly/):
 
