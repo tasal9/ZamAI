@@ -24,7 +24,7 @@ _Note: Some of these projects are **experimental/unstable**._
 | gnome-terminal   | [neovim-gnome-terminal-wrapper](https://github.com/fmoralesc/neovim-gnome-terminal-wrapper) |
 | Go/Qt            | [akiyosi/gonvim](https://github.com/akiyosi/gonvim)                           | |
 | Go/Qt            | [dzhou121/gonvim](https://github.com/dzhou121/gonvim)                         | abandoned |
-| GTK/Python UI    | [neovim/python-gui](https://github.com/neovim/python-gui)                     | |
+| GTK/Python UI    | [neovim/python-gui](https://github.com/neovim/python-gui)                     | abandoned |
 | GTK/Python UI    | [rliang/nvim-pygtk3](https://github.com/rliang/nvim-pygtk3)                   | |
 | GTK/Rust UI      | [daa84/neovim-gtk](https://github.com/daa84/neovim-gtk)                       | |
 | GTK/Rust UI      | [GNvim](https://github.com/vhakulinen/gnvim)                                  | |
