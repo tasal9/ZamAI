@@ -86,7 +86,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [acid.nvim](https://github.com/clojure-vim/acid.nvim): Asynchronous nREPL client for Clojure development
 - [aerojump.nvim](https://github.com/ripxorip/aerojump.nvim): Filter as you type searcher/jumper with fuzzy matching. 
 - [alchemist.vim](https://github.com/slashmili/alchemist.vim): Elixir integration
-- [asyncrun.vim](https://github.com/skywind3000/asyncrun.vim): Run async shell commands in NeoVim and output to the quickfix Window.
+- [asyncrun.vim](https://github.com/skywind3000/asyncrun.vim): Run async shell commands and output to the quickfix Window.
 - [asynctasks.vim](https://github.com/skywind3000/asynctasks.vim): Sensible task system for vim to speed up your inner development cycle.
 - [axe](https://github.com/macthecadillac/axe): Asynchronous executor for predefined custom commands
 - [bolt.nvim](https://github.com/ripxorip/bolt.nvim): Filter as you type file manager with fuzzy matching and ripgrep integration
