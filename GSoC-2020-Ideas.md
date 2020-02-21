@@ -76,7 +76,7 @@ Another direction is to add new extension points, such as letting Lua code contr
 
 **Code license:** Apache 2.0
 
-**Mentor:** Björn Linse ([@bfredl](http://github.com/bfredl))
+**Mentor:** Björn Linse ([@bfredl](http://github.com/bfredl)), Ashkan Kiani ([@norcalli](http://github.com/norcalli))
 
 ___
 ## GUI Features
