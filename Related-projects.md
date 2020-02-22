@@ -87,7 +87,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [aerojump.nvim](https://github.com/ripxorip/aerojump.nvim): Filter as you type searcher/jumper with fuzzy matching. 
 - [alchemist.vim](https://github.com/slashmili/alchemist.vim): Elixir integration
 - [asyncrun.vim](https://github.com/skywind3000/asyncrun.vim): Run async shell commands and output to the quickfix window.
-- [asynctasks.vim](https://github.com/skywind3000/asynctasks.vim): Sensible task system for vim to speed up your inner development cycle.
+- [asynctasks.vim](https://github.com/skywind3000/asynctasks.vim): Modern task system for project building, testing and deploying !
 - [axe](https://github.com/macthecadillac/axe): Asynchronous executor for predefined custom commands
 - [bolt.nvim](https://github.com/ripxorip/bolt.nvim): Filter as you type file manager with fuzzy matching and ripgrep integration
 - [LeaderF](https://github.com/Yggdroot/LeaderF): An asynchronous fuzzy finder which is used to quickly locate files, buffers, mrus, tags, gtags, etc. in large project.
