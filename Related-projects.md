@@ -22,7 +22,7 @@ _Note: Some of these projects are **experimental/unstable**._
 | VSCode           | [VSCodeVim](https://github.com/VSCodeVim/Vim)                                 | |
 | VSCode           | [Neo Vim](https://github.com/asvetliakov/vscode-neovim)                       | |
 | gnome-terminal   | [neovim-gnome-terminal-wrapper](https://github.com/fmoralesc/neovim-gnome-terminal-wrapper) |
-| Go/Qt            | [akiyosi/gonvim](https://github.com/akiyosi/gonvim)                           | |
+| Go/Qt            | [akiyosi/goneovim](https://github.com/akiyosi/goneovim)                           | |
 | Go/Qt            | [dzhou121/gonvim](https://github.com/dzhou121/gonvim)                         | abandoned |
 | GTK/Python UI    | [neovim/python-gui](https://github.com/neovim/python-gui)                     | abandoned |
 | GTK/Python UI    | [rliang/nvim-pygtk3](https://github.com/rliang/nvim-pygtk3)                   | |
