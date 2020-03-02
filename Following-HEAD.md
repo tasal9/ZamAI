@@ -4,6 +4,9 @@ The following changes may require users to update configuration, plugins, or exp
 - Use `:checkhealth` to detect and fix common problems.
 
 ------------
+### 2019/12/23
+
+[#11716](https://github.com/neovim/neovim/pull/11716) `foldcolumn` changed from a number to a string to allow `auto:X` values. Also the limit was changed from 12 to 9.
 
 ### 2019/12/23
 
