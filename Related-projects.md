@@ -84,7 +84,7 @@ _Note: Some of these projects are **experimental/unstable**._
 The following plugins take advantage of specific Neovim features, e.g. `jobstart()`, `:terminal` or its remote plugin mechanism.
 
 - [acid.nvim](https://github.com/clojure-vim/acid.nvim): Asynchronous nREPL client for Clojure development
-- [any-jump.nvim](https://github.com/pechorin/any-jump.nvim): Jump to any definition and references
+- [any-jump.vim](https://github.com/pechorin/any-jump.vim): Jump to any definition and references
 - [aerojump.nvim](https://github.com/ripxorip/aerojump.nvim): Filter as you type searcher/jumper with fuzzy matching. 
 - [alchemist.vim](https://github.com/slashmili/alchemist.vim): Elixir integration
 - [asyncrun.vim](https://github.com/skywind3000/asyncrun.vim): Run async shell commands and output to the quickfix window.
