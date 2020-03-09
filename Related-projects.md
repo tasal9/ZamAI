@@ -84,11 +84,11 @@ _Note: Some of these projects are **experimental/unstable**._
 The following plugins take advantage of specific Neovim features, e.g. `jobstart()`, `:terminal` or its remote plugin mechanism.
 
 - [acid.nvim](https://github.com/clojure-vim/acid.nvim): Asynchronous nREPL client for Clojure development
+- [any-jump.nvim](https://github.com/pechorin/any-jump.nvim): Jump to any definition and references
 - [aerojump.nvim](https://github.com/ripxorip/aerojump.nvim): Filter as you type searcher/jumper with fuzzy matching. 
 - [alchemist.vim](https://github.com/slashmili/alchemist.vim): Elixir integration
 - [asyncrun.vim](https://github.com/skywind3000/asyncrun.vim): Run async shell commands and output to the quickfix window.
 - [asynctasks.vim](https://github.com/skywind3000/asynctasks.vim): Modern task system for project building, testing and deploying !
-- [any-jump.nvim](https://github.com/pechorin/any-jump.nvim): Jump to any symbol definition and usages
 - [axe](https://github.com/macthecadillac/axe): Asynchronous executor for predefined custom commands
 - [bolt.nvim](https://github.com/ripxorip/bolt.nvim): Filter as you type file manager with fuzzy matching and ripgrep integration
 - [LeaderF](https://github.com/Yggdroot/LeaderF): An asynchronous fuzzy finder which is used to quickly locate files, buffers, mrus, tags, gtags, etc. in large project.
