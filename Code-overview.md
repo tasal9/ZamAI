@@ -3,7 +3,7 @@ doesn't make it less complex than it is, but it gets you started.
 
 ## Jumping around
 
-Use `ctags -R` to generate a tags file for the `:tag` command. (We recommend [universal-ctags](https://github.com/universal-ctags/ctags) instead of the default `ctags` provided by most distros; see also [Development-tips](https://github.com/neovim/neovim/wiki/Development-tips#navigating-the-code).)
+Use `ctags -R` to generate a tags file for the `:tag` command. (We recommend [universal-ctags](https://github.com/universal-ctags/ctags) instead of the default `ctags` provided by most distros; see also [CONTRIBUTING.md](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md#navigate).)
 
 To jump to a function or variable definition, move the cursor on the name and
 use the `CTRL-]` command.  Use `CTRL-T` or `CTRL-O` to jump back.
