@@ -27,7 +27,7 @@ Note: this year we will likely be able to accept 2-3 students. We expect to get 
 
 Proposal evaluation criteria:
 
-http://intermine.org/gsoc/guidance/grading-criteria-2019/
+http://intermine.org/internships/guidance/grading-criteria-2019/
 
 
 ## Tips 
