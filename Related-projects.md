@@ -170,6 +170,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [vim-quickui](https://github.com/skywind3000/vim-quickui): The missing UI extensions for vim/nvim by utilizing `popup` and `floatwin`.
 - [vim-rainbows](https://github.com/nfischer/vim-rainbows): Runtime files for the Rainbow programming language
 - [vim-signify](https://github.com/mhinz/vim-signify): Uses the sign column to indicate added, modified and removed lines in a file that is managed by a version control system (VCS)
+- [vim-tabline](https://github.com/chrboesch/vim-tabline): Clear tab line for vim/neovim
 - [vim-test](https://github.com/janko-m/vim-test): Wrapper for running tests on different granularities
 - [vim-tmux-clipboard](https://github.com/roxma/vim-tmux-clipboard): Seamless integration with tmux's clipboard
 - [vimcmdline](https://github.com/jalvesaq/vimcmdline): Sends lines from either Vim or Neovim to a command line interpreter (REPL application)
