@@ -105,6 +105,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [FlyGrep.vim](https://github.com/wsdjeg/FlyGrep.vim): Asynchronously fly grep in vim
 - [fzf-gitignore](https://github.com/fszymanski/fzf-gitignore): A fzf (command-line fuzzy finder) interface for creating .gitignore files using the gitignore.io API
 - [gen_tags.vim](https://github.com/jsfaint/gen_tags.vim): Async plugin for Vim and Neovim to ease the use of Ctags/gTags
+- [git_fastfix](https://github.com/dm1try/git_fastfix): Apply "fast git fixups"(using UI) to the current development branch.
 - [golden_size](https://github.com/dm1try/golden_size): Resizes the active window to the "golden" size.
 - [haskell-vim](https://github.com/neovimhaskell/haskell-vim): Custom syntax highlighting and indentation Vimscripts for Haskell and Cabal
 - [InsertLeftBracket.nvim](https://github.com/haifengkao/InsertLeftBracket.nvim): Auto-complete brackets for Objective-C files
