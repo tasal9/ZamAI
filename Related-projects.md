@@ -12,6 +12,7 @@ _Note: Some of these projects are **experimental/unstable**._
 | C++/Python       | [meatich/NeoSFML](https://github.com/meatich/NeoSFML)                         | inactive |
 | C++/SDL2         | [etorth/libnvc](https://github.com/etorth/libnvc)                             | |
 | curses/Python    | [mvilim/neovim-pytc-example](https://github.com/mvilim/neovim-pytc-example)   | |
+| Direct2D         | [dontpanic92/dotnvim](https://github.com/dontpanic92/dotnvim)                 | |
 | EFL              | [Eovim](https://github.com/jeanguyomarch/eovim/)                              | |
 | Electron UI      | [coolwanglu/neovim-e](https://github.com/coolwanglu/neovim-e)                 | inactive |
 | Electron UI      | [rhysd/NyaoVim](https://github.com/rhysd/NyaoVim)                             | |
