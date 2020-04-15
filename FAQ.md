@@ -104,6 +104,8 @@ The `win32yank.exe` provided by the Neovim Windows installation has to be symlin
 
     sudo ln -s "$NEOVIM_WIN_DIR/bin/win32yank.exe" "/usr/local/bin/win32yank.exe"
 
+On some versions of Windows, WSL is unable to execute symbolic links to Windows executables ([microsoft/WSL#3999](https://github.com/microsoft/WSL/issues/3999)). In that case, use one of the methods in [#12113 (comment)](https://github.com/neovim/neovim/issues/12113#issuecomment-612827446).
+
 Also, don't forget to set your clipboard to `unnamedplus` using `set clipboard=unnamedplus` to make Neovim use the system's clipboard (now Windows' clipboard) by default.
 
 See [#6227](https://github.com/neovim/neovim/issues/6227) for more information.
