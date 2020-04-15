@@ -158,6 +158,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [vim-chat](https://github.com/vim-chat/vim-chat): Chat client for QQ and Weixin
 - [vim-composer](https://github.com/noahfrederick/vim-composer): Support for Composer PHP projects
 - [vim-esearch](https://github.com/eugen0329/vim-esearch): Perform search in files easily
+- [vim-floaterm](https://github.com/voldikss/vim-floaterm): Use (neo)vim terminal in the floating/popup window.
 - [vim-ghost](https://github.com/raghur/vim-ghost): Neovim client for GhostText browser extension on Firefox and Chrome
 - [vim-gitgutter](https://github.com/airblade/vim-gitgutter): Shows a git diff in the gutter (sign column) and stages/undos hunks
 - [vim-go](https://github.com/fatih/vim-go): See [PR 607](https://github.com/fatih/vim-go/pull/607) for feature list
@@ -176,6 +177,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [vim-tabline](https://github.com/chrboesch/vim-tabline): Clear tab line for vim/neovim
 - [vim-test](https://github.com/janko-m/vim-test): Wrapper for running tests on different granularities
 - [vim-tmux-clipboard](https://github.com/roxma/vim-tmux-clipboard): Seamless integration with tmux's clipboard
+- [vim-translator](https://github.com/voldikss/vim-translator): Asynchronous translating plugin with floating window support
 - [vimcmdline](https://github.com/jalvesaq/vimcmdline): Sends lines from either Vim or Neovim to a command line interpreter (REPL application)
 - [vsh](https://github.com/hardenedapple/vsh/): Store and replay shell sessions; also output search/modification/undo/redo
 - [worldslice](https://github.com/fmoralesc/worldslice): Minimalistic statusline and tabline configuration
