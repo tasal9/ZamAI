@@ -266,7 +266,7 @@ Neovim nightly and stable are available on the [snap store](https://snapcraft.io
 **Stable Builds**
 
 ```sh
-sudo snap install --candidate nvim --classic
+sudo snap install --beta nvim --classic
 ```
 
 **Nightly Builds**
