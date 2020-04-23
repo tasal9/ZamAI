@@ -143,6 +143,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [nvim-palette](https://github.com/teto/nvim-palette): Fuzzy search of settings
 - [Nvim-R](https://github.com/jalvesaq/Nvim-R): Plugin to work with R
 - [nvim-terminus](https://github.com/brettanomyces/nvim-terminus): Edit your current command in a scratch buffer
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter): treesitter-based improvements
 - [nvim-typescript](https://github.com/mhartington/nvim-typescript): Asynchronous typescript tooling and completion 
 - [nvimpam](https://github.com/KillTheMule/nvimpam): Provides async folding for Pam-Crash files
 - [nvimux](https://github.com/hkupty/nvimux): Neovim as multiplexer with tmux keybindings
