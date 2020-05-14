@@ -148,6 +148,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [nvimpam](https://github.com/KillTheMule/nvimpam): Provides async folding for Pam-Crash files
 - [nvimux](https://github.com/hkupty/nvimux): Neovim as multiplexer with tmux keybindings
 - [orchestra.nvim](https://github.com/timeyyy/orchestra.nvim): Bind sound effects to different actions
+- [pdf-scribe.nvim](https://wbthomason/pdf-scribe.nvim): Extract PDF annotations and metadata to plain-text notes
 - [proteome](https://github.com/tek/proteome.nvim): Assists in working on multiple projects in a single Neovim instance
 - [pyro](https://github.com/rraks/pyro): A neovim interface to write simple list manipulating python snippets.
 - [rnvimr](https://github.com/kevinhwang91/rnvimr): Make ranger running in a floating window to communicate with neovim via RPC.
