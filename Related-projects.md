@@ -125,6 +125,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [neotags.nvim](https://github.com/c0r73x/neotags.nvim): Plugin that generates and highlights Ctags
 - [neoterm](https://github.com/kassio/neoterm): Wrapper of some Neovim's `:terminal` functions
 - [neotex](https://github.com/donRaphaco/neotex): Latex live preview
+- [neovim-db](https://github.com/paulocesar/neovim-db): Run SQL queries inside Neovim
 - [neovim-hackernews](https://github.com/dpzmick/neovim-hackernews): Display Hacker News (HN) stories inside Neovim
 - [neovim-ranger](https://github.com/airodactyl/neovim-ranger): File manager with Vi key bindings
 - [neovim-vifm](https://github.com/vifm/neovim-vifm): Integration between Vifm (Vi file manager) and Neovim
