@@ -99,14 +99,22 @@ See the [Install](https://github.com/neovim/neovim/wiki/Installing-Neovim#window
 
 ### How to use the Windows clipboard from WSL?
 
-To use the Windows clipboard from within WSL, Neovim has to be installed on both Windows and WSL.
-The `win32yank.exe` provided by the Neovim Windows installation has to be symlinked to a directory included in your `$PATH` so it can be found by Neovim on WSL. Replace `$NEOVIM_WIN_DIR` with the path to your Neovim Windows installation, e.g. `/mnt/c/Program Files/Neovim`. The command can then be symlinked using:
+To use the Windows clipboard from within WSL, [`win32yank.exe`](https://github.com/equalsraf/win32yank) has to be on our `$PATH`.
+
+If Neovim is installed on both Windows and within the WSL distribution, the `win32yank.exe` binary provided by the Neovim Windows installation can be symlinked to a directory included in our `$PATH` so it can be found by Neovim on WSL. Replace `$NEOVIM_WIN_DIR` with the path to our Neovim Windows installation, e.g. `/mnt/c/Program Files/Neovim`. The command can then be symlinked using:
 
     sudo ln -s "$NEOVIM_WIN_DIR/bin/win32yank.exe" "/usr/local/bin/win32yank.exe"
 
 On some versions of Windows, WSL is unable to execute symbolic links to Windows executables ([microsoft/WSL#3999](https://github.com/microsoft/WSL/issues/3999)). In that case, use one of the methods in [#12113 (comment)](https://github.com/neovim/neovim/issues/12113#issuecomment-612827446).
 
-Also, don't forget to set your clipboard to `unnamedplus` using `set clipboard=unnamedplus` to make Neovim use the system's clipboard (now Windows' clipboard) by default.
+If Neovim is only installed within our WSL distribution, we can just install `win32yank.exe` manually (in this case `~/bin` is in our path):
+
+    curl -sLo/tmp/win32yank.zip https://github.com/equalsraf/win32yank/releases/download/v0.0.4/win32yank-x64.zip
+    unzip -p /tmp/win32yank.zip win32yank.exe > /tmp/win32yank.exe
+    chmod +x /tmp/win32yank.exe
+    mv /tmp/win32yank.exe ~/bin
+
+In either case, don't forget to set Neovim's clipboard to `unnamedplus` using `set clipboard=unnamedplus` to make Neovim use the system's (i.e Window's) clipboard by default.
 
 See [#6227](https://github.com/neovim/neovim/issues/6227) for more information.
 
