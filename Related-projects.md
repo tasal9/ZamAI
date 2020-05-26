@@ -17,7 +17,7 @@ _Note: Some of these projects are **experimental/unstable**._
 | Electron UI      | [coolwanglu/neovim-e](https://github.com/coolwanglu/neovim-e)                 | inactive  |
 | Electron UI      | [rhysd/NyaoVim](https://github.com/rhysd/NyaoVim)                             |           |
 | Electron UI      | [onivim/oni](https://github.com/onivim/oni)                                   | abandoned |
-| Electron UI      | [veonim](https://github.com/veonim/veonim)                                    |           |
+| Electron UI      | [veonim](https://github.com/veonim/veonim)                                    | abandoned |
 | Electron UI      | [VV](https://github.com/igorgladkoborodov/vv)                                 |           |
 | gnome-terminal   | [neovim-gnome-terminal-wrapper](https://github.com/fmoralesc/neovim-gnome-terminal-wrapper) | |
 | Go/Qt            | [akiyosi/goneovim](https://github.com/akiyosi/goneovim)                       |           |
