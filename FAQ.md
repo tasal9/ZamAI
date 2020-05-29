@@ -352,7 +352,7 @@ Solution:
 
 - [hererocks](https://github.com/mpeterv/hererocks) (very similar to Python's `virtualenv`) is useful for installing Luarocks, LuaJIT, and Lua:
   ```
-  curl -LO https://raw.githubusercontent.com/mpeterv/hererocks/latest/hererocks.py
+  curl -LO https://raw.githubusercontent.com/luarocks/hererocks/latest/hererocks.py
   chmod u+x hererocks.py
   # Install LuaJit and LuaRocks 3.0 to the "myenv" directory.
   ./hererocks.py myenv --luajit latest -r3.0
