@@ -152,6 +152,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [orchestra.nvim](https://github.com/timeyyy/orchestra.nvim): Bind sound effects to different actions
 - [pdf-scribe.nvim](https://wbthomason/pdf-scribe.nvim): Extract PDF annotations and metadata to plain-text notes
 - [proteome](https://github.com/tek/proteome.nvim): Assists in working on multiple projects in a single Neovim instance
+- [project-templates.nvim](https://github.com/pianocomposer321/project-templates.nvim): Multi-file project template plugin
 - [pyro](https://github.com/rraks/pyro): A neovim interface to write simple list manipulating python snippets.
 - [rnvimr](https://github.com/kevinhwang91/rnvimr): Make ranger running in a floating window to communicate with neovim via RPC.
 - [semshi](https://github.com/numirias/semshi): Semantic highlighting for Python
