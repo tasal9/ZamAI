@@ -90,7 +90,6 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [alchemist.vim](https://github.com/slashmili/alchemist.vim): Elixir integration
 - [asyncrun.vim](https://github.com/skywind3000/asyncrun.vim): Run async shell commands and output to the quickfix window.
 - [asynctasks.vim](https://github.com/skywind3000/asynctasks.vim): Modern task system for project building, testing and deploying !
-- [axe](https://github.com/macthecadillac/axe): Asynchronous executor for predefined custom commands
 - [brew.nvim](https://github.com/zgpio/brew.nvim): Neovim plugin manager powered by lua.
 - [bolt.nvim](https://github.com/ripxorip/bolt.nvim): Filter as you type file manager with fuzzy matching and ripgrep integration
 - [LeaderF](https://github.com/Yggdroot/LeaderF): An asynchronous fuzzy finder which is used to quickly locate files, buffers, mrus, tags, gtags, etc. in large project.
@@ -184,6 +183,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [vim-tmux-clipboard](https://github.com/roxma/vim-tmux-clipboard): Seamless integration with tmux's clipboard
 - [vim-translator](https://github.com/voldikss/vim-translator): Asynchronous translating plugin with floating window support
 - [vimcmdline](https://github.com/jalvesaq/vimcmdline): Sends lines from either Vim or Neovim to a command line interpreter (REPL application)
+- [vimdo](https://github.com/macthecadillac/vimdo): Asynchronous executor for external commands
 - [vsh](https://github.com/hardenedapple/vsh/): Store and replay shell sessions; also output search/modification/undo/redo
 - [worldslice](https://github.com/fmoralesc/worldslice): Minimalistic statusline and tabline configuration
 
