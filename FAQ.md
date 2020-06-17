@@ -80,11 +80,17 @@ Cursor _color_ (as opposed to shape) **_only_** works if `termguicolors` is set.
 :set guicursor=n-v-c:block-Cursor/lCursor,i-ci-ve:ver25-Cursor2/lCursor2,r-cr:hor20,o:hor50
 ```
 
-### Cursor style isn't restored after exiting Nvim
+### Cursor style isn't restored after exiting or suspending and resuming Nvim
 
-Terminals do not provide a way to query the cursor style. Use a `VimLeave` autocommand to set the cursor style when Nvim exits:
+Terminals do not provide a way to query the cursor style. Use autocommands to manage the cursor style:
 
-    au VimLeave * set guicursor=a:block-blinkon0
+```vim
+au VimEnter,VimResume * set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+  \,sm:block-blinkwait175-blinkoff150-blinkon175
+
+au VimLeave,VimSuspend * set guicursor=a:block-blinkon0
+```
 
 ### Cursor shape doesn't change in tmux
 
