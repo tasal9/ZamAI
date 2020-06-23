@@ -67,7 +67,7 @@ See also `:help $TERM` for recommended values of `$TERM`.
 - Old versions of libvte (gnome-terminal, roxterm, terminator, ...) do not support cursor style control codes. [#2537](https://github.com/neovim/neovim/issues/2537)
 
 ### Flick _cursor_ when use neovim under tmux?
-Cursor `_` appears and disappears very quickly when open vim without document under tmux (only happens under tmux).
+Cursor `_` appears and disappears very quickly when open nvim without document under tmux (only happens under tmux).
 If you set `EndOfBuffer` and `Normal`, set it to `NONE`
 ```
 hi EndOfBuffer ctermbg=NONE ctermfg=200 cterm=NONE
