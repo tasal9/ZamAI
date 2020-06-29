@@ -22,9 +22,15 @@ Quickstart
 ### Notes
 
 * It's strongly recommended to work on the _oldest_ missing patch, because later patches might depend on the changes.
-* Use `git log -G` to search the Nvim/Vim source history (even _deleted_ code). E.g. to find `reset_option_was_set`:
-  ```
+* Use `git log --grep` or `git log -G` to search the Nvim/Vim source history (even _deleted_ code).  
+  E.g. to find `reset_option_was_set`:
+  ```sh
   git log -p -G reset_option_was_set
+  ```
+* Pass `git log` options like `--grep` and `-G` to `./scripts/vim-patch.sh -L` to filter unmerged Vim patches  
+  E.g. to find `+quickfix` patches:
+  ```sh
+  ./scripts/vim-patch.sh -L --grep quickfix -- src
   ```
 
 Pull requests
