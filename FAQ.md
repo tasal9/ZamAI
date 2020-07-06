@@ -294,7 +294,7 @@ unsilent let var = inputlist(['1. item1', '2. item2'])
 
 autocmd BufNewFile * unsilent echomsg 'The autocmd has been fired.'
 ```
-See the following issues: [#10008](https://github.com/neovim/neovim/issues/10008), [#10116](https://github.com/neovim/neovim/issues/10116), [# vim/vim#4379](https://github.com/vim/vim/issues/4379).
+See the following issues: [#10008](https://github.com/neovim/neovim/issues/10008), [#10116](https://github.com/neovim/neovim/issues/10116), [#12288](https://github.com/neovim/neovim/issues/12288), [# vim/vim#4379](https://github.com/vim/vim/issues/4379).
 
 # Installation issues
 
