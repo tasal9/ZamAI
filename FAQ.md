@@ -285,6 +285,17 @@ It *does* happen (try `vim -N -u NONE`), but *if you hit a key quickly after ESC
 
 Nvim 0.3 mimics the Vim behavior while still fully supporting ALT mappings. See `:help i_ALT`.
 
+### Calling `inputlist()`, `echomsg`, etc... in filetype plugins and `autocmd` does not work
+
+This is because, unlike vim, the default option `shortmess` contains the `F` in it. The vim works the same way when you `set shortmes+=F`. Maybe this behavior should be improved. As a workaround, use `set shortmess-=F` or use `unsilent` as follows.
+
+```vim
+unsilent let var = inputlist(['1. item1', '2. item2'])
+
+autocmd BufNewFile * unsilent echomsg 'The autocmd has been fired.'
+```
+See the following issues: [#10008](https://github.com/neovim/neovim/issues/10008), [#10116](https://github.com/neovim/neovim/issues/10116), [# vim/vim#4379](https://github.com/vim/vim/issues/4379).
+
 # Installation issues
 
 ### Generating helptags failed
