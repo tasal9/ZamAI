@@ -162,6 +162,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [vim-accio](https://github.com/pgdouyon/vim-accio): Asynchronously summons build/compiler/linter output to your screen by wrapping the :compiler and :make commands
 - [vim-airline](https://github.com/vim-airline/vim-airline): Lean & mean status/tabline for vim that's light as air (see [this commit](https://github.com/vim-airline/vim-airline/commit/ef3746d02266c4630e2658ad2302b266f53a0434))
 - [vim-chat](https://github.com/vim-chat/vim-chat): Chat client for QQ and Weixin
+- [vim-cmake](https://github.com/cdelledonne/vim-cmake): Manage and build CMake projects with a nice visual feedback
 - [vim-composer](https://github.com/noahfrederick/vim-composer): Support for Composer PHP projects
 - [vim-esearch](https://github.com/eugen0329/vim-esearch): Perform search in files easily
 - [vim-floaterm](https://github.com/voldikss/vim-floaterm): Use (neo)vim terminal in the floating/popup window.
