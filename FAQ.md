@@ -287,7 +287,7 @@ Nvim 0.3 mimics the Vim behavior while still fully supporting ALT mappings. See 
 
 ### Calling `inputlist()`, `echomsg`, etc... in filetype plugins and `autocmd` does not work
 
-This is because, unlike vim, the default option `shortmess` contains the `F` in it. The vim works the same way when you `set shortmes+=F`. Maybe this behavior should be improved. As a workaround, use `set shortmess-=F` or use `unsilent` as follows.
+This is because, unlike vim, the default option `shortmess` contains the `F` in it. Vim behaves the same way when you `set shortmes+=F`. Maybe this behavior should be improved. As a workaround, use `set shortmess-=F` or use `unsilent` as follows.
 
 ```vim
 unsilent let var = inputlist(['1. item1', '2. item2'])
