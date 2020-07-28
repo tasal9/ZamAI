@@ -27,7 +27,7 @@ _Note: Some of these projects are **experimental/unstable**._
 | GTK/Rust UI      | [daa84/neovim-gtk](https://github.com/daa84/neovim-gtk)                       |           |
 | GTK/Rust UI      | [GNvim](https://github.com/vhakulinen/gnvim)                                  |           |
 | JavaFX           | [jebberjeb/javafx-neovimpane](https://github.com/jebberjeb/javafx-neovimpane) |           |
-| Konsole          | [harish2704/neovim-konsole](https://github.com/harish2704/neovim-konsole)     |depreciated|
+| Konsole          | [harish2704/neovim-konsole](https://github.com/harish2704/neovim-konsole)     | deprecated |
 | macOS            | [qvacua/vimr](https://github.com/qvacua/vimr)                                 |           |
 | macOS            | [rogual/neovim-dot-app](https://github.com/rogual/neovim-dot-app)             |           |
 | mac OS UI        | [DinVim Vim for Mac](http://dinvim.com)                                       |           |
