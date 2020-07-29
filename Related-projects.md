@@ -84,6 +84,7 @@ _Note: Some of these projects are **experimental/unstable**._
 The following plugins take advantage of specific Neovim features, e.g. `jobstart()`, `:terminal` or its remote plugin mechanism.
 
 - [acid.nvim](https://github.com/clojure-vim/acid.nvim): Asynchronous nREPL client for Clojure development
+- [ale](https://github.com/dense-analysis/ale): Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support 
 - [Aniseed](https://github.com/Olical/aniseed): Write plugins for Neovim in Fennel, a Lisp that compiles to Lua
 - [any-jump.vim](https://github.com/pechorin/any-jump.vim): Jump to any definition and references
 - [aerojump.nvim](https://github.com/ripxorip/aerojump.nvim): Filter as you type searcher/jumper with fuzzy matching. 
