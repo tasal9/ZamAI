@@ -139,6 +139,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [nvim-go](https://github.com/zchee/nvim-go): Go development plugin for Neovim written in pure Go
 - [nvim-ipy](https://github.com/bfredl/nvim-ipy): IPython/Jupyter integration
 - [nvim-luadev](https://github.com/bfredl/nvim-luadev): REPL for developing lua plugins
+- [nvim-luapad](https://github.com/rafcamlet/nvim-luapad): Interactive real time neovim scratchpad for embedded lua engine.
 - [nvim-miniyank](https://github.com/bfredl/nvim-miniyank): Simple yankring (shared across instances)
 - [nvim-marksman](https://github.com/svermeulen/nvim-marksman) - A file finder that minimizes the amount of keystrokes needed to go to a file
 - [nvim-moonmaker](https://github.com/svermeulen/nvim-moonmaker): Adds plugin support for MoonScript files in the same way the built-in support for Lua/Python files works (by automatically compiling MoonScript files to Lua)
