@@ -92,7 +92,7 @@ Or install the development version of Nvim:
 
 The [Releases](https://github.com/neovim/neovim/releases) page provides an [AppImage](http://appimage.org) that runs on most Linux systems. No installation is needed, just download `nvim.appimage` and run it. (It might not work if your Linux distribution is more than 4 years old.)
 
-    curl -LO https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
+    curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
     chmod u+x nvim.appimage
     ./nvim.appimage
 
