@@ -375,7 +375,7 @@ Solution:
 
 ### Tools
 
-- [hererocks](https://github.com/mpeterv/hererocks) (very similar to Python's `virtualenv`) is useful for installing Luarocks, LuaJIT, and Lua:
+- [hererocks](https://github.com/luarocks/hererocks) (very similar to Python's `virtualenv`) is useful for installing Luarocks, LuaJIT, and Lua:
   ```
   curl -LO https://raw.githubusercontent.com/luarocks/hererocks/latest/hererocks.py
   chmod u+x hererocks.py
