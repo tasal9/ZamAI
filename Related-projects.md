@@ -190,6 +190,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [vimcmdline](https://github.com/jalvesaq/vimcmdline): Sends lines from either Vim or Neovim to a command line interpreter (REPL application)
 - [vimdo](https://github.com/macthecadillac/vimdo): Asynchronous executor for external commands
 - [vsh](https://github.com/hardenedapple/vsh/): Store and replay shell sessions; also output search/modification/undo/redo
+- [watson.nvim](https://github.com/ccchapman/watson.nvim): Track your time with this Watson CLI wrapper
 - [worldslice](https://github.com/fmoralesc/worldslice): Minimalistic statusline and tabline configuration
 
 
