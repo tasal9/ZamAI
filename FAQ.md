@@ -6,7 +6,7 @@
 
 ### Where should I put my config (`vimrc`)?
 
-See [`:help vimrc`](https://neovim.io/doc/user/starting.html#vimrc).
+See [`:help config`](https://neovim.io/doc/user/starting.html#vimrc).
 
 You can copy your existing vimrc, or symlink to it. [`:help nvim-from-vim`](https://neovim.io/doc/user/nvim.html#nvim-from-vim)
 
