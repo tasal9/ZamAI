@@ -69,6 +69,7 @@ _Note: Some of these projects are **experimental/unstable**._
 | Node.js     | [neovim/node-client](https://github.com/neovim/node-client)                           |
 | Node.js     | [neoclide/neovim](https://github.com/neoclide/neovim)                                 |
 | OCaml       | [janestreet/vcaml](https://github.com/janestreet/vcaml)                               |
+| Perl        | [jacquesg/Neovim-Ext](https://github.com/jacquesg/p5-Neovim-Ext)                      |
 | Perl        | [yanick/Neovim-RPC](https://github.com/yanick/Neovim-RPC)                             |
 | Python      | [neovim/pynvim](https://github.com/neovim/pynvim)                                     |
 | R           | [jalvesaq/Nvim-R](https://github.com/jalvesaq/Nvim-R)                                 |
