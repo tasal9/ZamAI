@@ -217,6 +217,10 @@ compiling the libuv dependency. See https://github.com/joyent/libuv/issues/1158.
 
     sudo pacman -S base-devel cmake unzip ninja
 
+#### Alpine Linux
+
+    apk add build-base cmake automake autoconf libtool pkgconf coreutils curl unzip gettext-tiny-dev
+
 #### Nix or NixOS
 
 Starting from nixos 18.03, the neovim binary resides in the `neovim-unwrapped` nix package (the `neovim` package being just a wrapper to setup runtime options like ruby/python support):
