@@ -9,6 +9,7 @@ _Note: Some of these projects are **experimental/unstable**._
 | Atom Integration | [carlosdcastillo/vim-mode](https://github.com/carlosdcastillo/vim-mode)       | abandoned |
 | Avalonia         | [yatli/fvim](https://github.com/yatli/fvim)                                   |           |
 | Browsers         | [Firenvim](https://github.com/glacambre/firenvim)                             |           |
+| C++/DirectWrite  | [RMichelsen/Nvy](https://github.com/RMichelsen/Nvy)                            |           |
 | C++/Python       | [meatich/NeoSFML](https://github.com/meatich/NeoSFML)                         | inactive  |
 | C++/SDL2         | [etorth/libnvc](https://github.com/etorth/libnvc)                             |           |
 | curses/Python    | [mvilim/neovim-pytc-example](https://github.com/mvilim/neovim-pytc-example)   |           |
