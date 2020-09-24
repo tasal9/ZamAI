@@ -41,6 +41,7 @@ _Note: Some of these projects are **experimental/unstable**._
 | VSCode           | [VSCodeVim](https://github.com/VSCodeVim/Vim)                                 |           |
 | VSCode           | [Neo Vim](https://github.com/asvetliakov/vscode-neovim)                       |           |
 | Windows/Linux    | [meatich/Viy](https://github.com/meatich/Viy)                                 | inactive  |
+| Windows          | [RMichelsen/Nvy](https://github.com/RMichelsen/Nvy)                           |           |
 
 
 <sub>Note: Activity only takes into account the update of the codebase, excluding README, etc. </sub>
