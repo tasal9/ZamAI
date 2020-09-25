@@ -337,6 +337,12 @@ Neovim can be installed using the xbps package manager
 
     sudo xbps-install -S neovim
 
+### Alpine Linux
+
+Neovim can be installed using the apk package manager
+
+    sudo apk add neovim
+
 ## BSD
 
 ### FreeBSD
