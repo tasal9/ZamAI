@@ -122,6 +122,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [mkdx](https://github.com/SidOfc/mkdx): Vim plugin that adds some nice extras for working with Markdown documents
 - [ncm2](https://github.com/ncm2/ncm2): Slim, fast, and hackable completion framework for Neovim (fork of nvim-completion-manager)
 - [neogdb.vim](https://github.com/huawenyu/neogdb.vim): Vim GDB front-end for neovim written in python/vimscript
+- [neoline.vim](https://github.com/adelarsq/neoline.vim): Status line focused on beauty and performance
 - [neomake-multiprocess](https://github.com/tracyone/neomake-multiprocess): Vim plugin for running multiple process asynchronously based on Neomake
 - [neomake](https://github.com/neomake/neomake): Asynchronous linting and make framework
 - [neopipe](https://github.com/coachshea/neo-pipe): Send lines of text to an external command and display output in a scratch buffer
