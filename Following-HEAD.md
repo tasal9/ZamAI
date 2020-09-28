@@ -4,6 +4,9 @@ The following changes may require users to update configuration, plugins, or exp
 - Use `:checkhealth` to detect and fix common problems.
 
 ------------
+### 2020/09/24
+We changed the behavior of folded lines so that it behaves more like regular lines (taking into account cursorline, as well as the column highlights such as LineNr) in https://github.com/neovim/neovim/pull/12515 . This departs from vim and may cause some issues so please bear with us as we fix them.
+
 ### 2020/09/09
 
 PSA: Some larger changes to tree-sitter highlighting is planned to land on master very soon. Expect breakages for a little while. If you have a master working for your needs and want it to keep working, it might make sense to wait for a few days/weeks. But if you _want_ to help with betatesting, please follow along. :] More updates will be posted here and on gitter.im/neovim/neovim regularly.
