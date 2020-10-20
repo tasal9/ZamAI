@@ -75,7 +75,8 @@ where `<version-or-commit>` is a valid Vim version (like `8.0.0123`) or commit-i
 - `:terminal` patches
 - `defaults.vim` patches
 - Most **GUI-related** changes: Neovim GUIs are implemented external to the core C codebase.
-- `test_popupwin.vim`, `test_popupwin_textprop.vim` https://github.com/neovim/neovim/pull/12741#issuecomment-704677141
+- Screendump tests from `test_popupwin.vim`, `test_popupwin_textprop.vim`:  https://github.com/neovim/neovim/pull/12741#issuecomment-704677141
+- `test_json.vim`: incompatible API https://github.com/neovim/neovim/pull/4131
 - Anything else might be relevant; err on the side of caution, and post an issue if you aren't sure. 
 
 version.c
