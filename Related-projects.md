@@ -223,9 +223,10 @@ Color schemes make use of Neovim-specific features, e.g. highlight groups or ter
 - [falcon](https://github.com/fenetikm/falcon)
 - [flatcolor](https://github.com/MaxSt/FlatColor) **Deprecated use challenger-deep instead**
 - [challenger-deep](https://github.com/challenger-deep-theme/vim)
+- [gruvbox](https://github.com/morhetz/gruvbox)
 - [janah](https://github.com/mhinz/vim-janah)
 - [NeoSolarized](https://github.com/iCyMind/NeoSolarized)
 - [oceanic-next](https://github.com/mhartington/oceanic-next)
 - [onedark](https://github.com/joshdick/onedark.vim)
-- [gruvbox](https://github.com/morhetz/gruvbox)
+- [Toast](https://github.com/jsit/toast.vim)
 - [vim-monokai](https://github.com/sickill/vim-monokai)
