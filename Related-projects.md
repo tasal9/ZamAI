@@ -164,6 +164,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [pyro](https://github.com/rraks/pyro): A neovim interface to write simple list manipulating python snippets.
 - [rnvimr](https://github.com/kevinhwang91/rnvimr): Make ranger running in a floating window to communicate with neovim via RPC.
 - [semshi](https://github.com/numirias/semshi): Semantic highlighting for Python
+- [sniprun](https://github.com/michaelb/sniprun): Plugin in Rust + RPC to select and quickly run & test parts of your code 
 - [termedit.nvim](https://github.com/rliang/termedit.nvim) Sets the Neovim host instance as `$EDITOR`
 - [tree.nvim](https://github.com/zgpio/tree.nvim) Neovim file-explorer powered by C++
 - [vimpeccable](https://github.com/svermeulen/vimpeccable): Plugin to allow easily replacing your init.vim/vimrc with a fully lua based one
