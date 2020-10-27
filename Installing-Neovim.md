@@ -118,7 +118,7 @@ Python 2 and Ruby modules (currently only supported in `neovim-git`) are availab
 Neovim is available through [EPEL (Extra Packages for Enterprise Linux)](https://fedoraproject.org/wiki/EPEL)
 
     yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-    yum install -y neovim python3-neovim
+    yum install -y neovim python36-neovim
     # you might need python2-neovim as well on older Fedora releases
 
 ### Clear Linux OS
