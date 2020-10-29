@@ -96,6 +96,15 @@ The [Releases](https://github.com/neovim/neovim/releases) page provides an [AppI
     chmod u+x nvim.appimage
     ./nvim.appimage
 
+If the `./nvim.appimage` command fails, try:
+```sh
+./nvim.appimage --appimage-extract
+./squashfs-root/AppRun --version
+
+# Optional: exposing nvim globally
+mv squashfs-root / && ln -s /squashfs-root/AppRun /usr/bin/nvim
+nvim
+```
  
 ### Arch Linux
 
