@@ -157,6 +157,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [nvimux](https://github.com/hkupty/nvimux): Neovim as multiplexer with tmux keybindings
 - [orchestra.nvim](https://github.com/timeyyy/orchestra.nvim): Bind sound effects to different actions
 - [packer.nvim](https://github.com/wbthomason/packer.nvim): A `use-package` inspired Neovim plugin manager, written in Lua
+- [paq-nvim](https://github.com/savq/paq-nvim): Minimal Neovim package manager written in Lua.
 - [pdf-scribe.nvim](https://wbthomason/pdf-scribe.nvim): Extract PDF annotations and metadata to plain-text notes
 - [popc](https://github.com/yehuohan/popc): Manager of workspaces, buffers and bookmarks with nvim's floating window or vim's popupwin
 - [proteome](https://github.com/tek/proteome.nvim): Assists in working on multiple projects in a single Neovim instance
