@@ -16,11 +16,11 @@ _Note: Some of these projects are **experimental/unstable**._
 | Direct2D         | [dontpanic92/dotnvim](https://github.com/dontpanic92/dotnvim)                 |           |
 | EFL              | [Eovim](https://github.com/jeanguyomarch/eovim/)                              |           |
 | Electron UI      | [coolwanglu/neovim-e](https://github.com/coolwanglu/neovim-e)                 | inactive  |
-| Electron UI      | [rhysd/NyaoVim](https://github.com/rhysd/NyaoVim)                             |           |
+| Electron UI      | [rhysd/NyaoVim](https://github.com/rhysd/NyaoVim)                             | inactive  |
 | Electron UI      | [onivim/oni](https://github.com/onivim/oni)                                   | abandoned |
-| Electron UI      | [uivonim](https://github.com/smolck/uivonim)                                  |           |
+| Electron UI      | [uivonim](https://github.com/smolck/uivonim)                                  | active (c. 2020-Nov-01) |
 | Electron UI      | [veonim](https://github.com/veonim/veonim)                                    | archived  |
-| Electron UI      | [VV](https://github.com/igorgladkoborodov/vv)                                 |           |
+| Electron UI      | [VV](https://github.com/igorgladkoborodov/vv)                                 | active (c. 2020-Nov-01) |
 | gnome-terminal   | [neovim-gnome-terminal-wrapper](https://github.com/fmoralesc/neovim-gnome-terminal-wrapper) | |
 | Go/Qt            | [akiyosi/goneovim](https://github.com/akiyosi/goneovim)                       |           |
 | Go/Qt            | [dzhou121/gonvim](https://github.com/dzhou121/gonvim)                         | abandoned |
