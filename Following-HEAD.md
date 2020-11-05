@@ -4,6 +4,10 @@ The following changes may require users to update configuration, plugins, or exp
 - Use `:checkhealth` to detect and fix common problems.
 
 ------------
+### 2020/11/3
+We moved tree-sitter as a dependency rather than vendoring the code. Thus there is now a new build dependency : `libtree-sitter`.
+Current recommended version to use is `0.17+`, and bundled version is `0.17.3`.
+
 ### 2020/09/24
 We changed the behavior of folded lines so that it behaves more like regular lines (taking into account cursorline, as well as the column highlights such as LineNr) in https://github.com/neovim/neovim/pull/12515 . This departs from vim and may cause some issues so please bear with us as we fix them.
 
