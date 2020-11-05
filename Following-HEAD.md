@@ -4,7 +4,7 @@ The following changes may require users to update configuration, plugins, or exp
 - Use `:checkhealth` to detect and fix common problems.
 
 ------------
-### 2020/11/3
+### 2020/11/03
 We moved tree-sitter as a dependency rather than vendoring the code. Thus there is now a new build dependency : `libtree-sitter`.
 Current recommended version to use is `0.17+`, and bundled version is `0.17.3`.
 
