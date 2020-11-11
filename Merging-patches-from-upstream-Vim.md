@@ -77,6 +77,7 @@ where `<version-or-commit>` is a valid Vim version (like `8.0.0123`) or commit-i
 - Most **GUI-related** changes: Neovim GUIs are implemented external to the core C codebase.
 - Screendump tests from `test_popupwin.vim`, `test_popupwin_textprop.vim`:  https://github.com/neovim/neovim/pull/12741#issuecomment-704677141
 - `test_json.vim`: incompatible API https://github.com/neovim/neovim/pull/4131
+- `test_restricted.vim` restricted mode is removed in https://github.com/neovim/neovim/pull/11996
 - Anything else might be relevant; err on the side of caution, and post an issue if you aren't sure. 
 
 version.c
