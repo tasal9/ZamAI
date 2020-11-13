@@ -4,6 +4,10 @@ The following changes may require users to update configuration, plugins, or exp
 - Use `:checkhealth` to detect and fix common problems.
 
 ------------
+### 2020/11/12
+
+Large updates to `vim.lsp.diagnostic`. See https://github.com/neovim/neovim/pull/12655
+
 ### 2020/11/03
 We moved tree-sitter as a dependency rather than vendoring the code. Thus there is now a new build dependency : `libtree-sitter`.
 At the time of writing, neovim is built against treesitter `0.17.3`. Linux distributions and homebrew (already done) must update their package accordingly.
