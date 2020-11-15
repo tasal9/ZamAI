@@ -214,6 +214,7 @@ This is software either targeted at Neovim or with support for it.
 - [nvimpager](https://github.com/lucc/nvimpager): Use Neovim as `$PAGER` to view man pages, git logs, etc. with Neovim's syntax highlighting
 - [page](https://github.com/I60R/page): Advanced `$PAGER`, acts like neovim-remote, features fast CSI sequences processing
 - [ribosome](https://github.com/tek/ribosome): Framework for building and testing Python plugins
+- [tmux-nvr](https://github.com/carlocab/tmux-nvr): tmux session-specific Neovim instances with neovim-remote
 - [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect): Restore tmux environment after system restart
 - [vmux](https://github.com/jceb/vmux): Vim/Neovim session handler within tmux
 - [Vroom](https://github.com/google/vroom): Way to specify Vim commands (actual input keys that that the user hits) and then verify Vim's output
