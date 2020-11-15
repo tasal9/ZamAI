@@ -4,6 +4,11 @@ The following changes may require users to update configuration, plugins, or exp
 - Use `:checkhealth` to detect and fix common problems.
 
 ------------
+
+### 2020/11/15
+
+`nvim_lsp` has been renamed to `lspconfig` to make the goal of https://github.com/neovim/nvim-lspconfig/ clearer, i.e., it conveys only LSP server configurations. You should update your lua `require` calls as shown here https://github.com/neovim/nvim-lspconfig/pull/348.
+
 ### 2020/11/12
 
 Large updates to `vim.lsp.diagnostic`. See https://github.com/neovim/neovim/pull/12655
