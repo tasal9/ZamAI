@@ -197,6 +197,7 @@ Covid preamble - online conf.
 [GNvim](https://github.com/vhakulinen/gnvim) Neovim GUI aiming for rich code editing experience without any unnecessary web bloat.
 [Neovide](https://github.com/Kethku/neovide) A graphically improved user interface for Neovim that acts functionally like the terminal UI.
 [VV](https://github.com/vv-vim/vv) A minimalistic Vim experience with good macOS intergration. Optimized for speed and font rendering.
+[Uivonim](https://github.com/smolck/uivonim) Fork of Veonim with GUI elements for the builtin LSP and more
 
 ## Notable commits/merges
 libuv / libvterm ?
