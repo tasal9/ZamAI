@@ -76,6 +76,8 @@ VERBOSE=1 DEBUG=1 make deps
     - Right-click _CMakeLists.txt → Delete Cache_.
     - Right-click _CMakeLists.txt → Generate Cache_.
 
+Note, if you want to build from the command line (i.e. invoke the `cmake` commands yourself), make sure you have the Visual Studio environment variables properly set -- with the VS Developer Prompt, or `Import-VisualStudioVars` from [this powershell module](https://github.com/Pscx/Pscx). This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like `'mingw32-gcc' is not recognized as an internal or external command`.
+
 ## Windows / CLion
 
 1. Install [CLion](https://www.jetbrains.com/clion/).
