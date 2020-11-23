@@ -4,6 +4,11 @@ The following changes may require users to update configuration, plugins, or exp
 - Use `:checkhealth` to detect and fix common problems.
 
 ------------
+### 2020/11/23
+
+We changed the way tree-sitter parsers are integrated in nvim.
+One major change is that the `parser:parse()` method changed to return a tree to a table of trees.
+Please expect the tree update callbacks to change soon.
 
 ### 2020/11/15
 
