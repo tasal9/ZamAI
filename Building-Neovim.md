@@ -236,7 +236,7 @@ Drop into nix shell to pull in the neovim dependencies
 Configure and Build
 
 ```
-cmakeConfigurePhase
+rm -rf build && cmakeConfigurePhase
 buildPhase
 ```
 
@@ -257,6 +257,10 @@ Tests are not available by default because of some unfixed failures. You can ena
 ```
 and replacing neovim-unwrapped by neovim-dev: `$ nix-shell '<nixpkgs>' -A neovim-dev`
 
+Starting november 2020, neovim contains a nix flake in the branch https://github.com/neovim/neovim/tree/flake, so developing on neovim is as simple as 
+```
+nix develop github:neovim/neovim/flake#neovim-unwrapped-debug
+```
 
 #### FreeBSD
 
