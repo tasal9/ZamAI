@@ -10,4 +10,4 @@ https://www.youtube.com/watch?v=MV0pTDKps0A
 Many talks about neovim in vimconf 2020
 - On [builtin lsp](https://www.youtube.com/watch?v=C9X5VF9ASac)
 - Inspiring talk on neovim [unlimited capabilities](https://www.youtube.com/watch?v=78WrSwEKNuM)
-- A [story of enlightnement](https://www.youtube.com/watch?v=EReNOGuMBmo), from the mountains to being the lead neovim treesitter dev  
+- A [story of enlightnement](https://www.youtube.com/watch?v=EReNOGuMBmo), from the mountains to becoming the lead neovim treesitter dev  
