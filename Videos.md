@@ -4,8 +4,8 @@ Here we list several videos that can be of interested to neovim users, or future
 Several neovim developers have started streaming while developing on neovim:
 - https://www.twitch.tv/teej_dv/
 
-@bfredl featured in a 2 hour long interview, he covers a lot of ground, both technical and philosophical here:
-https://www.youtube.com/watch?v=MV0pTDKps0A
+@bfredl featured in a [2 hour long interview](https://www.youtube.com/watch?v=MV0pTDKps0A), he covers a lot of ground, both technical and philosophical here:
+
 
 Many talks about neovim in vimconf 2020:
 - On [builtin lsp](https://www.youtube.com/watch?v=C9X5VF9ASac)
