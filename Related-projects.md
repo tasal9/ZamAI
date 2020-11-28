@@ -95,6 +95,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [alchemist.vim](https://github.com/slashmili/alchemist.vim): Elixir integration
 - [asyncrun.vim](https://github.com/skywind3000/asyncrun.vim): Run async shell commands and output to the quickfix window.
 - [asynctasks.vim](https://github.com/skywind3000/asynctasks.vim): Modern task system for project building, testing and deploying !
+- [barbar.nvim](https://github.com/romgrk/barbar.nvim): A tabline plugin with re-orderable auto-sizing clickable tabs.
 - [brew.nvim](https://github.com/zgpio/brew.nvim): Neovim plugin manager powered by lua.
 - [bolt.nvim](https://github.com/ripxorip/bolt.nvim): Filter as you type file manager with fuzzy matching and ripgrep integration
 - [LeaderF](https://github.com/Yggdroot/LeaderF): An asynchronous fuzzy finder which is used to quickly locate files, buffers, mrus, tags, gtags, etc. in large project.
@@ -110,6 +111,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [Floobits](https://github.com/Floobits/floobits-neovim): Floobits plugin
 - [FlyGrep.vim](https://github.com/wsdjeg/FlyGrep.vim): Asynchronously fly grep in vim
 - [fzf-gitignore](https://github.com/fszymanski/fzf-gitignore): A fzf (command-line fuzzy finder) interface for creating .gitignore files using the gitignore.io API
+- [galaxyline.nvim](https://github.com/glepnir/galaxyline.nvim): A customizable statusline plugin written in Lua.
 - [gen_tags.vim](https://github.com/jsfaint/gen_tags.vim): Async plugin for Vim and Neovim to ease the use of Ctags/gTags
 - [git_fastfix](https://github.com/dm1try/git_fastfix): Apply "fast git fixups"(using UI) to the current development branch.
 - [golden_size](https://github.com/dm1try/golden_size): Resizes the active window to the "golden" size.
@@ -142,7 +144,9 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [nvim-editcommand](https://github.com/brettanomyces/nvim-editcommand): Edit your current shell command inside a scratch buffer
 - [nvim-gdb](https://github.com/sakhnik/nvim-gdb): Neovim thin wrapper for GDB, LLDB and PDB written in Moonscript/Lua
 - [nvim-go](https://github.com/zchee/nvim-go): Go development plugin for Neovim written in pure Go
+- [nvim-highlite](https://github.com/Iron-E/nvim-highlite): Colorscheme template & API
 - [nvim-ipy](https://github.com/bfredl/nvim-ipy): IPython/Jupyter integration
+- [nvim-libmodal](https://github.com/Iron-E/nvim-libmodal): Custom mode creation / keymap configuration
 - [nvim-luadev](https://github.com/bfredl/nvim-luadev): REPL for developing lua plugins
 - [nvim-luapad](https://github.com/rafcamlet/nvim-luapad): Interactive real time neovim scratchpad for embedded lua engine.
 - [nvim-miniyank](https://github.com/bfredl/nvim-miniyank): Simple yankring (shared across instances)
