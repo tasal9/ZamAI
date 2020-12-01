@@ -217,7 +217,7 @@ compiling the libuv dependency. See https://github.com/joyent/libuv/issues/1158.
 
 #### Arch Linux
 
-    sudo pacman -S base-devel cmake unzip ninja
+    sudo pacman -S base-devel cmake unzip ninja tree-sitter
 
 #### Alpine Linux
 
