@@ -297,9 +297,9 @@ gmake
 
 #### macOS
 
-* Install [Xcode](https://developer.apple.com/) and [Homebrew](http://brew.sh)
-  or [MacPorts](http://www.macports.org)
 * Install Xcode commandline tools `xcode-select --install`
+* Install [Homebrew](http://brew.sh)
+  or [MacPorts](http://www.macports.org)
 * Install other dependencies:
   * via MacPorts:
     ```
