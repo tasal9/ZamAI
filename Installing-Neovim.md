@@ -79,6 +79,7 @@ The [Releases](https://github.com/neovim/neovim/releases) page provides pre-buil
 
 Or install the development version of Nvim:
 
+    brew install --HEAD luajit
     brew install --HEAD neovim
 
 ### [Macports](https://www.macports.org/)
