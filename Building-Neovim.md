@@ -345,35 +345,35 @@ unless custom commands are provided, cygport just calls autogen/cmake, make, mak
 https://github.com/cascent/neovim-cygwin was built on cygwin 2.9.0. Newer libuv should require slightly less patching and some ssp stuff changed in cygwin 2.10.0 so that might change things too when building neovim.
 
 
-#### Windows / MSYS2
+#### Windows / MSYS2/MinGW
 
 From the MSYS2 shell install these packages
 
 ```
 pacman -S \
-    mingw-w64-x86_64-{gcc,libtool,cmake,make,perl,python2,pkg-config,unibilium} \
+    mingw-w64-x86_64-{gcc,libtool,cmake,make,perl,python2,pkg-config,ninja,diffutils} \
     gperf
 ```
 
 Now from the windows console (cmd.exe) setup the PATH and build
 
 ```cmd
-set PATH=c:\msys64\mingw64\bin;%PATH%
-set CC=gcc
+set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
 ```
 
-Build using the `MinGW Makefiles` generator
+Build using the `Ninja` generator
 
 ```cmd
 mkdir .deps
 cd .deps
-cmake  -G "MinGW Makefiles" ..\third-party\
-mingw32-make
+cmake  -G Ninja ..\third-party\
+ninja
 cd ..
 mkdir build
 cd build
-cmake -G "MinGW Makefiles" -DGPERF_PRG="C:\msys64\usr\bin\gperf.exe" ..
-mingw32-make
+cmake -G Ninja ..
+ninja
+ninja install
 ```
 
 For 32bit builds adjust the package names and paths accordingly.
