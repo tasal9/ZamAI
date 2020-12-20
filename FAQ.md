@@ -296,6 +296,19 @@ autocmd BufNewFile * unsilent echomsg 'The autocmd has been fired.'
 ```
 See the following issues: [#10008](https://github.com/neovim/neovim/issues/10008), [#10116](https://github.com/neovim/neovim/issues/10116), [#12288](https://github.com/neovim/neovim/issues/12288), [# vim/vim#4379](https://github.com/vim/vim/issues/4379).
 
+### `g:clipboard` settings are not used.
+
+If the clipboard provider is already loaded, you will need to reload it after configuration. Use the following configuration.
+
+```vim
+let g:clipboard = { 'name' : … }
+if exists('g:loaded_clipboard_provider')
+  unlet g:loaded_clipboard_provider
+  runtime autoload/provider/clipboard.vim
+endif
+```
+ 
+
 # Installation issues
 
 ### Generating helptags failed
