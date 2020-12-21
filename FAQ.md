@@ -318,7 +318,10 @@ function! s:clipboard_changed(...) abort
   runtime autoload/provider/clipboard.vim
 endfunction
 
-call dictwatcheradd(g:, 'clipboard', function('s:clipboard_changed'))
+if !exists('s:loaded")
+  call dictwatcheradd(g:, 'clipboard', function('s:clipboard_changed'))
+endif
+let s:loaded = v:true
 ```
 
 # Installation issues
