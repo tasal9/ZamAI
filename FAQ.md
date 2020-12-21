@@ -308,6 +308,18 @@ if exists('g:loaded_clipboard_provider')
 endif
 ```
  
+Or, if you want automatic reloading when assigning to `g:clipboard`, set `init.vim` as follows.
+
+```vim
+function! s:clipboard_changed(...) abort
+  if exists('g:loaded_clipboard_provider')
+    unlet g:loaded_clipboard_provider
+  endif
+  runtime autoload/provider/clipboard.vim
+endfunction
+
+call dictwatcheradd(g:, 'clipboard', function('s:clipboard_changed'))
+```
 
 # Installation issues
 
