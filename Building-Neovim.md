@@ -257,10 +257,13 @@ Tests are not available by default because of some unfixed failures. You can ena
 ```
 and replacing neovim-unwrapped by neovim-dev: `$ nix-shell '<nixpkgs>' -A neovim-dev`
 
-Starting november 2020, neovim contains a nix flake in the branch https://github.com/neovim/neovim/tree/flake, so developing on neovim is as simple as 
-```
-nix develop github:neovim/neovim/flake#neovim-unwrapped-debug
-```
+Starting november 2020, neovim contains a nix flake in the contrib folder, with 3 packages:
+- neovim to run the nightly
+- neovim-debug to run the package with debug symbols
+- neovim-developer to get all the tools to develop on neovim
+
+Thus you can run neovim nightly with `nix run github:neovim/neovim?dir=contrib`.
+Similarly to develop on neovim: `nix develop github:neovim/neovim?dir=contrib#neovim-developer`.
 
 #### FreeBSD
 
