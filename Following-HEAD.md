@@ -4,6 +4,10 @@ The following changes may require users to update configuration, plugins, or exp
 - Use `:checkhealth` to detect and fix common problems.
 
 ------------
+### 2020/12/*
+
+Windows nightly builds are disabled as we move from travis to github actions. Subscribe to https://github.com/neovim/neovim/issues/13312 for updates.
+
 ### 2020/11/23
 
 We changed the way tree-sitter parsers are integrated in nvim.
