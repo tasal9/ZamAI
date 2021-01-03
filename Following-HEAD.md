@@ -8,10 +8,6 @@ The following changes may require users to update configuration, plugins, or exp
 
 `:LspInstall` and `:LspInstallInfo` have been removed in `lspconfig` (in https://github.com/neovim/nvim-lspconfig/pull/498 as a follow up of https://github.com/neovim/nvim-lspconfig/issues/334). Refer to the server documentation to install them manually. Some servers may require `cmd` to be set to point at their previously installed location (elixir, sumneko, omnisharp).
 
-### 2020/12/*
-
-Windows nightly builds are disabled as we move from travis to github actions. Subscribe to https://github.com/neovim/neovim/issues/13312 for updates.
-
 ### 2020/11/23
 
 We changed the way tree-sitter parsers are integrated in nvim.
