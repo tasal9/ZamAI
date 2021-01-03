@@ -6,7 +6,7 @@ The following changes may require users to update configuration, plugins, or exp
 ------------
 ### 2021/1/3
 
-`:LspInstall` and `:LspInstallInfo` have been deprecated in `lspconfig`. Please see the documentation for each server and install manually. Some servers may require `cmd` to be set to point at their previously installed location (elixir, sumneko, omnisharp).
+`:LspInstall` and `:LspInstallInfo` have been removed in `lspconfig` (in https://github.com/neovim/nvim-lspconfig/pull/498 as a follow up of https://github.com/neovim/nvim-lspconfig/issues/334). Refer to the server documentation to install them manually. Some servers may require `cmd` to be set to point at their previously installed location (elixir, sumneko, omnisharp).
 
 ### 2020/12/*
 
