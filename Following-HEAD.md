@@ -4,6 +4,10 @@ The following changes may require users to update configuration, plugins, or exp
 - Use `:checkhealth` to detect and fix common problems.
 
 ------------
+### 2021/1/3
+
+`:LspInstall` and `:LspInstallInfo` have been deprecated in nvim-lspconfig. Please see the documentation for each server and install manually. Some servers may require `cmd` to be set to their previously installed location (elixir, sumneko, omnisharp).
+
 ### 2020/12/*
 
 Windows nightly builds are disabled as we move from travis to github actions. Subscribe to https://github.com/neovim/neovim/issues/13312 for updates.
