@@ -158,6 +158,7 @@ Community member 'Nanotee' has created a collection of resources in his [Getting
 - [colorizer](https://github.com/norcalli/nvim-colorizer.lua) A high-performance color highlighter for Neovim which has no external dependencies.
 - [formatter](https://github.com/mhartington/formatter.nvim) A plugin to asynchronously execute external formatting tools on the current buffer/range.
 - [daedalus](https://github.com/hkupty/daedalus.nvim) Intended to be used by plugin developers, so their clients can call remote APIs through their plugins.
+- [telescope](https://github.com/nvim-telescope/telescope.nvim) A modular fuzzy finder, written in pure lua.
 
 ## [Vim Conf](https://www.vimconf.live)
 
