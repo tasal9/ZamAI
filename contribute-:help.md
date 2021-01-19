@@ -1,0 +1,1 @@
+# How to update neovim's `:help` documentation ?
