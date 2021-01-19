@@ -121,9 +121,8 @@ Standard modules:
 
 ### Core Features Implemented in Lua
 
-- [neovim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Collection of common configurations for the Nvim LSP client.
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Collection of common configurations for the Nvim LSP client.
 - [completion-nvim](https://github.com/nvim-lua/completion-nvim)  - An auto completion framework that aims to provide a better completion experience with neovim's built-in LSP.
-- [diagnostic-nvim](https://github.com/nvim-lua/diagnostic-nvim)  - A wrapper for the default LSP diagnostics aimed to make for a more user friendly setup.
 - [lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)  - A Neovim plugin/library for generating statusline components from the built-in LSP client.
 
 ### Extensibility: Fennel (Lisp) and MoonScript
