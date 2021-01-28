@@ -7,8 +7,8 @@ _Note: Some of these projects are **experimental/unstable**._
 | Platform         | Project                                                                       | Activity  |
 |------------------|-------------------------------------------------------------------------------| :-------: |
 | Atom Integration | [carlosdcastillo/vim-mode](https://github.com/carlosdcastillo/vim-mode)       | abandoned |
-| Avalonia         | [yatli/fvim](https://github.com/yatli/fvim)                                   |           |
-| Browsers         | [Firenvim](https://github.com/glacambre/firenvim)                             |           |
+| Avalonia         | [yatli/fvim](https://github.com/yatli/fvim)                                   | active (c. 2020-Dec) |
+| Browsers         | [Firenvim](https://github.com/glacambre/firenvim)                             | active (c. 2021-Jan) |
 | C++/DirectWrite  | [RMichelsen/Nvy](https://github.com/RMichelsen/Nvy)                           |           |
 | C++/Python       | [meatich/NeoSFML](https://github.com/meatich/NeoSFML)                         | inactive  |
 | C++/SDL2         | [etorth/libnvc](https://github.com/etorth/libnvc)                             |           |
@@ -18,11 +18,11 @@ _Note: Some of these projects are **experimental/unstable**._
 | Electron UI      | [coolwanglu/neovim-e](https://github.com/coolwanglu/neovim-e)                 | inactive  |
 | Electron UI      | [rhysd/NyaoVim](https://github.com/rhysd/NyaoVim)                             | inactive  |
 | Electron UI      | [onivim/oni](https://github.com/onivim/oni)                                   | abandoned |
-| Electron UI      | [uivonim](https://github.com/smolck/uivonim)                                  | active (c. 2020-Nov-01) |
+| Electron UI      | [uivonim](https://github.com/smolck/uivonim)                                  | active (c. 2021-Jan) |
 | Electron UI      | [veonim](https://github.com/veonim/veonim)                                    | archived  |
-| Electron UI      | [VV](https://github.com/igorgladkoborodov/vv)                                 | active (c. 2020-Nov-01) |
+| Electron UI      | [VV](https://github.com/igorgladkoborodov/vv)                                 | active (c. 2020-Nov) |
 | gnome-terminal   | [neovim-gnome-terminal-wrapper](https://github.com/fmoralesc/neovim-gnome-terminal-wrapper) | |
-| Go/Qt            | [akiyosi/goneovim](https://github.com/akiyosi/goneovim)                       |           |
+| Go/Qt            | [akiyosi/goneovim](https://github.com/akiyosi/goneovim)                       | active (c. 2021-Jan) |
 | Go/Qt            | [dzhou121/gonvim](https://github.com/dzhou121/gonvim)                         | abandoned |
 | GTK/Python UI    | [neovim/python-gui](https://github.com/neovim/python-gui)                     | abandoned |
 | GTK/Python UI    | [rliang/nvim-pygtk3](https://github.com/rliang/nvim-pygtk3)                   |           |
@@ -34,9 +34,9 @@ _Note: Some of these projects are **experimental/unstable**._
 | macOS            | [qvacua/vimr](https://github.com/qvacua/vimr)                                 |           |
 | macOS            | [rogual/neovim-dot-app](https://github.com/rogual/neovim-dot-app)             |           |
 | mac OS UI        | [DinVim Vim for Mac](http://dinvim.com)                                       |           |
-| Qt 5             | [equalsraf/neovim-qt](https://github.com/equalsraf/neovim-qt)                 |           |
+| Qt 5             | [equalsraf/neovim-qt](https://github.com/equalsraf/neovim-qt)                 | active (c. 2021-Jan) |
 | Qt Creator       | [sassanh/qnvim](https://github.com/sassanh/qnvim)                             |           |
-| Rust             | [kethku/neovide](https://github.com/Kethku/neovide)                           |           |
+| Rust             | [kethku/neovide](https://github.com/Kethku/neovide)                           | active (c. 2021-Jan) |
 | Rust IDE         | [oakes/SolidOak](https://github.com/oakes/SolidOak)                           | archived  |
 | Sublime Text     | [lunixbochs/actualvim](https://github.com/lunixbochs/actualvim)               |           |
 | Terminal Wrapper | [glrnvim](https://github.com/beeender/glrnvim)                                |           |
