@@ -88,6 +88,13 @@ _Note: Some of these projects are **experimental/unstable**._
 
 The following plugins take advantage of specific Neovim features, e.g. `jobstart()`, `:terminal` or its remote plugin mechanism.
 
+#### builtin lsp extension plugins
+- [fzf-lsp](https://github.com/gfanto/fzf-lsp.nvim)
+- [lsp-status.nvim](https://github.com/wbthomason/lsp-status.nvim): Callbacks for LSP progress messages and easy statusline components, using Neovim's built-in LSP client
+- [lspsaga](https://github.com/glepnir/lspsaga.nvim)
+- [nvim-lightbulb](https://github.com/kosayoda/nvim-lightbulb)
+
+#### Generic plugins
 - [acid.nvim](https://github.com/clojure-vim/acid.nvim): Asynchronous nREPL client for Clojure development
 - [ale](https://github.com/dense-analysis/ale): Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support 
 - [Aniseed](https://github.com/Olical/aniseed): Write plugins for Neovim in Fennel, a Lisp that compiles to Lua
@@ -121,7 +128,6 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [iron.nvim](https://github.com/hkupty/iron.nvim): REPL management
 - [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim): Language Server Protocol (LSP) support for Neovim
 - [lldb.nvim](https://github.com/critiqjo/lldb.nvim): Debugger integration with a focus on ease-of-use
-- [lsp-status.nvim](https://github.com/wbthomason/lsp-status.nvim): Callbacks for LSP progress messages and easy statusline components, using Neovim's built-in LSP client
 - [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim): Preview Markdown files on your browser with synchronous scrolling; flexible configuration using Neovim's RPC API
 - [mirror.vim](https://github.com/zenbro/mirror.vim): Efficient way to edit remote files on multiple environments
 - [mkdx](https://github.com/SidOfc/mkdx): Vim plugin that adds some nice extras for working with Markdown documents
@@ -153,7 +159,6 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [nvim-miniyank](https://github.com/bfredl/nvim-miniyank): Simple yankring (shared across instances)
 - [nvim-marksman](https://github.com/svermeulen/nvim-marksman) - A file finder that minimizes the amount of keystrokes needed to go to a file
 - [nvim-moonmaker](https://github.com/svermeulen/nvim-moonmaker): Adds plugin support for MoonScript files in the same way the built-in support for Lua/Python files works (by automatically compiling MoonScript files to Lua)
-- [nvim-palette](https://github.com/teto/nvim-palette): Fuzzy search of settings
 - [Nvim-R](https://github.com/jalvesaq/Nvim-R): Plugin to work with R
 - [nvim-scrollview](https://github.com/dstein64/nvim-scrollview): A plugin that displays (non-interactive) scrollbars. 
 - [nvim-terminus](https://github.com/brettanomyces/nvim-terminus): Edit your current command in a scratch buffer
