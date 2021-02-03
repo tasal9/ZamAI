@@ -80,17 +80,27 @@ Example: https://github.com/neovim/neovim/commit/00f60c2ce78fc1280e93d5a36bc7b22
 - Updates to `testdir/Makefile` are usually NA because the Makefile [implicitly finds](https://github.com/neovim/neovim/commit/8a677f8a4bff6005fa39f090c14e970c3dfdbe6e#diff-b3c6ad6680a25a1b42095879e3a87104R52) all `test_*.vim` files.
 - **Compiler warning fixes**: Neovim strives to have no warnings at all, and has a very different build system from Vim.
     - **Note:** Coverity fixes in Vim *are* relevant to Neovim.
+- `*.proto`: Neovim autogenerates function prototypes
 - **#ifdef tweaking**: For example, Vim decided to enable `FEAT_VISUAL` for all platforms — but Neovim already does that. Adding new `FEAT_` guards also isn't relevant to Neovim.
 - **Legacy system support**: Fixes for legacy systems such as Amiga, OS/2 Xenix, Mac OS 9, Windows older than XP SP2, are not needed because they are not supported by Neovim.
+  - src/Make*
 - **`if_*.c`** changes: `if_python.c` et. al. were removed.
 - **term.c** changes: the Neovim TUI uses libtermkey to read terminal sequences; Vim's `term.c` was removed.
 - `:terminal` patches
 - `defaults.vim` patches
 - Most **GUI-related** changes: Neovim GUIs are implemented external to the core C codebase.
+  - src/gui*, src/gvim*, src/GvimExt/, src/testdir/test_gui*
+- `balloon` changes: Neovim does not support balloon feature
+  - src/beval*
+- libvterm changes: Neovim does not vendor libvterm in `src/`.
 - Screendump tests from `test_popupwin.vim`, `test_popupwin_textprop.vim`:  https://github.com/neovim/neovim/pull/12741#issuecomment-704677141
-- `test_json.vim`: incompatible API https://github.com/neovim/neovim/pull/4131
+- json changes: incompatible API https://github.com/neovim/neovim/pull/4131
+  - src/json*
+  - src/testdir/test_json.vim
 - `test_restricted.vim` restricted mode is removed in https://github.com/neovim/neovim/pull/11996
 - `test_prompt_buffer.vim` requires incompatible Vim features such as `channel`
+- non-runtime documentation:
+  - Filelist, README, INSTALL*, 
 - Anything else might be relevant; err on the side of caution, and post an issue if you aren't sure. 
 
 version.c
