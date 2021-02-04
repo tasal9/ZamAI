@@ -89,10 +89,12 @@ _Note: Some of these projects are **experimental/unstable**._
 The following plugins take advantage of specific Neovim features, e.g. `jobstart()`, `:terminal` or its remote plugin mechanism.
 
 #### builtin lsp extension plugins
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig): a collection of LSP configurations
 - [fzf-lsp](https://github.com/gfanto/fzf-lsp.nvim)
 - [lsp-status.nvim](https://github.com/wbthomason/lsp-status.nvim): Callbacks for LSP progress messages and easy statusline components, using Neovim's built-in LSP client
-- [lspsaga](https://github.com/glepnir/lspsaga.nvim)
-- [nvim-lightbulb](https://github.com/kosayoda/nvim-lightbulb)
+- [lspsaga](https://github.com/glepnir/lspsaga.nvim) custom LSP experience
+- [nvim-lightbulb](https://github.com/kosayoda/nvim-lightbulb) show available code actions
+- [lspkind-nvim](https://github.com/onsails/lspkind-nvim/) add icon depending on type in completion menu
 
 #### Generic plugins
 - [acid.nvim](https://github.com/clojure-vim/acid.nvim): Asynchronous nREPL client for Clojure development
