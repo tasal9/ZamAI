@@ -29,7 +29,7 @@ Packages are listed below. (You can also [build Neovim from source](#install-fro
 - **Release (v0.4):** `choco install neovim` (use -y for automatically skipping confirmation messages)
 - **Development (pre-release):** `choco install neovim --pre`
 
-### [Scoop](http://scoop.sh/)
+### [Scoop](https://scoop.sh/)
 
 - **Release:** `scoop install neovim`
 - **Development (pre-release):**
@@ -73,7 +73,7 @@ The [Releases](https://github.com/neovim/neovim/releases) page provides pre-buil
     tar xzf nvim-macos.tar.gz
     ./nvim-osx64/bin/nvim
 
-### [Homebrew](http://brew.sh) on macOS or Linux
+### [Homebrew](https://brew.sh) on macOS or Linux
 
     brew install neovim
 
@@ -91,7 +91,7 @@ Or install the development version of Nvim:
 
 ### AppImage ("universal" Linux package)
 
-The [Releases](https://github.com/neovim/neovim/releases) page provides an [AppImage](http://appimage.org) that runs on most Linux systems. No installation is needed, just download `nvim.appimage` and run it. (It might not work if your Linux distribution is more than 4 years old.)
+The [Releases](https://github.com/neovim/neovim/releases) page provides an [AppImage](https://appimage.org) that runs on most Linux systems. No installation is needed, just download `nvim.appimage` and run it. (It might not work if your Linux distribution is more than 4 years old.)
 
     curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
     chmod u+x nvim.appimage
@@ -123,11 +123,11 @@ The Python module is available from the community repository:
 
 Python 2 and Ruby modules (currently only supported in `neovim-git`) are available from the AUR as [`python2-neovim`](https://aur.archlinux.org/packages/python2-neovim-git) and [`ruby-neovim`](https://aur.archlinux.org/packages/ruby-neovim) respectively.
 
-### CentOS 7 / RHEL 7
+### CentOS 8 / RHEL 8
 
 Neovim is available through [EPEL (Extra Packages for Enterprise Linux)](https://fedoraproject.org/wiki/EPEL)
 
-    yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+    yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
     yum install -y neovim python36-neovim
     # you might need python2-neovim as well on older Fedora releases
 
@@ -178,7 +178,7 @@ Exhereses for scm and released versions are currently available in repository `:
 
 ### Fedora
 
-Neovim is in [Fedora](https://admin.fedoraproject.org/pkgdb/package/rpms/neovim/) starting with Fedora 25:
+Neovim is in [Fedora](https://src.fedoraproject.org/rpms/neovim) starting with Fedora 25:
 
     sudo dnf install -y neovim python3-neovim
 
@@ -246,7 +246,7 @@ Neovim is in [PLD Linux](https://github.com/pld-linux/neovim):
 
 ### Slackware
 
-See [neovim on SlackBuilds](http://slackbuilds.org/apps/neovim/).
+See [neovim on SlackBuilds](https://slackbuilds.org/apps/neovim/).
 
 For instructions on how to install the Python modules, see [`:help provider-python`].
 
@@ -351,7 +351,7 @@ Neovim can be installed using the apk package manager
 
 ### FreeBSD
 
-Neovim can be installed using [`pkg(8)`](http://man.freebsd.org/pkg/8):
+Neovim can be installed using [`pkg(8)`](https://www.freebsd.org/cgi/man.cgi?query=pkg&sektion=8&n=1):
 
     pkg install neovim
 
@@ -359,7 +359,7 @@ or [from the ports tree](https://www.freshports.org/editors/neovim/):
 
     cd /usr/ports/editors/neovim/ && make install clean
 
-To install the pynvim Python modules using [`pkg(8)`](http://man.freebsd.org/pkg/8) run:
+To install the pynvim Python modules using [`pkg(8)`](https://www.freebsd.org/cgi/man.cgi?query=pkg&sektion=8&n=1) run:
 
     pkg install py27-pynvim py36-pynvim
 
