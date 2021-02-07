@@ -155,6 +155,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [nvim-gdb](https://github.com/sakhnik/nvim-gdb): Neovim thin wrapper for GDB, LLDB and PDB written in Moonscript/Lua
 - [nvim-go](https://github.com/zchee/nvim-go): Go development plugin for Neovim written in pure Go
 - [nvim-highlite](https://github.com/Iron-E/nvim-highlite): Colorscheme template & API
+- [nvim-hlslens](https://github.com/kevinhwang91/nvim-hlslens): Hlsearch Lens for Neovim, better glance searched information
 - [nvim-ipy](https://github.com/bfredl/nvim-ipy): IPython/Jupyter integration
 - [nvim-libmodal](https://github.com/Iron-E/nvim-libmodal): Custom mode creation / keymap configuration
 - [nvim-luadev](https://github.com/bfredl/nvim-luadev): REPL for developing lua plugins
