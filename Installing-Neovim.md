@@ -111,7 +111,7 @@ nvim
 
 Neovim can be installed from the community repository:
 
-    sudo pacman -S neovim
+    sudo pacman -Sy neovim
 
 Alternatively, Neovim can be also installed using the PKGBUILD [`neovim-git`](https://aur.archlinux.org/packages/neovim-git), available on the [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository).
 
