@@ -6,7 +6,7 @@ The following changes may require users to update configuration, plugins, or exp
 ------------
 ### 2021/3/3
 
-Neovim nightly has a change in undofile format compared to older versions ( [#13973](https://github.com/neovim/neovim/pull/13973/) ). New versions of neovim will not read undofiles written by nvim before this PR (there will be an error message about incompatible version). Nvim 0.4 (or an master up to bda12927be84f0e0e05e885f9acb40a7ac2c5524 ) can be used to recover older undofiles, so if you worried about unsaved changes lurking around in undofiles it would make sense to keep such version around somewhere to recover them.
+Neovim has a change in undofile format compared to older versions ( [#13973](https://github.com/neovim/neovim/pull/13973/) ). New versions of neovim will not read undofiles written by nvim before this PR (there will be an error message about incompatible version). Nvim 0.4 (or a master up to bda12927be84f0e0e05e885f9acb40a7ac2c5524 ) can be used to recover older undofiles, so if you worried about unsaved changes lurking around in undofiles it would make sense to keep such version around somewhere to recover them.
 
 This is a necessary change to keep tree-sitter and plugins dependent on byte-level buffer change events fully working with undo states from a undofile. If there is a clear demand we might implement reading of the old format. Such recovered buffers will not be be fully functional with plugins relying on buffer updates or tree-sitter, however.
 
