@@ -8,7 +8,7 @@ _Note: Some of these projects are **experimental/unstable**._
 |------------------|-------------------------------------------------------------------------------| :-------: |
 | Atom Integration | [carlosdcastillo/vim-mode](https://github.com/carlosdcastillo/vim-mode)       | abandoned |
 | Avalonia         | [yatli/fvim](https://github.com/yatli/fvim)                                   | active (c. 2020-Dec) |
-| Browsers         | [Firenvim](https://github.com/glacambre/firenvim)                             | active (c. 2021-Jan) |
+| Browsers         | [glacambre/firenvim](https://github.com/glacambre/firenvim)                   | active (c. 2021-Jan) |
 | C++/DirectWrite  | [RMichelsen/Nvy](https://github.com/RMichelsen/Nvy)                           |           |
 | C++/Python       | [meatich/NeoSFML](https://github.com/meatich/NeoSFML)                         | inactive  |
 | C++/SDL2         | [etorth/libnvc](https://github.com/etorth/libnvc)                             |           |
@@ -29,6 +29,7 @@ _Note: Some of these projects are **experimental/unstable**._
 | GTK/Python UI    | [Bominade (b8)](https://gitlab.com/afshar-oss/b8)                             |           |
 | GTK/Rust UI      | [daa84/neovim-gtk](https://github.com/daa84/neovim-gtk)                       |           |
 | GTK/Rust UI      | [GNvim](https://github.com/vhakulinen/gnvim)                                  |           |
+| I3/Sway          | [glacambre/nwin](https://github.com/glacambre/nwin)                           |           |
 | JavaFX           | [jebberjeb/javafx-neovimpane](https://github.com/jebberjeb/javafx-neovimpane) |           |
 | Konsole          | [harish2704/neovim-konsole](https://github.com/harish2704/neovim-konsole)     | deprecated |
 | macOS            | [qvacua/vimr](https://github.com/qvacua/vimr)                                 |           |
