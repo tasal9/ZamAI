@@ -136,15 +136,15 @@ Standard modules:
 
 ### NVIM Dev tools - (which are the most useful?)
 
-- [Plenary](https://github.com/nvim-lua/plenary.nvim) Mention luarocks integration
-- [Packer](https://github.com/wbthomason/packer.nvim)
+- [Plenary](https://github.com/nvim-lua/plenary.nvim) 
+- [Packer](https://github.com/wbthomason/packer.nvim) mention luarocks integration
 - [nlua](https://github.com/tjdevries/nlua.nvim)
 - [nvim.lua](norcalli/nvim.lua)
 - [nvim-luadev](https://github.com/bfredl/nvim-luadev)
 
 - The nvim-lua family
   - Plenary/ popup.nvim, things that might become part of core
-- TreeSitter: Rethinking regex : Expand region comparison and ideas for future plugins
+- tree-sitter: Rethinking regex : Expand region comparison and ideas for future plugins
   - speak about what could be replaced, word-motion? fancy markdown stuff, vim-exchange
 
 ### Lua Plugins and Configuration
@@ -208,6 +208,14 @@ libuv / libvterm ?
 
 
 ### Highlight yanked region
+
+Neovim now has a built-in function to briefly highlight the yanked region (similarly to https://github.com/machakann/vim-highlightedyank), configurable from Lua. To use it, add the following to your `init.vim`:
+```
+au TextYankPost * silent! lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
+```
+
+(mention edge cases with block-visual selection for virtual edit (https://github.com/neovim/neovim/pull/13320) and multi-byte characters (https://github.com/neovim/neovim/pull/13896))
+
 ### LuaHL
 ## LibGit2
 
@@ -266,10 +274,11 @@ Note that two of the core contributors have started streaming some of their neov
 - @norcalli at 
 
 We also welcome to the core team:
-- @janlazo that has been hard at work porting vim patches to neovim patches.
+- @janlazo has been hard at work porting vim patches to neovim patches.
 - @erw7 has fixed an impressive number of bugs, added [screen](https://www.gnu.org/software/screen/) support along with windows-related improvements
 - @vigoux has become our "lead tree-sitter dev" and with @theHamsta and @kyazdani42 (and others), these madmen [experiment with tree-sitter](https://github.com/nvim-treesitter/nvim-treesitter) until they find something worth upstreaming
-- @h-michael reigns over https://github.com/neovim/nvim-lspconfig and overseered its renaming from the confusing `nvim-lsp` to the clearer `nvim-lspconfig`
+- @h-michael reigns over https://github.com/neovim/nvim-lspconfig and oversaw its renaming from the confusing `nvim-lsp` to the clearer `nvim-lspconfig`
+- @mjlbach put his back in and carried the ball over the finish line
 
 
 ### What's next ?
