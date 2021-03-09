@@ -124,7 +124,7 @@ See the [`memory.c` Doxygen page](http://neovim.io/doc/dev/memory_8c.html) for m
 |:----------------------------------------|:------------------:|
 | `vim_free`                              | `xfree`             |
 | `VIM_CLEAR(&foo)`                       | `XFREE_CLEAR(foo)` |
-| `malloc` `alloc` `lalloc` `lalloc_id`   | `xmalloc`          |
+| `malloc` `alloc` `lalloc` `lalloc_id` `ALLOC_ONE` | `xmalloc`          |
 | `calloc` `lalloc_clear`                 | `xcalloc`          |
 | `realloc` `vim_realloc`                 | `xrealloc`         |
 | `mch_memmove`                           | `memmove`          |
