@@ -285,6 +285,10 @@ It *does* happen (try `vim -N -u NONE`), but *if you hit a key quickly after ESC
 
 Nvim 0.3 mimics the Vim behavior while still fully supporting ALT mappings. See `:help i_ALT`.
 
+### `ESC` in GNU Screen is lost when mouse mode is enabled
+
+This happens because of [a bug in screen](https://savannah.gnu.org/bugs/?60196): in mouse mode, screen assumes that `ESC` is part of a mouse sequence and will wait an unlimited time for the rest of the sequence, regardless of `maptimeout`. Until it's fixed in screen, there's no known workaround for this other than double-pressing escape, which causes a single escape to be passed through to Nvim.
+
 ### Calling `inputlist()`, `echomsg`, etc... in filetype plugins and `autocmd` does not work
 
 This is because, unlike vim, the default option `shortmess` contains the `F` in it. Vim behaves the same way when you `set shortmes+=F`. Maybe this behavior should be improved. As a workaround, use `set shortmess-=F` or use `unsilent` as follows.
