@@ -1,6 +1,7 @@
+#+TITLE: Neovim_newsletter
 This is an attempt at a collaborative newsletter for the 0.5 release.
 
-The goal is not to dive too deep 
+The goal is not to dive too deep
 
 The final one will be pushed at https://github.com/neovim/neovim.github.io/pull/200.
 
@@ -13,21 +14,15 @@ permalink: /news/2020/09/
 
 Newsletter notes
 
-## Something something Covid
-
 ## [0.5 Milestones](https://github.com/neovim/neovim/milestone/19)
 
-## LSP & Tree-sitter - Maximizing Vim's potential/The future of text editing
+## LSP & Tree-sitter - The future of text editing
 
-- lightweight
-- tight integration
+The two most notable features of the 0.5 release are the integration of a language server client and experimental support for tree-sitter into Neovim core. Together, these tools are lightweight and powerful additions to Neovim which allow for your editor to more deeply understand the text (and larger programs) it operates on.
 
 ## What is LSP
 
-[Language Server Protocol](https://microsoft.github.io/language-server-protocol/) (LSP) is an open, JSON-RPC-based protocol for use between source code editors or integrated development environments (IDEs) and servers that provide programming language-specific features.
-The goal of the protocol is to allow programming language support to be implemented and distributed independently of any given editor or IDE.
-
-[Language specific implementations and feature support](https://langserver.org/)
+[Language Server Protocol](https://microsoft.github.io/language-server-protocol/) (LSP) is an open, JSON-RPC-based protocol for communication between source code editors and language servers, which provide programming language-specific features such as:
 
 - (auto)completion
 - Code Actions (automatic formatting, organize imports, ...)
@@ -36,36 +31,41 @@ The goal of the protocol is to allow programming language support to be implemen
 - Show/go to references
 - Snippets
 
+The goal of the protocol is to allow programming language support to be implemented and distributed independently of any given editor or IDE. A list of the language specific implementations and feature coverage can be found [here](https://langserver.org/).
+
 ## What is Tree Sitter
 
-"A really awesome parser"
-"Tree sitter offers a way to navigate ASTs"
-"tree-sitter queries are the new snippets"?
-Error recovery
-"power of vim editing == textobjects" and "tree-sitter == smarter textobjects"
+Neovim 0.5 adds experimental support for tree-sitter, a tool which handles generating parsers and serves as a parsing library. Parsing your code into a syntax tree allows for manipulating the structure of your code in a more intelligent way than is currently possible with regular expressions. This allows for improved (and faster):
 
-@norcalli - "every file you edit (which has a treesitter grammar definition available) will have the syntactic information of what you're working on available to use for anything you want. It's like a core intelligence was added to neovim which was fundamentally missing before."
-@norcalli - "Syntax highlighting is just a consequence of finally being able to understand the program you're working on. There are many, many, many other consequences which are possible, and those text objects are ones for which I'm also super excited."
+- syntax highlighting
+- code navigation
+- refactoring
+- text objects and motions
 
-Came from Atom
-
-A presentation from the author on what Tree-sitter is and how it came to be:
-[Tree-sitter - A new parsing system for programming tools - Max Brunsfield](https://www.youtube.com/watch?v=Jes3bD6P0To&feature=youtu.be&t=232)
-
-Both [`bash-language-server`](https://github.com/bash-lsp/bash-language-server) and [`wasm-language-server`](https://github.com/wasm-lsp/wasm-language-server) leverage Tree-sitter behind the scenes.
+To learn more about tree-sitter, you can view the following presentation from the tree-sitter author:
+[Tree-sitter - A new parsing system for programming tools - Max Brunsfield](https://www.youtube.com/watch?v=Jes3bD6P0To&feature=youtu.be&t=232).
 
 ### Tree-sitter and Neovim
 
-- Semantic Highlighting: Consistent syntax highlighting.
-  Performance difference between syntax highlighting from a language server and syntax highlighting from TreeSitter
+Currently, in combination with [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter), the following features are supported:
 
-- `incremental selection` Expand/contract visual selection based on the named nodes from the grammar.
+- Semantic Highlighting: consistent syntax highlighting.
+  Performance difference between syntax highlighting from a language server and syntax highlighting from TreeSitter
+- `incremental selection` Expand and contract visual selection based on the named nodes from the grammar.
 - `highlight_definitions` Highlight definition and usages of the current symbol under the cursor.
 - `highlight_current_scope` Highlight a block that visualizes the current scope based on the current cursor position.
 - `smart_rename` Rename the symbol under the cursor within the current scope (and current file).
 - `navigation` Create mappings to list and jump to definitions or next/previous usage of the object under the cursor.
 - `textobjects` Define custom Tree-Sitter based text objects similar to `ip` (inner paragraph) and `ap` (a paragraph). Create mappings to easily swap and move objects.
-- Syntax based code folding and Statusline Indicator.
+- `folds` Syntax based code folding.
+- `statusline` Statusline Indicator with awareness of current function and class scope.
+
+
+## How is Tree Sitter different from a language server?
+
+Tree-sitter operates on a single file, parsing the file into a syntax tree which is used to support the variety of enhanced code navgation and manipulation functions. Language servers operate across multiple files and project libraries, but may use a different library for parsing each file's syntax tree.
+
+Both [`bash-language-server`](https://github.com/bash-lsp/bash-language-server) and [`wasm-language-server`](https://github.com/wasm-lsp/wasm-language-server) leverage Tree-sitter behind the scenes to support the language server operations.
 
 ## Lua! Lua! Lua!
 
@@ -136,7 +136,7 @@ Standard modules:
 
 ### NVIM Dev tools - (which are the most useful?)
 
-- [Plenary](https://github.com/nvim-lua/plenary.nvim) 
+- [Plenary](https://github.com/nvim-lua/plenary.nvim)
 - [Packer](https://github.com/wbthomason/packer.nvim) mention luarocks integration
 - [nlua](https://github.com/tjdevries/nlua.nvim)
 - [nvim.lua](norcalli/nvim.lua)
@@ -271,7 +271,7 @@ added lines: 9226 removed lines: 7002 total lines: 2224
 
 Note that two of the core contributors have started streaming some of their neovim development sessions:
 - @tjdevries https://www.twitch.tv/teej_dv
-- @norcalli at 
+- @norcalli at
 
 We also welcome to the core team:
 - @janlazo has been hard at work porting vim patches to neovim patches.
@@ -308,6 +308,5 @@ Thank you **@justinmk** for the awesome project and thank you **@brammool** for 
 
 - [GitHub will match all contributions (up to $5k)](https://github.blog/2019-05-23-announcing-github-sponsors-a-new-way-to-contribute-to-open-source/) within a developers first year.
 - [BountySource charges fees](https://www.bountysource.com/fees), [GitHub only charges for payment processing](https://github.blog/2019-05-23-announcing-github-sponsors-a-new-way-to-contribute-to-open-source/).
-As mentioned in our last newsletter, you can now sponsor neovim's development via both 
+As mentioned in our last newsletter, you can now sponsor neovim's development via both
 - [BountySource began introducing worrying changes to their Terms of Service agreement.](https://diziet.dreamwidth.org/5938.html)
-
