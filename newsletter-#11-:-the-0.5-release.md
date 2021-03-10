@@ -49,7 +49,7 @@ To learn more about tree-sitter, you can view the following presentation from th
 
 Currently, in combination with [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter), the following features are supported:
 
-- Semantic Highlighting: consistent syntax highlighting.
+- `semantic highlighting` consistent syntax highlighting.
   Performance difference between syntax highlighting from a language server and syntax highlighting from TreeSitter
 - `incremental selection` Expand and contract visual selection based on the named nodes from the grammar.
 - `highlight_definitions` Highlight definition and usages of the current symbol under the cursor.
