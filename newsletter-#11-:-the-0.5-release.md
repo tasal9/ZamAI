@@ -1,4 +1,3 @@
-#+TITLE: Neovim_newsletter
 This is an attempt at a collaborative newsletter for the 0.5 release.
 
 The goal is not to dive too deep
