@@ -149,18 +149,18 @@ Community member 'Nanotee' has created a collection of resources in his [Getting
 
 ---
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Collection of common configurations for the Nvim LSP client. Mainted by core.
-- [telescope](https://github.com/nvim-telescope/telescope.nvim) A modular fuzzy finder, written in pure lua.
+- [telescope](https://github.com/nvim-telescope/telescope.nvim) - A modular fuzzy finder, written in pure lua.
 - [nvim-compe](https://github.com/nvim-lua/completion-nvim)  - An auto completion framework that aims to provide a better completion experience with neovim's built-in LSP.
-- [architext](https://github.com/vigoux/architext.nvim) A structural editing plugin for neovim, powered by treesitter.
-- [neogit](https://github.com/TimUntersberger/neogit) Magit, but for neovim.
-- [snippets](https://github.com/norcalli/snippets.nvim) A powerful snippet engine with live previews.
-- [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) A pure Lua (teal) plugin for lightning fast git signs.
-- [lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)  - A Neovim plugin/library for generating statusline components from the built-in LSP client.
+- [architext](https://github.com/vigoux/architext.nvim) - A structural editing plugin for neovim, powered by treesitter.
+- [neogit](https://github.com/TimUntersberger/neogit) - Magit, but for neovim.
+- [snippets](https://github.com/norcalli/snippets.nvim) - A powerful snippet engine with live previews.
+- [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - A pure Lua (teal) plugin with asynchronous git signs leveraging lib.
+- [lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim) - A Neovim plugin/library for generating statusline components from the built-in LSP client.
 - [nvim-dap](https://github.com/mfussenegger/nvim-dap) - A debug adapter protocol implementation for step-through debugging of your code.
-- [colorizer](https://github.com/norcalli/nvim-colorizer.lua) A high-performance color highlighter for Neovim which has no external dependencies.
-- [formatter](https://github.com/mhartington/formatter.nvim) A plugin to asynchronously execute external formatting tools on the current buffer/range.
-- [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim) A plugin which makes the built-in language server client more beautiful.
-- [daedalus](https://github.com/hkupty/daedalus.nvim) Intended to be used by plugin developers, so their clients can call remote APIs through their plugins.
+- [colorizer](https://github.com/norcalli/nvim-colorizer.lua) - A high-performance color highlighter for Neovim which has no external dependencies.
+- [formatter](https://github.com/mhartington/formatter.nvim) - A plugin to asynchronously execute external formatting tools on the current buffer/range.
+- [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim) - A plugin which makes the built-in language server client more beautiful.
+- [daedalus](https://github.com/hkupty/daedalus.nvim) - Intended to be used by plugin developers, so their clients can call remote APIs through their plugins.
 
 ### Lua configuration -- mention init.lua
 
