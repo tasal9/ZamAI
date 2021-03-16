@@ -13,7 +13,13 @@ permalink: /news/2020/09/
 
 Newsletter notes
 
+"The real 0.5 was the friends we made along the way"
+
 ## [0.5 Milestones](https://github.com/neovim/neovim/milestone/19)
+
+## New central community forum: The Neovim Discourse
+
+Previously support requests were spread across Reddit, Matrix/IRC/Gitter, and GitHub Discussions. We have now consolidated around a new Discourse instance accesible [here](https://neovim.discourse.group). Discourse is a free and open source forum platform with mailing list and RSS features, in addition to a nice web interface. The Discourse is an official core project, and moderated by core team members.
 
 ## LSP & Tree-sitter - The future of text editing
 
@@ -48,8 +54,9 @@ To learn more about tree-sitter, you can view the following presentation from th
 
 Currently, in combination with [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter), the following features are supported:
 
-- `semantic highlighting` consistent syntax highlighting.
+- Semantic Highlighting: consistent syntax highlighting.
   Performance difference between syntax highlighting from a language server and syntax highlighting from TreeSitter
+
 - `incremental selection` Expand and contract visual selection based on the named nodes from the grammar.
 - `highlight_definitions` Highlight definition and usages of the current symbol under the cursor.
 - `highlight_current_scope` Highlight a block that visualizes the current scope based on the current cursor position.
@@ -57,7 +64,7 @@ Currently, in combination with [nvim-treesitter](https://github.com/nvim-treesit
 - `navigation` Create mappings to list and jump to definitions or next/previous usage of the object under the cursor.
 - `textobjects` Define custom Tree-Sitter based text objects similar to `ip` (inner paragraph) and `ap` (a paragraph). Create mappings to easily swap and move objects.
 - `folds` Syntax based code folding.
-- `statusline` Statusline Indicator with awareness of current function and class scope.
+- `statusline` Statusline Indicator with awareness of current function or class scope.
 
 
 ## How is Tree Sitter different from a language server?
@@ -67,6 +74,10 @@ Tree-sitter operates on a single file, parsing the file into a syntax tree which
 Both [`bash-language-server`](https://github.com/bash-lsp/bash-language-server) and [`wasm-language-server`](https://github.com/wasm-lsp/wasm-language-server) leverage Tree-sitter behind the scenes to support the language server operations.
 
 ## Lua! Lua! Lua!
+
+"Lua is designed for embedding"
+"Lua is fast, LuaJit is *ridiculously* fast"
+"Less is more: Lua language is super small, simple, _complete_(frozen)"
 
 Some excerpts from Justin M Keyes ["We can have nice things"](https://www.youtube.com/watch?v=Bt-vmPC_-Ho) presentation at Vim Conf 2019
 
@@ -102,13 +113,7 @@ foo.vim
 
 mention [Vim9 script](https://vimhelp.org/vim9.txt.html), the issues it addresses and any statements made by Neovim regarding compatibility.
 
-### Lua stdlib
-
-"Lua is designed for embedding"
-"Lua is fast, LuaJit is *ridiculously* fast"
-"Less is more: Lua language is super small, simple, _complete_(frozen)"
-
-### Extensibility: Nvim is the "stdlib"
+### Lua stdlib: Nvim is the "stdlib"
 
 ```text
 Standard modules:
@@ -118,46 +123,48 @@ Standard modules:
 - ... trivial to add more(mention luarocks/nvimrocks/plenary)
 ```
 
-### Core Features Implemented in Lua
+### Languages that compile to Lua
 
-- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Collection of common configurations for the Nvim LSP client.
-- [completion-nvim](https://github.com/nvim-lua/completion-nvim)  - An auto completion framework that aims to provide a better completion experience with neovim's built-in LSP.
-- [lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)  - A Neovim plugin/library for generating statusline components from the built-in LSP client.
-
-### Extensibility: Fennel (Lisp) and MoonScript
+One advantage of Lua as a scripting language is that there are many languages which compile to Lua, allowing you to write plugins in your language of choice.
 
 - [Fennel(Lisp)](https://fennel-lang.org)
   - try [fennel-nvim](https://github.com/jaawerth/fennel-nvim) to auto-execute `init.fnl`
-- [Aniseed](https://github.com/Olical/aniseed) - Bridges the gap between Fennel and Neovim. Aims to allow easy creation of plugins or configuration in a Clojure-like Lisp with great runtime performance.
+  - [Aniseed](https://github.com/Olical/aniseed) - Bridges the gap between Fennel and Neovim. Aims to allow easy creation of plugins or configuration in a Clojure-like Lisp with great runtime performance.
+- [Teal](https://github.com/teal-language/tl) - A typed dialect of lua
+- [Amulet ML](https://amulet.works) - A functional programming language in the ML tradition
 - [Ratatoskr](https://github.com/vigoux/ratatoskr.nvim) - An experiment to use Fennel to generate queries in Neovim.
 - [MoonScript](https://github.com/leafo/moonscript)
   - [nvim-moonmaker](https://github.com/svermeulen/nvim-moonmaker) - Moonscript to compiled Lua
 
-### NVIM Dev tools - (which are the most useful?)
+### Useful tools for developing Lua for Neovim
 
-- [Plenary](https://github.com/nvim-lua/plenary.nvim)
-- [Packer](https://github.com/wbthomason/packer.nvim) mention luarocks integration
-- [nlua](https://github.com/tjdevries/nlua.nvim)
-- [nvim.lua](norcalli/nvim.lua)
-- [nvim-luadev](https://github.com/bfredl/nvim-luadev)
+- [Plenary](https://github.com/nvim-lua/plenary.nvim) -  A lua library of useful utilities for developing neovim plugins, some of which will be integrated into core
+- [Packer](https://github.com/wbthomason/packer.nvim) - A use-package like plugin manager in pure Lua, with the ability to add plugin dependencies and install Lua libraries from luarocks
+- [nlua](https://github.com/tjdevries/nlua.nvim) - A plugin which, together with nvim-lspconfig, provides useful configuration and tools for developing a Lua plugin
+- [nvim-luadev](https://github.com/bfredl/nvim-luadev) - a Lua debugging plugin which provides an interactive REPL, and handy debugging features for working on Neovim lua plugins
 
-- The nvim-lua family
-  - Plenary/ popup.nvim, things that might become part of core
-- tree-sitter: Rethinking regex : Expand region comparison and ideas for future plugins
-  - speak about what could be replaced, word-motion? fancy markdown stuff, vim-exchange
+### Lua Plugins
 
-### Lua Plugins and Configuration
-
-Community member 'Nanotee' has created a collection of resources in his [Getting started using Lua in Neovim](https://github.com/nanotee/nvim-lua-guide) guide that provide a good starting point for developers.
+Community member 'Nanotee' has created a collection of resources in his [Getting started using Lua in Neovim](https://github.com/nanotee/nvim-lua-guide) guide that provide a good starting point for developers. You can get help with [plugin development](https://neovim.discourse.group/c/plugin-development/10) and more generally [Lua development](https://neovim.discourse.group/c/lua/8) on our Discourse.
 
 ---
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Collection of common configurations for the Nvim LSP client. Mainted by core.
+- [telescope](https://github.com/nvim-telescope/telescope.nvim) A modular fuzzy finder, written in pure lua.
+- [nvim-compe](https://github.com/nvim-lua/completion-nvim)  - An auto completion framework that aims to provide a better completion experience with neovim's built-in LSP.
 - [architext](https://github.com/vigoux/architext.nvim) A structural editing plugin for neovim, powered by treesitter.
+- [neogit](https://github.com/TimUntersberger/neogit) Magit, but for neovim.
 - [snippets](https://github.com/norcalli/snippets.nvim) A powerful snippet engine with live previews.
-- [packer](https://github.com/wbthomason/packer.nvim) An ambitious new package manager
+- [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) A pure Lua (teal) plugin for lightning fast git signs.
+- [lsp-status.nvim](https://github.com/nvim-lua/lsp-status.nvim)  - A Neovim plugin/library for generating statusline components from the built-in LSP client.
+- [nvim-dap](https://github.com/mfussenegger/nvim-dap) - A debug adapter protocol implementation for step-through debugging of your code.
 - [colorizer](https://github.com/norcalli/nvim-colorizer.lua) A high-performance color highlighter for Neovim which has no external dependencies.
 - [formatter](https://github.com/mhartington/formatter.nvim) A plugin to asynchronously execute external formatting tools on the current buffer/range.
+- [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim) A plugin which makes the built-in language server client more beautiful.
 - [daedalus](https://github.com/hkupty/daedalus.nvim) Intended to be used by plugin developers, so their clients can call remote APIs through their plugins.
-- [telescope](https://github.com/nvim-telescope/telescope.nvim) A modular fuzzy finder, written in pure lua.
+
+### Lua configuration -- mention init.lua
+
+You can now write your Neovim user configuration in Lua (init.lua) instead of Vimscript (init.vim). This is entirely optional and not needed to enjoy the functionality of 0.5! For ideas on writing an init.lua, see the [300 line init.lua challenge](https://neovim.discourse.group/t/the-300-line-init-lua-challenge/227) on Discourse.
 
 ## [Vim Conf](https://www.vimconf.live)
 
@@ -270,7 +277,6 @@ added lines: 9226 removed lines: 7002 total lines: 2224
 
 Note that two of the core contributors have started streaming some of their neovim development sessions:
 - @tjdevries https://www.twitch.tv/teej_dv
-- @norcalli at
 
 We also welcome to the core team:
 - @janlazo has been hard at work porting vim patches to neovim patches.
