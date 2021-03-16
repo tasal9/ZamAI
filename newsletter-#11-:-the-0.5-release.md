@@ -152,6 +152,7 @@ Community member 'Nanotee' has created a collection of resources in his [Getting
 - [telescope](https://github.com/nvim-telescope/telescope.nvim) - A modular fuzzy finder, written in pure lua.
 - [nvim-compe](https://github.com/nvim-lua/completion-nvim)  - An auto completion framework that aims to provide a better completion experience with neovim's built-in LSP.
 - [architext](https://github.com/vigoux/architext.nvim) - A structural editing plugin for neovim, powered by treesitter.
+- [hop.nvim](https://github.com/phaazon/hop.nvim) - An easy-motion like plugin in pure lua.
 - [neogit](https://github.com/TimUntersberger/neogit) - Magit, but for neovim.
 - [snippets](https://github.com/norcalli/snippets.nvim) - A powerful snippet engine with live previews.
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - A pure Lua (teal) plugin with asynchronous git signs leveraging lib.
