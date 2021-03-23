@@ -82,6 +82,10 @@ Or install the development version of Nvim:
     brew install --HEAD luajit
     brew install --HEAD neovim
 
+To update the development version of Nvim:
+    
+    brew reinstall neovim
+
 ### [Macports](https://www.macports.org/)
 
     sudo port selfupdate
