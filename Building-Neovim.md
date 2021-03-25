@@ -1,4 +1,4 @@
-- Before upgrading to a new version, **always check [Following HEAD](Following-HEAD).**
+- Before upgrading to a new version, **always check for [breaking changes](https://github.com/neovim/neovim/issues/14090).**
 
 ---
 
