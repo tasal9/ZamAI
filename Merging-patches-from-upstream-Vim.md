@@ -99,9 +99,6 @@ Example: https://github.com/neovim/neovim/commit/00f60c2ce78fc1280e93d5a36bc7b22
 - Screendump tests from `test_popupwin.vim`, `test_popupwin_textprop.vim`:  https://github.com/neovim/neovim/pull/12741#issuecomment-704677141
 - json changes: incompatible API https://github.com/neovim/neovim/pull/4131
     - NA files: src/json*, src/testdir/test_json.vim
-- latin1 tests: Neovim does not support `latin1` for `encoding` option
-    - `test_alot_latin.vim`
-    - `test_regexp_latin.vim`
 - `test_restricted.vim` restricted mode is removed in https://github.com/neovim/neovim/pull/11996
 - `test_prompt_buffer.vim` requires incompatible Vim features such as `channel`
 - non-runtime documentation: Moved to https://neovim.io/doc/, https://github.com/neovim/neovim/wiki#developers
