@@ -9,8 +9,10 @@ The following changes may require users to update configuration, plugins, or exp
 
 Subscribe to https://github.com/neovim/neovim/issues/14090 to get notifications about **breaking** changes.
 
+<details>
 ### 2021/3/9
 [#13875](https://github.com/neovim/neovim/pull/13875) was merged which makes it an error to use `vim.fn` to call functions in `vim.api`. For example, before this PR it was possible to call either `vim.fn.nvim_get_current_buf()` or `vim.api.nvim_get_current_buf()` to get the current buffer; now, trying to call `vim.fn.nvim_get_current_buf` results in an error that says to use `vim.api.nvim_get_current_buf` instead. Any plugins that use `vim.fn` to call functions available in `vim.api` will therefore not work until updated to use `vim.api`.
+
 
 ### 2021/3/4
 We have closed the github discussions in favour of our new forum https://neovim.discourse.group/. Please use that now. If there is some content from the github discussions you would like salvaged, contact us on gitter and we can restore it temporarily.
@@ -232,3 +234,4 @@ See [#3041][3041] for more information.
 
 
 [5529]: https://github.com/neovim/neovim/pull/5529
+</details>
