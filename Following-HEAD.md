@@ -7,7 +7,7 @@ The following changes may require users to update configuration, plugins, or exp
 
 ### 2021/3/9
 
-Subscribe to https://github.com/neovim/neovim/issues/14090 to get notifications about **breaking** changes.
+This page is replaced by the github issue https://github.com/neovim/neovim/issues/14090 so that users can subscribe to get notifications about **breaking** changes. Please refer to that issue now instead of this page.
 
 <details>
 ### 2021/3/9
