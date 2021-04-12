@@ -125,6 +125,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [galaxyline.nvim](https://github.com/glepnir/galaxyline.nvim): A customizable statusline plugin written in Lua.
 - [gen_tags.vim](https://github.com/jsfaint/gen_tags.vim): Async plugin for Vim and Neovim to ease the use of Ctags/gTags
 - [git_fastfix](https://github.com/dm1try/git_fastfix): Apply "fast git fixups"(using UI) to the current development branch.
+- [gitlinker.nvim](https://github.com/ruifm/gitlinker.nvim) - Generate shareable file permalinks for several git hosts. Inspired by tpope/vim-fugitive's :GBrowse
 - [golden_size](https://github.com/dm1try/golden_size): Resizes the active window to the "golden" size.
 - [haskell-vim](https://github.com/neovimhaskell/haskell-vim): Custom syntax highlighting and indentation Vimscripts for Haskell and Cabal
 - [InsertLeftBracket.nvim](https://github.com/haifengkao/InsertLeftBracket.nvim): Auto-complete brackets for Objective-C files
