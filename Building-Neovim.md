@@ -174,19 +174,53 @@ make
 
 ### How to build without "bundled" dependencies
 
-1. Install the dependencies manually. For example on Debian/Ubuntu:
-   ```
-   sudo apt install gperf libluajit-5.1-dev libunibilium-dev libmsgpack-dev libtermkey-dev libvterm-dev libjemalloc-dev lua5.1 lua-lpeg lua-mpack lua-bitop
-   ```
+1. Manually install the dependencies: gperf, libuv, libluv, libtermkey, libvterm, luajit, lua-lpeg, lua-mpack, msgpack-c, tree-sitter and unibilium.
 2. Do the "CMake dance": create a `build` directory, switch to it and run CMake:
    ```
    mkdir build
    cd build
    cmake ..
    ```
+   If all the dependencies are not available in the package, you can use only some of the bundled dependencies as follows (example of using `ninja`):
+   ```
+   mkdir .deps
+   cd .deps
+   cmake ../third-party/ -DUSE_BUNDLED=OFF -DUSE_BUNDLED_LIBVTERM=ON -DUSE_BUNDLED_TS=ON
+   ninja
+   cd ..
+   mkdir build
+   cd build
+   cmake ..
+   ```
+
 3. Run `make`, `ninja`, or whatever build tool you [told CMake to generate for](#xcode-and-msvc-project-files).
    - Using `ninja` is strongly recommended.
 
+#### Debian 10 (buster) example:
+```
+sudo apt install gperf luajit luajit-5.1-dev lua-mpack lua-lpeg libunibilium-dev libmsgpack-dev libtermkey-dev
+mkdir .deps
+cd .deps
+cmake ../third-party/ -DUSE_BUNDLED=OFF -DUSE_BUNDLED_LIBUV=ON -DUSE_BUNDLED_LIBVTERM=ON -DUSE_BUNDLED_TS=ON
+ninja
+cd ..
+mkdir build
+cd build
+cmake ..
+ninja
+```
+
+#### Example of using a Makefile
+
+##### Example of using a package with all dependencies
+```
+make USE_BUNDLED=OFF
+```
+
+##### Example of using a package with some dependencies
+```
+make BUNDLED_CMAKE_FLAG="-DUSE_BUNDLED=OFF -DUSE_BUNDLED_LUV=ON -DUSE_BUNDLED_TS=ON -DUSE_BUNDLED_LIBVTERM=ON -DUSE_BUNDLED_LIBUV=ON"
+```
 
 ## Build prerequisites
 
