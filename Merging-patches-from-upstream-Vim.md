@@ -100,7 +100,7 @@ Example: https://github.com/neovim/neovim/commit/00f60c2ce78fc1280e93d5a36bc7b22
 - json changes: incompatible API https://github.com/neovim/neovim/pull/4131
     - NA files: src/json*, src/testdir/test_json.vim
 - `test_restricted.vim` restricted mode is removed in https://github.com/neovim/neovim/pull/11996
-- `test_prompt_buffer.vim` requires incompatible Vim features such as `channel`
+- Many tests in `test_prompt_buffer.vim` require incompatible Vim features such as `channel`; they should still be included, but skipped
 - non-runtime documentation: Moved to https://neovim.io/doc/, https://github.com/neovim/neovim/wiki#developers
     - NA files: Filelist, README, INSTALL*, 
 - Anything else might be relevant; err on the side of caution, and post an issue if you aren't sure. 
