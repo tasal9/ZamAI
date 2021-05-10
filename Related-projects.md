@@ -87,6 +87,8 @@ _Note: Some of these projects are **experimental/unstable**._
 
 ### Plugins
 
+Additionally, you can search your favourite plugins [there](https://nvim-awesome.vercel.app).
+
 The following plugins take advantage of specific Neovim features, e.g. `jobstart()`, `:terminal` or its remote plugin mechanism.
 
 #### builtin lsp extension plugins
