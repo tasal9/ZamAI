@@ -25,6 +25,7 @@ Other notes:
 
 - Third-party dependencies (libuv, LuaJIT, etc.) are downloaded automatically to `.deps/`. See [FAQ](FAQ#build-issues) if you have issues.
 - If you plan to develop Neovim, install [ninja](https://ninja-build.org/) for faster builds. It will be used automatically.
+- On FreeBSD, in order to do a complete, working installation, you need to run `gmake clean && gmake distclean && gmake && sudo gmake install`.
 
 Now that you have the dependencies, you can try other build targets, explained below.
 
