@@ -8,7 +8,7 @@
 
 - **[Install](Installing-Neovim)**
 - [Following HEAD](Following-HEAD)
-- [Documentation](http://neovim.io/doc/)
+- [Documentation](http://neovim.io/doc/general/)
 
 ## Developers
 
