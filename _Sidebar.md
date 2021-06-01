@@ -9,7 +9,7 @@ Users
 
 [Install](Installing-Neovim)  
 [Following HEAD](Following-HEAD)  
-[Documentation](http://neovim.io/doc/)
+[Documentation](https://neovim.io/doc/general/)
 
 Developers
 -----
