@@ -51,14 +51,10 @@ All the global variables are declared in [globals.h](../blob/master/src/nvim/glo
 
 ## The main loop
 
-This is conveniently called `main_loop()`.  It updates a few things and then
-calls `normal_cmd()` to process a command.  This returns when the command is
-finished.
-
-The basic idea is that Vim waits for the user to type a character and
-processes it until another character is needed.  Thus there are several places
-where Vim waits for a character to be typed.  The `vgetc()` function is used for
-this.  It also handles mapping.
+The main loop is implemented in state_enter. The basic idea is that Vim waits
+for the user to type a character and processes it until another character is
+needed.  Thus there are several places where Vim waits for a character to be
+typed.  The `vgetc()` function is used for this.  It also handles mapping.
 
 Updating the screen is mostly postponed until a command or a sequence of
 commands has finished.  The work is done by `update_screen()`, which calls
