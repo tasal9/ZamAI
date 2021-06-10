@@ -43,7 +43,7 @@ _Note: Some of these projects are **experimental/unstable**._
 | Terminal Wrapper | [glrnvim](https://github.com/beeender/glrnvim)                                |           |
 | Tk/Python UI     | [timeyyy/pytknvim](https://github.com/timeyyy/pytknvim)                       | inactive  |
 | VSCode           | [VSCodeVim](https://github.com/VSCodeVim/Vim)                                 |           |
-| VSCode           | [Neo Vim](https://github.com/asvetliakov/vscode-neovim)                       |           |
+| VSCode           | [VSCode Neovim](https://github.com/asvetliakov/vscode-neovim)                 |           |
 | Windows/Linux    | [meatich/Viy](https://github.com/meatich/Viy)                                 | inactive  |
 
 
