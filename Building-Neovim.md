@@ -5,8 +5,11 @@
 - [Quick start](#quick-start)
 - [Running tests](#running-tests)
 - [Building](#building)
-- [Windows / MSVC](#windows--msvc)
+- [Building on Windows](#building-on-windows)
 - [Localization](#localization)
+  - [Localization build](#localization-build)
+  - [Localization check](#localization-check)
+  - [Localization update](#localization-update)
 - [Compiler options](#compiler-options)
 - [Xcode and MSVC project files](#xcode-and-msvc-project-files)
 - [Custom Makefile](#custom-makefile)
@@ -17,13 +20,12 @@
   - [openSUSE](#opensuse)
   - [Arch Linux](#arch-linux)
   - [Alpine Linux](#alpine-linux)
-  - [Nix or NixOS](#nix-or-nixos)
+  - [NixOS / Nix](#nixos--nix)
   - [FreeBSD](#freebsd)
   - [OpenBSD](#openbsd)
-  - [macOS / Homebrew](#macos--homebrew)
-  - [macOS / MacPorts](#macos--macports)
-  - [Windows / Cygwin](#windows--cygwin)
-  - [Windows / MSYS2 / MinGW](#windows--msys2--mingw)
+  - [macOS](#macos)
+  - [Windows](#windows)
+
 
 ## Quick start
 
@@ -32,18 +34,15 @@
 3. Change into the directory: `cd neovim`
     - If you want the **stable release**, also run `git checkout stable`.
 4. Build Neovim by running `make`.
-    - On BSD, use `gmake`. On Windows, see the [MSVC](#windows--msvc) section.
-    - Set `CMAKE_INSTALL_PREFIX` if you want to **install to a custom location**. See also [Installing Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#install-from-source).
+    - If you want to install to a custom location, set `CMAKE_INSTALL_PREFIX`. See also [Installing Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#install-from-source).
 
 **Notes**:
+- From the repository's root directory, running `make` will download and build all the needed dependencies and put the `nvim` executable in `build/bin`.
 - Third-party dependencies (libuv, LuaJIT, etc.) are downloaded automatically to `.deps/`. See the [FAQ](FAQ#build-issues) if you have issues.
-- If you plan to develop Neovim, install [Ninja](https://ninja-build.org/) for faster builds. It will be used automatically.
-- On FreeBSD, in order to do a complete working installation, you need to run:
-  ```sh
-  gmake clean && gmake distclean && gmake && sudo gmake install
-  ```
-
-Now that you have the dependencies, you can try other build targets explained below.
+- After building, you can run the `nvim` executable without installing it by running `VIMRUNTIME=runtime ./build/bin/nvim`.
+- If you plan to develop Neovim, install [Ninja](https://ninja-build.org/) for faster builds. It will automatically be used.
+- On BSD, use `gmake` instead of `make`.
+- For Windows, see the [Building on Windows](#building-on-windows) section.
 
 ## Running tests
 
@@ -51,7 +50,7 @@ See [test/README.md](https://github.com/neovim/neovim/blob/master/test/README.md
 
 ## Building
 
-**TL;DR**: Running `make` in the root of the repository will download and build all the needed dependencies and put the `nvim` executable in `build/bin`. Without installing, you can run the executable using `VIMRUNTIME=runtime ./build/bin/nvim`.
+First make sure you installed the [build prerequisites](#build-prerequisites). Now that you have the dependencies, you can try other build targets explained below.
 
 The _build type_ determines the level of used compiler optimizations and debug information:
 
@@ -86,7 +85,9 @@ make distclean
 VERBOSE=1 DEBUG=1 make deps
 ```
 
-## Windows / MSVC
+## Building on Windows
+
+#### Windows / MSVC
 
 1. Install [Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community) (2017 or later) with the _Desktop development with C++_ workload.
     - On 32-bit Windows, you will need [this workaround](https://developercommunity.visualstudio.com/content/problem/212989/ninja-binary-format.html).
@@ -99,7 +100,7 @@ VERBOSE=1 DEBUG=1 make deps
 
 **Note**: If you want to build from the command line (i.e. invoke the `cmake` commands yourself), make sure you have the Visual Studio environment variables properly set -- with the Visual Studio Developer Command Prompt, or `Import-VisualStudioVars` from [this PowerShell module](https://github.com/Pscx/Pscx). This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like `'mingw32-gcc' is not recognized as an internal or external command`.
 
-## Windows / CLion
+#### Windows / CLion
 
 1. Install [CLion](https://www.jetbrains.com/clion/).
 2. Open the Neovim project in CLion.
@@ -138,7 +139,7 @@ make -C build update-po-$LANG
 
 ## Compiler options
 
-To see the chain of _includes_, use the `-H` option ([#918](https://github.com/neovim/neovim/issues/918)):
+To see the chain of includes, use the `-H` option ([#918](https://github.com/neovim/neovim/issues/918)):
 
 ```sh
 echo '#include "./src/nvim/buffer.h"' | \
@@ -256,7 +257,7 @@ General requirements (see [#1469](https://github.com/neovim/neovim/issues/1469#i
 
 Platform-specific requirements are listed below.
 
-#### Ubuntu / Debian
+### Ubuntu / Debian
 
 ```sh
 sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
@@ -264,7 +265,7 @@ sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake c
 
 **Note**: `libtool-bin` is only required for Ubuntu 16.04 / Debian 8 and newer.
 
-#### CentOS / RHEL / Fedora
+### CentOS / RHEL / Fedora
 
 If you're using CentOS/RHEL 6, you need at least `autoconf` version 2.69 for compiling the `libuv` dependency. See also https://github.com/joyent/libuv/issues/1158.
 
@@ -272,25 +273,25 @@ If you're using CentOS/RHEL 6, you need at least `autoconf` version 2.69 for com
 sudo yum -y install ninja-build libtool autoconf automake cmake gcc gcc-c++ make pkgconfig unzip patch gettext
 ```
 
-#### openSUSE
+### openSUSE
 
 ```
 sudo zypper install ninja libtool autoconf automake cmake gcc-c++ gettext-tools
 ```
 
-#### Arch Linux
+### Arch Linux
 
 ```
 sudo pacman -S base-devel cmake unzip ninja tree-sitter
 ```
 
-#### Alpine Linux
+### Alpine Linux
 
 ```
 apk add build-base cmake automake autoconf libtool pkgconf coreutils curl unzip gettext-tiny-dev
 ```
 
-#### Nix or NixOS
+### NixOS / Nix
 
 Starting from NixOS 18.03, the Neovim binary resides in the `neovim-unwrapped` Nix package (the `neovim` package being just a wrapper to setup runtime options like Ruby/Python support):
 
@@ -339,7 +340,7 @@ Starting November 2020, Neovim contains a Nix flake in the `contrib` folder, wit
 Thus you can run Neovim nightly with `nix run github:neovim/neovim?dir=contrib`.
 Similarly to develop on Neovim: `nix develop github:neovim/neovim?dir=contrib#neovim-developer`.
 
-#### FreeBSD
+### FreeBSD
 
 ```
 sudo pkg install cmake gmake libtool sha automake pkgconf unzip wget gettext
@@ -348,7 +349,7 @@ sudo pkg install cmake gmake libtool sha automake pkgconf unzip wget gettext
 If you get an error regarding a `sha256sum` mismatch, where the actual SHA-256 hash is `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`, then this is your issue (that's the `sha256sum` of an empty file). Also, make sure Wget is installed.
 LuaRocks has bad interactions with cURL, at least under FreeBSD, and will die with a PANIC in LuaJIT when trying to install a rock.
 
-#### OpenBSD
+### OpenBSD
 
 ```sh
 doas pkg_add gmake cmake libtool unzip autoconf-2.69p2 automake-1.15p0
@@ -371,6 +372,8 @@ cd build
 cmake ..
 gmake
 ```
+
+### macOS
 
 #### macOS / Homebrew
 
@@ -408,7 +411,7 @@ gmake
     open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
     ```
 
-##### Building for older macOS versions
+#### Building for older macOS versions
 
 From a newer macOS version, to build for older macOS versions, you will have to set the macOS deployment target:
 
@@ -417,6 +420,8 @@ make CMAKE_BUILD_TYPE=Release MACOSX_DEPLOYMENT_TARGET=10.13 DEPS_CMAKE_FLAGS="-
 ```
 
 Note that the C++ compiler is explicitly set so that it can be found when the deployment target is set.
+
+### Windows
 
 #### Windows / Cygwin
 
