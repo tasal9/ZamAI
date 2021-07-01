@@ -88,7 +88,7 @@ VERBOSE=1 DEBUG=1 make deps
 
 ## Windows / MSVC
 
-1. [Install Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community) (2017 or later) with the _Desktop development with C++_ workload.
+1. Install [Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community) (2017 or later) with the _Desktop development with C++_ workload.
     - On 32-bit Windows, you will need [this workaround](https://developercommunity.visualstudio.com/content/problem/212989/ninja-binary-format.html).
 2. Open the Neovim project. Visual Studio automatically starts the build.
 3. **IMPORTANT**: Select `x86-Release` configuration instead of `x64-{Debug,Release}`.
@@ -393,7 +393,7 @@ gmake
 #### macOS / MacPorts
 
 1. Install Xcode Command Line Tools: `xcode-select --install`
-2. [MacPorts](http://www.macports.org)
+2. Install [MacPorts](http://www.macports.org)
 3. Install Neovim build dependencies:
     ```
     sudo port install ninja libtool autoconf automake cmake pkgconfig gettext
