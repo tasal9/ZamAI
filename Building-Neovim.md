@@ -156,7 +156,7 @@ rebuild:
 
 ## Third-party dependencies
 
-Reference the **[Debian package](https://packages.debian.org/sid/source/neovim)** (or alternatively the [Homebrew formula](https://github.com/Homebrew/homebrew-core/blob/master/Formula/neovim.rb#L16-L27)) for the precise list of dependencies/versions.
+Reference the [Debian package](https://packages.debian.org/sid/source/neovim) (or alternatively, the [Homebrew formula](https://github.com/Homebrew/homebrew-core/blob/master/Formula/neovim.rb#L16-L27)) for the precise list of dependencies/versions.
 
 To build the bundled dependencies using CMake:
 
@@ -167,7 +167,7 @@ cmake ../third-party
 make
 ```
 
-By default the libraries and headers are placed in `.deps/usr`. Now you can build Nvim:
+By default the libraries and headers are placed in `.deps/usr`. Now you can build Neovim:
 
 ```sh
 mkdir build
