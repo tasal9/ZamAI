@@ -35,13 +35,13 @@ See [test/README.md](https://github.com/neovim/neovim/blob/master/test/README.md
 
 ## Building
 
-_Just `make` in the root of the repo will download and build all the needed dependencies and put the `nvim` executable at `build/bin`. Without installing, you can run it like this: `VIMRUNTIME=runtime ./build/bin/nvim`._
+**TL;DR**: Running `make` in the root of the repository will download and build all the needed dependencies and put the `nvim` executable in `build/bin`. Without installing, you can run the executable using `VIMRUNTIME=runtime ./build/bin/nvim`.
 
-The build type determines the level of used compiler optimisations and debug information:
+The _build type_ determines the level of used compiler optimizations and debug information:
 
-- `Release`: Full compiler optimisations and no debug information. Expect the best performance from this build type. Often used by package maintainers.
-- `Debug`: Full debug information; little optimisations. Use this for development to get meaningful output from debuggers like gdb or lldb. This is the default, if `CMAKE_BUILD_TYPE` is not specified.
-- `RelWithDebInfo` ("Release With Debug Info"): Enables many optimisations and adds enough debug info so that when nvim ever crashes, you can still get a backtrace.
+- `Release`: Full compiler optimizations and no debug information. Expect the best performance from this build type. Often used by package maintainers.
+- `Debug`: Full debug information; few optimizations. Use this for development to get meaningful output from debuggers like GDB or LLDB. This is the default if `CMAKE_BUILD_TYPE` is not specified.
+- `RelWithDebInfo` ("Release With Debug Info"): Enables many optimizations and adds enough debug info so that when Neovim ever crashes, you can still get a backtrace.
 
 So, for a release build, just use:
 
@@ -49,7 +49,7 @@ So, for a release build, just use:
 make CMAKE_BUILD_TYPE=Release
 ```
 
-Afterwards, the `nvim` executable can be found at `build/bin`. To verify the build type after compilation, run `./build/bin/nvim --version | grep ^Build`.
+Afterwards, the `nvim` executable can be found in `build/bin`. To verify the build type after compilation, run `./build/bin/nvim --version | grep ^Build`.
 
 To install the executable to a certain location, use:
 
@@ -57,9 +57,9 @@ To install the executable to a certain location, use:
 make CMAKE_INSTALL_PREFIX=$HOME/local/nvim install
 ```
 
-CMake, our main build system, caches a lot of things in `build/CMakeCache.txt`. If you ever want to change `CMAKE_BUILD_TYPE` or `CMAKE_INSTALL_PREFIX`, run `rm -rf build` first. This is also required when rebuilding after a commit adds or removes files (including from `runtime`) -- when in doubt, `make distclean` (which is basically a shortcut for `rm -rf build .deps`).
+CMake, our main build system, caches a lot of things in `build/CMakeCache.txt`. If you ever want to change `CMAKE_BUILD_TYPE` or `CMAKE_INSTALL_PREFIX`, run `rm -rf build` first. This is also required when rebuilding after a Git commit adds or removes files (including from `runtime`) -- when in doubt, run `make distclean` (which is basically a shortcut for `rm -rf build .deps`).
 
-By default (`USE_BUNDLED=1`), Nvim downloads and statically links its needed dependencies. In order to be able to use a debugger on these libraries, you might want to compile them with debug informations as well:
+By default (`USE_BUNDLED=1`), Neovim downloads and statically links its needed dependencies. In order to be able to use a debugger on these libraries, you might want to compile them with debug information as well:
 
 ```
 make distclean
