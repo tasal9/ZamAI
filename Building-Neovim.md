@@ -57,7 +57,7 @@ To install the executable to a certain location, use:
 make CMAKE_INSTALL_PREFIX=$HOME/local/nvim install
 ```
 
-Cmake, our main build sytem, caches a lot of things in `build/CMakeCache.txt`. If you ever want to change `CMAKE_BUILD_TYPE` or `CMAKE_INSTALL_PREFIX`, run `rm -rf build` first. This is also required when rebuilding after a commit adds or removes files (including from `runtime`) -- when in doubt, `make distclean` (which is basically a shortcut for `rm -rf build .deps`).
+CMake, our main build system, caches a lot of things in `build/CMakeCache.txt`. If you ever want to change `CMAKE_BUILD_TYPE` or `CMAKE_INSTALL_PREFIX`, run `rm -rf build` first. This is also required when rebuilding after a commit adds or removes files (including from `runtime`) -- when in doubt, `make distclean` (which is basically a shortcut for `rm -rf build .deps`).
 
 By default (`USE_BUNDLED=1`), Nvim downloads and statically links its needed dependencies. In order to be able to use a debugger on these libraries, you might want to compile them with debug informations as well:
 
