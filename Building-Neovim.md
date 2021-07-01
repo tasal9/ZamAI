@@ -1,6 +1,6 @@
-- Before upgrading to a new version, **always check for [breaking changes](https://github.com/neovim/neovim/issues/14090).**
+**IMPORTANT**: Before upgrading to a new version, **always check for [breaking changes](https://github.com/neovim/neovim/issues/14090).**
 
----
+## Contents
 
 - [Quick start](#quick-start)
 - [Running tests](#running-tests)
