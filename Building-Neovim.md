@@ -77,7 +77,7 @@ VERBOSE=1 DEBUG=1 make deps
       - Right-click _CMakeLists.txt → Delete Cache_.
       - Right-click _CMakeLists.txt → Generate Cache_.
 
-Note: If you want to build from the command line (i.e. invoke the `cmake` commands yourself), make sure you have the Visual Studio environment variables properly set -- with the Visual Studio Developer Command Prompt, or `Import-VisualStudioVars` from [this PowerShell module](https://github.com/Pscx/Pscx). This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like `'mingw32-gcc' is not recognized as an internal or external command`.
+**Note**: If you want to build from the command line (i.e. invoke the `cmake` commands yourself), make sure you have the Visual Studio environment variables properly set -- with the Visual Studio Developer Command Prompt, or `Import-VisualStudioVars` from [this PowerShell module](https://github.com/Pscx/Pscx). This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like `'mingw32-gcc' is not recognized as an internal or external command`.
 
 ## Windows / CLion
 
@@ -108,14 +108,16 @@ To check the translations for `$LANG`, run `make -C build check-po-$LANG`. Examp
 
 To update the `src/nvim/po/$LANG.po` file with the latest strings, run the following:
 
-    make -C build update-po-$LANG
+```
+make -C build update-po-$LANG
+```
 
 - Replace `make` with `ninja` if applicable.
-- **Note:** run `src/nvim/po/cleanup.vim` after updating.
+- **Note**: Run `src/nvim/po/cleanup.vim` after updating.
 
 ## Compiler options
 
-To see the chain of includes, use the `-H` option ([#918](https://github.com/neovim/neovim/issues/918)):
+To see the chain of _includes_, use the `-H` option ([#918](https://github.com/neovim/neovim/issues/918)):
 
 ```
 echo '#include "./src/nvim/buffer.h"' | \
@@ -123,18 +125,20 @@ echo '#include "./src/nvim/buffer.h"' | \
 > grep -v /usr/
 ```
 
-- `grep -v /usr/` is used to filter out system header files
-- `-save-temps` can be added as well to see expanded macros or commented assembly
+- `grep -v /usr/` is used to filter out system header files.
+- `-save-temps` can be added as well to see expanded macros or commented assembly.
 
 ## Xcode and MSVC project files
 
 CMake has a `-G` option for exporting to multiple [project file formats](http://www.cmake.org/cmake/help/v2.8.8/cmake.html#section_Generators), such as Xcode and Visual Studio. 
 
-For example, to use Xcode's static analysis GUI ([#167](https://github.com/neovim/neovim/issues/167#issuecomment-36136018)), you need to generate an Xcode project file from the Neovim makefile (where `neovim/` is the top-level Neovim source code directory containing the main `Makefile`):
+For example, to use Xcode's static analysis GUI ([#167](https://github.com/neovim/neovim/issues/167#issuecomment-36136018)), you need to generate an Xcode project file from the Neovim Makefile (where `neovim/` is the top-level Neovim source code directory containing the main `Makefile`):
 
-    cmake -G Xcode neovim
+```
+cmake -G Xcode neovim
+```
 
-then open the resulting project file in Xcode.
+The resulting project file can then be opened in Xcode.
 
 ## Custom Makefile
 
