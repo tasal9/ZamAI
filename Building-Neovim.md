@@ -12,6 +12,18 @@
 - [Custom Makefile](#custom-makefile)
 - [Third-party dependencies](#third-party-dependencies)
 - [Build prerequisites](#build-prerequisites)
+  - [Ubuntu / Debian](#ubuntu--debian)
+  - [CentOS / RHEL / Fedora](#centos--rhel--fedora)
+  - [openSUSE](#opensuse)
+  - [Arch Linux](#arch-linux)
+  - [Alpine Linux](#alpine-linux)
+  - [Nix or NixOS](#nix-or-nixos)
+  - [FreeBSD](#freebsd)
+  - [OpenBSD](#openbsd)
+  - [macOS / Homebrew](#macos--homebrew)
+  - [macOS / MacPorts](#macos--macports)
+  - [Windows / Cygwin](#windows--cygwin)
+  - [Windows / MSYS2 / MinGW](#windows--msys2--mingw)
 
 ## Quick start
 
@@ -240,7 +252,7 @@ General requirements (see [#1469](https://github.com/neovim/neovim/issues/1469#i
 
 - Clang or GCC version 4.4+
 - CMake version 2.8.12+, built with TLS/SSL support
-  - Optional: Get the latest CMake from an [installer](https://github.com/Kitware/CMake/releases) or a [Python package](https://pypi.org/project/cmake/) (`pip install cmake`)
+  - Optional: Get the latest CMake from an [installer](https://github.com/Kitware/CMake/releases) or the [Python package](https://pypi.org/project/cmake/) (`pip install cmake`)
 
 Platform-specific requirements are listed below.
 
