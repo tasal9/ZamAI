@@ -31,7 +31,7 @@ Now that you have the dependencies, you can try other build targets explained be
 
 ## Running tests
 
-See [test/README.md](https://github.com/neovim/neovim/blob/master/test/README.md)
+See [test/README.md](https://github.com/neovim/neovim/blob/master/test/README.md).
 
 ## Building
 
