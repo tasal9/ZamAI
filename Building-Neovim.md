@@ -70,14 +70,14 @@ VERBOSE=1 DEBUG=1 make deps
 
 1. [Install Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community) (2017 or later) with the _Desktop development with C++_ workload.
     - On 32-bit Windows you need [this workaround](https://developercommunity.visualstudio.com/content/problem/212989/ninja-binary-format.html).
-1. Open the Neovim project. Visual Studio automatically starts the build...
-1. **IMPORTANT:** Select `x86-Release` configuration instead of `x64-{Debug,Release}`.
-    - You can build with the `x64-Release` configuration if `cmake -G "Visual Studio 15 2017 Win64"` is used to build the dependencies. But the Debug configurations will not work because certain dependencies need to be linked with release version of the C runtime.
-1. If the build fails, it may be because VS started the build with `x64-{Debug,Release}` before you switched to `x86-Release`.
-    - Right-click _CMakeLists.txt → Delete Cache_.
-    - Right-click _CMakeLists.txt → Generate Cache_.
+2. Open the Neovim project. Visual Studio automatically starts the build.
+3. **IMPORTANT**: Select `x86-Release` configuration instead of `x64-{Debug,Release}`.
+    - You can build with the `x64-Release` configuration if `cmake -G "Visual Studio 15 2017 Win64"` is used to build the dependencies. But the _Debug_ configurations will not work because certain dependencies need to be linked with the release version of the C runtime.
+    - If the build fails, it may be because Visual Studio started the build with `x64-{Debug,Release}` before you switched the configuration to `x86-Release`.
+      - Right-click _CMakeLists.txt → Delete Cache_.
+      - Right-click _CMakeLists.txt → Generate Cache_.
 
-Note, if you want to build from the command line (i.e. invoke the `cmake` commands yourself), make sure you have the Visual Studio environment variables properly set -- with the VS Developer Prompt, or `Import-VisualStudioVars` from [this powershell module](https://github.com/Pscx/Pscx). This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like `'mingw32-gcc' is not recognized as an internal or external command`.
+Note: If you want to build from the command line (i.e. invoke the `cmake` commands yourself), make sure you have the Visual Studio environment variables properly set -- with the Visual Studio Developer Command Prompt, or `Import-VisualStudioVars` from [this PowerShell module](https://github.com/Pscx/Pscx). This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like `'mingw32-gcc' is not recognized as an internal or external command`.
 
 ## Windows / CLion
 
