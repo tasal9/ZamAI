@@ -69,7 +69,7 @@ VERBOSE=1 DEBUG=1 make deps
 ## Windows / MSVC
 
 1. [Install Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community) (2017 or later) with the _Desktop development with C++_ workload.
-    - On 32-bit Windows you need [this workaround](https://developercommunity.visualstudio.com/content/problem/212989/ninja-binary-format.html).
+    - On 32-bit Windows, you will need [this workaround](https://developercommunity.visualstudio.com/content/problem/212989/ninja-binary-format.html).
 2. Open the Neovim project. Visual Studio automatically starts the build.
 3. **IMPORTANT**: Select `x86-Release` configuration instead of `x64-{Debug,Release}`.
     - You can build with the `x64-Release` configuration if `cmake -G "Visual Studio 15 2017 Win64"` is used to build the dependencies. But the _Debug_ configurations will not work because certain dependencies need to be linked with the release version of the C runtime.
