@@ -82,9 +82,8 @@ Note: If you want to build from the command line (i.e. invoke the `cmake` comman
 ## Windows / CLion
 
 1. Install [CLion](https://www.jetbrains.com/clion/).
-1. Open the Neovim project in CLion.
-1. Select _Build → nvim.exe_.
-
+2. Open the Neovim project in CLion.
+3. Select _Build → nvim.exe_.
 
 ## Localization
 
