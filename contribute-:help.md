@@ -1,4 +1,4 @@
-# How to update neovim's `:help` documentation ?
+# How to update Neovim's `:help` documentation
 
 ## Lua docs
 
@@ -9,12 +9,12 @@ You can filter the regeneration based on the target (api, lua, or lsp), or the f
 
 ### Doc comments
 
-A doc comment in lua is roughly the following
+A doc comment in Lua should roughly follow this template:
 
 ```lua
 --- {Brief}
 ---
---- {Long explenation}
+--- {Long explanation}
 ---
 --- @param arg1 {description}
 --- @param arg2 {description}
@@ -23,7 +23,7 @@ A doc comment in lua is roughly the following
 --- @return {description}
 ```
 
-If a function in your lua module should not be documented (internal function, or local function), you should set the doc comment to :
+If a function in your Lua module should not be documented (e.g. internal function or local function), you should set the doc comment to:
 
 ```
 --- @private
