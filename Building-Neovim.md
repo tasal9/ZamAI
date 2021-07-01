@@ -142,7 +142,7 @@ The resulting project file can then be opened in Xcode.
 
 ## Custom Makefile
 
-You can customize the build process locally by creating a `local.mk`, which is referenced at the top of the main `Makefile`. It's listed in `.gitignore` so it can be used across branches. **A new target in `local.mk` overrides the default make-target.**
+You can customize the build process locally by creating a `local.mk`, which is referenced at the top of the main `Makefile`. It's listed in `.gitignore`, so it can be used across branches. **A new target in `local.mk` overrides the default make-target.**
 
 Here's a sample `local.mk` which adds a target to force a rebuild but *does not* override the default-target:
 
