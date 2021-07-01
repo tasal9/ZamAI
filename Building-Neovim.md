@@ -5,7 +5,7 @@
 - [Quick start](#quick-start)
 - [Running tests](#running-tests)
 - [Building](#building)
-- [Building on Windows](#building-on-windows)
+  - [Building on Windows](#building-on-windows)
 - [Localization](#localization)
 - [Compiler options](#compiler-options)
 - [Xcode and MSVC project files](#xcode-and-msvc-project-files)
@@ -32,14 +32,14 @@
     - If you want the **stable release**, also run `git checkout stable`.
 4. Build Neovim by running `make`.
     - If you want to install to a custom location, set `CMAKE_INSTALL_PREFIX`. See also [Installing Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#install-from-source).
+    - On BSD, use `gmake` instead of `make`.
+    - To build on Windows, see the [Building on Windows](#building-on-windows) section.
 
 **Notes**:
 - From the repository's root directory, running `make` will download and build all the needed dependencies and put the `nvim` executable in `build/bin`.
 - Third-party dependencies (libuv, LuaJIT, etc.) are downloaded automatically to `.deps/`. See the [FAQ](FAQ#build-issues) if you have issues.
 - After building, you can run the `nvim` executable without installing it by running `VIMRUNTIME=runtime ./build/bin/nvim`.
 - If you plan to develop Neovim, install [Ninja](https://ninja-build.org/) for faster builds. It will automatically be used.
-- On BSD, use `gmake` instead of `make`.
-- For Windows, see the [Building on Windows](#building-on-windows) section.
 
 ## Running tests
 
@@ -82,7 +82,7 @@ make distclean
 VERBOSE=1 DEBUG=1 make deps
 ```
 
-## Building on Windows
+### Building on Windows
 
 #### Windows / MSVC
 
