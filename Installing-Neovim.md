@@ -3,7 +3,7 @@ You can install Neovim from [download](#install-from-download), [package](#insta
 ---
 
 - To start Neovim, run `nvim` (not `neovim`).
-- Before upgrading to a new version, **check [Following HEAD](Following-HEAD).**
+- Before upgrading to a new version, **check [Following HEAD](https://github.com/neovim/neovim/issues/14090).**
 - For config (vimrc) see [the FAQ](https://github.com/neovim/neovim/wiki/FAQ#where-should-i-put-my-config-vimrc).
 
 ---
