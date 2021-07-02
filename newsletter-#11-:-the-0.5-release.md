@@ -163,7 +163,7 @@ Community member 'Nanotee' has created a collection of resources in his [Getting
 - [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim) - A plugin which makes the built-in language server client more beautiful.
 - [daedalus](https://github.com/hkupty/daedalus.nvim) - Intended to be used by plugin developers, so their clients can call remote APIs through their plugins.
 
-### Lua configuration -- mention init.lua
+### Lua configuration (a.k.a. "init.lua")
 
 You can now write your Neovim user configuration in Lua instead of Vimscript: If there is an `init.lua`, it is read _instead of_ `init.vim`, and Lua files in runtime (`plugin/`, `colorscheme/`, `after/` etc.) are sourced in addition to (after) Vimscript files.  Note that this is entirely optional and not needed to enjoy the functionality of 0.5; furthermore, not every Vimscript configuration option has a native Lua equivalent yet! For ideas on writing an init.lua, see the [300 line init.lua challenge](https://neovim.discourse.group/t/the-300-line-init-lua-challenge/227) on Discourse.
 
@@ -218,10 +218,10 @@ libuv / libvterm ?
 
 Neovim now has a built-in function to briefly highlight the yanked region (similarly to https://github.com/machakann/vim-highlightedyank), configurable from Lua. To use it, add the following to your `init.vim`:
 ```
-au TextYankPost * silent! lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
+au TextYankPost * lua vim.highlight.on_yank {higroup="IncSearch", timeout=150, on_visual=true}
 ```
+See `:h vim.highlight.on_yank()`.
 
-(mention edge cases with block-visual selection for virtual edit (https://github.com/neovim/neovim/pull/13320) and multi-byte characters (https://github.com/neovim/neovim/pull/13896))
 
 ### LuaHL
 ## LibGit2
