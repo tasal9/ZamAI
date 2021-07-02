@@ -2,7 +2,7 @@
 
 ## Contents
 
-- [Quick start](#quick-start)
+- [Get Build Prerequisites](#first-step)
 - [Running tests](#running-tests)
 - [Building](#building)
   - [Building on Windows](#building-on-windows)
@@ -24,13 +24,12 @@
   - [Windows](#windows)
 
 
-## Quick start
+## First Step
 
-1. Verify that you have the [build prerequisites](#build-prerequisites) installed.
-2. Clone the Neovim repository: `git clone https://github.com/neovim/neovim`
-3. Change into the directory: `cd neovim`
+1. Install [build prerequisites](#build-prerequisites) on your system
+2. `git clone https://github.com/neovim/neovim`
+3. `cd neovim && make`
     - If you want the **stable release**, also run `git checkout stable`.
-4. Build Neovim by running `make`.
     - If you want to install to a custom location, set `CMAKE_INSTALL_PREFIX`. See also [Installing Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#install-from-source).
     - On BSD, use `gmake` instead of `make`.
     - To build on Windows, see the [Building on Windows](#building-on-windows) section.
