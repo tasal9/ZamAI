@@ -165,7 +165,7 @@ Community member 'Nanotee' has created a collection of resources in his [Getting
 
 ### Lua configuration -- mention init.lua
 
-You can now write your Neovim user configuration in Lua (init.lua) instead of Vimscript (init.vim). This is entirely optional and not needed to enjoy the functionality of 0.5! For ideas on writing an init.lua, see the [300 line init.lua challenge](https://neovim.discourse.group/t/the-300-line-init-lua-challenge/227) on Discourse.
+You can now write your Neovim user configuration in Lua instead of Vimscript: If there is an `init.lua`, it is read _instead of_ `init.vim`, and Lua files in runtime (`plugin/`, `colorscheme/`, `after/` etc.) are sourced in addition to (after) Vimscript files.  Note that this is entirely optional and not needed to enjoy the functionality of 0.5; furthermore, not every Vimscript configuration option has a native Lua equivalent yet! For ideas on writing an init.lua, see the [300 line init.lua challenge](https://neovim.discourse.group/t/the-300-line-init-lua-challenge/227) on Discourse.
 
 ## [Vim Conf](https://www.vimconf.live)
 
