@@ -33,7 +33,7 @@
     - If you want to install to a custom location, set `CMAKE_INSTALL_PREFIX`. See also [Installing Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#install-from-source).
     - On BSD, use `gmake` instead of `make`.
     - To build on Windows, see the [Building on Windows](#building-on-windows) section.
-4. `make install`
+4. `sudo make install`
     - Default install location is `/usr/local`
 
 **Notes**:
