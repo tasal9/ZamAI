@@ -115,6 +115,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [buildit.nvim](https://github.com/wbthomason/buildit.nvim): An async project builder, tries to detect the right builder for your project
 - [chromatica.nvim](https://github.com/arakashic/chromatica.nvim): Clang-based syntax highlighting
 - [coc.nvim](https://github.com/neoclide/coc.nvim): Completion and other language server support for Neovim, featured as VSCode
+- [nvim-compe](https://github.com/hrsh7th/nvim-compe): Completion and other language server support for Neovim (using built-in lsp support)
 - [Conjure](https://github.com/Olical/conjure): Clojure and ClojureScript tooling for Neovim over a socket prepl connection
 - [dein.vim](https://github.com/Shougo/dein.vim): Plugin manager
 - [denite.nvim](https://github.com/Shougo/denite.nvim): Dark powered plugin for Neovim/Vim to unite all interfaces
