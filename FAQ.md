@@ -404,7 +404,7 @@ Solution:
 - [deoplete.nvim](https://github.com/Shougo/deoplete.nvim): auto-completion
     - [deoplete-clang2](https://github.com/tweekmonster/deoplete-clang2): clang2 completion support for deoplete.nvim
 - [coc.nvim](https://github.com/neoclide/coc.nvim/): auto-completion, code navigation
-
+- [nvim-compe](https://github.com/hrsh7th/nvim-compe): auto-completion
 ### Tools
 
 - [hererocks](https://github.com/luarocks/hererocks) (very similar to Python's `virtualenv`) is useful for installing Luarocks, LuaJIT, and Lua:
