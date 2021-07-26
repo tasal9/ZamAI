@@ -22,6 +22,7 @@ _Note: Some of these projects are **experimental/unstable**._
 | Electron UI      | [veonim](https://github.com/veonim/veonim)                                    | archived  |
 | Electron UI      | [VV](https://github.com/igorgladkoborodov/vv)                                 | active (c. 2020-Nov) |
 | gnome-terminal   | [neovim-gnome-terminal-wrapper](https://github.com/fmoralesc/neovim-gnome-terminal-wrapper) | |
+| Go/OpenGL        | [neoray](https://github.com/hismailbulut/neoray)                              | active (c. 2021-Jul) |
 | Go/Qt            | [akiyosi/goneovim](https://github.com/akiyosi/goneovim)                       | active (c. 2021-Jan) |
 | Go/Qt            | [dzhou121/gonvim](https://github.com/dzhou121/gonvim)                         | abandoned |
 | GTK/Python UI    | [neovim/python-gui](https://github.com/neovim/python-gui)                     | abandoned |
