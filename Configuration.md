@@ -1,8 +1,8 @@
 ## Standard
 
-For standard configuration (be it in **Vimscript** or **Lua**) see :help config.
+For standard configuration (be it in **Vimscript** or **Lua**) see [`:help config`](https://neovim.io/doc/user/starting.html#vimrc).
 
-You can copy your existing vimrc, or symlink to it. :help nvim-from-vim
+You can copy your existing vimrc, or symlink to it: [`:help nvim-from-vim`](https://neovim.io/doc/user/nvim.html#nvim-from-vim).
 
 ## Alternatives
 
