@@ -53,7 +53,7 @@ _Note:_ **[vim-patch.sh](https://github.com/neovim/neovim/blob/master/scripts/vi
 NA ("Not Applicable") patches
 ------------------------------
 
-Many Vim patches are not applicable to Neovim. If you find NA patches, visit an open ["version.c: update" pull request](https://github.com/neovim/neovim/pulls/marvim) and mention the NA patches in a comment (please edit/update *one* comment, rather than adding a new comment for each patch).
+Many Vim patches are not applicable to Neovim. If you find NA patches, visit an open ["version.c: update" pull request](https://github.com/neovim/neovim/pulls?q=is%3Apr+author%3Aapp%2Fgithub-actions+version.c+is%3Aopen) and mention the NA patches in a comment (please edit/update *one* comment, rather than adding a new comment for each patch).
 
 If there are no open `version.c: update` pull requests, include NA patches in a commit message in the following format: 
 
