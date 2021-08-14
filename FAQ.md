@@ -121,12 +121,12 @@ If Neovim is installed on both Windows and within the WSL distribution, the `win
 
 On some versions of Windows, WSL is unable to execute symbolic links to Windows executables ([microsoft/WSL#3999](https://github.com/microsoft/WSL/issues/3999)). In that case, use one of the methods in [#12113 (comment)](https://github.com/neovim/neovim/issues/12113#issuecomment-612827446).
 
-If Neovim is only installed within our WSL distribution, we can just install `win32yank.exe` manually (in this case `~/bin` is in our path):
+If Neovim is only installed within our WSL distribution, we can just install `win32yank.exe` manually:
 
     curl -sLo/tmp/win32yank.zip https://github.com/equalsraf/win32yank/releases/download/v0.0.4/win32yank-x64.zip
     unzip -p /tmp/win32yank.zip win32yank.exe > /tmp/win32yank.exe
     chmod +x /tmp/win32yank.exe
-    mv /tmp/win32yank.exe ~/bin
+    sudo mv /tmp/win32yank.exe /usr/local/bin/
 
 In either case, don't forget to set Neovim's clipboard to `unnamedplus` using `set clipboard=unnamedplus` to make Neovim use the system's (i.e Window's) clipboard by default.
 
