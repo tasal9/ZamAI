@@ -39,7 +39,7 @@ Pull requests
 _Note:_ **[vim-patch.sh](https://github.com/neovim/neovim/blob/master/scripts/vim-patch.sh)** automates these steps for you. Use it!
 
 - Install [gh](https://cli.github.com/) or git-hub if you want to use `vim-patch.sh` to create PRs automatically
-- The pull request *title* should include `vim-patch:8.0.xxxx` (no whitespace) 
+- The pull request *title* should include `vim-patch:8.x.xxxx` (no whitespace) 
 - The [*commit message*](https://github.com/neovim/neovim/commit/4ccf1125ff569eccfc34abc4ad794044c5ab7455) should include:
     - A token indicating the Vim patch number, formatted as follows: <br/>
      `vim-patch:8.0.0123` (no whitespace)
