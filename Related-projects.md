@@ -88,9 +88,12 @@ _Note: Some of these projects are **experimental/unstable**._
 
 ### Plugins
 
+The following plugins take advantage of specific Neovim features, e.g. `jobstart()`, `:terminal` or its remote plugin mechanism.
+
 Additionally, you can search your favourite plugins [there](https://nvim-awesome.vercel.app).
 
-The following plugins take advantage of specific Neovim features, e.g. `jobstart()`, `:terminal` or its remote plugin mechanism.
+Some lua plugins are also referenced on [luarocks](https://luarocks.org/) rockspecs (check the [neovim list](https://luarocks.org/labels/neovim)).
+
 
 #### builtin lsp extension plugins
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig): a collection of LSP configurations
