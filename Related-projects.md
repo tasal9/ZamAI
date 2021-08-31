@@ -109,6 +109,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [alchemist.vim](https://github.com/slashmili/alchemist.vim): Elixir integration
 - [asyncrun.vim](https://github.com/skywind3000/asyncrun.vim): Run async shell commands and output to the quickfix window.
 - [asynctasks.vim](https://github.com/skywind3000/asynctasks.vim): Modern task system for project building, testing and deploying !
+- [ataraxis.lua](https://github.com/henriquehbr/ataraxis.lua): A simple zen mode for improving code readability on neovim
 - [barbar.nvim](https://github.com/romgrk/barbar.nvim): A tabline plugin with re-orderable auto-sizing clickable tabs.
 - [brew.nvim](https://github.com/zgpio/brew.nvim): Neovim plugin manager powered by lua.
 - [bolt.nvim](https://github.com/ripxorip/bolt.nvim): Filter as you type file manager with fuzzy matching and ripgrep integration
