@@ -172,6 +172,7 @@ The following plugins take advantage of specific Neovim features, e.g. `jobstart
 - [nvim-moonmaker](https://github.com/svermeulen/nvim-moonmaker): Adds plugin support for MoonScript files in the same way the built-in support for Lua/Python files works (by automatically compiling MoonScript files to Lua)
 - [Nvim-R](https://github.com/jalvesaq/Nvim-R): Plugin to work with R
 - [nvim-scrollview](https://github.com/dstein64/nvim-scrollview): A plugin that displays interactive scrollbars.
+- [nvim-startup.lua](https://github.com/henriquehbr/nvim-startup.lua): Displays neovim startup time
 - [nvim-terminus](https://github.com/brettanomyces/nvim-terminus): Edit your current command in a scratch buffer
 - [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua): File explorer tree for Neovim written in Lua
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter): treesitter-based improvements
