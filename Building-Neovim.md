@@ -102,7 +102,7 @@ VERBOSE=1 DEBUG=1 make deps
 
 1. Install [CLion](https://www.jetbrains.com/clion/).
 2. Open the Neovim project in CLion.
-3. Select _Build → nvim.exe_.
+3. Select _Build → Build All in 'Release'_.
 
 ## Localization
 
