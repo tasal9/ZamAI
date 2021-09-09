@@ -215,6 +215,13 @@ Neovim can be installed with:
 
     guix install neovim
 
+### GoboLinux
+
+Neovim can be installed with:
+
+    sudo -H Compile NeoVim
+
+
 ### Nix / NixOS
 
 Neovim can be installed with:
