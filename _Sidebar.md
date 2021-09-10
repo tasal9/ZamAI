@@ -1,5 +1,6 @@
 [[[https://raw.githubusercontent.com/neovim/neovim.github.io/master/logos/neovim-logo.png|alt=Neovim home]]](Home)
 --
+[Home](Home)
 [Introduction](Introduction)   
 [FAQ](FAQ)  
 [Related projects](Related-projects)
