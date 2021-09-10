@@ -76,6 +76,7 @@ Example: https://github.com/neovim/neovim/commit/00f60c2ce78fc1280e93d5a36bc7b22
 
 ### Types of "Not Applicable" Vim patches:
 
+- Vim9script features, and anything related to `:scriptversion`
 - Updates to `testdir/Makefile` are usually NA because the Makefile [implicitly finds](https://github.com/neovim/neovim/commit/8a677f8a4bff6005fa39f090c14e970c3dfdbe6e#diff-b3c6ad6680a25a1b42095879e3a87104R52) all `test_*.vim` files.
 - **Compiler warning fixes**: Neovim strives to have no warnings at all, and has a very different build system from Vim.
     - **Note:** Coverity fixes in Vim *are* relevant to Neovim.
