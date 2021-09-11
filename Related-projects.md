@@ -1,31 +1,21 @@
-If you're working on a Neovim-related project, include it (alphabetically) below!
-
-_Note: Some of these projects are **experimental/unstable**._
+_If you're working on a Neovim-related project, include it (alphabetically) below!_
 
 ### GUI
 
 | Platform         | Project                                                                       | Activity  |
 |------------------|-------------------------------------------------------------------------------| :-------: |
-| Atom Integration | [carlosdcastillo/vim-mode](https://github.com/carlosdcastillo/vim-mode)       | abandoned |
 | Avalonia         | [yatli/fvim](https://github.com/yatli/fvim)                                   | active (c. 2020-Dec) |
 | Browsers         | [glacambre/firenvim](https://github.com/glacambre/firenvim)                   | active (c. 2021-Jan) |
 | C++/DirectWrite  | [RMichelsen/Nvy](https://github.com/RMichelsen/Nvy)                           |           |
-| C++/Python       | [meatich/NeoSFML](https://github.com/meatich/NeoSFML)                         | inactive  |
 | C++/SDL2         | [etorth/libnvc](https://github.com/etorth/libnvc)                             |           |
 | curses/Python    | [mvilim/neovim-pytc-example](https://github.com/mvilim/neovim-pytc-example)   |           |
 | Direct2D         | [dontpanic92/dotnvim](https://github.com/dontpanic92/dotnvim)                 |           |
 | EFL              | [Eovim](https://github.com/jeanguyomarch/eovim/)                              |           |
-| Electron UI      | [coolwanglu/neovim-e](https://github.com/coolwanglu/neovim-e)                 | inactive  |
-| Electron UI      | [rhysd/NyaoVim](https://github.com/rhysd/NyaoVim)                             | inactive  |
-| Electron UI      | [onivim/oni](https://github.com/onivim/oni)                                   | abandoned |
 | Electron UI      | [uivonim](https://github.com/smolck/uivonim)                                  | active (c. 2021-Jan) |
-| Electron UI      | [veonim](https://github.com/veonim/veonim)                                    | archived  |
 | Electron UI      | [VV](https://github.com/igorgladkoborodov/vv)                                 | active (c. 2020-Nov) |
 | gnome-terminal   | [neovim-gnome-terminal-wrapper](https://github.com/fmoralesc/neovim-gnome-terminal-wrapper) | |
 | Go/OpenGL        | [neoray](https://github.com/hismailbulut/neoray)                              | active (c. 2021-Jul) |
 | Go/Qt            | [akiyosi/goneovim](https://github.com/akiyosi/goneovim)                       | active (c. 2021-Jan) |
-| Go/Qt            | [dzhou121/gonvim](https://github.com/dzhou121/gonvim)                         | abandoned |
-| GTK/Python UI    | [neovim/python-gui](https://github.com/neovim/python-gui)                     | abandoned |
 | GTK/Python UI    | [rliang/nvim-pygtk3](https://github.com/rliang/nvim-pygtk3)                   |           |
 | GTK/Python UI    | [Bominade (b8)](https://gitlab.com/afshar-oss/b8)                             |           |
 | GTK/Rust UI      | [daa84/neovim-gtk](https://github.com/daa84/neovim-gtk)                       |           |
@@ -42,13 +32,10 @@ _Note: Some of these projects are **experimental/unstable**._
 | Rust IDE         | [oakes/SolidOak](https://github.com/oakes/SolidOak)                           | archived  |
 | Sublime Text     | [lunixbochs/actualvim](https://github.com/lunixbochs/actualvim)               |           |
 | Terminal Wrapper | [glrnvim](https://github.com/beeender/glrnvim)                                |           |
-| Tk/Python UI     | [timeyyy/pytknvim](https://github.com/timeyyy/pytknvim)                       | inactive  |
 | VSCode           | [VSCodeVim](https://github.com/VSCodeVim/Vim)                                 |           |
 | VSCode           | [VSCode Neovim](https://github.com/asvetliakov/vscode-neovim)                 |           |
 | Windows/Linux    | [meatich/Viy](https://github.com/meatich/Viy)                                 | inactive  |
 
-
-<sub>Note: Activity only takes into account the update of the codebase, excluding README, etc. </sub>
 
 ### API clients
 
