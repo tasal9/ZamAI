@@ -86,7 +86,7 @@ To update the development version of Nvim:
     
     brew reinstall neovim
 
-### [Macports](https://www.macports.org/)
+### [MacPorts](https://www.macports.org/)
 
     sudo port selfupdate
     sudo port install neovim
