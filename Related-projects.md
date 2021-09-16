@@ -223,6 +223,7 @@ Some lua plugins are also referenced on [luarocks](https://luarocks.org/) rocksp
 This is software either targeted at Neovim or with support for it.
 
 - [chromatin](https://github.com/tek/chromatin.nvim): Package manager for plugins built with Ribosome
+- [flatnvim](https://github.com/adamtabrams/flatnvim): Tool that prevents nested Neovim instances
 - [neovim-remote](https://github.com/mhinz/neovim-remote): Tool that helps controlling Neovim processes
 - [nero.nvim](https://github.com/Vigemus/nero.nvim): A REPL for Neovim (as in managing Neovim through a REPL)
 - [nfasd](https://github.com/haifengkao/nfasd) Autocomplete recent files in command line
