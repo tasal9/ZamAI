@@ -294,16 +294,18 @@ Nvim 0.3 mimics the Vim behavior while still fully supporting ALT mappings. See 
 
 This happens because of [a bug in screen](https://savannah.gnu.org/bugs/?60196): in mouse mode, screen assumes that `ESC` is part of a mouse sequence and will wait an unlimited time for the rest of the sequence, regardless of `maptimeout`. Until it's fixed in screen, there's no known workaround for this other than double-pressing escape, which causes a single escape to be passed through to Nvim.
 
-### Calling `inputlist()`, `echomsg`, etc... in filetype plugins and `autocmd` does not work
+### Calling `inputlist()`, `echomsg`, … in filetype plugins and `autocmd` does not work
 
-This is because, unlike vim, the default option `shortmess` contains the `F` in it. Vim behaves the same way when you `set shortmes+=F`. Maybe this behavior should be improved. As a workaround, use `set shortmess-=F` or use `unsilent` as follows.
+[#10008](https://github.com/neovim/neovim/issues/10008), [#10116](https://github.com/neovim/neovim/issues/10116), [#12288](https://github.com/neovim/neovim/issues/12288), [# vim/vim#4379](https://github.com/vim/vim/issues/4379).
+This is because Nvim sets `shortmess+=F` by default. Vim behaves the same way
+with `set shortmes+=F`. There are plans to improve this, but meanwhile as
+a workaround, use `set shortmess-=F` or use `unsilent` as follows.
 
 ```vim
 unsilent let var = inputlist(['1. item1', '2. item2'])
-
 autocmd BufNewFile * unsilent echomsg 'The autocmd has been fired.'
 ```
-See the following issues: [#10008](https://github.com/neovim/neovim/issues/10008), [#10116](https://github.com/neovim/neovim/issues/10116), [#12288](https://github.com/neovim/neovim/issues/12288), [# vim/vim#4379](https://github.com/vim/vim/issues/4379).
+
 
 ### `g:clipboard` settings are not used.
 
