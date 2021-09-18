@@ -70,14 +70,6 @@ See also `:help $TERM` for recommended values of `$TERM`.
 - The Vim terminal options `t_SI` and `t_EI` are ignored, like all other `t_XX` options. 
 - Old versions of libvte (gnome-terminal, roxterm, terminator, ...) do not support cursor style control codes. [#2537](https://github.com/neovim/neovim/issues/2537)
 
-### Flick _cursor_ when use neovim under tmux?
-Cursor `_` appears and disappears very quickly when open nvim without document under tmux (only happens under tmux).
-If you set `ctermbg` in `EndOfBuffer` and `Normal`, set it to `NONE`
-```
-hi EndOfBuffer ctermbg=NONE ctermfg=200 cterm=NONE
-hi Normal ctermbg=NONE ctermfg=200 cterm=NONE
-```
-
 ### How to change cursor _color_ in the terminal?
 
 Cursor styling (shape, color, behavior) is controlled by `guicursor`, even in the terminal. 
@@ -109,6 +101,15 @@ au VimLeave,VimSuspend * set guicursor=a:block-blinkon0
 tmux decides that, not Nvim. See [:help tui-cursor-shape](https://neovim.io/doc/user/term.html#tui-cursor-shape) for a fix.
 
 See [#3165](https://github.com/neovim/neovim/pull/3165) for discussion.
+
+### Cursor flicker in tmux?
+
+If cursor `_` appears and disappears very quickly when opening nvim without
+a document under tmux, and you set `ctermbg` in `EndOfBuffer` and `Normal`, try set these to `NONE`:
+```
+hi EndOfBuffer ctermbg=NONE ctermfg=200 cterm=NONE
+hi Normal ctermbg=NONE ctermfg=200 cterm=NONE
+```
 
 ### Is Windows supported?
 
