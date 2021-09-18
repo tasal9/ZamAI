@@ -105,7 +105,7 @@ See [#3165](https://github.com/neovim/neovim/pull/3165) for discussion.
 ### Cursor flicker in tmux?
 
 If cursor `_` appears and disappears very quickly when opening nvim without
-a document under tmux, and you set `ctermbg` in `EndOfBuffer` and `Normal`, try set these to `NONE`:
+a document under tmux, and you set `ctermbg` in `EndOfBuffer` and `Normal`, try setting these to `NONE`:
 ```
 hi EndOfBuffer ctermbg=NONE ctermfg=200 cterm=NONE
 hi Normal ctermbg=NONE ctermfg=200 cterm=NONE
