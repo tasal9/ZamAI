@@ -2,26 +2,7 @@
 
 ## Contents
 
-- [Get Build Prerequisites](#first-step)
-- [Running tests](#running-tests)
-- [Building](#building)
-  - [Building on Windows](#building-on-windows)
-- [Localization](#localization)
-- [Compiler options](#compiler-options)
-- [Xcode and MSVC project files](#xcode-and-msvc-project-files)
-- [Custom Makefile](#custom-makefile)
-- [Third-party dependencies](#third-party-dependencies)
-- [Build prerequisites](#build-prerequisites)
-  - [Ubuntu / Debian](#ubuntu--debian)
-  - [CentOS / RHEL / Fedora](#centos--rhel--fedora)
-  - [openSUSE](#opensuse)
-  - [Arch Linux](#arch-linux)
-  - [Alpine Linux](#alpine-linux)
-  - [NixOS / Nix](#nixos--nix)
-  - [FreeBSD](#freebsd)
-  - [OpenBSD](#openbsd)
-  - [macOS](#macos)
-  - [Windows](#windows)
+**Table of contents are available by expanding the _Pages_ sidebar to the right ==>.**
 
 
 ## First Step
@@ -198,7 +179,8 @@ make
 
 ### How to build without "bundled" dependencies
 
-1. Manually install the dependencies: `gperf`, `libuv`, `libluv`, `libtermkey`, `libvterm`, `luajit`, `lua-lpeg`, `lua-mpack`, `msgpack-c`, `tree-sitter`, and `unibilium`.
+1. Manually install the dependencies:
+    - gperf libuv libluv libtermkey libvterm luajit lua-lpeg lua-mpack msgpack-c tree-sitter unibilium
 2. Do the "CMake dance": create a `build` directory, switch to it, and run CMake:
    ```sh
    mkdir build
@@ -217,7 +199,7 @@ make
    cmake ..
    ```
 3. Run `make`, `ninja`, or whatever build tool you [told CMake to generate](#xcode-and-msvc-project-files).
-   - Using `ninja` is strongly recommended.
+    - Using `ninja` is strongly recommended.
 
 #### Debian 10 (Buster) example:
 
