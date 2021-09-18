@@ -2,7 +2,7 @@
 - 👀  ➡️ Table of contents (ToC) is available by expanding the _Pages_ sidebar to the right ➡️
 
 
-## First Step
+## Quick start
 
 1. Install [build prerequisites](#build-prerequisites) on your system
 2. `git clone https://github.com/neovim/neovim`
