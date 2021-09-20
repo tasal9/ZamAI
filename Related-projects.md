@@ -143,6 +143,7 @@ Some lua plugins are also referenced on [luarocks](https://luarocks.org/) rocksp
 - [neovim-db](https://github.com/paulocesar/neovim-db): Run SQL queries inside Neovim
 - [neovim-hackernews](https://github.com/dpzmick/neovim-hackernews): Display Hacker News (HN) stories inside Neovim
 - [neovim-ranger](https://github.com/airodactyl/neovim-ranger): File manager with Vi key bindings
+- [nvim-rg](https://github.com/duane9/nvim-rg): Run ripgrep from Neovim
 - [neovim-vifm](https://github.com/vifm/neovim-vifm): Integration between Vifm (Vi file manager) and Neovim
 - [nim.nvim](https://github.com/alaviss/nim.nvim): Nim language support
 - [nlanguagetool.nvim](https://github.com/fmoralesc/nlanguagetool.nvim): Integration with LanguageTool, a style and grammar checker for natural languages
