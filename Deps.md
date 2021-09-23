@@ -12,7 +12,7 @@ For some dependencies we maintain temporary "forks", which are simply private br
 The complete, current list of forked dependencies is as follows:
 
 * https://github.com/neovim/libuv
-  * Neovim fork lives on the `nvim` branch: https://github.com/neovim/libuv/compare/v1.x...nvim
+  * Neovim fork lives on the `nvim` branch: https://github.com/libuv/libuv/compare/v1.x...neovim:nvim
 * https://github.com/neovim/libvterm
   * Neovim fork lives on the `nvim` branch: https://github.com/neovim/libvterm/compare/master...nvim
 * https://github.com/neovim/libtermkey
