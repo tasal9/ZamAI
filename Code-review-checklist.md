@@ -65,4 +65,4 @@ Many items were [taken from here][code-review-checklist] [and here][code-review-
 
 [code-review-checklist]: http://blog.fogcreek.com/increase-defect-detection-with-our-code-review-checklist-example/
 [code-review-secrets]: http://smartbear.com/SmartBear/media/pdfs/best-kept-secrets-of-peer-code-review.pdf
-[style-guide]: http://neovim.io/develop/style-guide.xml
+[style-guide]: https://neovim.io/doc/user/dev_style.html#dev-style
