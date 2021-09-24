@@ -17,7 +17,7 @@
     - [Tests](https://github.com/neovim/neovim/blob/master/test/README.md)
     - [Refactoring guidelines](https://github.com/neovim/neovim/wiki/Refactoring)
     - [Merging patches from upstream Vim](Merging-patches-from-upstream-Vim)
-- [Style guide](http://neovim.io/develop/style-guide.xml)
+- [Style guide](https://neovim.io/doc/user/dev_style.html#dev-style)
 - [Source Documentation](https://neovim.io/doc/dev/globals_func.html)
     - [Plugin Architecture](Plugin-UI-architecture)
     - [Code overview](Code-overview)
