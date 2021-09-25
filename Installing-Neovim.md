@@ -136,7 +136,7 @@ Neovim is available through [EPEL (Extra Packages for Enterprise Linux)](https:/
 
 ### Clear Linux OS
 
-NeoVim is available through the [neovim bundle](https://github.com/clearlinux/clr-bundles/blob/master/bundles/neovim)
+Neovim is available through the [neovim bundle](https://github.com/clearlinux/clr-bundles/blob/master/bundles/neovim)
 
     sudo swupd bundle-add neovim
 
