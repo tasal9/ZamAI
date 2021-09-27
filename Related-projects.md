@@ -143,7 +143,6 @@ Some lua plugins are also referenced on [luarocks](https://luarocks.org/) rocksp
 - [neovim-db](https://github.com/paulocesar/neovim-db): Run SQL queries inside Neovim
 - [neovim-hackernews](https://github.com/dpzmick/neovim-hackernews): Display Hacker News (HN) stories inside Neovim
 - [neovim-ranger](https://github.com/airodactyl/neovim-ranger): File manager with Vi key bindings
-- [nvim-rg](https://github.com/duane9/nvim-rg): Run ripgrep from Neovim
 - [neovim-vifm](https://github.com/vifm/neovim-vifm): Integration between Vifm (Vi file manager) and Neovim
 - [nim.nvim](https://github.com/alaviss/nim.nvim): Nim language support
 - [nlanguagetool.nvim](https://github.com/fmoralesc/nlanguagetool.nvim): Integration with LanguageTool, a style and grammar checker for natural languages
@@ -163,6 +162,7 @@ Some lua plugins are also referenced on [luarocks](https://luarocks.org/) rocksp
 - [nvim-marksman](https://github.com/svermeulen/nvim-marksman) - A file finder that minimizes the amount of keystrokes needed to go to a file
 - [nvim-moonmaker](https://github.com/svermeulen/nvim-moonmaker): Adds plugin support for MoonScript files in the same way the built-in support for Lua/Python files works (by automatically compiling MoonScript files to Lua)
 - [Nvim-R](https://github.com/jalvesaq/Nvim-R): Plugin to work with R
+- [nvim-rg](https://github.com/duane9/nvim-rg): Run ripgrep from Neovim
 - [nvim-scrollview](https://github.com/dstein64/nvim-scrollview): A plugin that displays interactive scrollbars.
 - [nvim-startup.lua](https://github.com/henriquehbr/nvim-startup.lua): Displays neovim startup time
 - [nvim-terminus](https://github.com/brettanomyces/nvim-terminus): Edit your current command in a scratch buffer
