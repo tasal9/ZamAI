@@ -16,15 +16,15 @@ A doc comment in Lua should roughly follow this template:
 ---
 --- {Long explanation}
 ---
---- @param arg1 {description}
---- @param arg2 {description}
+---@param arg1 {description}
+---@param arg2 {description}
 {...}
 ---
---- @return {description}
+---@return {description}
 ```
 
 If a function in your Lua module should not be documented (e.g. internal function or local function), you should set the doc comment to:
 
 ```
---- @private
+---@private
 ```
