@@ -118,7 +118,8 @@ Some lua plugins are also referenced on [luarocks](https://luarocks.org/) rocksp
 - [Floobits](https://github.com/Floobits/floobits-neovim): Floobits plugin
 - [FlyGrep.vim](https://github.com/wsdjeg/FlyGrep.vim): Asynchronously fly grep in vim
 - [fzf-gitignore](https://github.com/fszymanski/fzf-gitignore): A fzf (command-line fuzzy finder) interface for creating .gitignore files using the gitignore.io API
-- [galaxyline.nvim](https://github.com/glepnir/galaxyline.nvim): A customizable statusline plugin written in Lua.
+- [galaxyline.nvim](https://github.com/nvim-lualine/lualine.nvim): A customizable statusline plugin written in Lua.
+- [lualine.nvim](https://github.com/glepnir/galaxyline.nvim): A blazing fast and easy to configure neovim statusline plugin written in pure lua.
 - [gen_tags.vim](https://github.com/jsfaint/gen_tags.vim): Async plugin for Vim and Neovim to ease the use of Ctags/gTags
 - [git_fastfix](https://github.com/dm1try/git_fastfix): Apply "fast git fixups"(using UI) to the current development branch.
 - [gitlinker.nvim](https://github.com/ruifm/gitlinker.nvim) - Generate shareable file permalinks for several git hosts. Inspired by tpope/vim-fugitive's :GBrowse
