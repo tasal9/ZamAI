@@ -103,6 +103,10 @@ ninja
 ninja install
 ```
 
+If you cannot install neovim with `ninja install`, the following command will produce a zip archive, which you can extract anywhere. Then you can add the `bin/` directory inside it to your PATH variable and invoke `nvim` from anywhere in your command line.
+```cmd
+cpack -G ZIP -C RelWithDebInfo
+```
 For 32-bit builds, adjust the package names and paths accordingly.
 
 ### Windows / MSVC
