@@ -93,12 +93,13 @@ Build using the `Ninja` generator:
 ```cmd
 mkdir .deps
 cd .deps
-cmake  -G Ninja ..\third-party\
+cmake -G Ninja ..\third-party\
 ninja
 cd ..
+
 mkdir build
 cd build
-cmake -G Ninja ..
+cmake -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo ..
 ninja
 ninja install
 ```
