@@ -34,7 +34,7 @@ _If you're working on a Neovim-related project, include it (alphabetically) belo
 | Terminal Wrapper | [glrnvim](https://github.com/beeender/glrnvim)                                |           |
 | VSCode           | [VSCodeVim](https://github.com/VSCodeVim/Vim)                                 |           |
 | VSCode           | [VSCode Neovim](https://github.com/asvetliakov/vscode-neovim)                 |           |
-| Windows/Linux    | [meatich/Viy](https://github.com/meatich/Viy)                                 | inactive  |
+| Windows/Linux    | [meatich/Viy](https://github.com/meatich/Viy)                                 | archived  |
 
 
 ### API clients
