@@ -135,7 +135,9 @@ If Neovim is only installed within our WSL distribution, we can just install `wi
 
 In either case, don't forget to set Neovim's clipboard to `unnamedplus` using `set clipboard=unnamedplus` to make Neovim use the system's (i.e Window's) clipboard by default.
 
-See [#6227](https://github.com/neovim/neovim/issues/6227) for more information.
+If it does not work, you can debug it using `:checkhealth` to identify any issues, e.g., there could be xclip installed and taking precedent over win32yank. 
+
+See also [#6227](https://github.com/neovim/neovim/issues/6227) for more information.
 
 ### What happened to --remote and friends?
 
