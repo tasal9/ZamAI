@@ -26,8 +26,8 @@ _If you're working on a Neovim-related project, include it (alphabetically) belo
 | macOS            | [qvacua/vimr](https://github.com/qvacua/vimr)                                 |           |
 | macOS            | [rogual/neovim-dot-app](https://github.com/rogual/neovim-dot-app)             |           |
 | mac OS UI        | [DinVim Vim for Mac](http://dinvim.com)                                       |           |
-| nvui             | [NVUI](https://github.com/rohit-px2/nvui)                                     |           |
 | Qt 5             | [equalsraf/neovim-qt](https://github.com/equalsraf/neovim-qt)                 | active (c. 2021-Jan) |
+| Qt 5             | [rohit-px2/nvui](https://github.com/rohit-px2/nvui)                                     |           |
 | Qt Creator       | [sassanh/qnvim](https://github.com/sassanh/qnvim)                             |           |
 | Rust             | [kethku/neovide](https://github.com/Kethku/neovide)                           | active (c. 2021-Jan) |
 | Rust IDE         | [oakes/SolidOak](https://github.com/oakes/SolidOak)                           | archived  |
