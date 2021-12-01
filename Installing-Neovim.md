@@ -24,6 +24,8 @@ Packages are listed below. (You can also [build Neovim from source](#install-fro
 
 ## Windows
 
+Windows 8+ is required. Windows 7 or older is not supported.
+
 ### [Chocolatey](https://chocolatey.org)
 
 - **Release (v0.5):** `choco install neovim` (use -y for automatically skipping confirmation messages)
