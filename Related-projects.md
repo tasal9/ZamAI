@@ -14,7 +14,7 @@ _If you're working on a Neovim-related project, include it (alphabetically) belo
 | Electron UI      | [uivonim](https://github.com/smolck/uivonim)                                  | active (c. 2021-Jan) |
 | Electron UI      | [VV](https://github.com/igorgladkoborodov/vv)                                 | active (c. 2020-Nov) |
 | gnome-terminal   | [neovim-gnome-terminal-wrapper](https://github.com/fmoralesc/neovim-gnome-terminal-wrapper) | |
-| Go/OpenGL        | [neoray](https://github.com/hismailbulut/neoray)                              | active (c. 2021-Jul) |
+| Go/OpenGL        | [Neoray](https://github.com/hismailbulut/Neoray)                              | active (c. 2021-Jul) |
 | Go/Qt            | [akiyosi/goneovim](https://github.com/akiyosi/goneovim)                       | active (c. 2021-Jan) |
 | GTK/Python UI    | [rliang/nvim-pygtk3](https://github.com/rliang/nvim-pygtk3)                   |           |
 | GTK/Python UI    | [Bominade (b8)](https://gitlab.com/afshar-oss/b8)                             |           |
