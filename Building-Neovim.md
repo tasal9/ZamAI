@@ -409,6 +409,7 @@ gmake
     ```
     brew install ninja libtool automake cmake pkg-config gettext curl
     ```
+4. Clone the repository, `cd neovim`, and `make` (without `-j`, as `ninja` parallelizes the build automatically)
   - **Note**: If you see Wget certificate errors (for older macOS versions less than 10.10):
     ```sh
     brew install curl-ca-bundle
@@ -427,6 +428,7 @@ gmake
     ```
     sudo port install ninja libtool autoconf automake cmake pkgconfig gettext
     ```
+4. Clone the repository, `cd neovim`, and `make` (without `-j`, as `ninja` parallelizes the build automatically)
   - **Note**: If you see Wget certificate errors (for older macOS versions less than 10.10):
     ```sh
     sudo port install curl-ca-bundle
