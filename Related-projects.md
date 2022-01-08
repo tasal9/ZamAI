@@ -8,6 +8,7 @@ _If you're working on a Neovim-related project, include it (alphabetically) belo
 | Browsers         | [glacambre/firenvim](https://github.com/glacambre/firenvim)                   | active (c. 2021-Dec) |
 | C++/DirectWrite  | [RMichelsen/Nvy](https://github.com/RMichelsen/Nvy)                           | active (c. 2021-Dec) |
 | C++/SDL2         | [etorth/libnvc](https://github.com/etorth/libnvc)                             |           |
+| C++/Gtk          | [sakhnik/nvim-ui](https://github.com/sakhnik/nvim-ui)                         | active (c. 2022-Jan) |
 | curses/Python    | [mvilim/neovim-pytc-example](https://github.com/mvilim/neovim-pytc-example)   | inactive (c. 2021-Dec) |
 | Direct2D         | [dontpanic92/dotnvim](https://github.com/dontpanic92/dotnvim)                 | inactive (c. 2021-Dec) |
 | EFL              | [Eovim](https://github.com/jeanguyomarch/eovim/)                              |           |
