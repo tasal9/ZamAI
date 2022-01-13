@@ -318,6 +318,12 @@ sudo pacman -S base-devel cmake unzip ninja tree-sitter curl
 apk add build-base cmake automake autoconf libtool pkgconf coreutils curl unzip gettext-tiny-dev
 ```
 
+### Void Linux
+
+```
+xbps-install base-devel cmake curl git
+```
+
 ### NixOS / Nix
 
 Starting from NixOS 18.03, the Neovim binary resides in the `neovim-unwrapped` Nix package (the `neovim` package being just a wrapper to setup runtime options like Ruby/Python support):
