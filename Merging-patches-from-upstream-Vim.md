@@ -151,6 +151,8 @@ See the [`memory.c` Doxygen page](http://neovim.io/doc/dev/memory_8c.html) for m
 | `screen_*` (most functions)             | `grid_*`                  |
 | `update_prepare`, `update_finish` [#9484](https://github.com/neovim/neovim/pull/9484) | removed; use `update_screen` only |
 | `ARRAY_LENGTH`                          | `ARRAY_SIZE`              |
+| `vim_strsave_escape_csi`                | `vim_strsave_escape_ks`   |
+| `vim_unescape_csi`                      | `vim_unescape_ks`         |
 
 Make sure to note the difference between `utf_` and `utfc_` when replacing `mb_` functions. Also indirect call syntax `(*mb_ptr2len)(...)` should be replaced with an ordinary function call `utfc_ptr2len(...)`.
 
