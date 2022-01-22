@@ -19,7 +19,8 @@ _If you're working on a Neovim-related project, include it (alphabetically) belo
 | Go/Qt            | [akiyosi/goneovim](https://github.com/akiyosi/goneovim)                       | active (c. 2021-Jan) |
 | GTK/Python UI    | [rliang/nvim-pygtk3](https://github.com/rliang/nvim-pygtk3)                   |           |
 | GTK/Python UI    | [Bominade (b8)](https://gitlab.com/afshar-oss/b8)                             |           |
-| GTK/Rust UI      | [daa84/neovim-gtk](https://github.com/daa84/neovim-gtk)                       |           |
+| GTK/Rust UI      | [daa84/neovim-gtk](https://github.com/daa84/neovim-gtk)                       | inactive (c. 2022-Jan) |
+| GTK/Rust UI      | [Lyude/neovim-gtk](https://github.com/Lyude/neovim-gtk)                       | active (c. 2022-Jan) |
 | GTK/Rust UI      | [GNvim](https://github.com/vhakulinen/gnvim)                                  |           |
 | I3/Sway          | [glacambre/nwin](https://github.com/glacambre/nwin)                           |           |
 | JavaFX           | [jebberjeb/javafx-neovimpane](https://github.com/jebberjeb/javafx-neovimpane) |           |
