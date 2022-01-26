@@ -114,7 +114,7 @@ hi Normal ctermbg=NONE ctermfg=200 cterm=NONE
 ### Is Windows supported?
 
 Yes, starting with the [`0.2` release](https://github.com/neovim/neovim/milestones/0.2).
-See the [Install](https://github.com/neovim/neovim/wiki/Installing-Neovim#windows) page. 
+See the [Install](https://github.com/neovim/neovim/wiki/Installing-Neovim#windows) page. However, since there are no active developers, there is no guarantee that it will continue to be maintained. Therefore, if you don't have the skills to solve the problem yourself if it arises, it is not recommended for use with Windows.
 
 ### How to use the Windows clipboard from WSL?
 
