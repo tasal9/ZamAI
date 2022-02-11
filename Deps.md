@@ -15,9 +15,9 @@ The complete, current list of forked dependencies is as follows:
   * The original project [was abandoned](https://github.com/neovim/neovim/issues/10302), so the [neovim/unibilium](https://github.com/neovim/unibilium) fork is considered "upstream" and is maintained on the `master` branch.
 * ~https://github.com/neovim/libvterm~
   * ~Neovim fork lives on the `nvim` branch: https://github.com/neovim/libvterm/compare/master...nvim~
-  * Not used since https://github.com/neovim/neovim/pull/12797
+  * Not used since https://github.com/neovim/neovim/pull/12797, upstream is https://www.leonerd.org.uk/code/libvterm/
 * ~https://github.com/neovim/libuv~
   * ~Neovim fork lives on the `nvim` branch: https://github.com/libuv/libuv/compare/v1.x...neovim:nvim~
-  * Not used since https://github.com/neovim/neovim/pull/15889
+  * Not used since https://github.com/neovim/neovim/pull/15889, upstream is https://github.com/libuv/libuv
 * ~https://github.com/neovim/libtermkey~
-  * Not used since https://github.com/neovim/neovim/pull/3430
+  * Not used since https://github.com/neovim/neovim/pull/3430, upstream is https://www.leonerd.org.uk/code/libtermkey
