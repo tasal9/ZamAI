@@ -19,4 +19,5 @@ The complete, current list of forked dependencies is as follows:
 * ~https://github.com/neovim/libuv~
   * ~Neovim fork lives on the `nvim` branch: https://github.com/libuv/libuv/compare/v1.x...neovim:nvim~
   * Not used since https://github.com/neovim/neovim/pull/15889
-* ~~https://github.com/neovim/libtermkey~~
+* ~https://github.com/neovim/libtermkey~
+  * Not used since https://github.com/neovim/neovim/pull/3430
