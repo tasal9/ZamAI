@@ -222,6 +222,7 @@ Some lua plugins are also referenced on [luarocks](https://luarocks.org/) rocksp
 - [vsh](https://github.com/hardenedapple/vsh/): Store and replay shell sessions; also output search/modification/undo/redo
 - [watson.nvim](https://github.com/ccchapman/watson.nvim): Track your time with this Watson CLI wrapper
 - [worldslice](https://github.com/fmoralesc/worldslice): Minimalistic statusline and tabline configuration
+- [Yode-Nvim](https://github.com/hoschi/yode-nvim): Focused code editing for NeoVim
 
 
 ### Non-plugin software
