@@ -122,7 +122,7 @@ See the [`memory.c` Doxygen page](http://neovim.io/doc/dev/memory_8c.html) for m
 
 | Deprecated or removed                   | Replacement        |
 |:----------------------------------------|:------------------:|
-| `vim_free`                              | `xfree`             |
+| `vim_free`                              | `xfree`            |
 | `VIM_CLEAR(&foo)`                       | `XFREE_CLEAR(foo)` |
 | `malloc` `alloc` `lalloc` `lalloc_id` `ALLOC_ONE` | `xmalloc`          |
 | `calloc` `lalloc_clear`                 | `xcalloc`          |
@@ -147,6 +147,8 @@ See the [`memory.c` Doxygen page](http://neovim.io/doc/dev/memory_8c.html) for m
 | `mb_lefthalve`                          | `grid_lefthalve`          |
 | `mb_fix_col`                            | `grid_fix_col`            |
 | `utf_off2cells`                         | `grid_off2cells`          |
+| `ml_get_curline`                        | `get_cursor_line_ptr`     |
+| `ml_get_cursor`                         | `get_cursor_pos_ptr`      |
 | `screen_char`                           | `ui_line`                 |
 | `screen_line`                           | `grid_put_linebuf`        |
 | `screen_*` (most functions)             | `grid_*`                  |
