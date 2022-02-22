@@ -458,7 +458,29 @@ If `nvim` crashes, you can see the backtrace in Console.app (under "Crash Report
 
     open -a Console
 
-You may also want to [enable core dumps on macOS](https://developer.apple.com/library/mac/technotes/tn2124/_index.html#//apple_ref/doc/uid/DTS10003391-CH1-SECCOREDUMPS). The `/cores/` directory must exist and be writable.
+You may also want to enable core dumps on macOS. To do this, first make sure the `/cores/` directory exists and is writable:
+
+```console
+sudo mkdir /cores
+sudo chown root:admin /cores
+sudo chmod 1775 /cores
+```
+
+Then set the core size limit to `unlimited`:
+
+```console
+ulimit -c unlimited
+```
+
+Note that this is done per shell process. If you want to make this the default for all shells, add the above line to your shell's init file (e.g. `~/.bashrc` or similar).
+
+You can then open the core file in `lldb`:
+
+```console
+lldb -c /cores/core.12345
+```
+
+Apple's documentation archive [has some other useful information](https://developer.apple.com/library/archive/technotes/tn2124/_index.html#//apple_ref/doc/uid/DTS10003391-CH1-SECCOREDUMPS), but note that some of the things on this page are out of date (such as enabling core dumps with `/etc/launchd.conf`).
 
 ### Using `gdb` to step through functional tests
 
