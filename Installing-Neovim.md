@@ -388,7 +388,7 @@ or [from the ports tree](https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/editors
 
 ## Android
 
-[Termux on the Google Play store](https://bit.ly/3JErTbz) offers a Neovim package.
+[Termux on the Google Play store](https://play.google.com/store/apps/details?id=com.termux) offers a Neovim package.
 
 
 Install from source
