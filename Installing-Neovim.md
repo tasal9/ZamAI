@@ -26,6 +26,10 @@ Packages are listed below. (You can also [build Neovim from source](#install-fro
 
 Windows 8+ is required. Windows 7 or older is not supported.
 
+### [Winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
+
+- **Release:** `winget install Neovim.Neovim`
+
 ### [Chocolatey](https://chocolatey.org)
 
 - **Release (v0.6):** `choco install neovim` (use -y for automatically skipping confirmation messages)
