@@ -242,6 +242,14 @@ To install the Python modules:
 
     urpmi python2-pynvim python3-pynvim
 
+### makedeb Package Repository (MPR)
+
+Neovim is available inside the [MPR](https://mpr.makedeb.org/packages/neovim). You can install it with:
+
+    git clone https://mpr.makedeb.org/neovim
+    cd neovim/
+    makedeb -si
+
 ### OpenSUSE
 
 Neovim can be installed with:
