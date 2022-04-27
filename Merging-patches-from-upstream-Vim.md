@@ -133,6 +133,7 @@ See the [`memory.c` Doxygen page](http://neovim.io/doc/dev/memory_8c.html) for m
 | `vim_strcat` `strncat`                  | `xstrlcat`         |
 | `VIM_ISWHITE`                           | `ascii_iswhite`    |
 | `vim_isalpha`                           | `mb_isalpha`       |
+| `vim_isNormalIDc`                       | `ascii_isident`       |
 | `vim_islower` `vim_isupper`             | `mb_islower` `mb_isupper` |
 | `vim_tolower` `vim_toupper`             | `mb_tolower` `mb_toupper` |
 | `mb_ptr2len`                            | `utfc_ptr2len`            |
