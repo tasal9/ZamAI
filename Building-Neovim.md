@@ -79,8 +79,7 @@ From the MSYS2 shell, install these packages:
 
 ```
 pacman -S \
-    mingw-w64-x86_64-{gcc,libtool,cmake,make,perl,python2,pkg-config,ninja,diffutils} \
-    gperf
+    mingw-w64-x86_64-{gcc,libtool,cmake,make,perl,python2,pkg-config,ninja,diffutils}
 ```
 
 Now, from the Windows Command Prompt (`cmd.exe`), set up the `PATH` and build.
@@ -227,7 +226,7 @@ make
 ### How to build without "bundled" dependencies
 
 1. Manually install the dependencies:
-    - gperf libuv libluv libtermkey libvterm luajit lua-lpeg lua-mpack msgpack-c tree-sitter unibilium
+    - libuv libluv libtermkey libvterm luajit lua-lpeg lua-mpack msgpack-c tree-sitter unibilium
 2. Do the "CMake dance": create a `build` directory, switch to it, and run CMake:
    ```sh
    mkdir build
@@ -251,7 +250,7 @@ make
 #### Debian 10 (Buster) example:
 
 ```sh
-sudo apt install gperf luajit luajit-5.1-dev lua-mpack lua-lpeg libunibilium-dev libmsgpack-dev libtermkey-dev
+sudo apt install luajit luajit-5.1-dev lua-mpack lua-lpeg libunibilium-dev libmsgpack-dev libtermkey-dev
 mkdir .deps
 cd .deps
 cmake ../third-party/ -DUSE_BUNDLED=OFF -DUSE_BUNDLED_LIBUV=ON -DUSE_BUNDLED_LUV=ON -DUSE_BUNDLED_LIBVTERM=ON -DUSE_BUNDLED_TS=ON
