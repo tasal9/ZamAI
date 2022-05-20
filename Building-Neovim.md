@@ -57,9 +57,15 @@ CMake, our main build system, caches a lot of things in `build/CMakeCache.txt`. 
 
 By default (`USE_BUNDLED=1`), Neovim downloads and statically links its needed dependencies. In order to be able to use a debugger on these libraries, you might want to compile them with debug information as well:
 
+<!-- THIS CAUSES SCREEN INTERFERENCE
 ```
 make distclean
 VERBOSE=1 DEBUG=1 make deps
+```
+-->
+```
+make distclean
+make deps
 ```
 
 ## Building on Windows
