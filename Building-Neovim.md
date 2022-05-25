@@ -93,8 +93,8 @@ Now, from the Windows Command Prompt (`cmd.exe`), set up the `PATH` and build.
 ```cmd
 set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
 ```
-
-Build using the `Ninja` generator:
+You have two options:
+- Build using the `Ninja` generator:
 
 ```cmd
 mkdir .deps
@@ -106,6 +106,9 @@ cd ..
 mkdir build
 cd build
 cmake -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo ..
+:: Or you can do the previous command specifying a custom prefix
+:: (Default is C:\Program Files (x86)\nvim)
+:: cmake -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_INSTALL_PREFIX=C:\your\prefix ..
 ninja
 ninja install
 ```
@@ -114,7 +117,19 @@ If you cannot install neovim with `ninja install`, the following command will pr
 ```cmd
 cpack -G ZIP -C RelWithDebInfo
 ```
+
 For 32-bit builds, adjust the package names and paths accordingly.
+
+- Or, alternatively, you can use `mingw32-make` as a normal `make`:
+
+```cmd
+mingw32-make deps
+mingw32-make CMAKE_BUILD_TYPE=RelWithDebInfo
+:: Or you can do the previous command specifying a custom prefix
+:: (Default is C:\Program Files (x86)\nvim)
+:: mingw32-make CMAKE_BUILD_TYPE=RelWithDebInfo CMAKE_INSTALL_PREFIX=C:\your\prefix
+mingw32-make install
+```
 
 ### Windows / MSVC
 
