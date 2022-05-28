@@ -112,8 +112,8 @@ If the `./nvim.appimage` command fails, try:
 ./squashfs-root/AppRun --version
 
 # Optional: exposing nvim globally.
-mv squashfs-root /
-ln -s /squashfs-root/AppRun /usr/bin/nvim
+sudo mv squashfs-root /
+sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
 nvim
 ```
  
