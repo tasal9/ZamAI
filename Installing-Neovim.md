@@ -36,7 +36,10 @@ Windows 8+ is required. Windows 7 or older is not supported.
 - **Development (pre-release):** `choco install neovim --pre`
 
 ### [Scoop](https://scoop.sh/)
-
+```
+scoop bucket add extras
+scoop install vcredist2022
+```
 - **Release:** `scoop install neovim`
 - **Development (pre-release):**
 ```
