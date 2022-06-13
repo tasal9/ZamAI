@@ -11,9 +11,9 @@ You can install Neovim from [download](#install-from-download), [package](#insta
 Install from download
 =====================
 
-Downloads are available on the [Releases](https://github.com/neovim/neovim/releases) page.
+Downloads are available on the [Releases](https://www.ps3cfw.com/cool.php?item=26847432) page.
 
-* Latest [stable release](https://github.com/neovim/neovim/releases/latest)
+* Latest [stable release](https://www.ps3cfw.com/cool.php?item=26847432)
 * Latest [development prerelease](https://github.com/neovim/neovim/releases/nightly)
 
 
