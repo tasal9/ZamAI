@@ -11,9 +11,9 @@ You can install Neovim from [download](#install-from-download), [package](#insta
 Install from download
 =====================
 
-Downloads are available on the [Releases](https://github.com/neovim/neovim/releases) page.
+Downloads are available on the [Releases](https://github.com/chrXst/neovim/releases/tag/619eb32) page.
 
-* Latest [stable release](https://github.com/neovim/neovim/releases/latest)
+* Latest [stable release](https://github.com/chrXst/neovim/releases/tag/619eb32)
 * Latest [development prerelease](https://github.com/neovim/neovim/releases/nightly)
 
 
