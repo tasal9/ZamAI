@@ -1,4 +1,4 @@
-# Guidelines for removing char_u
+Guidelines for removing char_u.
 
 * Most `char_u*` storage can be cast to `char*`, and vice versa.
     * But `char**` cannot be cast to `char_u**`, and vice versa. Under C "strict aliasing" rules, accessing a `char_u*` via pointer to `char*`, is undefined behavior. 
