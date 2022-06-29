@@ -99,7 +99,7 @@ You have two options:
 ```cmd
 mkdir .deps
 cd .deps
-cmake -G Ninja ..\third-party\
+cmake -G Ninja ..\cmake.deps\
 ninja
 cd ..
 
@@ -231,7 +231,7 @@ To build the bundled dependencies using CMake:
 ```sh
 mkdir .deps
 cd .deps
-cmake ../third-party
+cmake ../cmake.deps
 make
 ```
 
@@ -258,7 +258,7 @@ make
    ```sh
    mkdir .deps
    cd .deps
-   cmake ../third-party/ -DUSE_BUNDLED=OFF -DUSE_BUNDLED_LIBVTERM=ON -DUSE_BUNDLED_TS=ON
+   cmake ../cmake.deps/ -DUSE_BUNDLED=OFF -DUSE_BUNDLED_LIBVTERM=ON -DUSE_BUNDLED_TS=ON
    ninja
    cd ..
    mkdir build
@@ -274,7 +274,7 @@ make
 sudo apt install luajit luajit-5.1-dev lua-mpack lua-lpeg libunibilium-dev libmsgpack-dev libtermkey-dev
 mkdir .deps
 cd .deps
-cmake ../third-party/ -DUSE_BUNDLED=OFF -DUSE_BUNDLED_LIBUV=ON -DUSE_BUNDLED_LUV=ON -DUSE_BUNDLED_LIBVTERM=ON -DUSE_BUNDLED_TS=ON
+cmake ../cmake.deps/ -DUSE_BUNDLED=OFF -DUSE_BUNDLED_LIBUV=ON -DUSE_BUNDLED_LUV=ON -DUSE_BUNDLED_LIBVTERM=ON -DUSE_BUNDLED_TS=ON
 ninja
 cd ..
 mkdir build
@@ -417,7 +417,7 @@ Build can sometimes fail when using the top level `Makefile`, apparently due to 
 ```sh
 mkdir .deps
 cd .deps
-cmake ../third-party/
+cmake ../cmake.deps/
 gmake
 cd ..
 mkdir build
