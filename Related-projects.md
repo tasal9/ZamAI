@@ -73,6 +73,7 @@ _If you're working on a Neovim-related project, include it (alphabetically) belo
 | Racket      | [HiPhish/neovim.rkt](https://gitlab.com/HiPhish/neovim.rkt)                           |
 | Ruby        | [neovim/neovim-ruby](https://github.com/neovim/neovim-ruby)                           |
 | Rust        | [oakes/neovim-rs](https://github.com/oakes/neovim-rs) [archived]                      |
+| Rust        | [noib3/nvim-oxi](https://github.com/noib3/nvim-oxi)
 | Rust        | [daa84/neovim-lib](https://github.com/daa84/neovim-lib) (inactive, c. 2022-Jan)       |
 | Rust        | [KillTheMule/nvim-rs](https://github.com/KillTheMule/nvim-rs)                         |
 | Scala       | [viniarck/nvimhost-scala](https://github.com/viniarck/nvimhost-scala)                 |
