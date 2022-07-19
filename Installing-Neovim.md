@@ -422,7 +422,13 @@ For Unix-like systems this installs Neovim to `/usr/local`, while for Windows to
 
 ## Uninstall
 
-To _uninstall_ after `make install`, just delete the `CMAKE_INSTALL_PREFIX` artifacts:
+There is a CMake target to _uninstall_ after `make install`:
+
+```sh
+sudo cmake --build build/ --target uninstall
+```
+
+Alternatively, just delete the `CMAKE_INSTALL_PREFIX` artifacts:
 
 ```sh
 sudo rm /usr/local/bin/nvim
