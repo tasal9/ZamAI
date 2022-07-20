@@ -168,7 +168,6 @@ Neovim is in [Debian](https://packages.debian.org/search?keywords=neovim).
 
 Python (`:python`) support is installable via the package manager on Debian unstable.
 
-    sudo apt-get install python-neovim
     sudo apt-get install python3-neovim
 
 If installing via appimage, the following commands may be helpful in updating default paths:
@@ -307,23 +306,18 @@ sudo snap install --edge nvim --classic
 ```
 
 ### Ubuntu
-**Since 18.04 via official repository**
 As in Debian, Neovim is in [Ubuntu](https://packages.ubuntu.com/search?keywords=neovim).
 
     sudo apt install neovim
 
 Python (`:python`) support seems to be automatically installed
 
-    sudo apt install python-neovim
     sudo apt install python3-neovim
 
-**Since 18.04 via PPA**
 Neovim has been added to a "Personal Package Archive" (PPA). This allows you to install it with `apt-get`. Follow the links to the PPAs to see which versions of Ubuntu are currently available via the PPA. Choose **stable** or **unstable**:
 
-- [https://launchpad.net/~neovim-ppa/+archive/ubuntu/**stable**](https://launchpad.net/~neovim-ppa/+archive/ubuntu/stable) (Bionic Beaver 18.04 or newer only).
+- [https://launchpad.net/~neovim-ppa/+archive/ubuntu/**stable**](https://launchpad.net/~neovim-ppa/+archive/ubuntu/stable)
 - [https://launchpad.net/~neovim-ppa/+archive/ubuntu/**unstable**](https://launchpad.net/~neovim-ppa/+archive/ubuntu/unstable)
-
-Important: those PPA have dropped support for Xenial 16.04 and older.
 
 To be able to use **add-apt-repository** you may need to install software-properties-common:
 
