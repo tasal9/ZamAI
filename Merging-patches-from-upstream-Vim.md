@@ -146,6 +146,7 @@ See the [`memory.c` Doxygen page](http://neovim.io/doc/dev/memory_8c.html) for m
 | `mb_off2cells`                          | `utf_off2cells`           |
 | `mb_ptr2char`                           | `utf_ptr2char`            |
 | `mb_head_off`                           | `utf_head_off`            |
+| `mb_tail_off`                           | `utf_cp_tail_off`         |
 | `mb_lefthalve`                          | `grid_lefthalve`          |
 | `mb_fix_col`                            | `grid_fix_col`            |
 | `utf_off2cells`                         | `grid_off2cells`          |
