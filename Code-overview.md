@@ -16,7 +16,7 @@ Most code can be found in a file with an obvious name (incomplete list):
 *   [eval.c](../blob/master/src/nvim/eval.c)	   expression evaluation
 *   [fileio.c](../blob/master/src/nvim/fileio.c)	   reading and writing files
 *   [fold.c](../blob/master/src/nvim/fold.c)	   folding
-*   [getchar.c](../blob/master/src/nvim/getchar.c)  getting characters and key mapping
+*   [getchar.c](../blob/master/src/nvim/getchar.c)  character input
 *   [mark.c](../blob/master/src/nvim/mark.c)	   marks
 *   [mbyte.c](../blob/master/src/nvim/mbyte.c)	   multi-byte character handling
 *   [memfile.c](../blob/master/src/nvim/memfile.c)  storing lines for buffers in a swapfile
@@ -30,7 +30,7 @@ Most code can be found in a file with an obvious name (incomplete list):
 *   [screen.c](../blob/master/src/nvim/screen.c)	   updating the windows
 *   [search.c](../blob/master/src/nvim/search.c)	   pattern searching
 *   [spell.c](../blob/master/src/nvim/spell.c)	   spell checking
-*   [syntax.c](../blob/master/src/nvim/syntax.c)	   syntax and other highlighting
+*   [syntax.c](../blob/master/src/nvim/syntax.c)	   syntax
 *   [tag.c](../blob/master/src/nvim/tag.c)	   tags
 *   [terminal.c](../blob/master/src/nvim/terminal.c)	   integrated terminal emulator
 *   [undo.c](../blob/master/src/nvim/undo.c)	   undo and redo
@@ -39,8 +39,8 @@ Most code can be found in a file with an obvious name (incomplete list):
 
 ## Important variables
 
-The current mode is stored in `State`.  The values it can have are `NORMAL`,
-`INSERT`, `CMDLINE`, and a few others.
+The current mode is stored in `State`.  The values it can have are `MODE_NORMAL`,
+`MODE_INSERT`, `MODE_CMDLINE`, and a few others.
 
 The current window is `curwin`.  The current buffer is `curbuf`.  These point
 to structures with the cursor position in the window, option values, the file
@@ -65,7 +65,7 @@ See the start of [screen.c](../blob/master/src/nvim/screen.c) for more explanati
 ## Command-line mode
 
 When typing a `:`, `normal_cmd()` will call `getcmdline()` to obtain a line with
-an Ex command.  `getcmdline()` contains a loop that will handle each typed
+an Ex command.  `getcmdline()` calls a loop that will handle each typed
 character.  It returns when hitting `<CR>` or `<Esc>` or some other character that
 ends the command line mode.
 
@@ -79,17 +79,14 @@ command.  It also takes care of while loops.
 `do_one_cmd()` parses the range and generic arguments and puts them in the
 exarg_t and passes it to the function that handles the command.
 
-The `:` commands are listed in [ex_cmds_defs.h](../blob/master/src/nvim/ex_cmds_defs.h). 
-The third entry of each item is the
-name of the function that handles the command.  The last entry are the flags
-that are used for the command.
+The `:` commands are listed in [ex_cmds.lua](../blob/master/src/nvim/ex_cmds.lua). 
 
 
 ## Normal mode commands
 
 The Normal mode commands are handled by the `normal_cmd()` function.  It also
 handles the optional count and an extra character for some commands.  These
-are passed in a `cmdarg_t` to the function that handles the command.
+are passed in a `cmdarg_T` to the function that handles the command.
 
 There is a table `nv_cmds` in [normal.c](../blob/master/src/nvim/normal.c) which 
 lists the first character of every
@@ -106,8 +103,7 @@ returns when leaving Insert mode.
 
 ## Options
 
-There is a list with all option names in [option.c](../blob/master/src/nvim/option.c),
-called `options[]`.
+There is a list with all option names in [options.lua](../blob/master/src/nvim/options.lua).
 
 # Code Overview (Visualization)
 
