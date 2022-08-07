@@ -105,6 +105,3 @@ returns when leaving Insert mode.
 
 There is a list with all option names in [options.lua](../blob/master/src/nvim/options.lua).
 
-# Code Overview (Visualization)
-
-![Code visualization generated with facebook/pfff](http://i.imgur.com/GApvG0J.png)
