@@ -160,6 +160,7 @@ See the [`memory.c` Doxygen page](http://neovim.io/doc/dev/memory_8c.html) for m
 | `vim_strsave_escape_csi`                | `vim_strsave_escape_ks`   |
 | `vim_unescape_csi`                      | `vim_unescape_ks`         |
 | `gettail`                               | `path_tail`               |
+| `script_do_profile`                     | `profile_init`            |
 
 Make sure to note the difference between `utf_` and `utfc_` when replacing `mb_` functions. Also indirect call syntax `(*mb_ptr2len)(...)` should be replaced with an ordinary function call `utfc_ptr2len(...)`.
 
