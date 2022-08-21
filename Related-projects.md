@@ -1,6 +1,14 @@
-_If you're working on a Neovim-related project, include it (alphabetically) below!_
+## Plugins
 
-### GUI
+You can find Neovim plugins on these sites:
+
+- https://neovimcraft.com
+- https://nvim-awesome.vercel.app
+- [Luarocks](https://luarocks.org/labels/neovim)
+
+## GUI
+
+_If you're working on a Neovim GUI, include it (alphabetically) below!_
 
 | Platform         | Project                                                                       | Activity  |
 |------------------|-------------------------------------------------------------------------------| :-------: |
@@ -41,7 +49,7 @@ _If you're working on a Neovim-related project, include it (alphabetically) belo
 | Windows/Linux    | [meatich/Viy](https://github.com/meatich/Viy)                                 | archived  |
 
 
-### API clients
+## API clients
 
 | Platform    | Project                                                                               |
 |-------------|---------------------------------------------------------------------------------------|
@@ -79,18 +87,8 @@ _If you're working on a Neovim-related project, include it (alphabetically) belo
 | Scala       | [viniarck/nvimhost-scala](https://github.com/viniarck/nvimhost-scala)                 |
 | Swift/Cocoa | [NvimView](https://github.com/qvacua/vimr/tree/master/NvimView) (part of qvacua/vimr) |
 
-### Plugins
 
-The following plugins take advantage of specific Neovim features, e.g. `jobstart()`, `:terminal` or its remote plugin mechanism.
-
-Try these sites to search for Neovim plugins:
-
-- https://neovimcraft.com
-- https://nvim-awesome.vercel.app
-- Some Neovim Lua plugins are the [Luarocks](https://luarocks.org/labels/neovim)
-
-
-### Non-plugin software
+## Non-plugin software
 
 This is software either targeted at Neovim or with support for it.
 
