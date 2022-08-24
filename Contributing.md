@@ -1,1 +1,0 @@
-This page was merged with [CONTRIBUTING.md](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md). Please link to that document instead of this wiki page.
