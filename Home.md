@@ -24,7 +24,6 @@
 - [C programming techniques and Neovim-specific guidance](C-programming)
     - [C refactorings and code-smells](C-refactorings-and-code-smells-catalog)
     - [Integer type semantics](Integer-types-refactoring-guidelines)
-    - [Removing char_u](Removing-char_u)
 - [C99 standard](http://port70.net/~nsz/c/c99/n1256.html)
 
 ### Ideas
