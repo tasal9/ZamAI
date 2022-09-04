@@ -169,6 +169,7 @@ Make sure to note the difference between `utf_` and `utfc_` when replacing `mb_`
 |:----------|:--------------------|:------------------------------|
 | `long long`    | `"%lld"`             | `"%" PRId64`                  |
 | `size_t`  | `"%ld"`             | `"%zu"`                       |
+| `linenr_T`| `"%ld"`             | `"%" PRIdLINENR`              |
 
 - See also: https://github.com/neovim/neovim/pull/1729#discussion_r22423779
 - Vim's `ga_init2` was renamed to `ga_init` and the original `ga_init` is gone.
