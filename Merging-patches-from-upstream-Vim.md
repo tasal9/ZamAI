@@ -129,6 +129,7 @@ See the [`memory.c` Doxygen page](http://neovim.io/doc/dev/memory_8c.html) for m
 | `realloc` `vim_realloc`                 | `xrealloc`         |
 | `mch_memmove`                           | `memmove`          |
 | `vim_memset` `copy_chars` `copy_spaces` | [`memset`][memset] |
+| `vim_strbyte`                           | [`strchr`][strchr] |
 | `vim_strncpy` `strncpy`                 | `xstrlcpy`         |
 | `vim_strcat` `strncat`                  | `xstrlcat`         |
 | `VIM_ISWHITE`                           | `ascii_iswhite`    |
@@ -188,4 +189,5 @@ The following should be removed from all imported documentation, and not be used
 [vi-annotations]: https://github.com/neovim/neovim/commit/818f7aefd2fe7eacd7135c5e3154934f24c85ca7
 
 [memset]: https://github.com/neovim/neovim/pull/1635
+[strchr]: https://github.com/neovim/neovim/issues/1476
 [checklist]: https://github.com/neovim/neovim/blob/master/test/README.md#checklist-for-migrating-legacy-tests
