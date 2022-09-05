@@ -177,6 +177,7 @@ Make sure to note the difference between `utf_` and `utfc_` when replacing `mb_`
     - However, please _do not_ convert "new style" Vim tests (`src/testdir/*.vim`) to Lua. The "new style" Vim tests are faster than the old ones, and converting them takes time and effort better spent elsewhere. Just copy them to `src/nvim/testdir/*.vim`.
 - Conditions that check `enc_utf8` or `has_mbyte` are obsolete (only the "true" case is applicable).
     - `enc_utf8` and `has_mbyte` macros were removed in https://github.com/neovim/neovim/pull/13293
+- Check for `CSI` in typeahead buffer is only necessary in Vim with `FEAT_GUI`. `CSI` does not have a special meaning in typeahead buffer in Nvim.
 - List management has changed in Neovim, see this [wiki page](https://github.com/neovim/neovim/wiki/List-management-in-Neovim).
 
 Documentation differences
