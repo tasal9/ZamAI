@@ -22,7 +22,6 @@
     - [Plugin Architecture](Plugin-UI-architecture)
     - [Code overview](Code-overview)
 - [C programming techniques and Neovim-specific guidance](C-programming)
-    - [C refactorings and code-smells](C-refactorings-and-code-smells-catalog)
     - [C type refactoring guidelines](C-type-refactoring-guidelines)
 - [C99 standard](http://port70.net/~nsz/c/c99/n1256.html)
 
