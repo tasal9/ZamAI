@@ -80,7 +80,7 @@ The [Releases](https://github.com/neovim/neovim/releases) page provides pre-buil
 
     curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos.tar.gz
     tar xzf nvim-macos.tar.gz
-    ./nvim-osx64/bin/nvim
+    ./nvim-macos/bin/nvim
 
 ### [Homebrew](https://brew.sh) on macOS or Linux
 
