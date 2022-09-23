@@ -118,7 +118,7 @@ Code differences
 ----------------
 
 The following functions have been removed or deprecated in favor of newer alternatives.
-See the [`memory.c` Doxygen page](http://neovim.io/doc/dev/memory_8c.html) for more information.
+See [memory.c](https://github.com/neovim/neovim/blob/master/src/nvim/memory.c) for more information.
 
 | Deprecated or removed                   | Replacement        |
 |:----------------------------------------|:------------------:|
