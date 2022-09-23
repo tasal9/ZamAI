@@ -24,4 +24,4 @@ Declarations for the table
 
 
 
-For more details and some more advanced usage, the doxygen documentation on [`typval.h`](https://neovim.io/doc/dev/typval_8h.html) and [`typval.c`](https://neovim.io/doc/dev/typval_8c.html).
+For more details and some more advanced usage, see `typval.h` and `typval.c`.
