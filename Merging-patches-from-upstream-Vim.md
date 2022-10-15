@@ -133,6 +133,7 @@ See [memory.c](https://github.com/neovim/neovim/blob/master/src/nvim/memory.c) f
 | `vim_strncpy` `strncpy`                 | `xstrlcpy`         |
 | `vim_strcat` `strncat`                  | `xstrlcat`         |
 | `VIM_ISWHITE`                           | `ascii_iswhite`    |
+| `IS_WHITE_OR_NUL`                       | `ascii_iswhite_or_nul` |
 | `vim_isalpha`                           | `mb_isalpha`       |
 | `vim_isNormalIDc`                       | `ascii_isident`       |
 | `vim_islower` `vim_isupper`             | `mb_islower` `mb_isupper` |
