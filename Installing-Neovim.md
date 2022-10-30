@@ -76,7 +76,7 @@ scoop install neovim-nightly
 
 ### Pre-built archives
 
-The [Releases](https://github.com/neovim/neovim/releases) page provides pre-built binaries for macOS 10.11+.
+The [Releases](https://github.com/neovim/neovim/releases) page provides pre-built binaries for macOS 10.15+.
 
     curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos.tar.gz
     tar xzf nvim-macos.tar.gz
