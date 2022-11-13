@@ -70,6 +70,15 @@ make deps
 
 ## Building on Windows
 
+### Windows / Cygwin
+
+Install all dependencies the normal way, then build Neovim the normal way for a random CMake application (i.e. do not use the `Makefile` that automatically downloads and builds "bundled" dependencies).
+
+The `cygport` repo contains Cygport files (e.g. `APKBUILD`, `PKGBUILD`) for all the dependencies not available in the Cygwin distribution, and describes any special commands or arguments needed to build. The Cygport definitions also try to describe the required dependencies for each one. Unless custom commands are provided, Cygport just calls `autogen`/`cmake`, `make`, `make install`, etc. in a clean and consistent way.
+
+https://github.com/cascent/neovim-cygwin was built on Cygwin 2.9.0. Newer `libuv` should require slightly less patching. Some SSP stuff changed in Cygwin 2.10.0, so that might change things too when building Neovim.
+
+
 ### Windows / MSYS2 / MinGW
 
 From the MSYS2 shell, install these packages:
