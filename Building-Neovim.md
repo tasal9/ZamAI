@@ -70,15 +70,6 @@ make deps
 
 ## Building on Windows
 
-### Windows / Cygwin
-
-Install all dependencies the normal way, then build Neovim the normal way for a random CMake application (i.e. do not use the `Makefile` that automatically downloads and builds "bundled" dependencies).
-
-The `cygport` repo contains Cygport files (e.g. `APKBUILD`, `PKGBUILD`) for all the dependencies not available in the Cygwin distribution, and describes any special commands or arguments needed to build. The Cygport definitions also try to describe the required dependencies for each one. Unless custom commands are provided, Cygport just calls `autogen`/`cmake`, `make`, `make install`, etc. in a clean and consistent way.
-
-https://github.com/cascent/neovim-cygwin was built on Cygwin 2.9.0. Newer `libuv` should require slightly less patching. Some SSP stuff changed in Cygwin 2.10.0, so that might change things too when building Neovim.
-
-
 ### Windows / MSYS2 / MinGW
 
 From the MSYS2 shell, install these packages:
@@ -93,43 +84,45 @@ Now, from the Windows Command Prompt (`cmd.exe`), set up the `PATH` and build.
 ```cmd
 set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
 ```
+
 You have two options:
-- Build using the `Ninja` generator:
 
-```cmd
-mkdir .deps
-cd .deps
-cmake -G Ninja ..\cmake.deps\
-ninja
-cd ..
+- Build using `cmake` and `Ninja` generator:
 
-mkdir build
-cd build
-cmake -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo ..
-:: Or you can do the previous command specifying a custom prefix
-:: (Default is C:\Program Files (x86)\nvim)
-:: cmake -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_INSTALL_PREFIX=C:\your\prefix ..
-ninja
-ninja install
-```
+    ```cmd
+    mkdir .deps
+    cd .deps
+    cmake -G Ninja ..\cmake.deps\
+    ninja
+    cd ..
 
-If you cannot install neovim with `ninja install`, the following command will produce a zip archive, which you can extract anywhere. Then you can add the `bin/` directory inside it to your PATH variable and invoke `nvim` from anywhere in your command line.
-```cmd
-cpack -G ZIP -C RelWithDebInfo
-```
+    mkdir build
+    cd build
+    cmake -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo ..
+    ninja
+    ninja install
+    ```
 
-For 32-bit builds, adjust the package names and paths accordingly.
+    If you cannot install neovim with `ninja install` due to permission restriction, you can install neovim in a directory you have write access to.
 
-- Or, alternatively, you can use `mingw32-make` as a normal `make`:
+    ```cmd
+    mkdir build
+    cd build
+    cmake -G Ninja -D CMAKE_INSTALL_PREFIX=C:\nvim -D CMAKE_BUILD_TYPE=RelWithDebInfo ..
+    ninja
+    ninja install
+    ```
 
-```cmd
-mingw32-make deps
-mingw32-make CMAKE_BUILD_TYPE=RelWithDebInfo
-:: Or you can do the previous command specifying a custom prefix
-:: (Default is C:\Program Files (x86)\nvim)
-:: mingw32-make CMAKE_BUILD_TYPE=RelWithDebInfo CMAKE_INSTALL_PREFIX=C:\your\prefix
-mingw32-make install
-```
+- Or, alternatively, you can use `mingw32-make`:
+
+    ```cmd
+    mingw32-make deps
+    mingw32-make CMAKE_BUILD_TYPE=RelWithDebInfo
+    :: Or you can do the previous command specifying a custom prefix
+    :: (Default is C:\Program Files (x86)\nvim)
+    :: mingw32-make CMAKE_BUILD_TYPE=RelWithDebInfo CMAKE_INSTALL_PREFIX=C:\nvim
+    mingw32-make install
+    ```
 
 ### Windows / MSVC
 
@@ -144,7 +137,14 @@ Note: No one has already confirmed that building with the following steps is pos
       - Right-click _CMakeLists.txt → Delete Cache_.
       - Right-click _CMakeLists.txt → Generate Cache_.
 
-**Note**: If you want to build from the command line (i.e. invoke the `cmake` commands yourself), make sure you have the Visual Studio environment variables properly set -- with the Visual Studio Developer Command Prompt, or `Import-VisualStudioVars` from [this PowerShell module](https://github.com/Pscx/Pscx). This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like `'mingw32-gcc' is not recognized as an internal or external command`.
+**Note**: If you want to build from the command line (i.e., invoke the `cmake` commands yourself), make sure you have the Visual Studio environment variables properly set, which you can do in one of these ways:
+- Using the [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022)
+- Invoking `Import-VisualStudioVars` in PowerShell from [this PowerShell module](https://github.com/Pscx/Pscx)
+
+This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like:
+```
+'mingw32-gcc' is not recognized as an internal or external command
+```
 
 ### Windows / CLion
 
