@@ -39,7 +39,7 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | macOS            | [qvacua/vimr](https://github.com/qvacua/vimr)                                 | active (c. 2022-Apr) |
 | macOS            | [rogual/neovim-dot-app](https://github.com/rogual/neovim-dot-app)             |           |
 | mac OS UI        | [DinVim Vim for Mac](http://dinvim.com)                                       |           |
-| Qt 5             | [equalsraf/neovim-qt](https://github.com/equalsraf/neovim-qt)                 | active (c. 2022-Sep) |
+| Qt 5             | [equalsraf/neovim-qt](https://github.com/equalsraf/neovim-qt)                 | active (c. 2022-Nov) |
 | Qt 5             | [rohit-px2/nvui](https://github.com/rohit-px2/nvui)                                     |           |
 | Qt Creator       | [sassanh/qnvim](https://github.com/sassanh/qnvim)                             |           |
 | Rust             | [neovide/neovide](https://github.com/neovide/neovide)                         | active (c. 2022-Nov) |
