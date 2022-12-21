@@ -42,7 +42,7 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | Qt 5             | [equalsraf/neovim-qt](https://github.com/equalsraf/neovim-qt)                 | active (c. 2022-Dec) |
 | Qt 5             | [rohit-px2/nvui](https://github.com/rohit-px2/nvui)                                     |           |
 | Qt Creator       | [sassanh/qnvim](https://github.com/sassanh/qnvim)                             |           |
-| Rust             | [neovide/neovide](https://github.com/neovide/neovide)                         | active (c. 2022-Nov) |
+| Rust             | [neovide/neovide](https://github.com/neovide/neovide)                         | active (c. 2022-Dec) |
 | Rust IDE         | [oakes/SolidOak](https://github.com/oakes/SolidOak)                           | archived  |
 | Sublime Text     | [lunixbochs/actualvim](https://github.com/lunixbochs/actualvim)               |           |
 | Terminal Wrapper | [glrnvim](https://github.com/beeender/glrnvim)                                |           |
