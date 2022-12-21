@@ -36,7 +36,7 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | I3/Sway          | [glacambre/nwin](https://github.com/glacambre/nwin)                           |           |
 | JavaFX           | [jebberjeb/javafx-neovimpane](https://github.com/jebberjeb/javafx-neovimpane) |           |
 | Konsole          | [harish2704/neovim-konsole](https://github.com/harish2704/neovim-konsole)     | deprecated |
-| macOS            | [qvacua/vimr](https://github.com/qvacua/vimr)                                 | active (c. 2022-Apr) |
+| macOS            | [qvacua/vimr](https://github.com/qvacua/vimr)                                 | active (c. 2022-Dec) |
 | macOS            | [rogual/neovim-dot-app](https://github.com/rogual/neovim-dot-app)             |           |
 | mac OS UI        | [DinVim Vim for Mac](http://dinvim.com)                                       |           |
 | Qt 5             | [equalsraf/neovim-qt](https://github.com/equalsraf/neovim-qt)                 | active (c. 2022-Dec) |
