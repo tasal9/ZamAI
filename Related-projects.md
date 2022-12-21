@@ -30,7 +30,7 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | GTK/Python UI    | [rliang/nvim-pygtk3](https://github.com/rliang/nvim-pygtk3)                   |           |
 | GTK/Python UI    | [Bominade (b8)](https://gitlab.com/afshar-oss/b8)                             |           |
 | GTK/Rust UI      | [daa84/neovim-gtk](https://github.com/daa84/neovim-gtk)                       | inactive (c. 2022-Jan) |
-| GTK/Rust UI      | [Lyude/neovim-gtk](https://github.com/Lyude/neovim-gtk)                       | active (c. 2022-Jun) |
+| GTK/Rust UI      | [Lyude/neovim-gtk](https://github.com/Lyude/neovim-gtk)                       | active (c. 2022-Dec) |
 | GTK4/Rust UI     | [GNvim](https://github.com/vhakulinen/gnvim)                                  | active (c. 2022-Dec) |
 | GTK4/Rust UI     | [Reovim](https://github.com/songww/reovim)                                    | active (c. 2022-Mar) |
 | I3/Sway          | [glacambre/nwin](https://github.com/glacambre/nwin)                           |           |
