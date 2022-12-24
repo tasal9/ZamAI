@@ -26,7 +26,7 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | Electron UI      | [VV](https://github.com/igorgladkoborodov/vv)                                 | active (c. 2022-Sep) |
 | gnome-terminal   | [neovim-gnome-terminal-wrapper](https://github.com/fmoralesc/neovim-gnome-terminal-wrapper) | |
 | Go/OpenGL        | [Neoray](https://github.com/hismailbulut/Neoray)                              | active (c. 2022-Sep) |
-| Go/Qt            | [akiyosi/goneovim](https://github.com/akiyosi/goneovim)                       | active (c. 2022-Nov) |
+| Go/Qt            | [akiyosi/goneovim](https://github.com/akiyosi/goneovim)                       | active (c. 2022-Dec) |
 | GTK/Python UI    | [rliang/nvim-pygtk3](https://github.com/rliang/nvim-pygtk3)                   |           |
 | GTK/Python UI    | [Bominade (b8)](https://gitlab.com/afshar-oss/b8)                             |           |
 | GTK/Rust UI      | [daa84/neovim-gtk](https://github.com/daa84/neovim-gtk)                       | inactive (c. 2022-Jan) |
