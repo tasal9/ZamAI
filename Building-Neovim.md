@@ -81,57 +81,48 @@ https://github.com/cascent/neovim-cygwin was built on Cygwin 2.9.0. Newer `libuv
 
 ### Windows / MSYS2 / MinGW
 
-From the MSYS2 shell, install these packages:
+1. From the MSYS2 shell, install these packages:
+   ```
+   pacman -S \
+       mingw-w64-x86_64-{gcc,libtool,cmake,make,perl,python2,pkg-config,ninja,diffutils}
+   ```
+2. From the Windows Command Prompt (`cmd.exe`), set up the `PATH` and build.
 
-```
-pacman -S \
-    mingw-w64-x86_64-{gcc,libtool,cmake,make,perl,python2,pkg-config,ninja,diffutils}
-```
+   ```cmd
+   set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
+   ```
+3. You have two options:
+    - Build using `cmake` and `Ninja` generator:
+      ```cmd
+      mkdir .deps
+      cd .deps
+      cmake -G Ninja ..\cmake.deps\
+      ninja
+      cd ..
 
-Now, from the Windows Command Prompt (`cmd.exe`), set up the `PATH` and build.
-
-```cmd
-set PATH=c:\msys64\mingw64\bin;c:\msys64\usr\bin;%PATH%
-```
-
-You have two options:
-
-- Build using `cmake` and `Ninja` generator:
-
-    ```cmd
-    mkdir .deps
-    cd .deps
-    cmake -G Ninja ..\cmake.deps\
-    ninja
-    cd ..
-
-    mkdir build
-    cd build
-    cmake -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo ..
-    ninja
-    ninja install
-    ```
-
-    If you cannot install neovim with `ninja install` due to permission restriction, you can install neovim in a directory you have write access to.
-
-    ```cmd
-    mkdir build
-    cd build
-    cmake -G Ninja -D CMAKE_INSTALL_PREFIX=C:\nvim -D CMAKE_BUILD_TYPE=RelWithDebInfo ..
-    ninja
-    ninja install
-    ```
-
-- Or, alternatively, you can use `mingw32-make`:
-
-    ```cmd
-    mingw32-make deps
-    mingw32-make CMAKE_BUILD_TYPE=RelWithDebInfo
-    :: Or you can do the previous command specifying a custom prefix
-    :: (Default is C:\Program Files (x86)\nvim)
-    :: mingw32-make CMAKE_BUILD_TYPE=RelWithDebInfo CMAKE_INSTALL_PREFIX=C:\nvim
-    mingw32-make install
-    ```
+      mkdir build
+      cd build
+      cmake -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo ..
+      ninja
+      ninja install
+      ```
+      If you cannot install neovim with `ninja install` due to permission restriction, you can install neovim in a directory you have write access to.
+      ```cmd
+      mkdir build
+      cd build
+      cmake -G Ninja -D CMAKE_INSTALL_PREFIX=C:\nvim -D CMAKE_BUILD_TYPE=RelWithDebInfo ..
+      ninja
+      ninja install
+      ```
+    - Or, alternatively, you can use `mingw32-make`:
+      ```cmd
+      mingw32-make deps
+      mingw32-make CMAKE_BUILD_TYPE=RelWithDebInfo
+      :: Or you can do the previous command specifying a custom prefix
+      :: (Default is C:\Program Files (x86)\nvim)
+      :: mingw32-make CMAKE_BUILD_TYPE=RelWithDebInfo CMAKE_INSTALL_PREFIX=C:\nvim
+      mingw32-make install
+      ```
 
 ### Windows / MSVC
 
