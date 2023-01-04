@@ -150,6 +150,13 @@ To build from the command line (i.e., invoke the `cmake` commands yourself),
       ```
       'mingw32-gcc' is not recognized as an internal or external command
       ```
+2. run `cmake` as shown in the [CI script](https://github.com/neovim/neovim/blob/ef18c9f9b05caf1f39ed32762f53802e378f143b/.github/workflows/ci.yml#L293-L301), roughly:
+   ```
+   cmake -S cmake.deps -B $env:DEPS_BUILD_DIR -G Ninja -DCMAKE_BUILD_TYPE='RelWithDebInfo'
+   cmake --build $env:DEPS_BUILD_DIR
+   cmake -B build -G Ninja -DCMAKE_BUILD_TYPE='RelWithDebInfo' -DDEPS_PREFIX="$env:DEPS_PREFIX"
+   cmake --build build
+   ```
 
 ### Windows / CLion
 
