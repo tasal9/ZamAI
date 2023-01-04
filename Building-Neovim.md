@@ -154,7 +154,7 @@ To build from the command line (i.e., invoke the `cmake` commands yourself),
    ```
    cmake -S cmake.deps -B .deps -G Ninja
    cmake --build .deps
-   cmake -B build -G Ninja -DDEPS_PREFIX="$(pwd).Path"
+   cmake -B build -G Ninja -DDEPS_PREFIX="$(pwd).Path"\.deps
    cmake --build build
    ```
 
