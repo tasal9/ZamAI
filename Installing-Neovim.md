@@ -92,7 +92,7 @@ Or install the development version of Nvim:
 
 To update the development version of Nvim:
     
-    brew reinstall neovim
+    brew upgrade neovim --fetch-HEAD
 
 ### [MacPorts](https://www.macports.org/)
 
