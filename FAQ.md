@@ -617,9 +617,10 @@ Lua 5.1 is a different language than 5.3.  The Lua org makes breaking changes wi
 
 Lua 5.1 is a complete language. To "upgrade" it, add libraries, not syntax. Nvim itself already is a pretty good "stdlib" for Lua, and we will continue to grow and enhance it. Changing the rules of Lua gains nothing in this context.
 
-### Will Neovim translate VimL to Lua, instead of executing VimL directly?
+### Will Neovim translate Vimscript to Lua, instead of executing Vimscript directly?
 
-**Update (2016):** [PR #243](https://github.com/neovim/neovim/pull/243) implements the VimL-to-Lua translator. But it is blocked by [technical concerns](https://github.com/neovim/neovim/pull/243#issuecomment-153318119). Much of the work in that PR was re-used/re-purposed (viz. [`typval_T`/`vim_to_object` refactor](https://github.com/neovim/neovim/pull/4607), [`eval.c` refactor](https://github.com/neovim/neovim/pull/5119)).
+- _Update (2016):_ [PR #243](https://github.com/neovim/neovim/pull/243) implements the Vimscript-to-Lua translator. But it is blocked by [technical concerns](https://github.com/neovim/neovim/pull/243#issuecomment-153318119). Much of the work in that PR was re-used/re-purposed (viz. [`typval_T`/`vim_to_object` refactor](https://github.com/neovim/neovim/pull/4607), [`eval.c` refactor](https://github.com/neovim/neovim/pull/5119)).
+- _Update (2023):_ We are experimenting with [vim9jit](https://github.com/tjdevries/vim9jit) to transpile Vim9script (Vim9's Vimscript variant) to Lua and have used this to [port Vim9 plugins](https://github.com/neovim/neovim/pull/21662) to Nvim Lua.
 
 ### Are plugin authors encouraged to port their plugins from Vimscript to Lua? Do you plan on supporting Vimscript indefinitely? ([#1152](https://github.com/neovim/neovim/issues/1152))
 
