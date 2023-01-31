@@ -19,4 +19,6 @@ Here are a few more references:
 * :help msgpack-rpc
 * :help ui
 * https://github.com/neovim/neovim/pull/3246
+* https://github.com/neovim/neovim/pull/18375
+* https://github.com/neovim/neovim/pull/21605
 * http://tarruda.github.io/articles/neovim-smart-ui-protocol/
