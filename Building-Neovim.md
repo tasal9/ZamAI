@@ -71,7 +71,7 @@ make deps
 
 ## Building on Windows
 
-[Neovim-qt](https://github.com/equalsraf/neovim-qt) is bundled by default on Windows. You can use the cmake option `USE_BUNDLED_NVIMQT=OFF` to build neovim without neovim-qt. Example:
+[Neovim-qt](https://github.com/equalsraf/neovim-qt) is bundled by default on Windows. You can use the cmake option `USE_BUNDLED_NVIMQT=OFF` to build neovim without neovim-qt. Example (assuming Visual Studio generator):
 
 ```
 cmake -S cmake.deps -B .deps -D USE_BUNDLED_NVIMQT=OFF
