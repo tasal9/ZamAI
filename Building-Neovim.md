@@ -71,6 +71,8 @@ make deps
 
 ## Building on Windows
 
+You can set `USE_BUNDLED_NVIMQT=false` if you don't want to pull Neovim-qt while building. [#14552](https://github.com/neovim/neovim/issues/14552)
+
 ### Windows / Cygwin
 
 Install all dependencies the normal way, then build Neovim the normal way for a random CMake application (i.e. do not use the `Makefile` that automatically downloads and builds "bundled" dependencies).
