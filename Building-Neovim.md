@@ -71,7 +71,15 @@ make deps
 
 ## Building on Windows
 
-You can set `USE_BUNDLED_NVIMQT=false` if you don't want to pull Neovim-qt while building. [#14552](https://github.com/neovim/neovim/issues/14552)
+[Neovim-qt](https://github.com/equalsraf/neovim-qt) is bundled by default on Windows. You can use the cmake option `USE_BUNDLED_NVIMQT=OFF` to build neovim without neovim-qt. Example:
+
+```
+cmake -S cmake.deps -B .deps -D USE_BUNDLED_NVIMQT=OFF
+cmake --build .deps --config Release
+cmake -B build -D USE_BUNDLED_NVIMQT=OFF
+cmake --build build --config Release
+cmake --install build --prefix <preferred install location>
+```
 
 ### Windows / Cygwin
 
