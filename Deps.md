@@ -1,6 +1,8 @@
 Dependencies
 ============
 
+See https://github.com/neovim/neovim/blob/master/MAINTAIN.md.
+
 Forks
 =====
 
