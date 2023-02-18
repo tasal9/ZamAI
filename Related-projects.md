@@ -86,6 +86,13 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | Swift/Cocoa | [NvimView](https://github.com/qvacua/vimr/tree/master/NvimView) (part of qvacua/vimr) |
 
 
+## Transpilers
+
+These projects let you write Nvim plugins in languages other than Lua.
+
+- Haxe: https://github.com/danielo515/haxe-nvim
+- Fennel: https://github.com/Olical/aniseed
+
 ## Non-plugin software
 
 This is software either targeted at Neovim or with support for it.
