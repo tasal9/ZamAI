@@ -334,23 +334,21 @@ Platform-specific requirements are listed below.
 ### Ubuntu / Debian
 
 ```sh
-sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip curl doxygen
+sudo apt-get install ninja-build gettext libtool libtool-bin cmake g++ pkg-config unzip curl doxygen
 ```
 
 **Note**: `libtool-bin` is only required for Ubuntu 16.04 / Debian 8 and newer.
 
 ### CentOS / RHEL / Fedora
 
-If you're using CentOS/RHEL 6, you need at least `autoconf` version 2.69 for compiling the `libuv` dependency. See also https://github.com/joyent/libuv/issues/1158.
-
 ```
-sudo yum -y install ninja-build libtool autoconf automake cmake gcc gcc-c++ make pkgconfig unzip patch gettext curl
+sudo yum -y install ninja-build libtool cmake gcc gcc-c++ make pkgconfig unzip patch gettext curl
 ```
 
 ### openSUSE
 
 ```
-sudo zypper install ninja libtool autoconf automake cmake gcc-c++ gettext-tools curl
+sudo zypper install ninja libtool cmake gcc-c++ gettext-tools curl
 ```
 
 ### Arch Linux
@@ -362,7 +360,7 @@ sudo pacman -S base-devel cmake unzip ninja tree-sitter curl
 ### Alpine Linux
 
 ```
-apk add build-base cmake automake autoconf libtool pkgconf coreutils curl unzip gettext-tiny-dev
+apk add build-base cmake libtool pkgconf coreutils curl unzip gettext-tiny-dev
 ```
 
 ### Void Linux
@@ -423,7 +421,7 @@ Similarly to develop on Neovim: `nix develop github:neovim/neovim?dir=contrib#ne
 ### FreeBSD
 
 ```
-sudo pkg install cmake gmake libtool sha automake pkgconf unzip wget gettext curl
+sudo pkg install cmake gmake libtool sha pkgconf unzip wget gettext curl
 ```
 
 If you get an error regarding a `sha256sum` mismatch, where the actual SHA-256 hash is `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`, then this is your issue (that's the `sha256sum` of an empty file). Also, make sure Wget is installed.
@@ -432,12 +430,8 @@ LuaRocks has bad interactions with cURL, at least under FreeBSD, and will die wi
 ### OpenBSD
 
 ```sh
-doas pkg_add gmake cmake libtool unzip autoconf-2.69p2 automake-1.15p0 curl
-export AUTOCONF_VERSION=2.69
-export AUTOMAKE_VERSION=1.15
+doas pkg_add gmake cmake libtool unzip curl
 ```
-
-For older versions of OpenBSD less than 6.1, the `autoconf-2.69` and `automake-1.15` ports may have different `p` suffixes.
 
 Build can sometimes fail when using the top level `Makefile`, apparently due to some third-party component (see [#2445-comment](https://github.com/neovim/neovim/issues/2445#issuecomment-108124236)). The following instructions use CMake:
 
@@ -461,7 +455,7 @@ gmake
 2. Install [Homebrew](http://brew.sh)
 3. Install Neovim build dependencies:
     ```
-    brew install ninja libtool automake cmake pkg-config gettext curl
+    brew install ninja libtool cmake pkg-config gettext curl
     ```
   - **Note**: If you see Wget certificate errors (for older macOS versions less than 10.10):
     ```sh
@@ -479,7 +473,7 @@ gmake
 2. Install [MacPorts](http://www.macports.org)
 3. Install Neovim build dependencies:
     ```
-    sudo port install ninja libtool autoconf automake cmake pkgconfig gettext
+    sudo port install ninja libtool cmake pkgconfig gettext
     ```
   - **Note**: If you see Wget certificate errors (for older macOS versions less than 10.10):
     ```sh
