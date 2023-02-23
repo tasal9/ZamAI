@@ -10,7 +10,7 @@
     - If you want the **stable release**, also run `git checkout stable`.
     - If you want to install to a custom location, set `CMAKE_INSTALL_PREFIX`. See also [Installing Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#install-from-source).
     - On BSD, use `gmake` instead of `make`.
-    - To build on Windows, see the [Building on Windows](#building-on-windows) section.
+    - To build on Windows, see the [Building on Windows](#building-on-windows) section. MSVC is recommended.
 4. `sudo make install`
     - Default install location is `/usr/local`
 
@@ -81,6 +81,50 @@ cmake --build build --config Release
 cmake --install build --prefix <preferred install location>
 ```
 
+### Windows / MSVC
+
+MSVC is the recommended way to build on Windows. These steps were confirmed working as of 2023.
+
+1. Install [Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community) (2017 or later) with the _Desktop development with C++_ workload.
+    - On 32-bit Windows, you will need [this workaround](https://developercommunity.visualstudio.com/content/problem/212989/ninja-binary-format.html).
+2. Open the Neovim project folder.
+    - Visual Studio should detect the cmake files and automatically start building...
+3. Choose the `nvim.exe (bin\nvim.exe)` target and hit F5.
+    - If the build fails, it may be because Visual Studio started the build with `x64-{Debug,Release}` before you switched the configuration to `x86-Release`.
+      - Right-click _CMakeLists.txt → Delete Cache_.
+      - Right-click _CMakeLists.txt → Generate Cache_.
+    - If you see an "access violation" from `ntdll`, you can ignore it and continue.
+4. If you set an error like `msgpackc.dll not found`, try the `nvim.exe (Install)` target. Then switch back to `nvim.exe (bin\nvim.exe)`.
+
+### Windows / MSVC PowerShell
+
+To build from the command line (i.e., invoke the `cmake` commands yourself),
+
+1. make sure you have the Visual Studio environment variables properly set, which you can do in one of these ways:
+    - Using the [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022)
+    - Invoking `Import-VisualStudioVars` in PowerShell from [this PowerShell module](https://github.com/Pscx/Pscx)
+    - This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like:
+      ```
+      'mingw32-gcc' is not recognized as an internal or external command
+      ```
+2. from the "Developer PowerShell", run
+   ```
+   vsdevcmd.bat -arch=x64 -no_logo
+   ```
+2. from the "Developer PowerShell", run `cmake` as shown in the [CI script](https://github.com/neovim/neovim/blob/ef18c9f9b05caf1f39ed32762f53802e378f143b/.github/workflows/ci.yml#L293-L301), roughly:
+   ```
+   cmake -S cmake.deps -B .deps -G Ninja
+   cmake --build .deps
+   cmake -B build -G Ninja -DDEPS_PREFIX="$(pwd).Path"\.deps
+   cmake --build build
+   ```
+
+### Windows / CLion
+
+1. Install [CLion](https://www.jetbrains.com/clion/).
+2. Open the Neovim project in CLion.
+3. Select _Build → Build All in 'Release'_.
+
 ### Windows / Cygwin
 
 Install all dependencies the normal way, then build Neovim the normal way for a random CMake application (i.e. do not use the `Makefile` that automatically downloads and builds "bundled" dependencies).
@@ -134,50 +178,6 @@ https://github.com/cascent/neovim-cygwin was built on Cygwin 2.9.0. Newer `libuv
       :: mingw32-make CMAKE_BUILD_TYPE=RelWithDebInfo CMAKE_INSTALL_PREFIX=C:\nvim
       mingw32-make install
       ```
-
-### Windows / MSVC
-
-The following steps were confirmed to work as of 2023.
-
-1. Install [Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community) (2017 or later) with the _Desktop development with C++_ workload.
-    - On 32-bit Windows, you will need [this workaround](https://developercommunity.visualstudio.com/content/problem/212989/ninja-binary-format.html).
-2. Open the Neovim project folder.
-    - Visual Studio should detect the cmake files and automatically start building...
-3. Choose the `nvim.exe (bin\nvim.exe)` target and hit F5.
-    - If the build fails, it may be because Visual Studio started the build with `x64-{Debug,Release}` before you switched the configuration to `x86-Release`.
-      - Right-click _CMakeLists.txt → Delete Cache_.
-      - Right-click _CMakeLists.txt → Generate Cache_.
-    - If you see an "access violation" from `ntdll`, you can ignore it and continue.
-4. If you set an error like `msgpackc.dll not found`, try the `nvim.exe (Install)` target. Then switch back to `nvim.exe (bin\nvim.exe)`.
-
-### Windows / MSVC PowerShell
-
-To build from the command line (i.e., invoke the `cmake` commands yourself),
-
-1. make sure you have the Visual Studio environment variables properly set, which you can do in one of these ways:
-    - Using the [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022)
-    - Invoking `Import-VisualStudioVars` in PowerShell from [this PowerShell module](https://github.com/Pscx/Pscx)
-    - This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like:
-      ```
-      'mingw32-gcc' is not recognized as an internal or external command
-      ```
-2. from the "Developer PowerShell", run
-   ```
-   vsdevcmd.bat -arch=x64 -no_logo
-   ```
-2. from the "Developer PowerShell", run `cmake` as shown in the [CI script](https://github.com/neovim/neovim/blob/ef18c9f9b05caf1f39ed32762f53802e378f143b/.github/workflows/ci.yml#L293-L301), roughly:
-   ```
-   cmake -S cmake.deps -B .deps -G Ninja
-   cmake --build .deps
-   cmake -B build -G Ninja -DDEPS_PREFIX="$(pwd).Path"\.deps
-   cmake --build build
-   ```
-
-### Windows / CLion
-
-1. Install [CLion](https://www.jetbrains.com/clion/).
-2. Open the Neovim project in CLion.
-3. Select _Build → Build All in 'Release'_.
 
 ## Localization
 
@@ -430,7 +430,7 @@ LuaRocks has bad interactions with cURL, at least under FreeBSD, and will die wi
 ### OpenBSD
 
 ```sh
-doas pkg_add gmake cmake libtool unzip curl
+doas pkg_add gmake cmake libtool unzip curl gettext-tools
 ```
 
 Build can sometimes fail when using the top level `Makefile`, apparently due to some third-party component (see [#2445-comment](https://github.com/neovim/neovim/issues/2445#issuecomment-108124236)). The following instructions use CMake:
