@@ -10,7 +10,7 @@
     - If you want the **stable release**, also run `git checkout stable`.
     - If you want to install to a custom location, set `CMAKE_INSTALL_PREFIX`. See also [Installing Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim#install-from-source).
     - On BSD, use `gmake` instead of `make`.
-    - To build on Windows, see the [Building on Windows](#building-on-windows) section. MSVC is recommended.
+    - To build on Windows, see the [Building on Windows](#building-on-windows) section. _MSVC (Visual Studio) is recommended._
 4. `sudo make install`
     - Default install location is `/usr/local`
 
@@ -83,7 +83,7 @@ cmake --install build --prefix <preferred install location>
 
 ### Windows / MSVC
 
-MSVC is the recommended way to build on Windows. These steps were confirmed working as of 2023.
+**MSVC (Visual Studio) is the recommended way to build on Windows.** These steps were confirmed working as of 2023.
 
 1. Install [Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community) (2017 or later) with the _Desktop development with C++_ workload.
     - On 32-bit Windows, you will need [this workaround](https://developercommunity.visualstudio.com/content/problem/212989/ninja-binary-format.html).
