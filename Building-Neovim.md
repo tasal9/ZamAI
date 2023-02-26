@@ -334,7 +334,7 @@ Platform-specific requirements are listed below.
 ### Ubuntu / Debian
 
 ```sh
-sudo apt-get install ninja-build gettext libtool-bin cmake g++ pkg-config unzip curl doxygen
+sudo apt-get install ninja-build gettext libtool-bin cmake g++ pkg-config unzip curl
 ```
 
 ### CentOS / RHEL / Fedora
