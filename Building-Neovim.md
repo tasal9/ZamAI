@@ -354,7 +354,7 @@ sudo zypper install ninja libtool cmake gcc-c++ gettext-tools curl
 ### Arch Linux
 
 ```
-sudo pacman -S base-devel cmake unzip ninja tree-sitter curl
+sudo pacman -S base-devel cmake unzip ninja curl
 ```
 
 ### Alpine Linux
