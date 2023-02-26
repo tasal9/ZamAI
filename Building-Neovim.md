@@ -111,11 +111,11 @@ To build from the command line (i.e., invoke the `cmake` commands yourself),
    ```
    vsdevcmd.bat -arch=x64 -no_logo
    ```
-2. from the "Developer PowerShell", run `cmake` as shown in the [CI script](https://github.com/neovim/neovim/blob/ef18c9f9b05caf1f39ed32762f53802e378f143b/.github/workflows/ci.yml#L293-L301), roughly:
+2. from the "Developer PowerShell", run:
    ```
-   cmake -S cmake.deps -B .deps -G Ninja
+   cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo
    cmake --build .deps
-   cmake -B build -G Ninja -DDEPS_PREFIX="$(pwd).Path"\.deps
+   cmake -B build -G Ninja CMAKE_BUILD_TYPE=RelWithDebInfo
    cmake --build build
    ```
 
