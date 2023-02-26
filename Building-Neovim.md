@@ -334,10 +334,8 @@ Platform-specific requirements are listed below.
 ### Ubuntu / Debian
 
 ```sh
-sudo apt-get install ninja-build gettext libtool libtool-bin cmake g++ pkg-config unzip curl doxygen
+sudo apt-get install ninja-build gettext libtool-bin cmake g++ pkg-config unzip curl doxygen
 ```
-
-**Note**: `libtool-bin` is only required for Ubuntu 16.04 / Debian 8 and newer.
 
 ### CentOS / RHEL / Fedora
 
