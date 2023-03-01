@@ -325,7 +325,7 @@ ninja
 
 General requirements (see [#1469](https://github.com/neovim/neovim/issues/1469#issuecomment-63058312)):
 
-- Clang or GCC version 4.4+
+- Clang or GCC version 4.9+
 - CMake version 3.10+, built with TLS/SSL support
   - Optional: Get the latest CMake from an [installer](https://github.com/Kitware/CMake/releases) or the [Python package](https://pypi.org/project/cmake/) (`pip install cmake`)
 
