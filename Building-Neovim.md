@@ -358,7 +358,7 @@ sudo pacman -S base-devel cmake unzip ninja curl
 ### Alpine Linux
 
 ```
-apk add build-base cmake libtool pkgconf coreutils curl unzip gettext-tiny-dev
+apk add build-base cmake libtool pkgconf coreutils curl unzip gettext-tiny-dev perl
 ```
 
 ### Void Linux
