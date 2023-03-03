@@ -340,7 +340,7 @@ sudo apt-get install ninja-build gettext libtool-bin cmake g++ pkg-config unzip 
 ### CentOS / RHEL / Fedora
 
 ```
-sudo yum -y install ninja-build libtool cmake gcc gcc-c++ make pkgconfig unzip gettext curl
+sudo dnf -y install ninja-build libtool cmake gcc gcc-c++ make pkgconfig unzip gettext curl
 ```
 
 ### openSUSE
