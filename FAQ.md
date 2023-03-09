@@ -118,6 +118,23 @@ See the [Install](https://github.com/neovim/neovim/wiki/Installing-Neovim#window
 
 ### How to use the Windows clipboard from WSL?
 
+**Update:** Try the suggestion given by [:help clipboard-wsl](https://neovim.io/doc/user/provider.html#clipboard-wsl):
+
+    let g:clipboard = {
+      \   'name': 'WslClipboard',
+      \   'copy': {
+      \      '+': 'clip.exe',
+      \      '*': 'clip.exe',
+      \    },
+      \   'paste': {
+      \      '+': 'powershell.exe -c [Console]::Out.Write($(Get-Clipboard -Raw).tostring().replace("`r", ""))',
+      \      '*': 'powershell.exe -c [Console]::Out.Write($(Get-Clipboard -Raw).tostring().replace("`r", ""))',
+      \   },
+      \   'cache_enabled': 0,
+      \ }
+
+#### Old instructions...
+
 To use the Windows clipboard from within WSL, [`win32yank.exe`](https://github.com/equalsraf/win32yank) has to be on our `$PATH`.
 
 If Neovim is installed on both Windows and within the WSL distribution, the `win32yank.exe` binary provided by the Neovim Windows installation can be symlinked to a directory included in our `$PATH` so it can be found by Neovim on WSL. Replace `$NEOVIM_WIN_DIR` with the path to our Neovim Windows installation, e.g. `/mnt/c/Program Files/Neovim`. The command can then be symlinked using:
