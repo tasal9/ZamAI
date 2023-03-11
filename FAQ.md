@@ -615,8 +615,8 @@ Debug builds write INFO-level messages to this log file. You can specify the loc
 
 - Lua is a very small language, ideal for embedding. The biggest advantage of Python/Ruby/etc is their huge collection of libraries, but that isn't relevant for Nvim, where Nvim _is_ the "batteries included" library: introducing another stdlib would be redundant.
 - Lua 5.1 is a _complete_ language: the syntax is frozen. This is great for backwards compatibility.
-- **Nvim also uses Lua _internally_ as an alternative to C.**  Extra performance is useful there, as opposed to a slow language like Python.
-- LuaJIT is one of the fastest runtimes on the planet. It is at least 10x faster than Python.
+- **Nvim also uses Lua _internally_ as an alternative to C.**  Extra performance is useful there, as opposed to a slow language like Python or Vim9script.
+- LuaJIT is one of the fastest runtimes on the planet, 10x faster than Python and ["Vim9script"](https://vimhelp.org/vim9.txt.html), 100x faster than Vimscript.
 - Python/JS cost more than Lua in terms of size and portability, and there are already numerous Python/JS-based editors.  So Python/JS would make Nvim bigger and less portable, in exchange for a non-differentiating feature.
 
 See also:
