@@ -111,11 +111,11 @@ To build from the command line (i.e., invoke the `cmake` commands yourself),
    ```
    vsdevcmd.bat -arch=x64 -no_logo
    ```
-2. from the "Developer PowerShell", run:
+3. from the "Developer PowerShell", run:
    ```
    cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo
    cmake --build .deps
-   cmake -B build -G Ninja CMAKE_BUILD_TYPE=RelWithDebInfo
+   cmake -B build -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo
    cmake --build build
    ```
 
