@@ -107,10 +107,10 @@ To build from the command line (i.e., invoke the `cmake` commands yourself),
       ```
       VsDevCmd.bat -arch=x64
       ```
-    - This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like:
-      ```
-      'mingw32-gcc' is not recognized as an internal or external command
-      ```
+   This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like:
+   ```
+   'mingw32-gcc' is not recognized as an internal or external command
+   ```
 2. from the "Developer PowerShell" or "Developer Commnad Prompt", run:
    ```
    cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo
