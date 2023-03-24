@@ -103,15 +103,15 @@ To build from the command line (i.e., invoke the `cmake` commands yourself),
 1. make sure you have the Visual Studio environment variables properly set, which you can do in one of these ways:
     - Using the [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022)
     - Invoking `Import-VisualStudioVars` in PowerShell from [this PowerShell module](https://github.com/Pscx/Pscx)
+    - Invoking `VsDevCmd.bat` in Command Prompt
+      ```
+      VsDevCmd.bat -arch=x64
+      ```
     - This is to make sure that `luarocks` finds the Visual Studio installation, and doesn't fall back to MinGW with errors like:
       ```
       'mingw32-gcc' is not recognized as an internal or external command
       ```
-2. from the "Developer PowerShell", run
-   ```
-   vsdevcmd.bat -arch=x64 -no_logo
-   ```
-3. from the "Developer PowerShell", run:
+2. from the "Developer PowerShell" or "Developer Commnad Prompt", run:
    ```
    cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo
    cmake --build .deps
