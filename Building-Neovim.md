@@ -334,7 +334,7 @@ Platform-specific requirements are listed below.
 ### Ubuntu / Debian
 
 ```sh
-sudo apt-get install ninja-build gettext cmake g++ unzip curl
+sudo apt-get install ninja-build gettext cmake unzip curl
 ```
 
 ### CentOS / RHEL / Fedora
