@@ -139,7 +139,7 @@ https://github.com/cascent/neovim-cygwin was built on Cygwin 2.9.0. Newer `libuv
 1. From the MSYS2 shell, install these packages:
    ```
    pacman -S \
-       mingw-w64-x86_64-{gcc,cmake,make,pkg-config,ninja,diffutils}
+       mingw-w64-x86_64-{gcc,cmake,make,ninja,diffutils}
    ```
 2. From the Windows Command Prompt (`cmd.exe`), set up the `PATH` and build.
 
@@ -334,13 +334,13 @@ Platform-specific requirements are listed below.
 ### Ubuntu / Debian
 
 ```sh
-sudo apt-get install ninja-build gettext cmake g++ pkg-config unzip curl
+sudo apt-get install ninja-build gettext cmake g++ unzip curl
 ```
 
 ### CentOS / RHEL / Fedora
 
 ```
-sudo dnf -y install ninja-build cmake gcc gcc-c++ make pkgconfig unzip gettext curl
+sudo dnf -y install ninja-build cmake gcc gcc-c++ make unzip gettext curl
 ```
 
 ### openSUSE
@@ -453,7 +453,7 @@ gmake
 2. Install [Homebrew](http://brew.sh)
 3. Install Neovim build dependencies:
     ```
-    brew install ninja cmake pkg-config gettext curl
+    brew install ninja cmake gettext curl
     ```
   - **Note**: If you see Wget certificate errors (for older macOS versions less than 10.10):
     ```sh
@@ -471,7 +471,7 @@ gmake
 2. Install [MacPorts](http://www.macports.org)
 3. Install Neovim build dependencies:
     ```
-    sudo port install ninja cmake pkgconfig gettext
+    sudo port install ninja cmake gettext
     ```
   - **Note**: If you see Wget certificate errors (for older macOS versions less than 10.10):
     ```sh
