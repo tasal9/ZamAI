@@ -340,7 +340,7 @@ sudo apt-get install ninja-build gettext cmake unzip curl
 ### CentOS / RHEL / Fedora
 
 ```
-sudo dnf -y install ninja-build cmake gcc gcc-c++ make unzip gettext curl
+sudo dnf -y install ninja-build cmake gcc make unzip gettext curl
 ```
 
 ### openSUSE
