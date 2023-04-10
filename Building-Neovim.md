@@ -358,7 +358,7 @@ sudo pacman -S base-devel cmake unzip ninja curl
 ### Alpine Linux
 
 ```
-apk add build-base cmake pkgconf coreutils curl unzip gettext-tiny-dev
+apk add build-base cmake coreutils curl unzip gettext-tiny-dev
 ```
 
 ### Void Linux
@@ -419,7 +419,7 @@ Similarly to develop on Neovim: `nix develop github:neovim/neovim?dir=contrib#ne
 ### FreeBSD
 
 ```
-sudo pkg install cmake gmake sha pkgconf unzip wget gettext curl
+sudo pkg install cmake gmake sha unzip wget gettext curl
 ```
 
 If you get an error regarding a `sha256sum` mismatch, where the actual SHA-256 hash is `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`, then this is your issue (that's the `sha256sum` of an empty file). Also, make sure Wget is installed.
