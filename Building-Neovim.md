@@ -406,7 +406,7 @@ and replacing `neovim-unwrapped` with `neovim-dev`:
 nix-shell '<nixpkgs>' -A neovim-dev
 ```
 
-Starting November 2020, Neovim contains a Nix flake in the `contrib` folder, with 3 packages:
+Neovim contains a Nix flake in the `contrib` folder, with 3 packages:
 - `neovim` to run the nightly
 - `neovim-debug` to run the package with debug symbols
 - `neovim-developer` to get all the tools to develop on `neovim`
