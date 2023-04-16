@@ -18,8 +18,6 @@ However:
 That said, here goes the advice:
 
 ### Long types
-- `long_u` with size semantics (all, or mostly all) --> `size_t`
-- `long_u` without size semantics (rare, if ever) --> `uint64_t`
 - `long` with size semantics:
     * signedness conversion easy --> `size_t` <br/>
        (check for signedness conversion usual problems).
