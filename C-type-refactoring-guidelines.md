@@ -17,15 +17,6 @@ However:
 
 That said, here goes the advice:
 
-### Long types
-- `long` with size semantics:
-    * signedness conversion easy --> `size_t` <br/>
-       (check for signedness conversion usual problems).
-    * signedness conversion difficult --> `ssize`  <br/>
-       (for example, complicated code involving subtractions) <br/>
-       Note: `ssize` is a project-wide typedef defined in `src/nvim/types.h`.
-- `long` without size semantics --> `int64_t`
-
 ### Int types
 - `int` with size semantics:
     * signedness conversion easy --> `size_t` <br/>
