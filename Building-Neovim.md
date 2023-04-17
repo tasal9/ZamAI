@@ -272,7 +272,7 @@ make
 ### How to build without "bundled" dependencies
 
 1. Manually install the dependencies:
-    - libuv libluv libtermkey libvterm luajit lua-lpeg lua-mpack msgpack-c tree-sitter unibilium
+    - libuv libluv libtermkey luajit lua-lpeg lua-mpack msgpack-c tree-sitter unibilium
 2. Do the "CMake dance": create a `build` directory, switch to it, and run CMake:
    ```sh
    mkdir build
