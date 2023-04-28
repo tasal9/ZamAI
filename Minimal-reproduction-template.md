@@ -17,6 +17,6 @@ end
 ```
 
 ### Steps:
-1. `nvim -u my_issue.lua`
+1. `nvim --clean -u my_issue.lua`
 2. ...
 
