@@ -46,7 +46,8 @@ scoop install neovim
 scoop bucket add versions
 scoop install neovim-nightly
 ```
-Neovim GUIs are also available from [scoop](https://scoop.sh/#/apps?q=neovim) (extras).
+
+Several Neovim GUIs are available from scoop (extras): [scoop.sh/#/apps?q=neovim](https://scoop.sh/#/apps?q=neovim)
 
 ### Pre-built archives
 
