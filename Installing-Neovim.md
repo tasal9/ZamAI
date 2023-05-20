@@ -37,8 +37,8 @@ Windows 8+ is required. Windows 7 or older is not supported.
 
 ### [Scoop](https://scoop.sh/)
 ```
-scoop bucket add extras
-scoop install vcredist2022
+scoop bucket add main
+scoop install neovim
 ```
 - **Release:** `scoop install neovim`
 - **Development (pre-release):**
