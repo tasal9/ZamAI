@@ -155,13 +155,6 @@ Python (`:python`) support is available if the [python-basic bundle](https://git
 
     sudo swupd bundle-add python-basic
 
-### CRUX
-
-A CRUX port is available under [`6c37/neovim`](https://github.com/6c37/crux-ports), along with ports for other dependencies of Neovim.
-
-For instructions on how to install the Python modules, see [`:help provider-python`].
-
-
 ### Debian
 
 Neovim is in [Debian](https://packages.debian.org/search?keywords=neovim).
