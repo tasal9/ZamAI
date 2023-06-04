@@ -7,7 +7,7 @@
 ## Users
 
 - **[Install](Installing-Neovim)**
-- [Following HEAD](https://github.com/neovim/neovim/issues/14090)
+- [Following HEAD](Following-HEAD)
 - [Documentation](http://neovim.io/doc/general/)
 
 ## Developers
