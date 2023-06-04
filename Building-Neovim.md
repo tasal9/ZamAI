@@ -1,5 +1,5 @@
 - **IMPORTANT**: Before upgrading to a new version, **always check for [breaking changes](Following-HEAD).**
-- 👀  ➡️ Table of contents (ToC) is available by expanding the _Pages_ sidebar to the right ➡️
+- 👀  See Table of Contents by expanding the _Pages_ sidebar to the right ➡️
 
 
 ## Quick start
