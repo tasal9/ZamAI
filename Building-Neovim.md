@@ -1,4 +1,4 @@
-- **IMPORTANT**: Before upgrading to a new version, **always check for [breaking changes](https://github.com/neovim/neovim/issues/14090).**
+- **IMPORTANT**: Before upgrading to a new version, **always check for [breaking changes](Following-HEAD).**
 - 👀  ➡️ Table of contents (ToC) is available by expanding the _Pages_ sidebar to the right ➡️
 
 
