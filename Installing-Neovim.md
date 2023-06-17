@@ -166,8 +166,6 @@ Python (`:python`) support is installable via the package manager on Debian unst
 
     sudo apt-get install python3-neovim
 
-Alternatively, Neovim also provides binary Debian packages (currently x86-64 only) - see the [Install from download](#install-from-download) section.
-
 If installing via appimage, the following commands may be helpful in updating default paths:
 
     # CUSTOM_NVIM_PATH=/usr/local/bin/nvim.appimage
