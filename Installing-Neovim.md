@@ -15,6 +15,9 @@ Install from download
 Downloads are available on the [Releases](https://github.com/neovim/neovim/releases) page.
 
 * Latest [stable release](https://github.com/neovim/neovim/releases/latest)
+    * [macOS](https://github.com/neovim/neovim/releases/latest/download/nvim-macos.tar.gz)
+    * [Linux](https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz)
+    * [Windows](https://github.com/neovim/neovim/releases/latest/download/nvim-win64.msi)
 * Latest [development prerelease](https://github.com/neovim/neovim/releases/nightly)
 
 
