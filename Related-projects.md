@@ -3,6 +3,7 @@
 You can find Neovim plugins on these sites:
 
 - https://github.com/rockerBOO/awesome-neovim
+- https://dotfyle.com/plugins
 - https://neovimcraft.com
 - https://nvim-awesome.vercel.app
 - [Luarocks](https://luarocks.org/labels/neovim)
