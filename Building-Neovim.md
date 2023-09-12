@@ -72,16 +72,6 @@ make deps
 
 ## Building on Windows
 
- Example (assuming Visual Studio generator):
-
-```
-cmake -S cmake.deps -B .deps -D USE_BUNDLED_NVIMQT=OFF
-cmake --build .deps --config Release
-cmake -B build -D USE_BUNDLED_NVIMQT=OFF
-cmake --build build --config Release
-cmake --install build --prefix <preferred install location>
-```
-
 ### Windows / MSVC
 
 **MSVC (Visual Studio) is the recommended way to build on Windows.** These steps were confirmed working as of 2023.
@@ -112,13 +102,15 @@ To build from the command line (i.e., invoke the `cmake` commands yourself),
    ```
    'mingw32-gcc' is not recognized as an internal or external command
    ```
-2. From the "Developer PowerShell" or "Developer Commnad Prompt", run (omit `--config Release` if you want a debug build):
+2. From the "Developer PowerShell" or "Developer Commnad Prompt":
    ```
    cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo
    cmake --build .deps --config Release
    cmake -B build -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo
    cmake --build build --config Release
    ```
+    - Omit `--config Release` if you want a debug build.
+    - Omit `-G Ninja` to use the "Visual Studio" generator.
 
 ### Windows / CLion
 
