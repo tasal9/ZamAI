@@ -72,7 +72,7 @@ make deps
 
 ## Building on Windows
 
-[Neovim-qt](https://github.com/equalsraf/neovim-qt) is bundled by default on Windows. You can use the cmake option `USE_BUNDLED_NVIMQT=OFF` to build neovim without neovim-qt. Example (assuming Visual Studio generator):
+ Example (assuming Visual Studio generator):
 
 ```
 cmake -S cmake.deps -B .deps -D USE_BUNDLED_NVIMQT=OFF
@@ -101,7 +101,7 @@ cmake --install build --prefix <preferred install location>
 
 To build from the command line (i.e., invoke the `cmake` commands yourself),
 
-1. make sure you have the Visual Studio environment variables properly set, which you can do in one of these ways:
+1. Ensure you have the Visual Studio environment variables, using any of the following:
     - Using the [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022)
     - Invoking `Import-VisualStudioVars` in PowerShell from [this PowerShell module](https://github.com/Pscx/Pscx)
     - Invoking `VsDevCmd.bat` in Command Prompt
@@ -112,12 +112,12 @@ To build from the command line (i.e., invoke the `cmake` commands yourself),
    ```
    'mingw32-gcc' is not recognized as an internal or external command
    ```
-2. from the "Developer PowerShell" or "Developer Commnad Prompt", run:
+2. From the "Developer PowerShell" or "Developer Commnad Prompt", run (omit `--config Release` if you want a debug build):
    ```
    cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo
-   cmake --build .deps
+   cmake --build .deps --config Release
    cmake -B build -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo
-   cmake --build build
+   cmake --build build --config Release
    ```
 
 ### Windows / CLion
