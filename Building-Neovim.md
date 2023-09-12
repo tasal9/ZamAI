@@ -74,7 +74,7 @@ make deps
 
 ### Windows / MSVC
 
-**MSVC (Visual Studio) is the recommended way to build on Windows.** These steps were confirmed working as of 2023.
+**MSVC (Visual Studio) is the recommended way to build on Windows.** These steps were confirmed as of 2023.
 
 1. Install [Visual Studio](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community) (2017 or later) with the _Desktop development with C++_ workload.
     - On 32-bit Windows, you will need [this workaround](https://developercommunity.visualstudio.com/content/problem/212989/ninja-binary-format.html).
@@ -89,7 +89,7 @@ make deps
 
 ### Windows / MSVC PowerShell
 
-To build from the command line (i.e., invoke the `cmake` commands yourself),
+To build from the command line (i.e. invoke the `cmake` commands yourself),
 
 1. Ensure you have the Visual Studio environment variables, using any of the following:
     - Using the [Visual Studio Developer Command Prompt or Visual Studio Developer PowerShell](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022)
@@ -102,7 +102,7 @@ To build from the command line (i.e., invoke the `cmake` commands yourself),
    ```
    'mingw32-gcc' is not recognized as an internal or external command
    ```
-2. From the "Developer PowerShell" or "Developer Commnad Prompt":
+2. From the "Developer PowerShell" or "Developer Command Prompt":
    ```
    cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo
    cmake --build .deps --config Release
