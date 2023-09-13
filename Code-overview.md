@@ -27,7 +27,6 @@ Most code can be found in a file with an obvious name (incomplete list):
 *   [option.c](../blob/master/src/nvim/option.c)	   options
 *   [quickfix.c](../blob/master/src/nvim/quickfix.c) quickfix commands (`:make`, `:cn`)
 *   [regexp.c](../blob/master/src/nvim/regexp.c)	   pattern matching
-*   [screen.c](../blob/master/src/nvim/screen.c)	   updating the windows
 *   [search.c](../blob/master/src/nvim/search.c)	   pattern searching
 *   [spell.c](../blob/master/src/nvim/spell.c)	   spell checking
 *   [syntax.c](../blob/master/src/nvim/syntax.c)	   syntax
