@@ -58,7 +58,7 @@ typed.  The `vgetc()` function is used for this.  It also handles mapping.
 Updating the screen is mostly postponed until a command or a sequence of
 commands has finished.  The work is done by `update_screen()`, which calls
 `win_update()` for every window, which calls `win_line()` for every line.
-See the start of [screen.c](../blob/master/src/nvim/screen.c) for more explanations.
+See the start of [drawscreen.c](../blob/master/src/nvim/drawscreen.c) for more explanations.
 
 
 ## Command-line mode
