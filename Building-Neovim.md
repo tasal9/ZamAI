@@ -104,9 +104,9 @@ To build from the command line (i.e. invoke the `cmake` commands yourself),
    ```
 2. From the "Developer PowerShell" or "Developer Command Prompt":
    ```
-   cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo
+   cmake -S cmake.deps -B .deps -G Ninja -D CMAKE_BUILD_TYPE=Release
    cmake --build .deps --config Release
-   cmake -B build -G Ninja -D CMAKE_BUILD_TYPE=RelWithDebInfo
+   cmake -B build -G Ninja -D CMAKE_BUILD_TYPE=Release
    cmake --build build --config Release
    ```
     - Omit `--config Release` if you want a debug build.
