@@ -423,7 +423,7 @@ Solution:
 
 ### Plugins
 
-- [nvimdev.nvim](https://github.com/neovim/nvimdev.nvim): Neomake integration with Lua/C + Neovim codebase
+- [nvimdev.nvim](https://github.com/neovim/nvimdev.nvim): Diagnostic integration with Lua/C + Neovim codebase
 - [helpful.vim](https://github.com/tweekmonster/helpful.vim): get the version of Vim/Neovim where a feature was introduced.
 - [Neomake](https://github.com/neomake/neomake): Async linting
 - [deoplete.nvim](https://github.com/Shougo/deoplete.nvim): auto-completion
