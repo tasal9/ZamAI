@@ -67,7 +67,6 @@ Several Neovim GUIs are available from scoop (extras): [scoop.sh/#/apps?q=neovim
 - For Python plugins you need the `pynvim` module. "Virtual envs" are recommended. After activating the virtual env do `pip install pynvim` (in *both*). Edit your `init.vim` so that it contains the path to the env's Python executable:
     ```vim
     let g:python3_host_prog='C:/Users/foo/Envs/neovim3/Scripts/python.exe'
-    let g:python_host_prog='C:/Users/foo/Envs/neovim/Scripts/python.exe'
     ```
     - Run `:checkhealth` and read `:help provider-python`.
 - **init.vim ("vimrc"):** If you already have Vim installed you can copy `%userprofile%\_vimrc` to `%userprofile%\AppData\Local\nvim\init.vim` to use your Vim config with Neovim.
