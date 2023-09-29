@@ -187,7 +187,6 @@ Documentation differences
 
 The following should be removed from all imported documentation, and not be used in new documentation:
 
-- `{not in Vi}` : we don't care about compatibility with Vi (see [`818f7ae`][vi-annotations]).
 - `{Only when compiled with ...}` - the vast majority of features have been made non-optional (see [Introduction](Introduction#legacy-support-and-compile-time-features))
 
 [vi-annotations]: https://github.com/neovim/neovim/commit/818f7aefd2fe7eacd7135c5e3154934f24c85ca7
