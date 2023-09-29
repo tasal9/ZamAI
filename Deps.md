@@ -8,8 +8,7 @@ Forks
 
 For some dependencies we maintain temporary "forks", which are simply private branches with a few extra patches, while we wait for the upstream project to merge the patches. This is done instead of maintaining the patches as (fragile) CMake `PATCH_COMMAND` steps.
 
-* For Windows OS some of these patches are required.
-* For all other cases, Nvim builds against and supports both the "vanilla" dependency (without Nvim's patches) and typically much older versions.
+* Nvim builds against and supports both the "vanilla" dependency (without Nvim's patches) and typically much older versions.
 
 The complete, current list of forked dependencies is as follows:
 
