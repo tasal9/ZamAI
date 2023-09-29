@@ -209,7 +209,6 @@ Other hints:
   ```sh
   python -m pip install setuptools
   python -m pip install --upgrade pynvim
-  python2 -m pip install --upgrade pynvim
   python3 -m pip install --upgrade pynvim
   ```
 - Try with `nvim -u NORC` to make sure your config (`init.vim`) isn't causing a problem. If you get `E117: Unknown function`, that means [Neovim can't find its runtime](#neovim-cant-find-its-runtime).

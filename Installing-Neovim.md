@@ -227,7 +227,7 @@ Neovim can be installed with:
 
 To install the Python modules:
 
-    urpmi python2-pynvim python3-pynvim
+    urpmi python3-pynvim
 
 ### makedeb Package Repository (MPR)
 
@@ -369,7 +369,7 @@ or [from the ports tree](https://www.freshports.org/editors/neovim/):
 
 To install the pynvim Python modules using [`pkg(8)`](https://www.freebsd.org/cgi/man.cgi?query=pkg&sektion=8&n=1) run:
 
-    pkg install py27-pynvim py36-pynvim
+    pkg install py36-pynvim
 
 ### OpenBSD
 
