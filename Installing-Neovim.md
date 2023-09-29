@@ -126,7 +126,7 @@ The Python module is available from the community repository:
 
     sudo pacman -S python-pynvim
 
-Python 2 and Ruby modules (currently only supported in `neovim-git`) are available from the AUR as [`python2-neovim`](https://aur.archlinux.org/packages/python2-neovim-git) and [`ruby-neovim`](https://aur.archlinux.org/packages/ruby-neovim) respectively.
+Ruby modules (currently only supported in `neovim-git`) are available from the AUR as [`ruby-neovim`](https://aur.archlinux.org/packages/ruby-neovim).
 
 ### CentOS 8 / RHEL 8
 
