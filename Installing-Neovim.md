@@ -92,14 +92,6 @@ The [Releases](https://github.com/neovim/neovim/releases) page provides pre-buil
 
     brew install neovim
 
-Or install the development version of Nvim:
-
-    brew install --HEAD neovim
-
-To update the development version of Nvim:
-    
-    brew upgrade neovim --fetch-HEAD
-
 ### [MacPorts](https://www.macports.org/)
 
     sudo port selfupdate
