@@ -60,7 +60,6 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | C++/Magnum  | [Squareys/magnum-neovim-api](https://github.com/Squareys/magnum-neovim-api)           |
 | Clojure     | [jebberjeb/neovim-client](https://github.com/jebberjeb/neovim-client)                 |
 | Common Lisp | [adolenc/cl-neovim](https://github.com/adolenc/cl-neovim)                             |
-| D           | [viniarck/nvimhost-d](https://github.com/viniarck/nvimhost-d)                         |
 | Dart        | [smolck/dart-nvim-api](https://github.com/smolck/dart-nvim-api)                       |
 | Elixir      | [awetzel/neovim-elixir](https://github.com/awetzel/neovim-elixir)                     |
 | Filesystem  | [fmoralesc/nvimfs](https://github.com/fmoralesc/nvimfs)                               |
@@ -69,8 +68,6 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | Java        | [fdinoff/neovim-java-client](https://github.com/fdinoff/neovim-java-client)           |
 | Java        | [esensar/neovim-java](https://github.com/esensar/neovim-java)                         |
 | Julia       | [bfredl/Neovim.jl](https://github.com/bfredl/Neovim.jl)                               |
-| Kotlin      | [esensar/neovim-kotlin](https://github.com/esensar/neovim-kotlin)                     |
-| Lua         | [neovim/lua-client](https://github.com/neovim/lua-client)                             |
 | Node.js     | [neovim/node-client](https://github.com/neovim/node-client)                           |
 | Node.js     | [neoclide/neovim](https://github.com/neoclide/neovim)                                 |
 | OCaml       | [janestreet/vcaml](https://github.com/janestreet/vcaml)                               |
@@ -83,7 +80,6 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | Rust        | [noib3/nvim-oxi](https://github.com/noib3/nvim-oxi)                                   |
 | Rust        | [daa84/neovim-lib](https://github.com/daa84/neovim-lib) (inactive, c. 2022-Jan)       |
 | Rust        | [KillTheMule/nvim-rs](https://github.com/KillTheMule/nvim-rs)                         |
-| Scala       | [viniarck/nvimhost-scala](https://github.com/viniarck/nvimhost-scala)                 |
 | Swift/Cocoa | [NvimView](https://github.com/qvacua/vimr/tree/master/NvimView) (part of qvacua/vimr) |
 
 
@@ -98,7 +94,6 @@ These projects let you write Nvim plugins in languages other than Lua.
 
 This is software either targeted at Neovim or with support for it.
 
-- [chromatin](https://github.com/tek/chromatin.nvim): Package manager for plugins built with Ribosome
 - [flatnvim](https://github.com/adamtabrams/flatnvim): Tool that prevents nested Neovim instances
 - [neovim-remote](https://github.com/mhinz/neovim-remote): Tool that helps controlling Neovim processes
 - [nero.nvim](https://github.com/Vigemus/nero.nvim): A REPL for Neovim (as in managing Neovim through a REPL)
