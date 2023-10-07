@@ -38,7 +38,7 @@ We should try to keep structs small, if possible. To that end:
 #### External interfaces
 - For functions interfacing other processes over a transport/serialization mechanism, fixed-width types are preferred. For example, in `msgpack_rpc.h`:
 
-  ```c
+```c
 bool msgpack_rpc_integer_result(uint32_t result,
                                 msgpack_object *req,
                                 msgpack_packer *res);
@@ -46,7 +46,7 @@ bool msgpack_rpc_integer_result(uint32_t result,
 
 - For functions part of a public API, native types are preferred. For example, in a hypothetical `libneovim.h`:
 
-  ```c
+```c
 int neovim_get_current_buffer(void);
 ```
 
