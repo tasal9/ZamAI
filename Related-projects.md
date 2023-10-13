@@ -15,19 +15,19 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | Platform         | Project                                                                       | Activity                |
 |------------------|-------------------------------------------------------------------------------| :---------------------: |
 | Avalonia         | [FVim](https://github.com/yatli/fvim)                                         | active (c. 2023-May)    |
-| Browsers         | [Firenvim](https://github.com/glacambre/firenvim)                             | active (c. 2023-May)    |
-| C++/DirectWrite  | [Nvy](https://github.com/RMichelsen/Nvy)                                      | active (c. 2023-Aug)    |
+| Browsers         | [Firenvim](https://github.com/glacambre/firenvim)                             | active (c. 2023-Aug)    |
+| C++/DirectWrite  | [Nvy](https://github.com/RMichelsen/Nvy)                                      | active (c. 2023-Oct)    |
 | C++/SDL2         | [etorth/libnvc](https://github.com/etorth/libnvc)                             |                         |
 | C++/Gtk          | [nvim-ui](https://github.com/sakhnik/nvim-ui)                                 | active (c. 2022-Dec)    |
 | curses/Python    | [mvilim/neovim-pytc-example](https://github.com/mvilim/neovim-pytc-example)   | inactive (c. 2021-Dec)  |
 | Direct2D         | [dontpanic92/dotnvim](https://github.com/dontpanic92/dotnvim)                 | inactive (c. 2021-Dec)  |
 | EFL              | [Eovim](https://github.com/jeanguyomarch/eovim)                               |                         |
-| Electron UI      | [Envim](https://github.com/tk-shirasaka/envim)                                | active (c. 2023-Aug)    |
+| Electron UI      | [Envim](https://github.com/tk-shirasaka/envim)                                | active (c. 2023-Oct)    |
 | Electron UI      | [Uivonim](https://github.com/smolck/uivonim)                                  | inactive (c. 2021-Dec)  |
 | Electron UI      | [VV](https://github.com/vv-vim/vv)                                            | active (c. 2022-Sep)    |
 | gnome-terminal   | [neovim-gnome-terminal-wrapper](https://github.com/fmoralesc/neovim-gnome-terminal-wrapper) |           |
 | Go/OpenGL        | [Neoray](https://github.com/hismailbulut/Neoray)                              | active (c. 2022-Sep)    |
-| Go/Qt            | [Goneovim](https://github.com/akiyosi/goneovim)                               | active (c. 2023-Aug)    |
+| Go/Qt            | [Goneovim](https://github.com/akiyosi/goneovim)                               | active (c. 2023-Sep)    |
 | GTK/Python UI    | [rliang/nvim-pygtk3](https://github.com/rliang/nvim-pygtk3)                   |                         |
 | GTK/Python UI    | [Bominade (b8)](https://gitlab.com/afshar-oss/b8)                             |                         |
 | GTK/Rust UI      | [daa84/neovim-gtk](https://github.com/daa84/neovim-gtk)                       | inactive (c. 2022-Jan)  |
@@ -42,7 +42,7 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | Qt 5             | [Neovim Qt](https://github.com/equalsraf/neovim-qt)                           | active (c. 2023-Aug)    |
 | Qt 5             | [rohit-px2/nvui](https://github.com/rohit-px2/nvui)                           |                         |
 | Qt Creator       | [sassanh/qnvim](https://github.com/sassanh/qnvim)                             | active (c. 2023-Apr)    |
-| Rust             | [Neovide](https://github.com/neovide/neovide)                                 | active (c. 2023-Aug)    |
+| Rust             | [Neovide](https://github.com/neovide/neovide)                                 | active (c. 2023-Oct)    |
 | Sublime Text     | [lunixbochs/actualvim](https://github.com/lunixbochs/actualvim)               |                         |
 | Terminal Wrapper | [glrnvim](https://github.com/beeender/glrnvim)                                |                         |
 | VSCode           | [VSCodeVim](https://github.com/VSCodeVim/Vim)                                 |                         |
