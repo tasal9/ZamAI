@@ -147,9 +147,6 @@ Python (`:python`) support is available if the [python-basic bundle](https://git
 
 ### Debian
 
-Neovim is in the default Debian repositories, but the version may be too old.
-Consider using a more recent version with e.g. appImage, flatpack or the PPA repository.
-
 Neovim is in [Debian](https://packages.debian.org/search?keywords=neovim).
 
     sudo apt-get install neovim
