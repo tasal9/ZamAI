@@ -23,23 +23,23 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | Direct2D         | [dontpanic92/dotnvim](https://github.com/dontpanic92/dotnvim)                 | inactive (c. 2021-Dec)  |
 | EFL              | [Eovim](https://github.com/jeanguyomarch/eovim)                               |                         |
 | Electron UI      | [Envim](https://github.com/tk-shirasaka/envim)                                | active (c. 2023-Oct)    |
-| Electron UI      | [Uivonim](https://github.com/smolck/uivonim)                                  | inactive (c. 2021-Dec)  |
+| Electron UI      | [Uivonim](https://github.com/smolck/uivonim)                                  | active (c. 2023-Oct)    |
 | Electron UI      | [VV](https://github.com/vv-vim/vv)                                            | active (c. 2022-Sep)    |
 | gnome-terminal   | [neovim-gnome-terminal-wrapper](https://github.com/fmoralesc/neovim-gnome-terminal-wrapper) |           |
-| Go/OpenGL        | [Neoray](https://github.com/hismailbulut/Neoray)                              | active (c. 2022-Sep)    |
+| Go/OpenGL        | [Neoray](https://github.com/hismailbulut/Neoray)                              | active (c. 2023-Oct)    |
 | Go/Qt            | [Goneovim](https://github.com/akiyosi/goneovim)                               | active (c. 2023-Sep)    |
 | GTK/Python UI    | [rliang/nvim-pygtk3](https://github.com/rliang/nvim-pygtk3)                   |                         |
 | GTK/Python UI    | [Bominade (b8)](https://gitlab.com/afshar-oss/b8)                             |                         |
 | GTK/Rust UI      | [daa84/neovim-gtk](https://github.com/daa84/neovim-gtk)                       | inactive (c. 2022-Jan)  |
-| GTK/Rust UI      | [Lyude/neovim-gtk](https://github.com/Lyude/neovim-gtk)                       | active (c. 2023-Mar)    |
+| GTK/Rust UI      | [Lyude/neovim-gtk](https://github.com/Lyude/neovim-gtk)                       | active (c. 2023-Oct)    |
 | GTK4/Rust UI     | [GNvim](https://github.com/vhakulinen/gnvim)                                  | active (c. 2023-Aug)    |
-| GTK4/Rust UI     | [Reovim](https://github.com/songww/reovim)                                    | active (c. 2022-Mar)    |
+| GTK4/Rust UI     | [Reovim](https://github.com/songww/reovim)                                    | inactive (c. 2022-Mar)  |
 | I3/Sway          | [Nwin](https://github.com/glacambre/nwin)                                     |                         |
 | JavaFX           | [jebberjeb/javafx-neovimpane](https://github.com/jebberjeb/javafx-neovimpane) |                         |
 | macOS            | [VimR](https://github.com/qvacua/vimr)                                        | active (c. 2022-Dec)    |
 | macOS            | [rogual/neovim-dot-app](https://github.com/rogual/neovim-dot-app)             |                         |
 | mac OS UI        | [DinVim Vim for Mac](http://dinvim.com)                                       |                         |
-| Qt 5             | [Neovim Qt](https://github.com/equalsraf/neovim-qt)                           | active (c. 2023-Aug)    |
+| Qt 5             | [Neovim Qt](https://github.com/equalsraf/neovim-qt)                           | active (c. 2023-Oct)    |
 | Qt 5             | [rohit-px2/nvui](https://github.com/rohit-px2/nvui)                           |                         |
 | Qt Creator       | [sassanh/qnvim](https://github.com/sassanh/qnvim)                             | active (c. 2023-Apr)    |
 | Rust             | [Neovide](https://github.com/neovide/neovide)                                 | active (c. 2023-Oct)    |
