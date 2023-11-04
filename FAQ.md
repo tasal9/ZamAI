@@ -386,14 +386,6 @@ This is probably a permissions issue, which can happen if you run `make` as the 
 
 This can be caused by a local LuaRocks installation. Try unsetting the `LUA_PATH` and `LUA_CPATH` environment variables (via `unset`) before building.
 
-### Anaconda error
-
-Error message:
-`anaconda3/bin/x86_64-conda_cos6-linux-gnu-cc: not found`
-
-Solution:
-`conda install gxx_linux-64` or `conda deactivate`
-
 # Develop
 
 ### Plugins
