@@ -382,10 +382,6 @@ CMake caches build settings, so you might need to run `rm -r build && make` afte
 
 This is probably a permissions issue, which can happen if you run `make` as the root user, then later run an unprivileged `make`. To fix this, run `rm -rf build` and try again.
 
-`A suitable Lua interpreter was not found.`
-
-This can be caused by a local LuaRocks installation. Try unsetting the `LUA_PATH` and `LUA_CPATH` environment variables (via `unset`) before building.
-
 ### Anaconda error
 
 Error message:
@@ -407,13 +403,6 @@ Solution:
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp): auto-completion
 ### Tools
 
-- [hererocks](https://github.com/luarocks/hererocks) (very similar to Python's `virtualenv`) is useful for installing Luarocks, LuaJIT, and Lua:
-  ```
-  curl -LO https://raw.githubusercontent.com/luarocks/hererocks/latest/hererocks.py
-  chmod u+x hererocks.py
-  # Install LuaJit and LuaRocks 3.0 to the "myenv" directory.
-  ./hererocks.py myenv --luajit latest -r3.0
-  ```
 - [croissant](https://github.com/giann/croissant) is a Lua REPL
 
 # Debug
