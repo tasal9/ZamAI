@@ -111,11 +111,6 @@ hi EndOfBuffer ctermbg=NONE ctermfg=200 cterm=NONE
 hi Normal ctermbg=NONE ctermfg=200 cterm=NONE
 ```
 
-### Is Windows supported?
-
-Yes, starting with the [`0.2` release](https://github.com/neovim/neovim/milestones/0.2).
-See the [Install](https://github.com/neovim/neovim/wiki/Installing-Neovim#windows) page. However, since none of the current maintainers are active Windows users and we have to rely on corresponding support by all our dependencies, this is purely on a reasonable-effort basis and cannot cover all possible platform variants (Windows 10/11, MingW/WSL, scoop/chocolatey, ...) If you rely on Windows support, please consider helping out. 
-
 ### How to use the Windows clipboard from WSL?
 
 **Update:** Try the suggestion given by [:help clipboard-wsl](https://neovim.io/doc/user/provider.html#clipboard-wsl):
