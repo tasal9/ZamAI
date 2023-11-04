@@ -386,25 +386,6 @@ This is probably a permissions issue, which can happen if you run `make` as the 
 
 This can be caused by a local LuaRocks installation. Try unsetting the `LUA_PATH` and `LUA_CPATH` environment variables (via `unset`) before building.
 
-### Lua packages
-
-The Lua packages required by the build process should be automatically installed by [LuaRocks](http://luarocks.org/) (invoked by CMake automatically). If that fails, it could mean:
-
-- The LuaRocks servers are down.
-- Your network is down.
-- `unzip` isn't found. In that case LuaRocks will report something like this: `Warning: Failed searching manifest: Failed loading manifest: Failed extracting manifest file`.
-- The `$CDPATH` environment variable is interfering with the build, so it should be unset prior to running `make`.
-
-To try a different LuaRocks mirror, create the file `.deps/usr/etc/luarocks/config-5.1.lua` with these contents:
-
-```
-rocks_servers={ 
- "http://luarocks.giga.puc-rio.br/" 
-}
-```
-
-Then run `make cmake`.
-
 ### Anaconda error
 
 Error message:
