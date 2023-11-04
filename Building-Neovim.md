@@ -413,8 +413,7 @@ Similarly to develop on Neovim: `nix develop github:neovim/neovim?dir=contrib#ne
 sudo pkg install cmake gmake sha unzip wget gettext curl
 ```
 
-If you get an error regarding a `sha256sum` mismatch, where the actual SHA-256 hash is `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`, then this is your issue (that's the `sha256sum` of an empty file). Also, make sure Wget is installed.
-LuaRocks has bad interactions with cURL, at least under FreeBSD, and will die with a PANIC in LuaJIT when trying to install a rock.
+If you get an error regarding a `sha256sum` mismatch, where the actual SHA-256 hash is `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`, then this is your issue (that's the `sha256sum` of an empty file).
 
 ### OpenBSD
 
