@@ -1,4 +1,4 @@
-- **IMPORTANT**: Before upgrading to a new version, **always check for [breaking changes](Following-HEAD).**
+- **IMPORTANT**: Before upgrading to a new version, **always check for [breaking changes](https://neovim.io/doc/user/news.html#news-breaking).**
 - 👀  See Table of Contents by expanding the _Pages_ sidebar to the right ➡️
 
 
