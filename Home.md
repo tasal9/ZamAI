@@ -7,7 +7,7 @@
 ## Users
 
 - **[Install](Installing-Neovim)**
-- [Following HEAD](https://neovim.io/doc/user/news.html#news-breaking)
+- [Breaking Changes](https://neovim.io/doc/user/news.html#news-breaking)
 - [Documentation](http://neovim.io/doc/general/)
 
 ## Developers
