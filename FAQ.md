@@ -1,5 +1,5 @@
 - To start Neovim, run `nvim` (not `neovim`).
-- If something broke after upgrading, check [Following HEAD](Following-HEAD).
+- If something broke after upgrading, check [Following HEAD](https://neovim.io/doc/user/news.html#news-breaking).
 - `:checkhealth` detects and resolves many of the problems in this FAQ. Try it!
 
 
