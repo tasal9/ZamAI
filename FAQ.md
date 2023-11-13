@@ -197,7 +197,7 @@ Run `:checkhealth` in Nvim for automatic diagnosis.
 
 Other hints:
 
-- The python `neovim` module was renamed to `pynvim`. See [Following-HEAD](https://github.com/neovim/neovim/wiki/Following-HEAD#20181118).
+- The python `neovim` module was renamed to `pynvim` (long ago).
 - If you're using pyenv or virtualenv for the [`pynvim` module](https://pypi.python.org/pypi/pynvim/), you must set `g:python3_host_prog` to the virtualenv's interpreter path.
 - Read [`:help provider-python`](https://neovim.io/doc/user/provider.html#provider-python). 
 - Be sure you have the **latest version** of the `pynvim` Python module:
