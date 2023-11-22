@@ -8,7 +8,7 @@
 
 - **[Install](Installing-Neovim)**
 - [Breaking Changes](https://neovim.io/doc/user/news.html#news-breaking)
-- [Documentation](http://neovim.io/doc/general/)
+- [Documentation](http://neovim.io/doc/user/)
 
 ## Developers
 
