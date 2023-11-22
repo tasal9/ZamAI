@@ -251,7 +251,7 @@ Build type: MinSizeRel
 Build type: Release
 ```
 
-If it reports `Build type: Debug` and you're building Neovim from source, see [Building Neovim](https://github.com/neovim/neovim/wiki/Building-Neovim#building).
+If it reports `Build type: Debug` and you're building Neovim from source, see [Building Neovim#building](Building-Neovim#building).
 
 ### Colors aren't displayed correctly
 
