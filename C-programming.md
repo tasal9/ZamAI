@@ -22,15 +22,6 @@ Thus it would seem that unsigned arithmetic is superior, because it has defined 
 - if there is any chance of overflow, use unsigned arithmetic and possibly guards.
 - if there is a chance of both underflow and overflow, be extremely careful and paranoid (guards/asserts).
 
-## Guarded casting
-
-### Fixed-size vs. generic types
-
-Should we use `(u)intX_t` and friends over `char`, `short`, `int`, `long` et al.? ...
-
-- `size_t`: ...
-- `rsize_t`: this type is new in the C11 standard, which is why we can't use it, but the [reasoning and usage behind it are interesting](http://www.drdobbs.com/cpp/the-safe-c-library/214502214). Instead of `RSIZE_MAX` being the actual maximum value that a variable of type `rsize_t` can have, it is **less** than that. This means that one can check if `val <= RSIZE_MAX` before continuing operations and have it be useful. The first useful property is: values about `RSIZE_MAX` are usually too large to be useful anyway. Who wants to allocate such titanic amounts of memory anyway, if `rsize_t` is 64-bits? Arguably it would be better to refuse to perform the operation. The second useful property is nice to make unsigned arithmetic less susceptible to the dreaded underflow problem. `rsize_t val = -4` will be larger than `RSIZE_MAX` because it has wrapped around. Any functions that does a bounds-check on `RSIZE_MAX` will reject that value. This seems to be a good way to interact with unsigned code without needing to cast (`rsize_t` should be unsigned) and still have the safety advantages of signed arithmetic.
-
 ## Tools and articles
 
 - [Secure C Coding](https://wiki.sei.cmu.edu/confluence/display/c/SEI+CERT+C+Coding+Standard)
