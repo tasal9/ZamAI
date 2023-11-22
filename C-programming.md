@@ -1,21 +1,5 @@
 # C programming techniques and Neovim-specific guidance
 
-## sizeof
-
-[`sizeof(<var>)` vs `sizeof(<type>)`](https://github.com/neovim/neovim/pull/558#discussion_r11767481)
-> something you have to be really careful about: the difference between arrays and pointers [...]
-> be judicious: if the variable is simple (int, long, ...), use `sizeof(variable)`, if the variable is complex (struct, pointer-to-pointer, ...), use `sizeof(the_actual_type)`.
-
-## Scope
-
-It is **undefined behavior** to [access a pointer that was assigned in an inner scope](https://github.com/neovim/neovim/pull/619#discussion_r12261134).
-
-## Struct organization
-
-https://github.com/neovim/neovim/pull/656#issuecomment-41905534
-
-TODO: link to discussion of legacy Vim struct hack
-
 ## Unsigned or signed? Integer overflow/underflow
 
 * [Conversion of signed variables to unsigned](https://github.com/neovim/neovim/pull/558#issuecomment-40863654) (in files not checked by `-Wconversion`)
