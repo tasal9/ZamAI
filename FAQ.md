@@ -363,15 +363,6 @@ If re-installation fails with `Generating helptags failed`, try removing the pre
 
 Run `make distclean && make` to rule out a stale build environment causing the failure.
 
-### Proxy issues [#2482](https://github.com/neovim/neovim/issues/2482)
-
-If your machine is behind a network proxy and you see this error:
-
-    Error: Failed installing dependency: https://rocks.moonscript.org/penlight-1.3.2-2.rockspec 
-    Error fetching file: Failed downloading http://stevedonovan.github.io/files/penlight-1.3.2-core.zip 
-
-this can be fixed by setting the [`https_proxy` environment variable (for cURL)](http://curl.haxx.se/docs/manpage.html).
-
 ### Settings in `local.mk` don't take effect
 
 CMake caches build settings, so you might need to run `rm -r build && make` after modifying `local.mk`.
