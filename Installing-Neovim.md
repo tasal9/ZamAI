@@ -221,6 +221,10 @@ Neovim can be installed with:
 
     nix-env -iA nixpkgs.neovim
 
+Or alternatively, if you use flakes:
+
+    nix profile install nixpkgs#neovim
+
 ### Mageia 7
 
     urpmi neovim
