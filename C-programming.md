@@ -2,8 +2,6 @@
 
 ## Unsigned or signed? Integer overflow/underflow
 
-* [Conversion of signed variables to unsigned](https://github.com/neovim/neovim/pull/558#issuecomment-40863654) (in files not checked by `-Wconversion`)
-
 There are a few very important things to keep in mind while choosing between signed and unsigned integral types:
 
 Firstly, **unsigned overflow is defined**, while **signed overflow is not**. This is an unfortunate historical oversight stemming from a time where it wasn't sure what [representation a signed integer would have](http://stackoverflow.com/questions/18195715/why-is-unsigned-integer-overflow-defined-behavior-but-signed-integer-overflow-is). The C standard decided that it shouldn't/couldn't specify what would happen when a signed integer overflows, because each representation would have different behaviour. In modern times, signed integers are always represented in [two's complement](http://en.wikipedia.org/wiki/Two's_complement) form, which has many advantages. 
