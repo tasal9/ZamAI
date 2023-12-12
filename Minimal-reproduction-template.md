@@ -13,7 +13,7 @@ for name, url in pairs{
   vim.opt.runtimepath:append(install_path)
 end
 
--- ADD INIT.LUA SETTINGS THAT IS _NECESSARY_ FOR REPRODUCING THE ISSUE
+-- ADD INIT.LUA SETTINGS _NECESSARY_ FOR REPRODUCING THE ISSUE
 ```
 
 ### Steps:
