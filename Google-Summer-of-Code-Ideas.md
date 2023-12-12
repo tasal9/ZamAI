@@ -14,7 +14,7 @@ The following list of projects are just some ideas. We are happy to hear any sug
 
 ## Making a proposal
 
-The application period for GSOC is March 16-March 31 ([Timeline](https://developers.google.com/open-source/gsoc/timeline)). Send your proposal through the official [GSOC page](https://summerofcode.withgoogle.com/organizations/6095582066638848/). We encourage students to send a first draft early in this period, this allows us to give feedback and and ask for more information if need. See https://google.github.io/gsocguides/student/writing-a-proposal for some guidelines for writing a good proposal. 
+The application period for GSOC is March 16-March 31 ([Timeline](https://developers.google.com/open-source/gsoc/timeline)). Send your proposal through the official [GSOC page](https://summerofcode.withgoogle.com/organizations/6095582066638848/). We encourage students to send a first draft early in this period, this allows us to give feedback and and ask for more information if need. See https://google.github.io/gsocguides/student/writing-a-proposal for some guidelines for writing a good proposal.
 
 Note: this year we will likely be able to accept 2-3 students. We expect to get more strong proposals than available slots, so we will need to turn some good proposals down.
 
@@ -24,8 +24,7 @@ Proposal evaluation criteria:
 
 http://intermine.org/internships/guidance/grading-criteria-2019/
 
-
-## Tips 
+## Tips
 
 - Anywhere a Vim concept (such as "textlock") is mentioned, you can find what it means by using the ":help" command from within neovim (`:help textlock`).
 - Ask questions and post your partial work frequently (say, once every day or 2, if possible). It's OK if work is messy; just put "[WIP]" in the pull request (PR) title.
@@ -130,13 +129,13 @@ More commands support interactive preview. This could be done by extending the h
 
 ## Improve autoread
 
-**Desirable Skills:** Any  
+**Desirable Skills:** Any
 
-**Description:** Reload file/notify user when a file being edited changes outside of `nvim`. 
+**Description:** Reload file/notify user when a file being edited changes outside of `nvim`.
 
 **Expected Result:**
 
-Neovim has the 'autoread' setting that regularly checks if a file edited in neovim has been externally modified. It thus notifies the user to prevent overwriting the changes. Sadly the current mechanism isn't foolproof. This project intends to make this feature work as well as in other editors like Sublime text and across the Neovim-supported platforms. The interface should also be improved so that notifications show how different the edited and modified files are. 
+Neovim has the 'autoread' setting that regularly checks if a file edited in neovim has been externally modified. It thus notifies the user to prevent overwriting the changes. Sadly the current mechanism isn't foolproof. This project intends to make this feature work as well as in other editors like Sublime text and across the Neovim-supported platforms. The interface should also be improved so that notifications show how different the edited and modified files are.
 The candidate can realize some of the difficulties involved with this [proposition for linux](https://github.com/neovim/neovim/issues/1380)
 
 
@@ -149,9 +148,9 @@ The candidate can realize some of the difficulties involved with this [propositi
 ___
 ## IDE "Vim mode"
 
-**Desirable Skills:** Any  
+**Desirable Skills:** Any
 
-**Description:** Implement "Vim mode" in an editor/IDE (such as IntelliJ) by embedding a `nvim` instance. 
+**Description:** Implement "Vim mode" in an editor/IDE (such as IntelliJ) by embedding a `nvim` instance.
 
 **Expected Result:**
 
@@ -168,8 +167,9 @@ Examples:
 
 **Mentor:** TBD
 
+---
 
-This page is for historical reference.
+# GSoC Ideas 2019
 
 ---
 
@@ -240,7 +240,7 @@ Overview of the `screen.lua` "fake UI" implementation:
 
 - `Screen._wait()` / `Screen:sleep()` runs the event loop to consume UI events
 - `Screen:_redraw()` dispatches UI events to the appropriate handlers
-- For example `Screen:_handle_grid_line()` consumes a line event, and updates some tables (self._grids and self._attr_table). 
+- For example `Screen:_handle_grid_line()` consumes a line event, and updates some tables (self._grids and self._attr_table).
     - And those tables are literally the contents of the fake UI that `Screen:expect()` tests against.
 
 Use cases:
@@ -273,125 +273,6 @@ will connect to the Nvim server at address `foo`. The `nvim` client instance sen
 
 **Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk)), Björn Linse ([@bfredl](http://github.com/bfredl))
 
----
-# GSoC Ideas 2018
-
-
-## UI protocol improvements ([DONE](https://github.com/neovim/neovim/pull/8707))
-
-**Desirable Skills:**
-
-- C and related tools
-- Familiar with event-loop programming model
-
-**Description:**
-
-Nvim GUI:s are implemented as processes communicating with Nvim over a protocol. Currently this protocol exposes most functionality as a terminal-like screen grid. A long term goal is enabling richer UIs (including embeddings in GUI editors, like VSCode) by refactoring the protocol towards semantic updates and letting the GUI actually draw buffer contents and other screen elements. Currently this has been implemented for a few specific elements, like the completion popup menu and the command line.
-
-**Expected Result:**
-
-The UI protocol has gained new capabilities. This could involve substantial changes such as the GUI receiving redraw updates for each window separately, so that the GUI could be responsible for managing the overall layout of windows and statuslines.
-
-Alternatively, improvements could be done within the current global screen grid, such as the ability to display grid-aligned images in signs, buffers and statuslines. It could also involve adding semantic information to the grid, so that GUI:s can identify screen elements reliably rather than guessing it from highlights.
-
-- Code license: Apache 2.0
-
-**Difficulty:**
-
-Medium to Hard
-
-**Student:** ([@UtkarshMe](https://github.com/UtkarshMe))
-
-**Mentor:** Björn Linse ([@bfredl](http://github.com/bfredl))
-
-___
-## Java client
-
-**Desirable Skills:**
-
-- Familiar with Vim/Nvim and Vim script (VimL)
-- Moderate/High experience in Java
-- Familiar with event-loop programming model
-
-**Description:**
-
-Implement a Nvim [API client](https://github.com/neovim/neovim/wiki/Related-projects#api-clients) using Java. 
-
-Implement a client, written in Java, which allows Java applications to control Nvim using the Nvim RPC API.  If you are familiar with AWS or any other SaaS, note that a Nvim API client is just like a SDK for a REST web service, except that Nvim uses msgpack, not HTTP/JSON.
-
-The Nvmi RPC API is documented at [:help api](https://neovim.io/doc/user/api.html) and [:help rpc](https://neovim.io/doc/user/msgpack_rpc.html).
-
-To correctly implement the client one needs to understand the [msgpack-rpc](https://github.com/msgpack-rpc/msgpack-rpc/blob/master/spec.md) protocol. Some sort of event-loop mechanism will be needed to handle notifications.
-
-For reference, you can find clients in other languages at the [related projects](https://github.com/neovim/neovim/wiki/Related-projects#api-clients) wiki page.
-
-The ultimate goal is to have a library that can be used to create plugins for [IntelliJ](https://www.jetbrains.com/help/idea/plugin-development-guidelines.html) and [Eclipse](https://help.eclipse.org/mars/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Fguide%2Ffirstplugin.htm).  **Minimizing third-party dependencies** may help there.
-
-**Expected Result:**
-
-- Java library that can be used to build Neovim extensions (UIs and other applications).
-  - Method signatures generated from `nvim --api-info`.
-  - Since `nvim` is already required (for `--api-info`), the Java code-generation script could be written in Lua (which is built-in to `nvim`).
-- Passes the test suite used by the Nvim [python-client](https://github.com/neovim/python-client).
-  - Using the [python-client tests](https://github.com/neovim/python-client/tree/master/test) as a guide, create equivalent tests using a Java testing framework.
-  - Test suite should be runnable from the command-line (should not require an IDE) via maven/gradle (or some other industry-standard build-tool).
-- Builds (and passes tests) on Linux (Travis CI) and Windows (AppVeyor)
-- End-user deliverable should be compatible Java 6 (this is negotiable)
-- Source-code can be latest version of Java (no backwards-compatibility requirement)
-- Code license: Apache 2.0
-
-**Difficulty:**
-
-Medium
-
-**Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
-
----
-## C# client ([DONE](https://github.com/neovim/nvim.net))
-
-**Desirable Skills:**
-
-- Familiar with Vim/Nvim and Vim script (VimL)
-- Moderate/High experience in C#
-- Familiar with event-loop programming model
-
-**Description:**
-
-Implement a Nvim [API client](https://github.com/neovim/neovim/wiki/Related-projects#api-clients) using C#. 
-
-Implement a client, written in C#, which allows C# applications to control Nvim using the Nvim RPC API.  If you are familiar with AWS or any other SaaS, note that a Nvim API client is just like a SDK for a REST web service, except that Nvim uses msgpack, not HTTP/JSON.
-
-The Nvmi RPC API is documented at [:help api](https://neovim.io/doc/user/api.html) and [:help rpc](https://neovim.io/doc/user/msgpack_rpc.html).
-
-To correctly implement the client one needs to understand the [msgpack-rpc](https://github.com/msgpack-rpc/msgpack-rpc/blob/master/spec.md) protocol. Some sort of event-loop mechanism will be needed to handle notifications ([hint1](https://blogs.msdn.microsoft.com/pfxteam/2012/01/20/await-synchronizationcontext-and-console-apps/), [hint2](https://blogs.msdn.microsoft.com/pfxteam/2012/02/02/await-synchronizationcontext-and-console-apps-part-3/)).
-
-For reference, you can find clients in other languages at the [related projects](https://github.com/neovim/neovim/wiki/Related-projects#api-clients) wiki page.
-
-The ultimate goal is to have a library that can be used to create plugins for Visual Studio.  **Minimizing third-party dependencies** may help there.
-
-**Expected Result:**
-
-- C# library that can be used to create C#-based Neovim extensions (UIs and other applications).
-  - Method signatures generated from `nvim --api-info`.
-  - Since `nvim` is already required (for `--api-info`), the C# code-generation build script could be written in Lua (which is built-in to `nvim`).
-- Passes the test suite used by the Nvim [python-client](https://github.com/neovim/python-client).
-  - Using the [python-client tests](https://github.com/neovim/python-client/tree/master/test) as a guide, create equivalent tests using a C# testing framework.
-  - Test suite should be runnable from the command-line (should not require an IDE) via MSBuild or some other industry-standard build-tool.
-- Builds (and passes tests) on Linux (Travis CI) and Windows (AppVeyor)
-- Builds against **.NET Standard 2.0**
-- Deliverable should be easy to install as a NuGet (or other) package.
-- Source-code can be latest version of C# (no backwards-compatibility requirement)
-- Code license: Apache 2.0
-
-**Difficulty:**
-
-Medium
-
-**Student:** ([@b-r-o-c-k](https://github.com/b-r-o-c-k))
-
-**Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
-
----
 
 # Contributing to this list:
 
