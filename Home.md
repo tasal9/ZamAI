@@ -17,7 +17,7 @@
     - [Refactoring guidelines](https://github.com/neovim/neovim/wiki/Refactoring)
     - [Merging patches from upstream Vim](Merging-patches-from-upstream-Vim)
 - [Style guide](https://neovim.io/doc/user/dev_style.html#dev-style)
-- [Plugin Architecture](Plugin-UI-architecture)
+- [Remote UI architecture](Remote-UI-architecture)
 - [Code overview](Code-overview)
 - [C programming techniques and Neovim-specific guidance](C-programming)
     - [C type refactoring guidelines](C-type-refactoring-guidelines)
