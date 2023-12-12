@@ -23,7 +23,4 @@
     - [C type refactoring guidelines](C-type-refactoring-guidelines)
 - [C99 standard](http://port70.net/~nsz/c/c99/n1256.html)
 
-### Ideas
-
-- [Refactor Vim into a library](Refactor-vim-into-a-library)
-- [Architectural musing and ideas (text buffer data structure, ...)](Architectural-musing-and-ideas)
+- [Architectural musing and ideas (text buffer data structure, refactoring Vim into a library, ...)](Architectural-musing-and-ideas)
