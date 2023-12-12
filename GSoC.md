@@ -1,3 +1,0 @@
-- [GSoC 2020](https://github.com/neovim/neovim/wiki/GSoC-2020-Ideas)
-- [GSoC 2019](https://github.com/neovim/neovim/wiki/GSoC-2019-Ideas)
-- [GSoC 2018](https://github.com/neovim/neovim/wiki/GSoC-2018-Ideas)
