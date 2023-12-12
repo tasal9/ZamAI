@@ -14,5 +14,3 @@ The complete, current list of forked dependencies is as follows:
 
 * https://github.com/neovim/unibilium
   * The original project [was abandoned](https://github.com/neovim/neovim/issues/10302), so the [neovim/unibilium](https://github.com/neovim/unibilium) fork is considered "upstream" and is maintained on the `master` branch.
-* https://github.com/neovim/libtermkey
-  * We are waiting for the maintainer of libtermkey to release version 0.23.
