@@ -1,41 +1,6 @@
 Here are a few hints for finding your way around the source code.  This
 doesn't make it less complex than it is, but it gets you started.
 
-## Jumping around
-
-Use `ctags -R` to generate a tags file for the `:tag` command. (We recommend [universal-ctags](https://github.com/universal-ctags/ctags) instead of the default `ctags` provided by most distros; see also [CONTRIBUTING.md](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md#navigate).)
-
-To jump to a function or variable definition, move the cursor on the name and
-use the `CTRL-]` command.  Use `CTRL-T` or `CTRL-O` to jump back.
-
-To jump to a file, move the cursor on its name and use the `gf` command.
-
-Most code can be found in a file with an obvious name (incomplete list):
-*   [buffer.c](../blob/master/src/nvim/buffer.c)	   manipulating buffers (loaded files)
-*   [diff.c](../blob/master/src/nvim/diff.c)	   diff mode (vimdiff)
-*   [eval.c](../blob/master/src/nvim/eval.c)	   expression evaluation
-*   [fileio.c](../blob/master/src/nvim/fileio.c)	   reading and writing files
-*   [fold.c](../blob/master/src/nvim/fold.c)	   folding
-*   [getchar.c](../blob/master/src/nvim/getchar.c)  character input
-*   [mark.c](../blob/master/src/nvim/mark.c)	   marks
-*   [mbyte.c](../blob/master/src/nvim/mbyte.c)	   multi-byte character handling
-*   [memfile.c](../blob/master/src/nvim/memfile.c)  storing lines for buffers in a swapfile
-*   [memline.c](../blob/master/src/nvim/memline.c)  storing lines for buffers in memory
-*   [menu.c](../blob/master/src/nvim/menu.c)	   menus
-*   [message.c](../blob/master/src/nvim/message.c)  (error) messages
-*   [ops.c](../blob/master/src/nvim/ops.c)          handling operators (`d`, `y`, `p`)
-*   [option.c](../blob/master/src/nvim/option.c)	   options
-*   [quickfix.c](../blob/master/src/nvim/quickfix.c) quickfix commands (`:make`, `:cn`)
-*   [regexp.c](../blob/master/src/nvim/regexp.c)	   pattern matching
-*   [search.c](../blob/master/src/nvim/search.c)	   pattern searching
-*   [spell.c](../blob/master/src/nvim/spell.c)	   spell checking
-*   [syntax.c](../blob/master/src/nvim/syntax.c)	   syntax
-*   [tag.c](../blob/master/src/nvim/tag.c)	   tags
-*   [terminal.c](../blob/master/src/nvim/terminal.c)	   integrated terminal emulator
-*   [undo.c](../blob/master/src/nvim/undo.c)	   undo and redo
-*   [window.c](../blob/master/src/nvim/window.c)	   handling split windows
-	
-
 ## Important variables
 
 The current mode is stored in `State`.  The values it can have are `MODE_NORMAL`,
