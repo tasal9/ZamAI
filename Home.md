@@ -17,7 +17,7 @@
 - **[Build](https://github.com/neovim/neovim/blob/master/BUILD.md)**
 - **[Contribute](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md)**
     - [Tests](https://github.com/neovim/neovim/blob/master/test/README.md)
-    - [Merging patches from upstream Vim](https://neovim.io/doc/user/dev_vimpatch.html)
+    - [Merging patches from Vim](https://neovim.io/doc/user/dev_vimpatch.html)
 - **[Maintain](https://github.com/neovim/neovim/blob/master/MAINTAIN.md)**
 - [Style guide](https://neovim.io/doc/user/dev_style.html#dev-style)
    - [C99 standard](http://port70.net/~nsz/c/c99/n1256.html)
