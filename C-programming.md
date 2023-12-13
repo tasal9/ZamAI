@@ -101,4 +101,3 @@ In loops, we have a *counter* variable and a *limit* expression (*condition* bei
     * Check *limit* expression  for frontier values (e.g., when size is zero).
     * Avoid *condition* using substractions (unless guarded so that it can be proved for result to always be positive). Prefer equivalent condition using additions on the other side.
 - As an optimization, you could use plain `int` instead of `ssize`, or `unsigned int` instead of `size_t`, but only if you are sure that those types will be enough always. Please try not to impose arbitrary/unneeded limits.
-
