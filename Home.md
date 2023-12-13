@@ -6,13 +6,13 @@
 - [Related projects](Related-projects)
 - [Talks about Neovim](Talks-about-Neovim)
 
-## Users
+## For Users
 
 - **[Install](https://github.com/neovim/neovim/blob/master/INSTALL.md)**
 - [Breaking Changes](https://neovim.io/doc/user/news.html#news-breaking)
 - [Documentation](http://neovim.io/doc/user/)
 
-## Developers
+## For Developers
 
 - **[Build](https://github.com/neovim/neovim/blob/master/BUILD.md)**
 - **[Contribute](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md)**
