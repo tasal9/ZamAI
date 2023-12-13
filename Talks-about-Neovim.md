@@ -10,7 +10,7 @@ Several Neovim contributors have given presentations on Neovim at Vim-related co
 
 ## Interviews
 
-Contributors have discussed new features in a series of [release interviews](https://www.youtube.com/playlist?list=PLep05UYkc6wSN7MRsO0nvRz9FzsnE49z9) conducted by @tjdevries.
+Contributors have discussed new features in a series of [release interviews](https://www.youtube.com/playlist?list=PLep05UYkc6wSN7MRsO0nvRz9FzsnE49z9) conducted by @tjdevries (in chronological order: @justinmk, @folke, @vigoux, @lewis6991, @gpanders, @bfredl, @famiu, @dundargoc)
 
 @bfredl has also given a [2 hour long interview](https://www.youtube.com/watch?v=MV0pTDKps0A) to @mkschreder.
 
