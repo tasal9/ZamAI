@@ -56,15 +56,3 @@ int neovim_get_current_buffer(void);
 Once you have some input variable you have to deal with (be it a struct field, a function parameter, or even a global), the issue arises whether to cascade that type in code dealing with it, or using a wider type if considered better for some reason. Typical example is, once you have a fixed-width struct field, code dealing with it (function variables/parameters) should also use fixed-width types, or could types we widened to some other enclosing type? In principle, we say:
 - If access to input variable is read-only, then it's safe to use wider types if some other reason makes them preferable, as you will be only upcasting the value.
 - If access to input variable can be read/write, then intermediate variables/params should try to maintain input variable's type as much as possible. If not, you will end up with a downcast somewhere that will require an assert/some other kind of guard/error handling.
-
-## Loops
-We find [this](http://gustedt.wordpress.com/2013/07/15/a-praise-of-size_t-and-other-unsigned-types/) pretty convincing, taking great care not to incurr in errors described [here](http://www.eschertech.com/articles/items/art100407.html). From that, we conclude:
-
-In loops, we have a *counter* variable and a *limit* expression (*condition* being a comparison between *counter* and *limit*). Issues can arise mainly because of implicit conversions in *limit* expression, as well as mixing different-signedness types in *condition* (i.e., when *counter* and *limit* have types of different signedness). To avoid/reduce implicit conversion and type-signedness-mixing problems:
-
-- If possible, try to avoid different-signedness types in variables within *limit* expression (many errors are because implicit conversion from signed type to unsigned one).
-- In principle, *limit* expression's type determines *counter*'s type. If *limit* expression is `size_t`, so is counter. If *limit* expression is `ssize`, so is counter. And so on.
-- If resulting type of *counter* and *limit* is unsigned:
-    * Check *limit* expression  for frontier values (e.g., when size is zero).
-    * Avoid *condition* using substractions (unless guarded so that it can be proved for result to always be positive). Prefer equivalent condition using additions on the other side.
-- As an optimization, you could use plain `int` instead of `ssize`, or `unsigned int` instead of `size_t`, but only if you are sure that those types will be enough always. Please try not to impose arbitrary/unneeded limits.
