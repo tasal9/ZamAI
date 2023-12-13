@@ -1,3 +1,5 @@
+## About
+
 - [Introduction](Introduction)
 - **[FAQ](https://neovim.io/doc/user/faq.html#faq)**
 - [Transitioning from Vim](https://neovim.io/doc/user/nvim.html#nvim-from-vim) `:help nvim-from-vim`
