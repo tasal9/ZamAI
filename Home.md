@@ -20,5 +20,3 @@
 - [Remote UI architecture](Remote-UI-architecture)
 - [Code overview](Code-overview)
 - [C99 standard](http://port70.net/~nsz/c/c99/n1256.html)
-
-- [Architectural musing and ideas](Architectural-musing-and-ideas) (text buffer data structure, refactoring Vim into a library, ...)
