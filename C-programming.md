@@ -1,24 +1,4 @@
 # C type refactoring
-
-## Introduction
-In many different tasks, the need arises to refactor integer types, mainly to:
-- avoid errors because of mixing of signed/unsigned types and implicit conversions.
-- emphasize size semantics where appropriate.
-- conform with system functions returning `size_t` values without the need of casting. 
-- ensure no unneeded limits are imposed on sizes of things we can operate on.
-- avoid possible data truncation because of explicit casting.
-- etc.
-
-It's important to agree on how this kind of refactoring should be done.
-However: 
-
-- This is a difficult thing to get completely right. No hard-and-fast set of rules will match every possible situation.
-- **This set of guidelines intends to be a framework establishing principles** to help new people to confront these problems, and for more experienced people to have a consensus so that code is homogeneous. 
-- **It does not intend to be a set of mechanical rules to be applied without further thinking, or to be dogmatic about**.
-- Every particular case should be carefully analyzed before taking actions on it.
-
-That said, here goes the advice:
-
 ## Int types
 - `int` with size semantics:
     * signedness conversion easy --> `size_t` <br/>
