@@ -2,6 +2,7 @@
 - **[FAQ](https://neovim.io/doc/user/faq.html#faq)**
 - [Transitioning from Vim](https://neovim.io/doc/user/nvim.html#nvim-from-vim) `:help nvim-from-vim`
 - [Related projects](Related-projects)
+- [Talks about Neovim](Talks-about-Neovim)
 
 ## Users
 
