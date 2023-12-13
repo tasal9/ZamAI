@@ -19,8 +19,6 @@
 - [Style guide](https://neovim.io/doc/user/dev_style.html#dev-style)
 - [Remote UI architecture](Remote-UI-architecture)
 - [Code overview](Code-overview)
-- [C programming techniques and Neovim-specific guidance](C-programming)
-    - [C type refactoring guidelines](C-programming#c-type-refactoring)
 - [C99 standard](http://port70.net/~nsz/c/c99/n1256.html)
 
 - [Architectural musing and ideas](Architectural-musing-and-ideas) (text buffer data structure, refactoring Vim into a library, ...)
