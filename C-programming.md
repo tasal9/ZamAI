@@ -1,15 +1,4 @@
 # C type refactoring
-## Int types
-- `int` with size semantics:
-    * signedness conversion easy --> `size_t` <br/>
-       (check for signedness conversion usual problems).
-    * signedness conversion difficult --> `ssize` <br/>
-       (for example, complicated code involving subtractions) 
-- `int` without size semantics --> `int`
-
-## Special cases
-In spite of the general advice above, there are some cases where we prefer more tight typing.
-
 ### Struct fields
 We should try to keep structs small, if possible. To that end:
 - Use fixed width types (`int32_t`, `uint32_t`, etc.), if possible. This is:
