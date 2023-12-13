@@ -14,7 +14,6 @@
 - **[Build](Building-Neovim)**
 - **[Contribute](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md)**
     - [Tests](https://github.com/neovim/neovim/blob/master/test/README.md)
-    - [Refactoring guidelines](https://github.com/neovim/neovim/wiki/Refactoring)
     - [Merging patches from upstream Vim](Merging-patches-from-upstream-Vim)
 - [Style guide](https://neovim.io/doc/user/dev_style.html#dev-style)
 - [Remote UI architecture](Remote-UI-architecture)
