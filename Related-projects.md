@@ -81,6 +81,7 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | Rust        | [daa84/neovim-lib](https://github.com/daa84/neovim-lib) (inactive, c. 2022-Jan)       |
 | Rust        | [KillTheMule/nvim-rs](https://github.com/KillTheMule/nvim-rs)                         |
 | Swift/Cocoa | [NvimView](https://github.com/qvacua/vimr/tree/master/NvimView) (part of qvacua/vimr) |
+| Zig         | https://github.com/jinzhongjia/znvim                                                  |
 
 
 ## Transpilers
