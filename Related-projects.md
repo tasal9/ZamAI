@@ -14,7 +14,7 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 
 | Platform         | Project                                                                       | Activity                |
 |------------------|-------------------------------------------------------------------------------| :---------------------: |
-| Avalonia         | [FVim](https://github.com/yatli/fvim)                                         | active (c. 2023-May)    |
+| Avalonia         | [FVim](https://github.com/yatli/fvim)                                         | active (c. 2024-Mar)    |
 | Browsers         | [Firenvim](https://github.com/glacambre/firenvim)                             | active (c. 2024-Mar)    |
 | C++/DirectWrite  | [Nvy](https://github.com/RMichelsen/Nvy)                                      | active (c. 2023-Nov)    |
 | C++/SDL2         | [etorth/libnvc](https://github.com/etorth/libnvc)                             |                         |
@@ -32,7 +32,7 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | GTK/Python UI    | [Bominade (b8)](https://gitlab.com/afshar-oss/b8)                             |                         |
 | GTK/Rust UI      | [daa84/neovim-gtk](https://github.com/daa84/neovim-gtk)                       | inactive (c. 2022-Jan)  |
 | GTK/Rust UI      | [Lyude/neovim-gtk](https://github.com/Lyude/neovim-gtk)                       | active (c. 2024-Feb)    |
-| GTK4/Rust UI     | [GNvim](https://github.com/vhakulinen/gnvim)                                  | active (c. 2024-Jan)    |
+| GTK4/Rust UI     | [GNvim](https://github.com/vhakulinen/gnvim)                                  | active (c. 2024-Apr)    |
 | GTK4/Rust UI     | [Reovim](https://github.com/songww/reovim)                                    | inactive (c. 2022-Mar)  |
 | I3/Sway          | [Nwin](https://github.com/glacambre/nwin)                                     |                         |
 | JavaFX           | [jebberjeb/javafx-neovimpane](https://github.com/jebberjeb/javafx-neovimpane) |                         |
@@ -42,7 +42,7 @@ _If you're working on a Neovim GUI, include it (alphabetically) below!_
 | Qt 5             | [Neovim Qt](https://github.com/equalsraf/neovim-qt)                           | active (c. 2024-Mar)    |
 | Qt 5             | [rohit-px2/nvui](https://github.com/rohit-px2/nvui)                           |                         |
 | Qt Creator       | [sassanh/qnvim](https://github.com/sassanh/qnvim)                             | active (c. 2023-Apr)    |
-| Rust             | [Neovide](https://github.com/neovide/neovide)                                 | active (c. 2024-Mar)    |
+| Rust             | [Neovide](https://github.com/neovide/neovide)                                 | active (c. 2024-Apr)    |
 | Sublime Text     | [lunixbochs/actualvim](https://github.com/lunixbochs/actualvim)               |                         |
 | Terminal Wrapper | [glrnvim](https://github.com/beeender/glrnvim)                                |                         |
 | VSCode           | [VSCodeVim](https://github.com/VSCodeVim/Vim)                                 |                         |
