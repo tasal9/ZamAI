@@ -99,7 +99,7 @@ This is software either targeted at Neovim or with support for it.
 - [neovim-remote](https://github.com/mhinz/neovim-remote): Tool that helps controlling Neovim processes
 - [nero.nvim](https://github.com/Vigemus/nero.nvim): A REPL for Neovim (as in managing Neovim through a REPL)
 - [nfasd](https://github.com/haifengkao/nfasd) Autocomplete recent files in command line
-- [nvimdev](https://github.com/tweekmonster/nvimdev.nvim): Help to Neovim development
+- [nvimdev](https://github.com/neovim/nvimdev.nvim): Help to Neovim development
 - [nvimpager](https://github.com/lucc/nvimpager): Use Neovim as `$PAGER` to view man pages, git logs, etc. with Neovim's syntax highlighting
 - [page](https://github.com/I60R/page): Advanced `$PAGER`, acts like neovim-remote, features fast CSI sequences processing
 - [ribosome](https://github.com/tek/ribosome): Framework for building and testing Python plugins
