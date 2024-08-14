@@ -95,6 +95,7 @@ These projects let you write Nvim plugins in languages other than Lua.
 
 This is software either targeted at Neovim or with support for it.
 
+- [azul](https://github.com/cosminadrianpopescu/azul): A terminal multiplexer based on Neovim
 - [flatnvim](https://github.com/adamtabrams/flatnvim): Tool that prevents nested Neovim instances
 - [neovim-remote](https://github.com/mhinz/neovim-remote): Tool that helps controlling Neovim processes
 - [nero.nvim](https://github.com/Vigemus/nero.nvim): A REPL for Neovim (as in managing Neovim through a REPL)
