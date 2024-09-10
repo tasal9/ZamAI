@@ -87,7 +87,6 @@ should work on Neovim with little modification, if any.
 
 Moreover, GUIs are implemented as plugins, decoupled from the Neovim core.
 
-See the [Plugin Architecture](Plugin-UI-architecture) page for a detailed overview.
-
 [job control patch]: https://groups.google.com/forum/#!topic/vim_dev/QF7Bzh1YABU
 [json-rpc]: http://www.jsonrpc.org/specification
+[ui]: https://neovim.io/doc/user/ui.html
