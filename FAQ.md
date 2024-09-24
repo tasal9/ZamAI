@@ -1,1 +1,1 @@
-Moved to [`:help faq`](https://neovim.io/doc/user/faq.html#faq).
+# Moved to [`:help faq`](https://neovim.io/doc/user/faq.html#faq).
