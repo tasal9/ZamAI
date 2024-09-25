@@ -6,9 +6,9 @@ Below is a list of project ideas for [Google Summer of Code](https://developers.
 
 The Neovim source has roots going back to 1987 which means libraries such as [libuv](https://github.com/libuv/libuv) were not around at that time. The codebase can be made easier to maintain and understand by using these libraries. Project ideas that involve working heavily with internals will in general be more difficult than project ideas that "simply" add new features. However working with older/complex parts of the code base can also provide valuable learning feedback for writing simpler and more maintainable code. There is a large range of skills that can be learned and working with the team to find a project that will help you the most is in your benefit.
 
-Visit [gitter.im/neovim](https://gitter.im/neovim/neovim) or `#neovim` on IRC to discuss these projects with the community and our mentors. Because communication is a big part of open source development you are expected to get in touch with us before making your application.
+Visit [https://neovim.io/#chat](https://neovim.io/#chat) to discuss these projects with the community and our mentors. Because communication is a big part of open source development you are expected to get in touch with us before making your application.
 
-It's also recommended to start with a smaller coding task, to get introduced to the Neovim project. Look on the issue tracker for simpler issues and submit a small PR attempting to solve the issue. See for instance the [good first issue](https://github.com/neovim/neovim/issues?utf8=✓&q=is%3Aopen+is%3Aissue+label%3A"good+first+issue") and [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) tags. The goal here is to get accustomed with the codebase and to our workflow for reviewing and testing PRs, rather than directly making a large code contribution.
+It's also recommended to start with a smaller coding task, to get introduced to the Neovim project. Look on the issue tracker for simpler issues and submit a small PR attempting to solve the issue. See for instance the [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) tag. The goal here is to get accustomed with the codebase and to our workflow for reviewing and testing PRs, rather than directly making a large code contribution.
 
 The following list of projects are just some ideas. We are happy to hear any suggestions that you may have.
 
@@ -26,12 +26,12 @@ http://intermine.org/internships/guidance/grading-criteria-2019/
 
 ## Tips
 
-- Anywhere a Vim concept (such as "textlock") is mentioned, you can find what it means by using the ":help" command from within neovim (`:help textlock`).
+- Anywhere a Vim concept (such as "textlock") is mentioned, you can find what it means by using the `:help` command from within neovim (`:help textlock`).
 - Ask questions and post your partial work frequently (say, once every day or 2, if possible). It's OK if work is messy; just put "[WIP]" in the pull request (PR) title.
 - Take advantage of the continuous integration (CI) systems which automatically run against your pull
 requests. When you send work to a PR,  the full test-suite runs on the PR while you continue to work locally.
-- The [wiki](https://github.com/neovim/neovim/wiki) contains up-to-date documentation on building, debugging, and development tips.
-- Only a text editor, CMake, and a compiler are needed to develop Neovim. [Ctags](https://github.com/universal-ctags/ctags) is very helpful also.
+- `:help dev-tools` contains up-to-date documentation on building, debugging, and development tips.
+- Only a text editor, CMake, and a compiler are needed to develop Neovim. LSP or [ctags](https://github.com/universal-ctags/ctags) is very helpful also.
 - The [contributing guidelines](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md) are intended to be
 helpful, not rigid.
 
