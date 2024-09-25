@@ -35,6 +35,10 @@ requests. When you send work to a PR,  the full test-suite runs on the PR while 
 - The [contributing guidelines](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md) are intended to be
 helpful, not rigid.
 
+# GSoC Ideas 20XX
+
+* Look at open issues with the ["gsoc" tag](https://github.com/neovim/neovim/labels/gsoc).
+* Or propose an idea by creating a new issue.
 
 # GSoC Ideas 2020
 
@@ -44,7 +48,6 @@ helpful, not rigid.
   * [Live preview of commands](#live-preview-of-commands)
   * [Improve autoread](#improve-autoread)
   * [IDE "Vim mode"](#ide-vim-mode)
-  * Propose an idea!
 
 ___
 ## Support for Lua plugins and configuration
