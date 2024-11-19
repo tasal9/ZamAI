@@ -7,7 +7,7 @@ Several Neovim contributors have given presentations on Neovim at Vim-related co
 * [Vimconf.live 2021](https://www.youtube.com/playlist?list=PLcTu2VkAIIWyuX-yNe0KNSPR7wjS2lNKz): talks by @justinmk, @tjdevries
 * [Neovimconf.live 2022](https://2022.neovimconf.live): [talks](https://www.youtube.com/playlist?list=PLcTu2VkAIIWzH2-dUu1oxucXenDzzcn_q) by @justink, @bfredl
 * [Neovimconf.live 2023](https://neovimconf.live): [talks](https://www.youtube.com/playlist?list=PLhlaLyAlbLlr-usEauWLPy4O2ggAvZuKl) by @justinmk, @bfredl, [@famiu](https://www.youtube.com/watch?v=WxotnwyJBOY), [@gpanders](https://vimeo.com/896237832), @mariasolos
-* [Neovimconf.live 2024](https://neovimconf.live): talks by @justinmk, @bfredl, @echasnovski, @mariasolos, @dundargoc, @famiu
+* [Neovimconf.live 2024](https://neovimconf.live): talks by @justinmk, [@bfredl](https://www.youtube.com/watch?v=DlQvSs99UIw), [@echasnovski](https://www.youtube.com/watch?v=cNK5kYJ7mrs), @mariasolos, @dundargoc, @famiu
 
 ## Interviews
 
