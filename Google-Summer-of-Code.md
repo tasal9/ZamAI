@@ -46,7 +46,6 @@ Choose an existing issue, or propose an idea by creating a new issue.
 
 * [New Features](#new-features)
   * [GUI Features](#gui-features)
-  * [Improve autoread](#improve-autoread)
   * [IDE "Vim mode"](#ide-vim-mode)
 
 ___
@@ -78,24 +77,6 @@ Putting forward your own ideas of UI improvements is encouraged. Read the [docs]
 
 **Mentor:** Björn Linse ([@bfredl](http://github.com/bfredl))
 
-
-## Improve autoread
-
-**Desirable Skills:** Any
-
-**Description:** Reload file/notify user when a file being edited changes outside of `nvim`.
-
-**Expected Result:**
-
-Neovim has the 'autoread' setting that regularly checks if a file edited in neovim has been externally modified. It thus notifies the user to prevent overwriting the changes. Sadly the current mechanism isn't foolproof. This project intends to make this feature work as well as in other editors like Sublime text and across the Neovim-supported platforms. The interface should also be improved so that notifications show how different the edited and modified files are.
-The candidate can realize some of the difficulties involved with this [proposition for linux](https://github.com/neovim/neovim/issues/1380)
-
-
-**Difficulty:** Medium
-
-**Code license:** Apache 2.0
-
-**Mentor:** Matthieu Coudron ([@teto](http://github.com/teto))
 
 ___
 ## IDE "Vim mode"
