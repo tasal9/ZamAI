@@ -14,15 +14,13 @@ Visit [https://neovim.io/#chat](https://neovim.io/#chat) to discuss GSoC project
 
 We recommend that you start with a small coding task (choose from [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) issues). The goal here is to get accustomed with the codebase and to our workflow for reviewing and testing PRs, rather than directly making a large code contribution.
 
-The following list of projects are just some ideas. We are happy to hear any suggestions that you may have.
+Proposals are [tracked](https://github.com/neovim/neovim/labels/gsoc) as issues. We are happy to hear other ideas you may have, just create a new issue and mention that it's for GSoC.
 
 ## Making a proposal
 
-The application period for GSOC is March 16-March 31 ([Timeline](https://developers.google.com/open-source/gsoc/timeline)). Send your proposal through the official [GSOC page](https://summerofcode.withgoogle.com/organizations/6095582066638848/). We encourage students to send a first draft early in this period, this allows us to give feedback and and ask for more information if need. See https://google.github.io/gsocguides/student/writing-a-proposal for some guidelines for writing a good proposal.
+The application period for GSOC is March 18-31 ([Timeline](https://developers.google.com/open-source/gsoc/timeline)). Send your proposal through the official [GSOC page](https://summerofcode.withgoogle.com/organizations/6095582066638848/). We encourage students to send a first draft early in this period, this allows us to give feedback and and ask for more information if need. See https://google.github.io/gsocguides/student/writing-a-proposal for some guidelines.
 
 Note: this year we will likely accept 1-2 students. We expect to get more strong proposals than available slots, so we will need to turn some good proposals down.
-
-Proposals are tracked on the issue tracker. If an issue doesn't already exist for your idea, create a new issue and mention that it's for GSoC. Then we will apply the [gsoc](https://github.com/neovim/neovim/labels/gsoc) label.
 
 ## Proposal evaluation
 
@@ -41,7 +39,7 @@ requests. When you send work to a PR,  the full test-suite runs on the PR while 
 - The [contributing guidelines](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md) are intended to be
 helpful, not rigid.
 
-# GSoC Ideas 20XX
+# GSoC Ideas 2025
 
 * Look at open issues with the ["gsoc" tag](https://github.com/neovim/neovim/labels/gsoc).
 * Or propose an idea by creating a new issue.
@@ -49,38 +47,9 @@ helpful, not rigid.
 # GSoC Ideas 2020
 
 * [New Features](#new-features)
-  * [Improve Lua configurability](#support-for-Lua-plugins-and-configuration)
   * [GUI Features](#gui-features)
-  * [Live preview of commands](#live-preview-of-commands)
   * [Improve autoread](#improve-autoread)
   * [IDE "Vim mode"](#ide-vim-mode)
-
-___
-## Support for Lua plugins and configuration
-
-**Desirable Skills:**
-
-- C and related tools
-- Familiarity with Lua C API is a plus.
-
-**Description:**
-
-Nvim is always built with a builtin Lua interpreter. A goal is to make Lua a first class language for plugins and user config, which can access editor functionality directly, without "shelling out" to VimL commands and functions.
-
-**Expected Result:**
-
-More functionality is directly exposed to Lua. This project idea is a bit open ended, and improvements can be made in different directions. Regardless what priorities are decided, it is expected that the project will take form as multiple smaller deliverables that will be merged separately during the duration of the project.
-
-The project can involve calls the core editor makes to VimL, such as autocommands and mappings, where native Lua support could be added. Lua code can already use luv bindings to libuv for async io, but better integration with specific io features like rpc channels and terminal buffers could be worthwhile. Adding API functions for vim features only available via ex commands would be useful (like reading and setting :highlight definitions).  Nvim is  working on building a Lua standard library to make it convenient to write plugins and user config in Lua. This goal is broad, and discussion with the plugin developing community is encouraged, about what functionality would be most useful for the standard library.
-
-Another direction is to add new extension points, such as letting Lua code control aspects of screen drawing. A  starting point could be to let Lua code draw a richer completion popup menu for the TUI, by processing popup menu UI events internally.
-
-
-**Difficulty:** Medium
-
-**Code license:** Apache 2.0
-
-**Mentor:** Björn Linse ([@bfredl](http://github.com/bfredl)), Ashkan Kiani ([@norcalli](http://github.com/norcalli))
 
 ___
 ## GUI Features
@@ -111,28 +80,6 @@ Putting forward your own ideas of UI improvements is encouraged. Read the [docs]
 
 **Mentor:** Björn Linse ([@bfredl](http://github.com/bfredl))
 
-___
-## Live preview of commands
-
-**Desirable Skills:**
-
-- C and related tools
-- Familiar with event-loop programming model
-
-**Description:**
-
-Nvim has builtin live preview of `:%s` substitution, as a result of a [[successful collaboration with students|https://medium.com/@eric.burel/stop-using-open-source-5cb19baca44d]]. This support could be extended to more commands, such as `:global` and `:normal`.
-
-**Expected Result:**
-
-More commands support interactive preview. This could be done by extending the hard-coded support for substitution preview to more commands. Alternatively, a more scalable approach could be to add core functionality that makes it easier to implement live preview as plugins in VimL and/or Lua. See [[#7370|https://github.com/neovim/neovim/issues/7370]] for some ideas.
-
-
-**Difficulty:** Medium-Hard.
-
-**Code license:** Apache 2.0
-
-**Mentor:** Björn Linse ([@bfredl](http://github.com/bfredl))
 
 ---
 
