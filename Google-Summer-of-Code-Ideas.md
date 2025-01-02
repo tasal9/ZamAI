@@ -1,14 +1,22 @@
 # Introduction
 
-Below is a list of project ideas for [Google Summer of Code](https://developers.google.com/open-source/gsoc/). These projects may require familiarity with C, Makefiles, Lua or VimL ("Vim script").
+Neovim project ideas for [Google Summer of Code](https://developers.google.com/open-source/gsoc/) are tracked by the `gsoc` label: https://github.com/neovim/neovim/labels/gsoc
 
-[Neovim](https://neovim.io/) is a text editor based on Vim. One of the [project goals](https://neovim.io/charter/) is to  encourage hacking and collaboration. Effort is put into removing barriers for contributors and improving documentation. The wiki has sections on developing and contributing to help you get started.
+These projects may require familiarity with C, Makefiles, Lua or VimL ("Vim script").
+
+[Neovim](https://neovim.io/) is a text editor based on Vim. One of the [project goals](https://neovim.io/charter/) is to encourage hacking and collaboration. We've done a lot of work to reduce friction for new contributors. For example, building the project from source is a single command:
+
+    make
+
+Documentation for Neovim developers is here: https://neovim.io/doc/user/develop.html 
 
 The Neovim source has roots going back to 1987 which means libraries such as [libuv](https://github.com/libuv/libuv) were not around at that time. The codebase can be made easier to maintain and understand by using these libraries. Project ideas that involve working heavily with internals will in general be more difficult than project ideas that "simply" add new features. However working with older/complex parts of the code base can also provide valuable learning feedback for writing simpler and more maintainable code. There is a large range of skills that can be learned and working with the team to find a project that will help you the most is in your benefit.
 
-Visit [https://neovim.io/#chat](https://neovim.io/#chat) to discuss these projects with the community and our mentors. Because communication is a big part of open source development you are expected to get in touch with us before making your application.
+# Getting started
 
-It's also recommended to start with a smaller coding task, to get introduced to the Neovim project. Look on the issue tracker for simpler issues and submit a small PR attempting to solve the issue. See for instance the [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) tag. The goal here is to get accustomed with the codebase and to our workflow for reviewing and testing PRs, rather than directly making a large code contribution.
+Visit [https://neovim.io/#chat](https://neovim.io/#chat) to discuss GSoC projects with the community and our mentors. Because communication is a big part of open source development you are expected to get in touch with us before making your application.
+
+We recommend that you start with a small coding task (choose from [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) issues). The goal here is to get accustomed with the codebase and to our workflow for reviewing and testing PRs, rather than directly making a large code contribution.
 
 The following list of projects are just some ideas. We are happy to hear any suggestions that you may have.
 
@@ -16,7 +24,9 @@ The following list of projects are just some ideas. We are happy to hear any sug
 
 The application period for GSOC is March 16-March 31 ([Timeline](https://developers.google.com/open-source/gsoc/timeline)). Send your proposal through the official [GSOC page](https://summerofcode.withgoogle.com/organizations/6095582066638848/). We encourage students to send a first draft early in this period, this allows us to give feedback and and ask for more information if need. See https://google.github.io/gsocguides/student/writing-a-proposal for some guidelines for writing a good proposal.
 
-Note: this year we will likely be able to accept 2-3 students. We expect to get more strong proposals than available slots, so we will need to turn some good proposals down.
+Note: this year we will likely accept 1-2 students. We expect to get more strong proposals than available slots, so we will need to turn some good proposals down.
+
+Proposals are tracked on the issue tracker. If an issue doesn't already exist for your idea, create a new issue and mention that it's for GSoC. Then we will apply the [gsoc](https://github.com/neovim/neovim/labels/gsoc) label.
 
 ## Proposal evaluation
 
