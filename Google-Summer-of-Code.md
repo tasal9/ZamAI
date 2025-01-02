@@ -98,13 +98,7 @@ Examples:
 
 # GSoC Ideas 2019
 
-## "Multiprocessing" feature (done)
-
-**Desirable Skills:**
-
-* Experience with concurrency and interprocess communication
-* Strong experience with C
-* Familiar with VimL (Vim script) and Vim concepts (quickfix list, buffers, etc.)
+## (DONE) "Multiprocessing" feature
 
 **Description:**
 
@@ -125,11 +119,7 @@ Here's a picture of the potential workflow:
 
 **Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
 
-## TUI (Terminal UI) remote attachment (done)
-
-**Desirable Skills:**
-
-C
+## (DONE) TUI (Terminal UI) remote attachment
 
 **Description:**
 
@@ -199,12 +189,7 @@ will connect to the Nvim server at address `foo`. The `nvim` client instance sen
 ---
 # GSoC Ideas 2018
 
-## UI protocol improvements ([DONE](https://github.com/neovim/neovim/pull/8707))
-
-**Desirable Skills:**
-
-- C and related tools
-- Familiar with event-loop programming model
+## ([DONE](https://github.com/neovim/neovim/pull/8707)) UI protocol improvements
 
 **Description:**
 
@@ -267,13 +252,7 @@ Medium
 
 **Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
 
-## C# client ([DONE](https://github.com/neovim/nvim.net))
-
-**Desirable Skills:**
-
-- Familiar with Vim/Nvim and Vim script (VimL)
-- Moderate/High experience in C#
-- Familiar with event-loop programming model
+## ([DONE](https://github.com/neovim/nvim.net)) C# client
 
 **Description:**
 
