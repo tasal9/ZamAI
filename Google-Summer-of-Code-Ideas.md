@@ -4,9 +4,7 @@ Neovim project ideas for [Google Summer of Code](https://developers.google.com/o
 
 These projects may require familiarity with C, Makefiles, Lua or VimL ("Vim script").
 
-[Neovim](https://neovim.io/) is a text editor based on Vim. One of the [project goals](https://neovim.io/charter/) is to encourage hacking and collaboration. We've done a lot of work to reduce friction for new contributors. For example, building the project from source is a single command:
-
-    make
+[Neovim](https://neovim.io/) is a text editor based on Vim. One of the [project goals](https://neovim.io/charter/) is to encourage hacking and collaboration. We've done a lot of work to reduce friction for new contributors, for example you can easily build the project by just running `make` which also automatically downloads dependencies.
 
 Documentation for Neovim developers is here: https://neovim.io/doc/user/develop.html 
 
