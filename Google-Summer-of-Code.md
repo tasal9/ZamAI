@@ -40,15 +40,10 @@ helpful, not rigid.
 
 ## Proposals are [tracked as issues](https://github.com/neovim/neovim/labels/gsoc)
 
-Choose an existing issue, or propose an idea by creating a new issue.
+Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or propose an idea by [creating a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml).
 
 # GSoC Ideas 2020
 
-* [New Features](#new-features)
-  * [GUI Features](#gui-features)
-  * [IDE "Vim mode"](#ide-vim-mode)
-
-___
 ## GUI Features
 
 **Desirable Skills:**
@@ -78,7 +73,6 @@ Putting forward your own ideas of UI improvements is encouraged. Read the [docs]
 **Mentor:** Björn Linse ([@bfredl](http://github.com/bfredl))
 
 
-___
 ## IDE "Vim mode"
 
 **Desirable Skills:** Any
@@ -130,8 +124,6 @@ Here's a picture of the potential workflow:
 **Code license:** Apache 2.0
 
 **Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
-
-___
 
 ## TUI (Terminal UI) remote attachment (done)
 
@@ -234,7 +226,6 @@ Medium to Hard
 
 **Mentor:** Björn Linse ([@bfredl](http://github.com/bfredl))
 
-___
 ## Java client
 
 **Desirable Skills:**
