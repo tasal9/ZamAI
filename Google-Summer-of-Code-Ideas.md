@@ -39,8 +39,9 @@ helpful, not rigid.
 
 # GSoC Ideas 2025
 
-* Look at open issues with the ["gsoc" tag](https://github.com/neovim/neovim/labels/gsoc).
-* Or propose an idea by creating a new issue.
+## Proposals are [tracked as issues](https://github.com/neovim/neovim/labels/gsoc)
+
+Choose an existing issue, or propose an idea by creating a new issue.
 
 # GSoC Ideas 2020
 
@@ -78,8 +79,6 @@ Putting forward your own ideas of UI improvements is encouraged. Read the [docs]
 
 **Mentor:** Björn Linse ([@bfredl](http://github.com/bfredl))
 
-
----
 
 ## Improve autoread
 
@@ -124,8 +123,6 @@ Examples:
 ---
 
 # GSoC Ideas 2019
-
----
 
 ## "Multiprocessing" feature (done)
 
@@ -299,7 +296,6 @@ Medium
 
 **Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
 
----
 ## C# client ([DONE](https://github.com/neovim/nvim.net))
 
 **Desirable Skills:**
@@ -344,29 +340,3 @@ Medium
 
 **Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
 
----
-
-# Contributing to this list:
-
-* [Ideas page Manual](http://write.flossmanuals.net/gsoc-mentoring/making-your-ideas-page/)
-* [Example](https://github.com/nim-lang/Nim/wiki/GSoC-2016-Ideas)
-
-Please add your project ideas in the following format.
-
-___
-## Title
-
-**Desirable Skills:**
-
-**Description:**
-
-**Expected Result:**
-
-- Item1
-- Item2
-
-**Difficulty:** Easy/Medium/Hard
-
-**Code license:** Apache 2.0
-
-**Mentor:** Mentor name ([@MentorName](http://github.com/MentorName))
