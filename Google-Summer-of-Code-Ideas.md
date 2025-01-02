@@ -10,19 +10,17 @@ The Neovim source has roots going back to 1987 which means libraries such as [li
 
 # Getting started
 
-Visit [https://neovim.io/#chat](https://neovim.io/#chat) to discuss GSoC projects with the community and our mentors. Because communication is a big part of open source development you are expected to get in touch with us before making your application.
+Proposals are [tracked](https://github.com/neovim/neovim/labels/gsoc) as issues. We are happy to hear other ideas you may have, just create a new issue and mention that it's for GSoC. Also visit [https://neovim.io/#chat](https://neovim.io/#chat) to discuss GSoC projects with the community and our mentors. Because communication is a big part of open source development you are expected to get in touch with us before making your application.
 
-We recommend that you start with a small coding task (choose from [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) issues). The goal here is to get accustomed with the codebase and to our workflow for reviewing and testing PRs, rather than directly making a large code contribution.
+To get familiar with the project, try a small coding task (choose from [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) issues).
 
-Proposals are [tracked](https://github.com/neovim/neovim/labels/gsoc) as issues. We are happy to hear other ideas you may have, just create a new issue and mention that it's for GSoC.
-
-## Making a proposal
+# Making a proposal
 
 The application period for GSOC is March 18-31 ([Timeline](https://developers.google.com/open-source/gsoc/timeline)). Send your proposal through the official [GSOC page](https://summerofcode.withgoogle.com/organizations/6095582066638848/). We encourage students to send a first draft early in this period, this allows us to give feedback and and ask for more information if need. See https://google.github.io/gsocguides/student/writing-a-proposal for some guidelines.
 
 Note: this year we will likely accept 1-2 students. We expect to get more strong proposals than available slots, so we will need to turn some good proposals down.
 
-## Proposal evaluation
+# Proposal evaluation
 
 Proposal evaluation criteria:
 
