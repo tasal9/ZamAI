@@ -40,6 +40,34 @@ http://intermine.org/internships/guidance/grading-criteria-2019/
 
 Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or propose an idea by [creating a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml).
 
+## AI primitives
+
+- Size: 90 hours
+- Difficulty: Easy
+- Desirable Skills:
+    - Lua
+- Code license: Apache 2.0
+- Mentor: Justin M. Keyes ([@justinmk](http://github.com/justinmk))
+- Tracking issue: https://github.com/neovim/neovim/issues/32084
+
+**Description:**
+
+Although Nvim doesn't plan to include AI features by default, it should provide basic features that make it easy to build AI plugins (chat, completion, etc.)
+
+**Expected Result:**
+
+Identify and implement Nvim features that make it easy for users to build high-quality AI "chat" and "completion" plugins. For example:
+
+- Add a way to mark a buffer or window as "busy" or "in progress", that works with the default statusline (and custom statuslines).
+- Add a "progress meter" interface to the Nvim standard library.
+- Improvements to the "prompt buffer" concept
+    - multiline input
+    - paste into the prompt
+    - a builtin "filetype" with standard highlighting
+    - standard headers with distinctive highlighting
+    - standard mappings
+- ...?
+
 ## "Remote SSH" features
 
 - Size: 350 hours
@@ -335,4 +363,5 @@ Medium
 **Student:** ([@b-r-o-c-k](https://github.com/b-r-o-c-k))
 
 **Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
+
 
