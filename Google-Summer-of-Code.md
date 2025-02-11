@@ -133,7 +133,7 @@ Here's a picture of the potential workflow:
 
 **Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
 
-## (DONE) TUI (Terminal UI) remote attachment
+## ([DONE](https://github.com/neovim/neovim/pull/10071)) TUI (Terminal UI) remote attachment
 
 **Description:**
 
