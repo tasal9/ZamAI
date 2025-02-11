@@ -1,9 +1,9 @@
 # Introduction
 
 Neovim is a text editor based on Vim. One of the main [project goals](https://neovim.io/charter/) is to encourage hacking and collaboration.
-- Project ideas for [Google Summer of Code](https://developers.google.com/open-source/gsoc/) are tracked as [issues with the "gsoc" label](https://github.com/neovim/neovim/labels/gsoc).
+- Project ideas for [Google Summer of Code](https://summerofcode.withgoogle.com/) are tracked as [issues with the "gsoc" label](https://github.com/neovim/neovim/labels/gsoc).
 - These projects may require familiarity with C, Lua, and Vimscript.
-- Documentation for Neovim developers is here: https://neovim.io/doc/user/develop.html 
+- Documentation for Neovim developers is here: https://neovim.io/doc/user/develop.html
 
 The Neovim source has roots going back to 1987 which means libraries such as [libuv](https://github.com/libuv/libuv) were not around at that time. The codebase can be made easier to maintain and understand by using these libraries. Project ideas that involve working heavily with internals will in general be more difficult than project ideas that "simply" add new features. However working with older/complex parts of the code base can also provide valuable learning feedback for writing simpler and more maintainable code.
 
