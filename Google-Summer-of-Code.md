@@ -40,6 +40,34 @@ http://intermine.org/internships/guidance/grading-criteria-2019/
 
 Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or propose an idea by [creating a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml).
 
+## "Remote SSH" features
+
+- Size: 350 hours
+- Difficulty: Medium
+- Desirable Skills:
+    - Lua
+- Code license: Apache 2.0
+- Mentor: Justin M. Keyes ([@justinmk](http://github.com/justinmk))
+- Tracking issue: https://github.com/neovim/neovim/issues/21635
+
+**Description:**
+
+Working with remote systems could be more "ergonomic". VSCode's "remote ssh" plugin demonstrates how ergonomics can greatly improve usability.
+
+**Expected Result:**
+
+Introduce a command or some sort of interface that Allows the user to:
+
+1. input a ssh URI (hostname + port)
+     - or select from a list of hosts discovered from your local `~/.ssh/config`
+2. nvim connects to the remote ssh endpoint using your local `~/.ssh` credentials
+    - or prompts for password as needed
+3. nvim starts a new local UI that attaches to a remote `nvim` server running on the remote machine.
+4. if necessary, nvim auto-installs itself on the remote machine.
+    - it also installs your plugins, on the remote!
+5. the local nvim UI controls the remote nvim server, and you can use it to work on the remote machine very much like a local nvim.
+
+
 ## Visual-first editing
 
 - Size: 350 hours
@@ -49,6 +77,7 @@ Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or pro
     - Familiar with event-loop programming model
 - Code license: Apache 2.0
 - Mentor: Justin M. Keyes ([@justinmk](http://github.com/justinmk))
+- Tracking issue: https://github.com/neovim/neovim/issues/16296
 
 **Description:**
 
@@ -63,7 +92,7 @@ Visual-mode in Nvim becomes more intuitive and useful:
 
 ## GUI Features
 
-- Size: 350 hours
+- Size: 175 hours
 - Difficulty: Medium-Hard
 - Desirable Skills:
     - C and related tools
