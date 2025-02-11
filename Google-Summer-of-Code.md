@@ -42,6 +42,7 @@ Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or pro
 
 ## Visual-first editing
 
+- Size: 350 hours
 - Difficulty: Medium-Hard
 - Desirable Skills:
     - C and Lua
@@ -62,6 +63,7 @@ Visual-mode in Nvim becomes more intuitive and useful:
 
 ## GUI Features
 
+- Size: 350 hours
 - Difficulty: Medium-Hard
 - Desirable Skills:
     - C and related tools
@@ -88,6 +90,7 @@ Putting forward your own ideas of UI improvements is encouraged. Read the [docs]
 
 ## IDE "Vim mode"
 
+- Size: 175 hours
 - Difficulty: Medium
 - Desirable Skills:
     - Familiar with RPC
