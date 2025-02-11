@@ -40,14 +40,14 @@ http://intermine.org/internships/guidance/grading-criteria-2019/
 
 Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or propose an idea by [creating a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml).
 
-# GSoC Ideas 2020
-
 ## GUI Features
 
-**Desirable Skills:**
-
-- C and related tools
-- Familiar with event-loop programming model
+- Difficulty: Medium-Hard
+- Desirable Skills:
+    - C and related tools
+    - Familiar with event-loop programming model
+- Code license: Apache 2.0
+- Mentor: Justin M. Keyes ([@bfredl](http://github.com/justinmk))
 
 **Description:**
 
@@ -64,18 +64,19 @@ Another path is to improve the core Nvim grid model. We could allow the width an
 Putting forward your own ideas of UI improvements is encouraged. Read the [docs](https://github.com/neovim/neovim/blob/master/runtime/doc/ui.txt) for the implemented extensions as well as the [tracking issue](https://github.com/neovim/neovim/issues/9421) for ongoing/planned work, as a starting point.
 
 
-**Difficulty:** Medium-Hard
-
-**Code license:** Apache 2.0
-
-**Mentor:** Björn Linse ([@bfredl](http://github.com/bfredl))
 
 
 ## IDE "Vim mode"
 
-**Desirable Skills:** Any
+- Difficulty: Medium
+- Desirable Skills:
+    - Familiar with RPC
+- Code license: Apache 2.0
+- Mentor: Justin M. Keyes ([@bfredl](http://github.com/justinmk))
 
-**Description:** Implement "Vim mode" in an editor/IDE (such as IntelliJ) by embedding a `nvim` instance.
+**Description:**
+
+Implement "Vim mode" in an editor/IDE (such as IntelliJ) by embedding a `nvim` instance.
 
 **Expected Result:**
 
@@ -86,11 +87,6 @@ Examples:
 - [VSCode integration](https://github.com/asvetliakov/vscode-neovim)
 - [Sublime Text integration](https://github.com/lunixbochs/actualvim)
 
-**Difficulty:** Medium
-
-**Code license:** Apache 2.0
-
-**Mentor:** TBD
 
 ---
 
