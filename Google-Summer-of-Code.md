@@ -40,6 +40,26 @@ http://intermine.org/internships/guidance/grading-criteria-2019/
 
 Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or propose an idea by [creating a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml).
 
+## Visual-first editing
+
+- Difficulty: Medium-Hard
+- Desirable Skills:
+    - C and Lua
+    - Familiar with event-loop programming model
+- Code license: Apache 2.0
+- Mentor: Justin M. Keyes ([@justinmk](http://github.com/justinmk))
+
+**Description:**
+
+Vim tradtionally has a "verb-object" editing model, whereas editors like kakoune and helix have "object-verb". The existing visual-mode in Nvim could be enhanced to support this in Nvim.
+
+**Expected Result:**
+
+Visual-mode in Nvim becomes more intuitive and useful:
+
+- it can be repeated with dot (.)
+- introduce a modifier similar to `v`, except normal-mode commands work in this mode, after the "selection" is chosen.
+
 ## GUI Features
 
 - Difficulty: Medium-Hard
@@ -47,7 +67,7 @@ Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or pro
     - C and related tools
     - Familiar with event-loop programming model
 - Code license: Apache 2.0
-- Mentor: Justin M. Keyes ([@bfredl](http://github.com/justinmk))
+- Mentor: Justin M. Keyes ([@justinmk](http://github.com/justinmk))
 
 **Description:**
 
@@ -72,7 +92,7 @@ Putting forward your own ideas of UI improvements is encouraged. Read the [docs]
 - Desirable Skills:
     - Familiar with RPC
 - Code license: Apache 2.0
-- Mentor: Justin M. Keyes ([@bfredl](http://github.com/justinmk))
+- Mentor: Justin M. Keyes ([@justinmk](http://github.com/justinmk))
 
 **Description:**
 
