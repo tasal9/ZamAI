@@ -58,6 +58,7 @@ Although Nvim doesn't plan to include AI features by default, it should provide 
 
 Identify and implement Nvim features that make it easy for users to build high-quality AI "chat" and "completion" plugins. For example:
 
+- Support `textDocument/inlineCompletion` from the LSP 3.18 spec.
 - Add a way to mark a buffer or window as "busy" or "in progress", that works with the default statusline (and custom statuslines).
 - Add a "progress meter" interface to the Nvim standard library.
 - Improvements to the "prompt buffer" concept
