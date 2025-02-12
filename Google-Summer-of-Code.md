@@ -42,7 +42,7 @@ Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or pro
 
 ## AI primitives
 
-- Size: 90 hours
+- Size: 175 hours
 - Difficulty: Easy
 - Desirable Skills:
     - Lua
