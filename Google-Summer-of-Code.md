@@ -88,6 +88,28 @@ Developing/troubleshooting plugins has friction because "restarting" Nvim requir
 
 Implement a `:restart` command which allows Nvim to restart itself. This will involve some knowledge of inter-process communication / RPC.
 
+## Nvim can restore `:terminal` buffers after restart
+
+- Size: 175 hours
+- Difficulty: Easy
+- Desirable Skills:
+    - Lua
+    - C (minimal)
+- Code license: Apache 2.0
+- Mentor: Justin M. Keyes ([@justinmk](http://github.com/justinmk))
+- Tracking issue: https://github.com/neovim/neovim/issues/28297
+
+**Description:**
+
+Currently, the contents of `:terminal` buffers isn't preserved after Nvim restarts. Or when a `:terminal` buffer is closed, its contents can't be reloaded.
+
+**Expected Result:**
+
+- `:terminal` buffer contents can be saved to the filesystem.
+- User has a way to view saved terminal buffers and reload them.
+- Visiting a "mark" in a terminal buffer reloads the terminal buffer if it's not loaded.
+- `:terminal` buffers optionally are included in Nvim "session" files and restored when the session is reloaded.
+
 ## "Remote SSH" features
 
 - Size: 350 hours
