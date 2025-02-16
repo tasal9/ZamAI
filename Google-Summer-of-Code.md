@@ -88,7 +88,7 @@ Developing/troubleshooting plugins has friction because "restarting" Nvim requir
 
 Implement a `:restart` command which allows Nvim to restart itself. This will involve some knowledge of inter-process communication / RPC.
 
-## Nvim can restore `:terminal` buffers after restart
+## Restore `:terminal` buffers after restart
 
 - Size: 175 hours
 - Difficulty: Easy
