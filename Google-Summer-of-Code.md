@@ -43,7 +43,7 @@ Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or pro
 ## AI primitives
 
 - Size: 175 hours
-- Difficulty: Easy
+- Difficulty: Medium
 - Desirable Skills:
     - Lua
 - Code license: Apache 2.0
@@ -68,6 +68,25 @@ Identify and implement Nvim features that make it easy for users to build high-q
     - standard headers with distinctive highlighting
     - standard mappings
 - ...?
+
+## ":restart" command
+
+- Size: 90 hours
+- Difficulty: Medium
+- Desirable Skills:
+    - C
+    - Lua
+- Code license: Apache 2.0
+- Mentor: Justin M. Keyes ([@justinmk](http://github.com/justinmk))
+- Tracking issue: https://github.com/neovim/neovim/issues/32484
+
+**Description:**
+
+Developing/troubleshooting plugins has friction because "restarting" Nvim requires quitting, then manually starting again, in some fashion.
+
+**Expected Result:**
+
+Implement a `:restart` command which allows Nvim to restart itself. This will involve some knowledge of inter-process communication / RPC.
 
 ## "Remote SSH" features
 
