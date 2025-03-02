@@ -9,7 +9,7 @@ The Neovim source has roots going back to 1987 which means libraries such as [li
 
 # Getting started
 
-Proposals are tracked as [issues with the "gsoc" label](https://github.com/neovim/neovim/labels/gsoc). We are happy to hear other ideas you may have, just [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml&labels=gsoc) and mention that it's for GSoC. Because communication is a big part of open source development you are expected to get in touch with us before making your application. Do *not* ask general GSoC questions on the issue tracker. See [Where to ask questions](#where-to-ask-questions)
+Proposals are tracked as [issues with the "gsoc" label](https://github.com/neovim/neovim/labels/gsoc). We are happy to hear other ideas you may have, just [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml&labels=gsoc) and mention that it's for GSoC. Because communication is a big part of open source development you are expected to get in touch with us before making your application. See [Where to ask questions](#where-to-ask-questions).
 
 To get familiar with the project, try a small coding task (choose from [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) issues).
 
@@ -414,5 +414,6 @@ Medium
 **Student:** ([@b-r-o-c-k](https://github.com/b-r-o-c-k))
 
 **Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
+
 
 
