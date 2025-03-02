@@ -38,7 +38,7 @@ http://intermine.org/internships/guidance/grading-criteria-2019/
 
 ## Proposals are [tracked as issues](https://github.com/neovim/neovim/labels/gsoc)
 
-Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or propose an idea by [creating a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml).
+Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml). In both cases, to propose your solution/design, create a new issue (and link to the existing tracking issue, if any) which outlines your proposal.
 
 ## AI primitives
 
