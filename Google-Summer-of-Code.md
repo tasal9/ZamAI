@@ -13,34 +13,30 @@ Proposals are tracked as [issues with the "gsoc" label](https://github.com/neovi
 
 To get familiar with the project, try a small coding task (choose from [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) issues).
 
-# Making a proposal
-
-The application period for GSOC is March 24 - April 8 ([Timeline](https://developers.google.com/open-source/gsoc/timeline)). Send your proposal through the official [GSOC page](https://summerofcode.withgoogle.com/organizations/6095582066638848/). We encourage students to send a first draft early in this period, this allows us to give feedback and and ask for more information if need. See the ["Writing a proposal" guidelines](https://google.github.io/gsocguides/student/writing-a-proposal).
-
 Note: this year we will likely accept 1-2 students. We expect to get more strong proposals than available slots, so we will need to turn some good proposals down.
 
+# Making a proposal
+
+The application period for GSOC is March 24 - April 8 ([Timeline](https://developers.google.com/open-source/gsoc/timeline)). Send your proposal through the official [GSOC page](https://summerofcode.withgoogle.com/organizations/6095582066638848/). We encourage students to send a first draft early in this period, this allows us to give feedback and and ask for more information if need.
+
+- ["Writing a proposal" guidelines](https://google.github.io/gsocguides/student/writing-a-proposal)
+- [Proposal evaluation criteria](http://intermine.org/internships/guidance/grading-criteria-2019/)
+
 Below are some suggested issues. These are starting points. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
-
-# Proposal evaluation
-
-Proposal evaluation criteria:
-
-http://intermine.org/internships/guidance/grading-criteria-2019/
 
 ## Tips
 
 - Anywhere a Vim concept (such as "textlock") is mentioned, you can find what it means by using the `:help` command from within neovim (`:help textlock`).
 - Ask questions and post your partial work frequently (every 1-2 days, if possible). It's OK if work is messy; just mark the pull request (PR) as "Draft".
 - Take advantage of the continuous integration (CI) systems which automatically run against your pull requests. When you send work to a PR, the full test-suite runs on the PR while you continue to work locally.
-- `:help dev-tools` contains up-to-date documentation on building, debugging, and development tips.
-- Only a text editor, `cmake`, and a compiler are needed to develop Neovim. LSP or [ctags](https://github.com/universal-ctags/ctags) is very helpful also.
-- The [contributing guidelines](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md) are intended to be helpful, not rigid.
+- Only a text editor, `cmake`, and a compiler are needed to develop Neovim. LSP is very helpful also.
+- See `:help dev-tools` and [CONTRIBUTING.md](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md) for documentation on building, debugging, and development tips.
 
 # GSoC Ideas 2025
 
 ## Proposals are [tracked as issues](https://github.com/neovim/neovim/labels/gsoc)
 
-Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml). In both cases, [propose your solution/design](#making-a-proposal) by creating a new issue.
+Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml).
 
 Below are some suggested issues. These are starting points. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
 
