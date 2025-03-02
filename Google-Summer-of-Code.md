@@ -19,6 +19,8 @@ The application period for GSOC is March 24 - April 8 ([Timeline](https://develo
 
 Note: this year we will likely accept 1-2 students. We expect to get more strong proposals than available slots, so we will need to turn some good proposals down.
 
+Below are some suggested issues. These are starting points. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
+
 # Proposal evaluation
 
 Proposal evaluation criteria:
@@ -38,9 +40,9 @@ http://intermine.org/internships/guidance/grading-criteria-2019/
 
 ## Proposals are [tracked as issues](https://github.com/neovim/neovim/labels/gsoc)
 
-Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml). In both cases, to propose your solution/design, create a new issue (and link to the existing tracking issue, if any) which outlines your proposal.
+Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml). In both cases, [propose your solution/design](#making-a-proposal) by creating a new issue.
 
-Below are some suggested issues. These are starting points. After choosing one of these (or a new idea), the next step is to create a new issue that outlines your proposal. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
+Below are some suggested issues. These are starting points. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
 
 ## AI primitives
 
