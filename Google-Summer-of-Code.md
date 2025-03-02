@@ -9,7 +9,7 @@ The Neovim source has roots going back to 1987 which means libraries such as [li
 
 # Getting started
 
-Proposals are tracked as [issues with the "gsoc" label](https://github.com/neovim/neovim/labels/gsoc). We are happy to hear other ideas you may have, just create a new issue and mention that it's for GSoC. Because communication is a big part of open source development you are expected to get in touch with us before making your application. Do *not* ask general GSoC questions on the issue tracker. See [Where to ask questions](#where-to-ask-questions)
+Proposals are tracked as [issues with the "gsoc" label](https://github.com/neovim/neovim/labels/gsoc). We are happy to hear other ideas you may have, just [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml&labels=gsoc) and mention that it's for GSoC. Because communication is a big part of open source development you are expected to get in touch with us before making your application. Do *not* ask general GSoC questions on the issue tracker. See [Where to ask questions](#where-to-ask-questions)
 
 To get familiar with the project, try a small coding task (choose from [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) issues).
 
@@ -17,10 +17,12 @@ Note: this year we will likely accept 1-2 students. We expect to get more strong
 
 ## Where to ask questions
 
-Do not use the issue tracker for general questions about the GSoC process. Instead, ask questions here:
+Ask questions here:
 
 - https://github.com/neovim/neovim/discussions
 - https://matrix.to/#/#neovim:matrix.org
+
+Do *not* ask general GSoC questions on [the issue tracker](https://github.com/neovim/neovim/issues). *Do* use the issue tracker to ask specific technical questions about your proposal. Do not ask "where do I start?" on the issue tracker.
 
 # Making a proposal
 
@@ -43,7 +45,7 @@ Below are some suggested issues. These are starting points. Your proposal should
 
 ## Proposals are [tracked as issues](https://github.com/neovim/neovim/labels/gsoc)
 
-Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml).
+Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml&labels=gsoc).
 
 Below are some suggested issues. These are starting points. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
 
