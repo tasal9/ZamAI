@@ -40,6 +40,8 @@ http://intermine.org/internships/guidance/grading-criteria-2019/
 
 Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml). In both cases, to propose your solution/design, create a new issue (and link to the existing tracking issue, if any) which outlines your proposal.
 
+Below are some suggested issues. These are starting points. After choosing one of these (or a new idea), the next step is to create a new issue that outlines your proposal. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
+
 ## AI primitives
 
 - Size: 175 hours
