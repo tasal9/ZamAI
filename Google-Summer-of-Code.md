@@ -80,7 +80,7 @@ Identify and implement Nvim features that make it easy for users to build high-q
 
 ## ":restart" command
 
-- Size: 90 hours
+- Size: 175 hours
 - Difficulty: Medium
 - Desirable Skills:
     - C
