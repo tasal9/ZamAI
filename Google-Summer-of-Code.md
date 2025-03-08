@@ -26,7 +26,7 @@ Do *not* ask general GSoC questions on [the issue tracker](https://github.com/ne
 
 # Making a proposal
 
-The application period for GSOC is March 24 - April 8 ([Timeline](https://developers.google.com/open-source/gsoc/timeline)). Send your proposal through the official [GSOC page](https://summerofcode.withgoogle.com/organizations/6095582066638848/). We encourage students to send a first draft early in this period, this allows us to give feedback and and ask for more information if need.
+The application period for GSOC is March 24 - April 8 ([Timeline](https://developers.google.com/open-source/gsoc/timeline)). Send your proposal through the [GSOC page](https://summerofcode.withgoogle.com/programs/2025/organizations/neovim). We encourage students to send a first draft early in this period, this allows us to give feedback and and ask for more information if need.
 
 - ["Writing a proposal" guidelines](https://google.github.io/gsocguides/student/writing-a-proposal)
 - [Proposal evaluation criteria](http://intermine.org/internships/guidance/grading-criteria-2019/)
