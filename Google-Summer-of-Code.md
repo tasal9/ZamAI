@@ -11,7 +11,10 @@ The Neovim source has roots going back to 1987 which means libraries such as [li
 
 Proposals are tracked as [issues with the "gsoc" label](https://github.com/neovim/neovim/labels/gsoc). We are happy to hear other ideas you may have, just [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml&labels=gsoc) and mention that it's for GSoC. Because communication is a big part of open source development you are expected to get in touch with us before making your application. See [Where to ask questions](#where-to-ask-questions).
 
-To get familiar with the project, try a small coding task (choose from [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) issues).
+To get familiar with the project, 
+
+- read [CONTRIBUTING.md](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md)
+- try a small coding task (choose from [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) issues)
 
 Note: this year we will likely accept 1-2 students. We expect to get more strong proposals than available slots, so we will need to turn some good proposals down.
 
