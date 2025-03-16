@@ -54,7 +54,7 @@ Below are some suggested issues. These are starting points. Your proposal should
 
 ## AI primitives
 
-- Size: 175 hours
+- Size: 350 hours
 - Difficulty: Medium
 - Desirable Skills:
     - Lua
