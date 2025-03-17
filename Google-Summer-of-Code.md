@@ -16,6 +16,10 @@ To get familiar with the project,
 - read [CONTRIBUTING.md](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md)
 - try a small coding task (choose from [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) issues)
 
+To get familiar with GSoC, read their materials. Especially:
+
+- https://summerofcode.withgoogle.com/rules
+
 Note: this year we will likely accept 1-2 students. We expect to get more strong proposals than available slots, so we will need to turn some good proposals down.
 
 ## Where to ask questions
