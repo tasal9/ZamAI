@@ -18,6 +18,7 @@ To get familiar with the project,
 
 To get familiar with GSoC, read their materials. Especially:
 
+- https://google.github.io/gsocguides/student/
 - https://summerofcode.withgoogle.com/rules
 
 Note: this year we will likely accept 1-2 students. We expect to get more strong proposals than available slots, so we will need to turn some good proposals down.
