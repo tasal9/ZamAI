@@ -23,6 +23,14 @@ To get familiar with GSoC, read their materials. Especially:
 
 Note: this year we will likely accept 1-2 students. We expect to get more strong proposals than available slots, so we will need to turn some good proposals down.
 
+## Tips
+
+- Anywhere a Vim concept (such as "textlock") is mentioned, you can find what it means by using the `:help` command in Nvim (`:help textlock`).
+- Ask questions and post your partial work frequently (every 1-2 days, if possible). It's OK if work is messy; just mark the pull request (PR) as "Draft".
+- Take advantage of the continuous integration (CI) systems which automatically run against your pull requests. When you send work to a PR, the full test-suite runs on the PR while you continue to work locally.
+- Only a text editor, `cmake`, and a compiler are needed to develop Neovim. LSP is very helpful also.
+- See `:help dev-tools` and [CONTRIBUTING.md](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md) for documentation on building, debugging, and development tips.
+
 ## Where to ask questions
 
 Ask questions here:
@@ -39,23 +47,19 @@ The application period for GSOC is March 24 - April 8 ([Timeline](https://develo
 - ["Writing a proposal" guidelines](https://google.github.io/gsocguides/student/writing-a-proposal)
 - [Proposal evaluation criteria](http://intermine.org/internships/guidance/grading-criteria-2019/)
 
+## Tips for a successful application
+
 A **successful proposal** will have the following:
 
-- Concrete ideas and implementation notes, increasing confidence that the proposal is feasible in the timeline and the contributor is capable of delivering it.
-- Minimal verbosity/buzzwords.
+- Start by describing the problem briefly.
+- The rest of the proposal should give confidence that it can actually be done. 
+    - Concrete description of the technical approach, and implementation (code), increases confidence that the proposal is feasible in the timeline and the contributor is capable of delivering it.
+- Minimal verbosity/buzzwords. Vague descriptions lower confidence.
 - Appendix that links to:
-    1. Draft PR (or paste the code into the proposal) that shows how the proposed approach, in code.
+    1. Draft PR (or code pasted into the proposal) that shows how your idea is feasible, in code.
     2. Neovim PR(s) that you worked on. This is the main way to demonstrate your approach to understanding the codebase and executing real work.
 
 Below are some suggested issues. These are starting points. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
-
-## Tips
-
-- Anywhere a Vim concept (such as "textlock") is mentioned, you can find what it means by using the `:help` command from within neovim (`:help textlock`).
-- Ask questions and post your partial work frequently (every 1-2 days, if possible). It's OK if work is messy; just mark the pull request (PR) as "Draft".
-- Take advantage of the continuous integration (CI) systems which automatically run against your pull requests. When you send work to a PR, the full test-suite runs on the PR while you continue to work locally.
-- Only a text editor, `cmake`, and a compiler are needed to develop Neovim. LSP is very helpful also.
-- See `:help dev-tools` and [CONTRIBUTING.md](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md) for documentation on building, debugging, and development tips.
 
 # GSoC Ideas 2025
 
