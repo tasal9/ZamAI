@@ -39,6 +39,14 @@ The application period for GSOC is March 24 - April 8 ([Timeline](https://develo
 - ["Writing a proposal" guidelines](https://google.github.io/gsocguides/student/writing-a-proposal)
 - [Proposal evaluation criteria](http://intermine.org/internships/guidance/grading-criteria-2019/)
 
+A **successful proposal** will have the following:
+
+- Concrete ideas and implementation notes, increasing confidence that the proposal is feasible in the timeline and the contributor is capable of delivering it.
+- Minimal verbosity/buzzwords.
+- Appendix that links to:
+    1. Draft PR (or paste the code into the proposal) that shows how the proposed approach, in code.
+    2. Neovim PR(s) that you worked on. This is the main way to demonstrate your approach to understanding the codebase and executing real work.
+
 Below are some suggested issues. These are starting points. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
 
 ## Tips
