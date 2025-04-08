@@ -59,7 +59,7 @@ A **successful proposal** will have the following:
     1. Draft PR (or code pasted into the proposal) that shows how your idea is feasible, in code.
     2. Neovim PR(s) that you worked on. This is the main way to demonstrate your approach to understanding the codebase and executing real work.
 
-Below are some suggested issues. These are starting points. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
+Below are some suggested issues. These are starting points. If you have a great idea, propose it!
 
 # GSoC Ideas 2025
 
