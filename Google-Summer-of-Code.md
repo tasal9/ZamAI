@@ -15,6 +15,7 @@ To get familiar with the project,
 
 - read [CONTRIBUTING.md](https://github.com/neovim/neovim/blob/master/CONTRIBUTING.md)
 - try a small coding task (choose from [complexity:low](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Acomplexity%3Alow) issues)
+    - working on concrete tasks in the existing codebase, even if the tasks are unrelated to your proposal, gives us an important signal about your work style and communication. This is a key component of a successful proposal.
 
 To get familiar with GSoC, read their materials. Especially:
 
@@ -57,7 +58,7 @@ A **successful proposal** will have the following:
 - Minimal verbosity/buzzwords. Vague descriptions lower confidence.
 - Appendix that links to:
     1. Draft PR (or code pasted into the proposal) that shows how your idea is feasible, in code.
-    2. Neovim PR(s) that you worked on. This is the main way to demonstrate your approach to understanding the codebase and executing real work.
+    2. Neovim PR(s) that you worked on. This is the main way to demonstrate your approach to understanding the codebase and executing real work. Working on concrete tasks in the existing codebase, even if the tasks are unrelated to your proposal, gives us an important signal about your work style and communication. This is a key component of a successful proposal.
 
 Below are some suggested issues. These are starting points. If you have a great idea, propose it!
 
