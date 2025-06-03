@@ -99,7 +99,7 @@ Identify and implement Nvim features that make it easy for users to build high-q
     - standard mappings
 - ...?
 
-## ":restart" command
+## ✅ ([DONE](https://github.com/neovim/neovim/pull/33953)) ":restart" command
 
 - Size: 175 hours
 - Difficulty: Medium
@@ -244,7 +244,7 @@ Examples:
 
 # GSoC Ideas 2019
 
-## (DONE) "Multiprocessing" feature
+## ✅ (DONE) "Multiprocessing" feature
 
 **Description:**
 
@@ -265,7 +265,7 @@ Here's a picture of the potential workflow:
 
 **Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
 
-## ([DONE](https://github.com/neovim/neovim/pull/10071)) TUI (Terminal UI) remote attachment
+## ✅ ([DONE](https://github.com/neovim/neovim/pull/10071)) TUI (Terminal UI) remote attachment
 
 **Description:**
 
@@ -335,7 +335,7 @@ will connect to the Nvim server at address `foo`. The `nvim` client instance sen
 ---
 # GSoC Ideas 2018
 
-## ([DONE](https://github.com/neovim/neovim/pull/8707)) UI protocol improvements
+## ✅ ([DONE](https://github.com/neovim/neovim/pull/8707)) UI protocol improvements
 
 **Description:**
 
@@ -398,7 +398,7 @@ Medium
 
 **Mentor:** Justin M Keyes ([@justinmk](http://github.com/justinmk))
 
-## ([DONE](https://github.com/neovim/nvim.net)) C# client
+## ✅ ([DONE](https://github.com/neovim/nvim.net)) C# client
 
 **Description:**
 
