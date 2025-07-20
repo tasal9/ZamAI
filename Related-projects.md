@@ -2,6 +2,7 @@
 
 You can find Neovim plugins on these sites:
 
+- https://nvim.store/
 - https://github.com/rockerBOO/awesome-neovim
 - https://dotfyle.com/plugins
 - https://neovimcraft.com
