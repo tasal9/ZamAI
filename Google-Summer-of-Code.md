@@ -73,7 +73,7 @@ Below are some suggested issues. These are starting points. Your proposal should
 ## multibuffer: many buffers stitched together as one virtual buffer
 
 - Size: 350 hours
-- Difficulty: Large
+- Difficulty: Hard
 - Desirable Skills:
     - C
     - Lua
