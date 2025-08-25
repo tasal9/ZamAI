@@ -62,13 +62,34 @@ A **successful proposal** will have the following:
 
 Below are some suggested issues. These are starting points. If you have a great idea, propose it!
 
-# GSoC Ideas 2025
+# GSoC Ideas 2026
+
+## multibuffer: many buffers stitched together as one virtual buffer
+
+- Size: 350 hours
+- Difficulty: Large
+- Desirable Skills:
+    - C
+    - Lua
+- Code license: Apache 2.0
+- Mentor: TBD
+- Tracking issue: https://github.com/neovim/neovim/issues/30463
+
+**Description:**
+
+todo
+
+**Expected Result:**
+
+todo
 
 ## Proposals are [tracked as issues](https://github.com/neovim/neovim/labels/gsoc)
 
 Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml&labels=gsoc).
 
 Below are some suggested issues. These are starting points. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
+
+# GSoC Ideas 2025
 
 ## AI primitives
 
