@@ -64,6 +64,12 @@ Below are some suggested issues. These are starting points. If you have a great 
 
 # GSoC Ideas 2026
 
+## Proposals are [tracked as issues](https://github.com/neovim/neovim/labels/gsoc)
+
+Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml&labels=gsoc).
+
+Below are some suggested issues. These are starting points. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
+
 ## multibuffer: many buffers stitched together as one virtual buffer
 
 - Size: 350 hours
@@ -83,11 +89,7 @@ todo
 
 todo
 
-## Proposals are [tracked as issues](https://github.com/neovim/neovim/labels/gsoc)
 
-Choose an [existing issue](https://github.com/neovim/neovim/labels/gsoc), or [create a new issue](https://github.com/neovim/neovim/issues/new?template=feature_request.yml&labels=gsoc).
-
-Below are some suggested issues. These are starting points. Your proposal should start with (1) a "Problem" section that describes the problem being solved, followed by (2) your proposed solution to the problem, including implementation details and constraints.
 
 # GSoC Ideas 2025
 
