@@ -1,21 +1,103 @@
-Vim is a powerful text editor with a big community that is constantly
-growing.  Even though the editor is about two decades old, people still extend
-and want to improve it, mostly using Vimscript or one of the supported scripting
-languages.
+# Hi, I'm **tasal9** 👋
 
-## Motivation
+I’m a software engineer focused on building practical, scalable systems across **AI**, **Web Development**, and **Cloud**. I work primarily with **Python**, **JavaScript**, and modern machine learning tooling—turning ideas into usable, extensible products.
 
-Over its more than 20 years of life, Vim has accumulated about 300k lines of
-scary C89 code that very few people understand or have the guts to mess with.
+---
 
-Another issue is that as the only person responsible for maintaining Vim's big
-codebase, Bram Moolenaar, has to be extra careful before accepting patches,
-because, once merged, the new code will be his responsibility.
+## What I Do
 
-These problems make it very difficult to have new features and bug fixes merged
-into the core. Vim just can't keep up with the development speed of its plugin
-ecosystem.
+- Design and implement AI-enhanced services and developer-facing tools  
+- Build full‑stack features (APIs, integrations, lightweight UIs) with a bias toward clarity and iteration speed  
+- Automate and structure ML workflows: data prep, inference orchestration, evaluation, deployment  
+- Evolve projects from prototype → maintainable architecture with clean extension points  
 
+---
+
+## Featured Projects
+
+| Project | Role & Focus |
+|---------|--------------|
+| **ZamAI** | Core AI / ML platform (or framework) I’m building / maintaining. (Add a one‑line: e.g., “Unified layer for model orchestration, evaluation, and integration into apps.”) |
+| **ZamAI-Zeerak** | Complementary module / subsystem. (Add a one‑line: e.g., “Insight / analytics layer for monitoring, benchmarking, or intelligent retrieval.”) |
+
+> Replace the placeholder summaries above with crisp, outcome‑oriented descriptions (What it does → For whom → Why it matters).
+
+---
+
+## Tech Focus Areas
+
+- AI/ML: model integration, pipelines, lightweight evaluation loops
+- Web: API design, service architecture, pragmatic frontend integration
+- Cloud: deployability, modular infrastructure, scalability foundations
+
+---
+
+## Core Skills
+
+- Languages: Python, JavaScript (Node & browser)
+- Patterns: modular service layers, clean abstractions, plugin/extensible designs
+- Strengths: rapid prototyping → hardening, developer experience, automation
+
+---
+
+## How I Work
+
+- Ship incremental value; refactor with intent (avoid premature rewrites)
+- Favor explicit contracts, clear boundaries, and testable modules
+- Instrument + observe early (latency, correctness, usage)
+- Build for extension: today’s tool → tomorrow’s platform
+
+---
+
+## In Progress / Current Focus
+
+- Expanding ZamAI’s architecture (add specifics: e.g., multi-model routing, evaluation harness, plugin API)
+- Evolving ZamAI-Zeerak (add specifics: e.g., observability, metadata enrichment, retrieval intelligence)
+- Exploring patterns for reliable AI integration in real products
+
+(Add concrete bullets when ready: e.g., “Implemented X reducing response time by Y%”)
+
+---
+
+## Looking For
+
+- Collaborators / contributors interested in AI tooling or platform layers
+- Feedback on early design decisions in ZamAI & ZamAI-Zeerak
+- Potential integrations or usage in real-world apps
+
+---
+
+## Get in Touch
+
+- GitHub: https://github.com/tasal9  
+(Add optional: email, site, LinkedIn, Discord, etc.)
+
+---
+
+## TL;DR
+
+I build AI-centric and web/cloud software with a focus on extensibility, clarity, and real-world usefulness—currently channeling that into ZamAI and ZamAI-Zeerak.
+
+---
+
+### (Optional) Quick Metrics Section (Fill In Later)
+
+- Users / installs / stars: (add when available)
+- Performance improvements: (e.g., “Reduced inference cost by X%”)
+- Adoption milestones: (e.g., “Integrated into N internal projects”)
+
+---
+
+### Next Step
+
+If you give me:
+- One‑line value prop for each project (ZamAI, ZamAI-Zeerak)
+- Any concrete metrics or outcomes
+- Preferred contact channels
+
+…I can produce a fully finalized version without placeholders.
+
+---
 ## Solution
 
 Neovim is a project that seeks to aggressively refactor Vim source code in order
